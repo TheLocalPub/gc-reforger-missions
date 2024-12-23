@@ -1,0 +1,22 @@
+GenericEntity : "{34D92102FDF5B58C}Prefabs/Structures/Signs/SignsLargePUB_Base.et" {
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{631B4E7D571964A5}" {
+     SourceMaterial "SignLarge_01"
+     AssignedMaterial "{97280516E6C1924E}Assets/Structures/Signs/Large/Data/endmission_01.emat"
+    }
+   }
+  }
+ }
+ coords 2703.438 8 3087.006
+ angleY -54.795
+}
+StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ coords 2706.621 11.665 3189.235
+ angleY 32.52
+}
+StaticModelEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+ coords 2702.949 8 3087.335
+ angleY -55.025
+}

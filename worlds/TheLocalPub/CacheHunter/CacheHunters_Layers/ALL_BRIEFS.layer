@@ -1,0 +1,42 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ MISSIONOTES {
+  coords 2239.755 0.002 9543.625
+  m_sTitle "Mission notes"
+  m_sTextData "WIN CONDITIONS"\
+  ""\
+  "Blufor victory conditions:"\
+  "Minor victory: 1-2 cache destroyed."\
+  "Regular victory: 3-4 caches desroyed."\
+  "Major victory: 5 caches destroyed."\
+  ""\
+  "Opfor:"\
+  "Deplete BLUFOR ticket pool."\
+  ""\
+  "MISC"\
+  ""\
+  "AO LIMIT - Yes | BLUFOR "\
+  "Setup Timer: Yes | BLUFOR - 3mins"\
+  "Respawns - Yes | BLUFOR - 20x starting tickets + 5x ticket each destroyed cache, chance of 45x total tickets."\
+  "Timelimit - None"\
+  ""\
+  "This mission was designed to be partially game mastered if need be. This is a work in progress concept mission."\
+  ""\
+  "Mission made by: TheLocaLPub | @/DM me on Discord with feedback/bugs. - My first Reforger mission."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 7
+ }
+ SUMMARY {
+  coords 2226.888 0 9533.049
+  m_sTitle "Summary"
+  m_sTextData "2016, Afghan, US Army, COIN cache clearance/unit mission."\
+  ""\
+  "A US army platoon has been tasked with clearing the marked Areas of interest (AOIs) within the Korangal Valley of Taliban supply caches."\
+  ""\
+  ""\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 0
+ }
+}

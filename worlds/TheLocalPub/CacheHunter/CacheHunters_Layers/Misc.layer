@@ -1,0 +1,4 @@
+GenericEntity EndMissionSwitch : "{13CB32BC2782FCDB}Prefabs/Props/Military/Compositions/FIA/RadioStation_FIA.et" {
+ coords 2702.792 8.9 3087.436
+ angleY 127.74
+}

@@ -1,0 +1,3576 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{6B86C8A4A0525B02}worlds/GameMaster/GM_KunarRagion_Navmesh.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{49780D68232A7C67}worlds/GameMaster/GM_KunarRagion_BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{4F59DE0032E06545}worlds/GameMaster/LowRes_Navmesh.nmn"
+    }
+   }
+  }
+ }
+ coords -4.404 50.751 5471.329
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2723.65 7.875 3101.445
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 12
+  }
+ }
+ coords 2339.494 119.897 4007.505
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{631116E4003EF082}" {
+   m_sFactionKey "RHS_USAF"
+   m_iCount 20
+   m_iTime 0
+  }
+ }
+}
+GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
+ components {
+  ActionsManagerComponent "{61F4C18E835074FF}" {
+   ActionContexts {
+    UserActionContext "{61F4C18ECB0A8B85}" {
+     LineOfSightCheck 1
+    }
+   }
+   additionalActions {
+    TILW_BaseInteraction "{61F4C18E863E752C}" {
+     Duration 6
+     m_actionName "End Mission - ARE YOU SURE?"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+     m_flagName "EndMissionToggle"
+    }
+   }
+  }
+ }
+ coords 2702.838 8.941 3087.442
+ angleY 36.331
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "RHS_USAF"
+   }
+  }
+ }
+ coords 2674.076 8 3078.325
+ Points {
+  ShapePoint "{631116EC0DD9226C}" {
+   Position 1407.831 90.252 -845.568
+  }
+  ShapePoint "{631116EC024FBB4F}" {
+   Position 1070.044 122.112 -820.631
+  }
+  ShapePoint "{631116EE3D261FDF}" {
+   Position 729.538 53.56 -644.709
+  }
+  ShapePoint "{631116EE360E4D79}" {
+   Position 229.698 10.99 -723.297
+  }
+  ShapePoint "{631116EE343B7EFA}" {
+   Position 83.489 87.625 -616.923
+  }
+  ShapePoint "{631116EC00880248}" {
+   Position -233.009 105.092 -323.458
+  }
+  ShapePoint "{631116EC04447FF5}" {
+   Position -1050.508 125.967 -69.125
+  }
+  ShapePoint "{631116EC7C1003E4}" {
+   Position -2653.886 120.455 -255.022
+  }
+  ShapePoint "{631116EEB3EEDBA3}" {
+   Position -2684.829 -8 74.004
+  }
+  ShapePoint "{631116EC72211B15}" {
+   Position -2650.042 134.893 261.642
+  }
+  ShapePoint "{631116EC71207FB5}" {
+   Position -2648.235 350.226 996.877
+  }
+  ShapePoint "{631116EC6865F0F4}" {
+   Position -518.724 102.826 982.365
+  }
+  ShapePoint "{631116EC6FFFD38E}" {
+   Position 1406.799 478.508 977.508
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+     {
+      coords 1407.831 90.252 -845.568
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1358.186 67.383 -841.903
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1308.541 37.098 -838.238
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1258.896 34.367 -834.573
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1209.251 58.291 -830.908
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1159.605 77.771 -827.243
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1109.96 101.982 -823.578
+      angleX 5.374
+      angleY -85.778
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1061.475 126.9 -816.204
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1017.747 121.153 -793.612
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 974.019 114.741 -771.02
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 930.292 89.977 -748.428
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 886.564 66.162 -725.836
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 842.837 73.458 -703.244
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 799.109 57.469 -680.653
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 755.382 49.991 -658.061
+      angleX -10.141
+      angleY -62.677
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 709.408 62.675 -647.874
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 660.188 95.987 -655.613
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 610.969 111.424 -663.351
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 561.749 127.323 -671.09
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 512.53 153.258 -678.828
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 463.311 126.428 -686.567
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 414.092 96.54 -694.305
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 364.872 66.365 -702.044
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 315.653 50.977 -709.783
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 266.433 6.173 -717.521
+      angleX -4.809
+      angleY -98.935
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 220.256 14.409 -716.428
+      angleX 22.969
+      angleY -53.962
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 183.03 21.24 -689.344
+      angleX 22.969
+      angleY -53.962
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 145.804 40.415 -662.26
+      angleX 22.969
+      angleY -53.962
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 108.578 71.633 -635.176
+      angleX 22.969
+      angleY -53.962
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 71.545 86.652 -605.848
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 34.911 110.052 -571.88
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1.723 122.383 -537.912
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -38.358 135.754 -503.943
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -74.992 128.127 -469.975
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -111.626 124.067 -436.007
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -148.26 143.712 -402.039
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -184.895 139.878 -368.071
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -221.529 116.957 -334.103
+      angleX 2.317
+      angleY -47.163
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -265.781 85.838 -313.262
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -313.51 41.444 -298.413
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -361.239 35.353 -283.564
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -408.967 54.194 -268.716
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -456.696 84.103 -253.867
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -504.425 89.46 -239.018
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -552.153 103.081 -224.169
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -599.882 125.991 -209.32
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -647.61 170.264 -194.471
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -695.339 169.163 -179.622
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -743.068 149.466 -164.773
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -790.796 159.683 -149.924
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -838.525 169.929 -135.075
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -886.254 202.761 -120.227
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -933.982 195.923 -105.378
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -981.711 158.43 -90.529
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1029.44 133.39 -75.68
+      angleX 1.397
+      angleY -72.718
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1078.251 119.383 -72.342
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1127.918 98.271 -78.1
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1177.585 92.546 -83.859
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1227.252 111.73 -89.617
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1276.919 139.105 -95.375
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1326.586 129.488 -101.134
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1376.253 109.143 -106.892
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1425.92 89.455 -112.651
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1475.587 68.718 -118.409
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1525.254 61.018 -124.168
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1574.921 72.927 -129.926
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1624.588 92.44 -135.685
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1674.255 124.062 -141.443
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1723.922 152.121 -147.201
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1773.589 152.87 -152.96
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1823.256 130.143 -158.718
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1872.923 101.35 -164.477
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1922.59 79.797 -170.235
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1972.257 57.197 -175.993
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2021.924 52.401 -181.752
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2071.591 71.427 -187.51
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2121.258 102.194 -193.269
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2170.925 131.614 -199.027
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2220.592 159.352 -204.786
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2270.259 192.939 -210.544
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2319.926 197.876 -216.302
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2369.593 199.024 -222.061
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2419.26 172.687 -227.819
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2468.927 135.495 -233.578
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2518.594 111.11 -239.336
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2568.261 95.625 -245.094
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2617.928 102.744 -250.853
+      angleX -0.196
+      angleY -96.613
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2655.09 116.361 -242.215
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2659.453 106.495 -195.816
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2663.817 106.03 -149.418
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2668.181 104.372 -103.019
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2672.544 68.606 -56.621
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2676.908 24.883 -10.222
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2681.271 6.768 36.176
+      angleX -21.241
+      angleY -5.373
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2683.481 -2.464 81.273
+      angleX 36.825
+      angleY 10.503
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2676.186 27.505 120.626
+      angleX 36.825
+      angleY 10.503
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2668.89 112.401 159.979
+      angleX 36.825
+      angleY 10.503
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2661.594 110.776 199.332
+      angleX 36.825
+      angleY 10.503
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2654.298 138.66 238.685
+      angleX 36.825
+      angleY 10.503
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.993 134.469 281.634
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.875 164.269 329.618
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.757 176.012 377.602
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.639 191.39 425.586
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.521 217.086 473.571
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.403 248.045 521.555
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.285 254.117 569.539
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.168 225.062 617.524
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2649.05 206.38 665.508
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.931 198.408 713.492
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.814 180.135 761.476
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.696 211.974 809.461
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.578 242.94 857.445
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.46 284.843 905.429
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2648.342 324.568 953.413
+      angleX 16.324
+      angleY 0.141
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2643.557 351.166 996.845
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2593.892 341.278 996.507
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2544.227 372.487 996.168
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2494.562 367.244 995.83
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2444.898 369.796 995.492
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2395.232 375.704 995.153
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2345.568 375.054 994.815
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2295.903 343.525 994.476
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2246.238 316.237 994.138
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2196.573 302.464 993.799
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2146.908 284.295 993.461
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2097.244 261.218 993.123
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -2047.579 246.725 992.784
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1997.914 234.747 992.446
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1948.25 217.704 992.107
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1898.585 204.913 991.769
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1848.92 196.001 991.43
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1799.255 180.564 991.092
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1749.59 181.143 990.753
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1699.925 179.877 990.415
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1650.261 177.31 990.076
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1600.596 160.888 989.738
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1550.931 138.406 989.4
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1501.266 135.924 989.061
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1451.601 163.869 988.723
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1401.937 163.607 988.384
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1352.272 144.614 988.046
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1302.607 162.621 987.708
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1252.942 178.87 987.369
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1203.277 169.058 987.031
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1153.613 146.938 986.692
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1103.948 124.288 986.354
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1054.283 124.605 986.015
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -1004.618 93.808 985.677
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -954.953 78.3 985.338
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -905.289 84.479 985
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -855.624 94.205 984.661
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -805.959 109.182 984.323
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -756.294 97.32 983.985
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -706.63 106.293 983.646
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -656.965 76.29 983.308
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -607.3 84.104 982.969
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -557.635 83.783 982.631
+      angleX -6.627
+      angleY 90.391
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -508.098 107.728 982.338
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -459.023 112.74 982.215
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -409.948 112.748 982.091
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -360.874 126.837 981.967
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -311.8 127.673 981.843
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -262.725 141.123 981.719
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -213.65 107.472 981.596
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -164.576 100.164 981.472
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -115.501 113.487 981.348
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -66.427 105.881 981.224
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -17.352 105.245 981.101
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 31.722 121.112 980.977
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 80.797 157.886 980.853
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 129.871 174.319 980.729
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 178.946 186.447 980.605
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 228.02 205.144 980.482
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 277.095 209.257 980.358
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 326.169 211.727 980.234
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 375.244 228.483 980.11
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 424.318 241.496 979.987
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 473.393 242.432 979.863
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 522.468 248.101 979.739
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 571.542 242.083 979.615
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 620.616 254.331 979.492
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 669.691 278.427 979.368
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 718.766 290.466 979.244
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 767.84 295.205 979.12
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 816.915 293.084 978.996
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 865.989 281.934 978.873
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 915.064 305.018 978.749
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 964.138 319.452 978.625
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1013.213 344.715 978.501
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1062.287 365.406 978.378
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1111.362 381.726 978.254
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1160.436 378.902 978.13
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1209.51 382.777 978.006
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1258.585 408.022 977.882
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1307.659 431.828 977.759
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1356.734 467.283 977.635
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1405.808 478.335 977.511
+      angleX 11.04
+      angleY 90.145
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.826 486.792 929.591
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.854 475.649 880.688
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.882 447.118 831.785
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.909 417.587 782.882
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.937 391.462 733.978
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.965 369.4 685.075
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1406.992 343.265 636.172
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.02 326.725 587.269
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.048 305.163 538.365
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.076 289.474 489.462
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.103 261.035 440.559
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.131 235.501 391.655
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.159 206.301 342.752
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.186 173.577 293.849
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.214 152.804 244.945
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.242 148.983 196.042
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.27 142.997 147.139
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.297 128.739 98.236
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.325 115.771 49.332
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.353 98.413 0.429
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.381 91.196 -48.474
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.408 93.924 -97.377
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.436 91.406 -146.281
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.464 104.854 -195.184
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.491 108.656 -244.087
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.519 96.48 -292.99
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.547 74.525 -341.894
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.574 89.501 -390.797
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.602 88.497 -439.7
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.63 70.017 -488.604
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.657 -14.625 -537.507
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.685 85.501 -586.41
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.713 108.033 -635.314
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.741 108.656 -684.217
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.768 108.656 -733.12
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.796 106.374 -782.023
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 1407.824 92.445 -830.927
+      angleX -12.023
+      angleY 179.968
+      m_MarkerColor 0 0.298 0.6 1
+      m_sDescription "BLUFOR AO LIMIT"
+      m_aVisibleForFactions {
+       "RHS_USAF"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2261.779 22.036 3285.38
+ m_missionEvents {
+  TILW_MissionEvent "{63090E96E1113651}" {
+   m_name "Welcome message"
+   m_instructions {
+    TILW_SendMessageInstruction "{63090E96CF71DB89}" {
+     m_messageTitle "Welcome"
+     m_messageBody "Welcome to Cache Hunters"\
+     "This mission has the ability to be played as a seeder or as a main mission which can seamlessly transition based on leadership and player count."
+    }
+    TILW_SendMessageInstruction "{630B2B85B1D06D5B}" {
+     m_executionDelay 15
+     m_messageBody "Go out into the world, search the marked AOIs for caches, and avoid the insurgency as they attempt to deplete US forces down to nothing."\
+     ""\
+     "There are 5 caches in total."\
+     "Good luck soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{63090E96D293A714}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{63090E9587B6A450}" {
+   m_name "BluMajorWin"
+   m_instructions {
+    TILW_SendMessageInstruction "{63090E9418A46713}" {
+     m_messageTitle "BLUFOR MAJOR VICTORY!"
+     m_messageBody "All five caches have been destroyed, well done Blufor!"\
+     ""\
+     "The mission will end soon..."
+    }
+    TILW_EndGameInstruction "{63090E94203AB8D8}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{63090E95CF78F708}" {
+    m_operands {
+     TILW_LiteralTerm "{63090E95CD1BB2B3}" {
+      m_flagName "CACHE1"
+     }
+     TILW_LiteralTerm "{63090E95C373ADE3}" {
+      m_flagName "CACHE2"
+     }
+     TILW_LiteralTerm "{63090E95C1AA0E18}" {
+      m_flagName "CACHE3"
+     }
+     TILW_LiteralTerm "{63090E95C15EB868}" {
+      m_flagName "CACHE4"
+     }
+     TILW_LiteralTerm "{63090E9432C52AA8}" {
+      m_flagName "CACHE5"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{632129476E4A0B23}" {
+   m_name "BluRegularWinToggle"
+   m_instructions {
+    TILW_SendMessageInstruction "{632129449224F2F8}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR MINOR VICTORY"
+     m_messageBody "Someone at base has ended the mission."\
+     "You managed to destroy 1-2 caches. "\
+     ""\
+     "Not bad work. Good luck next time!"\
+     "Mission will end soon..."\
+     ""
+    }
+    TILW_EndGameInstruction "{631B4E7E44C1E296}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_NEUTRAL
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6321294441B4A5B1}" {
+    m_operands {
+     TILW_LiteralTerm "{6321294447A0135F}" {
+      m_flagName "EndMissionToggle"
+     }
+     TILW_MaxjunctionTerm "{632129463140BA4B}" {
+      m_operands {
+       TILW_LiteralTerm "{6321294628FEA462}" {
+        m_flagName "CACHE1"
+       }
+       TILW_LiteralTerm "{6321294629DA0087}" {
+        m_flagName "CACHE2"
+       }
+       TILW_LiteralTerm "{63212946243DE379}" {
+        m_flagName "CACHE3"
+       }
+       TILW_LiteralTerm "{632129461A7B31C2}" {
+        m_flagName "CACHE4"
+       }
+       TILW_LiteralTerm "{632129461E2F9A29}" {
+        m_flagName "CACHE5"
+       }
+      }
+      m_maxTrue 4
+     }
+     TILW_MinjunctionTerm "{632129460379DB67}" {
+      m_operands {
+       TILW_LiteralTerm "{6321294605C12941}" {
+        m_flagName "CACHE1"
+       }
+       TILW_LiteralTerm "{632129467EA59EE0}" {
+        m_flagName "CACHE2"
+       }
+       TILW_LiteralTerm "{632129471B4CE5B0}" {
+        m_flagName "CACHE3"
+       }
+       TILW_LiteralTerm "{632129471D969637}" {
+        m_flagName "CACHE4"
+       }
+       TILW_LiteralTerm "{6321294714E8A461}" {
+        m_flagName "CACHE5"
+       }
+      }
+      m_minTrue 3
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{631B4E7E7A6F894E}" {
+   m_name "BluMinorWinToggle"
+   m_instructions {
+    TILW_SendMessageInstruction "{632129449224F2F8}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR MINOR VICTORY"
+     m_messageBody "Someone at base has ended the mission."\
+     "You managed to destroy 1-2 caches. "\
+     ""\
+     "Not bad work. Good luck next time!"\
+     "Mission will end soon..."\
+     ""
+    }
+    TILW_EndGameInstruction "{631B4E7E44C1E296}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_NEUTRAL
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6321294441B4A5B1}" {
+    m_operands {
+     TILW_LiteralTerm "{6321294447A0135F}" {
+      m_flagName "EndMissionToggle"
+     }
+     TILW_MaxjunctionTerm "{632129463140BA4B}" {
+      m_operands {
+       TILW_LiteralTerm "{6321294628FEA462}" {
+        m_flagName "CACHE1"
+       }
+       TILW_LiteralTerm "{6321294629DA0087}" {
+        m_flagName "CACHE2"
+       }
+       TILW_LiteralTerm "{63212946243DE379}" {
+        m_flagName "CACHE3"
+       }
+       TILW_LiteralTerm "{632129461A7B31C2}" {
+        m_flagName "CACHE4"
+       }
+       TILW_LiteralTerm "{632129461E2F9A29}" {
+        m_flagName "CACHE5"
+       }
+      }
+      m_maxTrue 2
+     }
+     TILW_MinjunctionTerm "{632129460379DB67}" {
+      m_operands {
+       TILW_LiteralTerm "{6321294605C12941}" {
+        m_flagName "CACHE1"
+       }
+       TILW_LiteralTerm "{632129467EA59EE0}" {
+        m_flagName "CACHE2"
+       }
+       TILW_LiteralTerm "{632129471B4CE5B0}" {
+        m_flagName "CACHE3"
+       }
+       TILW_LiteralTerm "{632129471D969637}" {
+        m_flagName "CACHE4"
+       }
+       TILW_LiteralTerm "{6321294714E8A461}" {
+        m_flagName "CACHE5"
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{63212945C9EC7C69}" {
+   m_name "BluDefeatToggle"
+   m_instructions {
+    TILW_SendMessageInstruction "{63090E9418A46713}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR DEFEAT!"
+     m_messageBody "Someone has ended the mission at base."\
+     "You managed to destroy 0 caches."\
+     ""\
+     "Better luck next time!"\
+     "Mission will end soon..."
+    }
+    TILW_EndGameInstruction "{63090E94203AB8D8}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{63090E95CF78F708}" {
+    m_operands {
+     TILW_LiteralTerm "{63212946455937FB}" {
+      m_flagName "EndMissionToggle"
+     }
+     TILW_LiteralTerm "{63090E95CD1BB2B3}" {
+      m_invertTerm 1
+      m_flagName "CACHE1"
+     }
+     TILW_LiteralTerm "{63090E95C373ADE3}" {
+      m_invertTerm 1
+      m_flagName "CACHE2"
+     }
+     TILW_LiteralTerm "{63090E95C1AA0E18}" {
+      m_invertTerm 1
+      m_flagName "CACHE3"
+     }
+     TILW_LiteralTerm "{63090E95C15EB868}" {
+      m_invertTerm 1
+      m_flagName "CACHE4"
+     }
+     TILW_LiteralTerm "{63090E9432C52AA8}" {
+      m_invertTerm 1
+      m_flagName "CACHE5"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{63073A4F76CFEF8C}" {
+   m_name "Spawn box1_1"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{018F0DC0A34CEA10}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache1.et"
+     m_locationName "BoxSpawn1_1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box1_1"
+   }
+  }
+  TILW_MissionEvent "{63073A4F8FD91AF4}" {
+   m_name "Spawn box1_2"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{018F0DC0A34CEA10}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache1.et"
+     m_locationName "BoxSpawn1_2"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box1_2"
+   }
+  }
+  TILW_MissionEvent "{63073A4FF174F4F7}" {
+   m_name "Spawn box1_3"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{018F0DC0A34CEA10}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache1.et"
+     m_locationName "BoxSpawn1_3"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box1_3"
+   }
+  }
+  TILW_MissionEvent "{63090E9169A66F5C}" {
+   m_name "Spawn box2_1"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{7A8837F66303A10A}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache2.et"
+     m_locationName "BoxSpawn2_1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box2_!"
+   }
+  }
+  TILW_MissionEvent "{63090E9169E46925}" {
+   m_name "Spawn box2_2"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{7A8837F66303A10A}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache2.et"
+     m_locationName "BoxSpawn2_2"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box2_2"
+   }
+  }
+  TILW_MissionEvent "{63090E91692194FC}" {
+   m_name "Spawn box2_3"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{7A8837F66303A10A}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache2.et"
+     m_locationName "BoxSpawn2_3"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box2_3"
+   }
+  }
+  TILW_MissionEvent "{63090E90406C12AC}" {
+   m_name "Spawn box3_1"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{9F147B0F6FE63661}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache3.et"
+     m_locationName "BoxSpawn3_1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box3_1"
+   }
+  }
+  TILW_MissionEvent "{63090E9041A245FF}" {
+   m_name "Spawn box3_2"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{9F147B0F6FE63661}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache3.et"
+     m_locationName "BoxSpawn3_2"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box3_2"
+   }
+  }
+  TILW_MissionEvent "{63090E9041EFEE73}" {
+   m_name "Spawn box3_3"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{9F147B0F6FE63661}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache3.et"
+     m_locationName "BoxSpawn3_3"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box3_3"
+   }
+  }
+  TILW_MissionEvent "{63090E9041D722BB}" {
+   m_name "Spawn box3_4"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{9F147B0F6FE63661}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache3.et"
+     m_locationName "BoxSpawn3_4"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box3_4"
+   }
+  }
+  TILW_MissionEvent "{63090E9041127602}" {
+   m_name "Spawn box3_5"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{9F147B0F6FE63661}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache3.et"
+     m_locationName "BoxSpawn3_5"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box3_5"
+   }
+  }
+  TILW_MissionEvent "{63090E97E898742C}" {
+   m_name "Spawn box4_1"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{A2205E371A8ABF56}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache4.et"
+     m_locationName "BoxSpawn4_1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box4_1"
+   }
+  }
+  TILW_MissionEvent "{63090E97E8CC0B5B}" {
+   m_name "Spawn box4_2"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{A2205E371A8ABF56}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache4.et"
+     m_locationName "BoxSpawn4_2"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box4_2"
+   }
+  }
+  TILW_MissionEvent "{63090E97E83A288A}" {
+   m_name "Spawn box4_3"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{A2205E371A8ABF56}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache4.et"
+     m_locationName "BoxSpawn4_3"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box4_3"
+   }
+  }
+  TILW_MissionEvent "{63090E97E86F05B6}" {
+   m_name "Spawn box4_4"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{A2205E371A8ABF56}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache4.et"
+     m_locationName "BoxSpawn4_4"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box4_4"
+   }
+  }
+  TILW_MissionEvent "{63090E96638293C2}" {
+   m_name "Spawn box5_1"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{47BC12CE166F283D}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache5.et"
+     m_locationName "BoxSpawn5_1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box5_1"
+   }
+  }
+  TILW_MissionEvent "{63090E9663C982D1}" {
+   m_name "Spawn box5_2"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{47BC12CE166F283D}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache5.et"
+     m_locationName "BoxSpawn5_2"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box5_2"
+   }
+  }
+  TILW_MissionEvent "{63090E96633C10DB}" {
+   m_name "Spawn box5_3"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{47BC12CE166F283D}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache5.et"
+     m_locationName "BoxSpawn5_3"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box5_3"
+   }
+  }
+  TILW_MissionEvent "{63090E96636CE0B5}" {
+   m_name "Spawn box5_4"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{63073A4F645A2ED9}" {
+     m_prefab "{47BC12CE166F283D}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_cache5.et"
+     m_locationName "BoxSpawn5_4"
+    }
+   }
+   m_condition TILW_LiteralTerm "{63073A4F75A66F89}" {
+    m_flagName "box5_4"
+   }
+  }
+  TILW_MissionEvent "{631B4E7498D44477}" {
+   m_name "Add Tickets 1"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{631B4E74909E89DF}" {
+     m_executionDelay 1
+     m_factionKey "RHS_USAF"
+     m_operation ADD
+     m_amount 5
+    }
+    TILW_SendMessageInstruction "{631B4E77D1879826}" {
+     m_messageTitle "Cache destroyed!"
+     m_messageBody "5x reinforcement tickets have been added to your team pool. Good job soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{631B4E74FABB191E}" {
+    m_flagName "CACHE1"
+   }
+  }
+  TILW_MissionEvent "{631B4E74DE2FB977}" {
+   m_name "Add Tickets 2"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{631B4E74909E89DF}" {
+     m_executionDelay 1
+     m_factionKey "RHS_USAF"
+     m_operation ADD
+     m_amount 5
+    }
+    TILW_SendMessageInstruction "{631B4E77C340361C}" {
+     m_messageTitle "Cache destroyed!"
+     m_messageBody "5x reinforcement tickets have been added to your team pool. Good job soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{631B4E74FABB191E}" {
+    m_flagName "CACHE2"
+   }
+  }
+  TILW_MissionEvent "{631B4E74CA2F18FC}" {
+   m_name "Add Tickets 3"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{631B4E74909E89DF}" {
+     m_executionDelay 1
+     m_factionKey "RHS_USAF"
+     m_operation ADD
+     m_amount 5
+    }
+    TILW_SendMessageInstruction "{631B4E77FABF27EC}" {
+     m_messageTitle "Cache destroyed!"
+     m_messageBody "5x reinforcement tickets have been added to your team pool. Good job soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{631B4E74FABB191E}" {
+    m_flagName "CACHE3"
+   }
+  }
+  TILW_MissionEvent "{631B4E753E4F1737}" {
+   m_name "Add Tickets 4"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{631B4E74909E89DF}" {
+     m_executionDelay 1
+     m_factionKey "RHS_USAF"
+     m_operation ADD
+     m_amount 5
+    }
+    TILW_SendMessageInstruction "{631B4E778C513770}" {
+     m_messageTitle "Cache destroyed!"
+     m_messageBody "5x reinforcement tickets have been added to your team pool. Good job soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{631B4E74FABB191E}" {
+    m_flagName "CACHE4"
+   }
+  }
+  TILW_MissionEvent "{631B4E752308869A}" {
+   m_name "Add Tickets 5"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{631B4E74909E89DF}" {
+     m_executionDelay 1
+     m_factionKey "RHS_USAF"
+     m_operation ADD
+     m_amount 5
+    }
+    TILW_SendMessageInstruction "{631B4E77BE626C25}" {
+     m_messageTitle "Cache destroyed!"
+     m_messageBody "5x reinforcement tickets have been added to your team pool. Good job soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{631B4E74FABB191E}" {
+    m_flagName "CACHE5"
+   }
+  }
+  TILW_MissionEvent "{631B4E76BAF4817E}" {
+   m_name "SpawnBluforCrate"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{631B4E770B400DC3}" {
+     m_executionDelay 1
+     m_prefab "{393527CC294D15C1}Prefabs/Props/Military/Camps/AmmoBox1.et"
+     m_locationName "AmmoCrateSpawn"
+    }
+    TILW_SendMessageInstruction "{631B4E77691E8151}" {
+     m_executionDelay 1
+     m_messageTitle "Resupply inbound!"
+     m_messageBody "An ammo and equipment resupply has landed at base for all your hard work. Go rearm soldier!"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_MinjunctionTerm "{631B4E76A31CE26E}" {
+    m_operands {
+     TILW_LiteralTerm "{631B4E76A58DFACF}" {
+      m_flagName "CACHE1"
+     }
+     TILW_LiteralTerm "{631B4E7732A1C6E5}" {
+      m_flagName "CACHE2"
+     }
+     TILW_LiteralTerm "{631B4E772FB2677A}" {
+      m_flagName "CACHE3"
+     }
+     TILW_LiteralTerm "{631B4E771AF0A095}" {
+      m_flagName "CACHE4"
+     }
+     TILW_LiteralTerm "{631B4E7719DE8428}" {
+      m_flagName "CACHE5"
+     }
+    }
+    m_minTrue 3
+   }
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{63053B1D8286B1C7}" {
+   m_flagNames {
+    "box1_1" "box1_2" "box1_3"
+   }
+  }
+  TILW_FlagSampling "{63090E9135C95849}" {
+   m_flagNames {
+    "box2_1" "box2_2" "box2_3" ""
+   }
+  }
+  TILW_FlagSampling "{63090E911E2A7BA4}" {
+   m_flagNames {
+    "box3_1" "box3_2" "box3_3" "box3_4" "box3_5"
+   }
+  }
+  TILW_FlagSampling "{63090E911F2F39DF}" {
+   m_flagNames {
+    "box4_1" "box4_2" "box4_3" "box4_4"
+   }
+  }
+  TILW_FlagSampling "{63090E9671E167FB}" {
+   m_flagNames {
+    "box5_1" "box5_2" "box5_3" "box5_4"
+   }
+  }
+ }
+}

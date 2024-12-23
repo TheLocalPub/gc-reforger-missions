@@ -1,0 +1,103 @@
+$grp SCR_AIGroup : "{704B4E4EC7C56B55}Prefabs/Groups/BLUFOR/Group_US_AmmoTeam_P.et" {
+ HQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{630757E5DCD0E770}" {
+   }
+  }
+  coords 2703.435 8 3094.001
+  angleY -58.84
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{E11741B06BC88C6E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_PL_CacheHunter.et" "{AC771F53450EAA89}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_PSG_CacheHunter.et" "{9B25432491D5B0C4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_RTO_CacheHunter.et"
+  }
+  m_sCustomNameSet "Platoon HQ"
+ }
+ SQD1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63090EAE2154D8F5}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2678.443 8.025 3102.599
+  angleY 120.548
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{32DC08581D31107C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_SL_CacheHunter.et" "{990342C48B7F6AC5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_TL_CacheHunter.et" "{69E13041761A31E2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Rifleman_CacheHunter.et" "{2E45CAA885E0BCAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Grenadier_CacheHunter.et" "{2D7501468725D43B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AR_CacheHunter.et"
+  }
+  m_sCustomNameSet "1st Squad"
+ }
+ SQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{630757E5DCD0E770}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2666.191 8 3084.837
+  angleY 120.548
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{32DC08581D31107C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_SL_CacheHunter.et" "{990342C48B7F6AC5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_TL_CacheHunter.et" "{69E13041761A31E2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Rifleman_CacheHunter.et" "{2E45CAA885E0BCAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Grenadier_CacheHunter.et" "{2D7501468725D43B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AR_CacheHunter.et"
+  }
+  m_sCustomNameSet "2nd Squad"
+ }
+ SQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{630757E5DCD0E770}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2692.375 8 3079.382
+  angleY -54.302
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{32DC08581D31107C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_SL_CacheHunter.et" "{990342C48B7F6AC5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_TL_CacheHunter.et" "{69E13041761A31E2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Rifleman_CacheHunter.et" "{2E45CAA885E0BCAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_Grenadier_CacheHunter.et" "{2D7501468725D43B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AR_CacheHunter.et"
+  }
+  m_sCustomNameSet "3rd Squad"
+ }
+ MEDT {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{630757E5DCD0E770}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 2671.203 8 3068.758
+  angleY 33.576
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{32DC08581D31107C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_SL_CacheHunter.et" "{CD25BADD3966B015}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_MEDIC_CacheHunter.et" "{CD25BADD3966B015}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_MEDIC_CacheHunter.et"
+  }
+  m_sCustomNameSet "Medical Team"
+ }
+ WEP {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{630757E5DCD0E770}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 2695.39 8 3105.198
+  angleY -144.828
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{32DC08581D31107C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_SL_CacheHunter.et" "{E6C01D2C64F47882}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_MG_CacheHunter.et" "{399DA4A52DCF9F0A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AMG_CacheHunter.et"
+  }
+  m_sCustomNameSet "Machine gun team"
+ }
+}

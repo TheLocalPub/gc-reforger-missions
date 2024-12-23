@@ -1,0 +1,2427 @@
+$grp GenericEntity {
+ BoxSpawn1_1 {
+  coords 3445.602 8.797 2678.319
+  angleY -24.306
+ }
+ BoxSpawn1_2 {
+  coords 3303.483 7.624 2681.122
+ }
+ BoxSpawn1_3 {
+  coords 3140.197 9.698 2714.354
+  angleY 22.081
+ }
+ BoxSpawn2_1 {
+  coords 3926.833 25.323 2712.595
+  angleY -24.306
+ }
+ BoxSpawn2_2 {
+  coords 3887.108 4.967 2576.614
+  angleY -24.306
+ }
+ BoxSpawn2_3 {
+  coords 3788.678 10.95 2589.842
+  angleY -24.306
+ }
+ BoxSpawn3_1 {
+  coords 1889.996 36.594 3733.065
+  angleY -24.306
+ }
+ BoxSpawn3_2 {
+  coords 1795.692 19.181 3924.136
+  angleY -24.306
+ }
+ BoxSpawn3_3 {
+  coords 1920.441 16.767 3882.43
+  angleY -24.306
+ }
+ BoxSpawn3_4 {
+  coords 2143.813 27.778 3700.835
+  angleY -24.306
+ }
+ BoxSpawn3_5 {
+  coords 1995.955 17.477 3671.672
+  angleY -24.306
+ }
+ BoxSpawn4_1 {
+  coords 1495.419 37.891 3651.544
+  angleY -107.207
+ }
+ BoxSpawn4_2 {
+  coords 1262.656 36.383 3373.644
+  angleY -107.207
+ }
+ BoxSpawn4_3 {
+  coords 1361.987 69.74 3188.936
+  angleY -107.207
+ }
+ BoxSpawn4_4 {
+  coords 1069.337 37.484 3328.369
+  angleY -107.207
+ }
+ BoxSpawn5_1 {
+  coords 742.108 44.821 3186.584
+  angleY -107.207
+ }
+ BoxSpawn5_2 {
+  coords 653.367 39.564 3236.144
+  angleY -107.207
+ }
+ BoxSpawn5_3 {
+  coords 260.665 50.268 3191.576
+  angleY -107.207
+ }
+ BoxSpawn5_4 {
+  coords 91.453 75.508 2959.997
+  angleY -107.207
+ }
+}
+$grp SplineShapeEntity {
+ AOI5 {
+  coords 80.526 104.691 3279.309
+  Points {
+   ShapePoint "{63090E9B1FD91B06}" {
+    Position 0 0 0
+   }
+   ShapePoint "{63090E9B1FD9A05D}" {
+    Position -26.754 -0.876 -19.631
+   }
+   ShapePoint "{63090E9B1C1F9BD0}" {
+    Position -58.092 -14.986 -77.895
+   }
+   ShapePoint "{63090E9B1D8BE560}" {
+    Position -69.844 -23.997 -181.318
+   }
+   ShapePoint "{63090E9B1D27FC55}" {
+    Position -53.546 -6.022 -304.042
+   }
+   ShapePoint "{63090E9B1D51584D}" {
+    Position 35.882 -16.687 -404.023
+   }
+   ShapePoint "{63090E9B138E8A85}" {
+    Position 321.109 -18.197 -249.2
+   }
+   ShapePoint "{63090E9B130701C8}" {
+    Position 561.846 -53.481 -158.605
+   }
+   ShapePoint "{63090E9B118325E8}" {
+    Position 732.761 -55.442 -111.346
+   }
+   ShapePoint "{63090E9B1121A4C9}" {
+    Position 848.322 -60.294 -74.069
+   }
+   ShapePoint "{63090E9942F2E8AC}" {
+    Position 792.378 -54.333 79.245
+   }
+   ShapePoint "{63090E9B1170BEEF}" {
+    Position 687.719 -42.02 75.537
+   }
+   ShapePoint "{63090E9B0A211612}" {
+    Position 484.111 -37.002 74.622
+   }
+   ShapePoint "{63090E9B0BEEBB41}" {
+    Position 184.583 -24.968 -15.725
+   }
+   ShapePoint "{63090E9B08F76E1D}" {
+    Position 28.158 -10.997 -1.878
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords -35.792 -6.437 -31.927
+       angleX -13.584
+       angleY -145.378
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -63.405 2.164 -71.923
+       angleX -13.584
+       angleY -145.378
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -66.761 -59.989 -124.073
+       angleX -6.239
+       angleY -173.152
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -69.912 -60.555 -173.829
+       angleX 0.788
+       angleY 179.979
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -69.133 24.009 -223.442
+       angleX 10.289
+       angleY 178.005
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -63.903 9.051 -272.262
+       angleX 9.026
+       angleY 168.064
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -47.316 -22.568 -319.091
+       angleX -1.527
+       angleY 159.428
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -28.866 -26.752 -365.392
+       angleX -5.601
+       angleY 153.15
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 4.538 -21.591 -400.799
+       angleX -5.235
+       angleY 112.373
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 53.353 -13.801 -399.699
+       angleX -0.511
+       angleY 71.762
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 98.974 18.537 -379.374
+       angleX 0.585
+       angleY 62.258
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 142.453 42.216 -354.705
+       angleX 0.715
+       angleY 59.184
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 185.073 47.257 -328.568
+       angleX 0.432
+       angleY 58.04
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 227.509 35.234 -302.127
+       angleX -0.111
+       angleY 58.29
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 270.318 1.854 -276.301
+       angleX -1.171
+       angleY 59.929
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 314.236 -15.746 -252.492
+       angleX -3.036
+       angleY 63.697
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 359.642 -22.212 -231.997
+       angleX -6.182
+       angleY 66.778
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 405.546 -26.064 -213.296
+       angleX -8.383
+       angleY 68.617
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 451.792 -28.777 -196.04
+       angleX -9.559
+       angleY 70.163
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 498.36 -23.212 -179.829
+       angleX -9.117
+       angleY 71.297
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 545.298 -44.564 -164.125
+       angleX -6.85
+       angleY 71.604
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 592.719 -60.277 -148.798
+       angleX -2.579
+       angleY 73.243
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 640.853 -54.712 -135.327
+       angleX 0.208
+       angleY 75.276
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 689.309 -50.632 -123.031
+       angleX 1.226
+       angleY 75.851
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 737.575 -55.588 -110.012
+       angleX -1.492
+       angleY 75.235
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 786.825 -60.249 -101.841
+       angleX -2.689
+       angleY 82.837
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 835.036 -59.073 -90.073
+       angleX -2.216
+       angleY 58.658
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 848.482 -71.941 -45.61
+       angleX 1.257
+       angleY -9.099
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 835.117 -76.545 2.471
+       angleX 1.827
+       angleY -20.327
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 814.523 -69.448 47.946
+       angleX 2.564
+       angleY -28.509
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 783.146 -50.987 85.854
+       angleX 6.885
+       angleY -62.037
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 734.943 -33.019 83.241
+       angleX 6.963
+       angleY -105.211
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 685.898 -42.423 75.518
+       angleX 3.063
+       angleY -90.318
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 636.003 -56.5 77.944
+       angleX 1.237
+       angleY -85.738
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 586.109 -53.794 81.021
+       angleX 0.901
+       angleY -87.995
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 536.137 -43.895 80.695
+       angleX 1.21
+       angleY -93.101
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 486.504 -36.851 75.047
+       angleX 1.85
+       angleY -99.717
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 437.912 -31.661 63.482
+       angleX 1.914
+       angleY -106.016
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 390.2 -43.159 48.636
+       angleX 1.958
+       angleY -108.215
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 342.901 -54.976 32.522
+       angleX 2.036
+       angleY -109.086
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 295.685 -41.203 16.174
+       angleX 2.177
+       angleY -108.955
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 248.229 -13.045 0.565
+       angleX 2.447
+       angleY -107.182
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 200.077 -22.91 -12.653
+       angleX 2.938
+       angleY -102.544
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 150.673 -26.117 -19.236
+       angleX 3.896
+       angleY -92.269
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 100.973 -27.655 -16.477
+       angleX 4.99
+       angleY -81.842
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 52.286 -27.034 -6.326
+       angleX 6.515
+       angleY -76.882
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 4.924 -1.724 1.384
+       angleX 56.639
+       angleY -84.014
+       m_sDescription "AOI 5"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+     }
+    }
+   }
+  }
+ }
+ AOI4 {
+  coords 988.641 51.46 3194.247
+  Points {
+   ShapePoint "{63090E9999BCDCBD}" {
+    Position 0 0 0
+   }
+   ShapePoint "{63090E9999BD1B9C}" {
+    Position 101.072 -10.554 -6.414
+   }
+   ShapePoint "{63090E999C36CD3D}" {
+    Position 193.223 31.172 -26.31
+   }
+   ShapePoint "{63090E999DA0F4F8}" {
+    Position 342.29 40.365 -75.233
+   }
+   ShapePoint "{63090E99907E9628}" {
+    Position 506.281 34.46 -35.038
+   }
+   ShapePoint "{63090E99913A3929}" {
+    Position 574.372 39.885 31.71
+   }
+   ShapePoint "{63090E998AAF7D56}" {
+    Position 679.85 -25.637 342.708
+   }
+   ShapePoint "{63090E998AC9A5F1}" {
+    Position 675.18 -27.705 450.247
+   }
+   ShapePoint "{63090E998A000332}" {
+    Position 633.616 -24.979 497.501
+   }
+   ShapePoint "{63090E99882C0BDC}" {
+    Position 501.939 -14.597 550.864
+   }
+   ShapePoint "{63090E9988580C78}" {
+    Position 427.713 -3.435 504.563
+   }
+   ShapePoint "{63090E998FCBB62A}" {
+    Position 29.92 29.284 312.671
+   }
+   ShapePoint "{63090E998F611BF3}" {
+    Position -78.595 17.502 240.936
+   }
+   ShapePoint "{63090E998CF2FD0C}" {
+    Position -34.406 -15.501 26.202
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords 48.657 7.477 -3.636
+       angleX -10.091
+       angleY 91.137
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 97.874 -12.424 -4.614
+       angleX -10.091
+       angleY 91.137
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 143.225 4.259 -13.513
+       angleX 31.376
+       angleY 101.992
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 186.939 27.19 -24.531
+       angleX 14.393
+       angleY 105.712
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 233.258 58.054 -41.647
+       angleX 4.475
+       angleY 113.459
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 279.335 47.158 -60.86
+       angleX 1.71
+       angleY 110.678
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 327.479 39.389 -73.952
+       angleX 0.593
+       angleY 97.985
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 377.309 44.798 -73.108
+       angleX -1.671
+       angleY 82.659
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 426.237 37.418 -63.192
+       angleX -2.822
+       angleY 75.55
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 473.871 44.541 -48.246
+       angleX -2.466
+       angleY 70.212
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 520.075 26.219 -29.274
+       angleX 6.377
+       angleY 69.362
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 558.134 19.685 -0.8
+       angleX -0.46
+       angleY 30.377
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 579.741 34.962 43.882
+       angleX -9.582
+       angleY 23.014
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 597.878 1.095 89.556
+       angleX -11.214
+       angleY 20.736
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 614.674 7.86 135.568
+       angleX -11.842
+       angleY 19.454
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 630.685 23.358 181.793
+       angleX -11.999
+       angleY 18.66
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 646.06 10.724 228.224
+       angleX -11.92
+       angleY 17.893
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 660.762 -12.731 274.912
+       angleX -11.568
+       angleY 17.012
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 674.491 -18.69 322.016
+       angleX -10.45
+       angleY 15.357
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 685.432 -28.514 370.195
+       angleX -5.936
+       angleY 8.662
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 685.373 -29.872 419.779
+       angleX 5.098
+       angleY -13.19
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 669.147 -25.874 466.893
+       angleX 1.081
+       angleY -24.823
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 631.706 -25.223 498.603
+       angleX 3.705
+       angleY -60.242
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 587.547 -23.272 521.81
+       angleX 3.759
+       angleY -64.189
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 541.699 -9.744 541.395
+       angleX 4.32
+       angleY -70.241
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 493.178 -15.367 550.903
+       angleX 8.232
+       angleY -92.943
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 456.002 -8.593 520.464
+       angleX 5.509
+       angleY -123.005
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 412.183 2.723 496.834
+       angleX 4.764
+       angleY -116.214
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 367.354 29.089 475.083
+       angleX 4.736
+       angleY -115.641
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 322.389 32.781 453.604
+       angleX 4.663
+       angleY -115.436
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 277.372 40.846 432.221
+       angleX 4.609
+       angleY -115.388
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 232.338 57.872 410.859
+       angleX 4.461
+       angleY -115.386
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 187.309 38.091 389.464
+       angleX 4.363
+       angleY -115.429
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 142.314 26.343 367.97
+       angleX 4.093
+       angleY -115.614
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 97.387 34.97 346.295
+       angleX 3.787
+       angleY -115.874
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 52.614 30.417 324.238
+       angleX 3.101
+       angleY -116.519
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 7.943 30.285 301.867
+       angleX 1.069
+       angleY -114.799
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -38.445 11.745 283.334
+       angleX -4.42
+       angleY -109.629
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -74.967 19.537 254.115
+       angleX -11.435
+       angleY -160.64
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -79.495 4.704 205.435
+       angleX -9.423
+       angleY 175.112
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -71.549 -15.69 156.773
+       angleX -9.224
+       angleY 167.989
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -59.658 -22.026 108.845
+       angleX -8.674
+       angleY 164.541
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -45.686 -20.91 61.377
+       angleX -7.653
+       angleY 162.758
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -30.214 -10.92 14.092
+       angleX 3.275
+       angleY 159.193
+       m_sDescription "AOI 4"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+     }
+    }
+   }
+  }
+ }
+ AOI3 {
+  coords 1701.36 23.201 3811.461
+  Points {
+   ShapePoint "{63090E982863B927}" {
+    Position 0 0 0
+   }
+   ShapePoint "{63090E9828600EEC}" {
+    Position -38.789 -3.494 76.238
+   }
+   ShapePoint "{63090E982E609575}" {
+    Position -14.897 28.89 146.914
+   }
+   ShapePoint "{63090E982FB51C8E}" {
+    Position 78.76 23.113 189.172
+   }
+   ShapePoint "{63090E982F3D4548}" {
+    Position 231.316 23.673 121.225
+   }
+   ShapePoint "{63090E982DA05672}" {
+    Position 427.574 3.312 126.479
+   }
+   ShapePoint "{63090E982DF4BF94}" {
+    Position 385.79 11.409 -54.2
+   }
+   ShapePoint "{63090E982002881F}" {
+    Position 485.901 10.97 -80.525
+   }
+   ShapePoint "{63090E9820424C1C}" {
+    Position 532.433 27.285 -169.105
+   }
+   ShapePoint "{63090E98279301BC}" {
+    Position 508.564 -9.37 -251.042
+   }
+   ShapePoint "{63090E982476262F}" {
+    Position 420.533 -10.791 -301.646
+   }
+   ShapePoint "{63090E981AC0B9E3}" {
+    Position 251.669 0.028 -309.812
+   }
+   ShapePoint "{63090E981A479F2E}" {
+    Position 159.826 16.887 -199.395
+   }
+   ShapePoint "{63090E98190CF781}" {
+    Position 56.253 35.421 -72.598
+   }
+   ShapePoint "{63090E981EAB5469}" {
+    Position 11.555 6.839 -16.347
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords -25.443 -7.971 41.386
+       angleX -3.084
+       angleY -28.718
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -49.433 3.634 85.172
+       angleX -3.084
+       angleY -28.718
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -27.626 18.341 130.727
+       angleX 24.287
+       angleY 30.028
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 6.44 43.92 165.313
+       angleX -3.349
+       angleY 53.411
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 50.687 17.294 187.291
+       angleX -5.448
+       angleY 77.1
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 99.636 28.713 183.628
+       angleX 0.654
+       angleY 111.19
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 143.814 26.177 160.345
+       angleX 1.381
+       angleY 120.416
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 187.57 17.628 136.197
+       angleX -0.129
+       angleY 115.271
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 234.869 23.421 120.664
+       angleX -3.591
+       angleY 97.45
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 284.538 12.381 121.951
+       angleX -5.648
+       angleY 83.178
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 333.662 -1.869 129.587
+       angleX -6.39
+       angleY 80.541
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 382.88 -8.396 136.141
+       angleX -6.661
+       angleY 86.135
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 429.11 3.379 124.439
+       angleX -2.246
+       angleY 147.702
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 426.501 13.663 75.85
+       angleX 2.493
+       angleY -162.652
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 409.049 6.296 29.076
+       angleX 3.122
+       angleY -157.952
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 391.176 6.52 -17.526
+       angleX 3.259
+       angleY -162.098
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 392.143 16.108 -64.692
+       angleX 0.004
+       angleY 131.075
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 440.362 12.989 -72.968
+       angleX -1.415
+       angleY 88.945
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 488.195 10.388 -82.406
+       angleX 6.344
+       angleY 130.42
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 517.012 18.054 -121.551
+       angleX 12.967
+       angleY 153.416
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 532.328 27.659 -168.343
+       angleX -5.416
+       angleY 171.645
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 528.43 0.958 -214.044
+       angleX -28.376
+       angleY -162.416
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 506.199 -9.528 -253.771
+       angleX -11.19
+       angleY -138.793
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 467.341 -13.462 -284.535
+       angleX 1.553
+       angleY -118.715
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 420.567 -10.792 -301.639
+       angleX 2.088
+       angleY -103.138
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 371.56 -8.264 -311.241
+       angleX 3.002
+       angleY -99.081
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 321.987 -5.521 -316.888
+       angleX 3.737
+       angleY -93.267
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 272.25 -0.864 -315.201
+       angleX 4.861
+       angleY -80.695
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 227.695 1.017 -294.817
+       angleX 6.581
+       angleY -48.739
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 197.11 9.189 -255.911
+       angleX 6.721
+       angleY -32.002
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 170.7 8.632 -213.863
+       angleX 6.641
+       angleY -34.381
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 139.826 21.433 -175.058
+       angleX 8.105
+       angleY -39.362
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 108.488 45.392 -136.768
+       angleX 7.931
+       angleY -39.234
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 77.124 47.145 -98.298
+       angleX 5.19
+       angleY -39.138
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 45.755 32.778 -59.601
+       angleX -11.807
+       angleY -38.836
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 17.805 11.561 -24.393
+       angleX -31.892
+       angleY -37.914
+       m_sDescription "AOI 3"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+     }
+    }
+   }
+  }
+ }
+ AOI1 {
+  coords 3597.592 6.007 2533.158
+  Points {
+   ShapePoint "{63090E9861D70368}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{63090E9861D75B72}" {
+    Position 24.417 15.881 118.4
+   }
+   ShapePoint "{63090E9864BFE32D}" {
+    Position 206.483 13.179 140.518
+   }
+   ShapePoint "{63090E9865DA8C3B}" {
+    Position 261.102 25.776 232.643
+   }
+   ShapePoint "{63090E986569E66A}" {
+    Position 339.636 38.007 257.22
+   }
+   ShapePoint "{63090E98B5851CDB}" {
+    Position 415.329 61.533 177.742
+   }
+   ShapePoint "{63090E98B5C70B47}" {
+    Position 444.643 21.434 72.706
+   }
+   ShapePoint "{63090E98B51E36BF}" {
+    Position 451.893 26.011 1.564
+   }
+   ShapePoint "{63090E98AB72BED1}" {
+    Position 260.801 17.181 -166.749
+   }
+   ShapePoint "{63090E98A9948A4B}" {
+    Position 86.324 90.259 -142.788
+   }
+   ShapePoint "{63090E98AE06E9C7}" {
+    Position 3.221 2.449 -7.468
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords 0.242 -5.193 47.083
+       angleX 8.093
+       angleY 1.266
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 1.336 2.772 96.573
+       angleX 8.093
+       angleY 1.266
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 44.082 18.314 126.191
+       angleX 0.077
+       angleY 76.303
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 93.77 20.695 130.853
+       angleX -1.707
+       angleY 88.712
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 143.742 15.148 131.387
+       angleX -1.707
+       angleY 89.029
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 193.422 13.455 136.076
+       angleX 0.285
+       angleY 76.368
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 231.662 15.182 165.471
+       angleX 5.996
+       angleY 28.935
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 248.499 24.256 212.047
+       angleX 8.217
+       angleY 20.908
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 281.45 21.551 247.362
+       angleX 6.61
+       angleY 59.75
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 328.556 33.219 259.735
+       angleX 10.494
+       angleY 96.218
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 369.862 43.343 236.535
+       angleX 16.658
+       angleY 133.644
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 401.326 44.098 199.621
+       angleX 8.495
+       angleY 144.521
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 424.99 74.083 156.545
+       angleX -18.576
+       angleY 160.005
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 436.989 59.65 112.263
+       angleX -24.857
+       angleY 168.461
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 446.519 17.625 66.258
+       angleX -7.169
+       angleY 159.403
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 463.621 -4.288 21.883
+       angleX 5.858
+       angleY -161.832
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 435.111 40.99 -18.771
+       angleX -3.962
+       angleY -138.759
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 401.33 59.987 -55.425
+       angleX -4.599
+       angleY -135.782
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 365.762 34.014 -90.353
+       angleX -3.856
+       angleY -132.879
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 328.218 11.984 -123.247
+       angleX -2.102
+       angleY -129.316
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 287.83 6.995 -152.648
+       angleX 2.328
+       angleY -122.147
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 242.936 27.344 -172.474
+       angleX 17.079
+       angleY -104.272
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 197.566 64.549 -177.115
+       angleX 27.648
+       angleY -88.674
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 154.216 90.605 -171.031
+       angleX 28.268
+       angleY -76.539
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 111.218 90.47 -156.044
+       angleX 16.821
+       angleY -65.308
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 70.285 87.357 -129.574
+       angleX -18.264
+       angleY -43.919
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 44.135 62.868 -93.142
+       angleX -30.639
+       angleY -29.415
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 25.301 37.742 -55.474
+       angleX -34.06
+       angleY -24.193
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 8.508 6.719 -17.636
+       angleX -33.263
+       angleY -24.967
+       m_sDescription "AOI 1"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+     }
+    }
+   }
+  }
+ }
+ AOI2 {
+  coords 2899.134 10.811 2786.725
+  Points {
+   ShapePoint "{63090E988A502DE2}" {
+    Position 0 -0.001 0
+   }
+   ShapePoint "{63090E988A5135E4}" {
+    Position 42.037 15.862 115.529
+   }
+   ShapePoint "{63090E9888802C66}" {
+    Position 173.749 33.65 97.954
+   }
+   ShapePoint "{63090E9888D8EEE4}" {
+    Position 435.739 2.353 -30.318
+   }
+   ShapePoint "{63090E988EA1AC7A}" {
+    Position 586.159 2.573 -50.507
+   }
+   ShapePoint "{63090E988E222F4B}" {
+    Position 597.656 -6.699 -169.929
+   }
+   ShapePoint "{63090E988E61CB3B}" {
+    Position 534.525 10.646 -275.121
+   }
+   ShapePoint "{63090E988FB3EEF5}" {
+    Position 342.511 30.341 -248.786
+   }
+   ShapePoint "{63090E988F495173}" {
+    Position 89.616 4.185 -135.304
+   }
+   ShapePoint "{63090E988CE2277F}" {
+    Position 14.578 16.702 -60.838
+   }
+  }
+  IsClosed 1
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords 8.146 -3.868 47.35
+       angleX 7.011
+       angleY 12.659
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 19.021 4.817 95.77
+       angleX 7.011
+       angleY 12.659
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 61.281 25.969 122.437
+       angleX 13.577
+       angleY 79.299
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 109.74 40.663 118.78
+       angleX 8.206
+       angleY 103.438
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 157.295 39.752 103.943
+       angleX 0.582
+       angleY 109.535
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 203.588 33.659 85.295
+       angleX -4.838
+       angleY 114.983
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 248.168 15.598 63.227
+       angleX -6.47
+       angleY 117.379
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 292.097 1.602 40.093
+       angleX -7.017
+       angleY 118.002
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 335.924 12.862 16.84
+       angleX -7.121
+       angleY 117.635
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 380.106 31.791 -5.765
+       angleX -6.622
+       angleY 116.095
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 425.359 5.616 -26.349
+       angleX -4.907
+       angleY 111.81
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 473.382 2.302 -39.445
+       angleX -1.232
+       angleY 97.844
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 523.283 7.33 -41.084
+       angleX 1.792
+       angleY 88.091
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 572.969 9.522 -43.378
+       angleX 0.716
+       angleY 107.607
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 602.419 -3.246 -80.564
+       angleX -6.276
+       angleY 167.341
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 604.254 -6.135 -130.074
+       angleX -4.313
+       angleY -174.455
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 595.513 -7.985 -179.207
+       angleX 3.923
+       angleY -166.706
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 581.036 -2.749 -226.661
+       angleX 8.37
+       angleY -157.158
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 552.388 7.214 -266.093
+       angleX 9.549
+       angleY -126.247
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 505.648 13.859 -279.65
+       angleX 8.969
+       angleY -92.259
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 456.357 26.909 -276.525
+       angleX 7.519
+       angleY -81.814
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 407.595 41.728 -266.982
+       angleX 4.725
+       angleY -76.604
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 359.403 30.019 -253.958
+       angleX 0.907
+       angleY -73.433
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 311.973 29.944 -238.272
+       angleX -3.704
+       angleY -69.791
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 265.648 38.024 -219.971
+       angleX -5.914
+       angleY -67.215
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 220.064 44.395 -200.179
+       angleX -6.672
+       angleY -65.702
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 175.028 28.239 -179.271
+       angleX -6.706
+       angleY -64.396
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 130.482 14.834 -157.254
+       angleX -5.631
+       angleY -62.731
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 86.621 4.194 -133.567
+       angleX -1.608
+       angleY -59.745
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 46.336 -4.148 -104.442
+       angleX 9.854
+       angleY -46.061
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords 17.33 14.307 -65.126
+       angleX 2.589
+       angleY -32.02
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+      {
+       coords -1.675 15.3 -22.114
+       angleX -19.204
+       angleY -3.184
+       m_sDescription "AOI 2"
+       m_aVisibleForFactions {
+        "RHS_USAF"
+       }
+       m_bVisibleForEmptyFaction 0
+       m_bShowForAnyFaction 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

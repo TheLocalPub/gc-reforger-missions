@@ -1,0 +1,44 @@
+GenericEntity : "{393527CC294D15C1}worlds/TheLocalPub/CacheHunters/Prefabs/Props/Military/Camps/AmmoBox1.et" {
+ coords 2683.73 8 3090.906
+ angleY 33.654
+}
+$grp Vehicle : "{3BCABA1CF1397477}worlds/TheLocalPub/CacheHunters/Prefabs/Vehicles/Wheeled/M998/US/M1025_armed_M2HB_Shield_Tan_CacheHunters.et" {
+ M1025_armed_M2HB_Shield_Tan_CacheHunters1 {
+  coords 2673.76 8.999 3009.55
+  angleY 35.263
+ }
+ M1025_armed_M2HB_Shield_Tan_CacheHunters2 {
+  coords 2668.647 8.999 3013.165
+  angleY 35.263
+ }
+ M1025_armed_M2HB_Shield_Tan_CacheHunters3 {
+  coords 2679.269 8.999 3005.656
+  angleY 35.263
+ }
+ M1025_armed_M2HB_Shield_Tan_CacheHunters4 {
+  coords 2685.3 8.999 3003.454
+  angleY 35.263
+ }
+}
+GenericEntity : "{6C536C7124B46A84}worlds/TheLocalPub/CacheHunters/Prefabs/Props/Military/Camps/VicAmmo.et" {
+ coords 2673.082 8.999 3002.8
+ angleY -55.274
+}
+Vehicle M997_maxi_ambulance_USAF_D_cachehunters1 : "{9E3C76AE5C27A116}worlds/TheLocalPub/CacheHunters/Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF_D_cachehunters.et" {
+ coords 2642.642 8.087 3052.142
+ angleY 123.584
+}
+$grp Vehicle : "{F31C6AC700693205}worlds/TheLocalPub/CacheHunters/Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D_cachehunters.et" {
+ M998_covered_long_USAF_D_cachehunters1 {
+  coords 2677.969 8.219 3033.884
+  angleY 124.364
+ }
+ M998_covered_long_USAF_D_cachehunters2 {
+  coords 2686.618 8.219 3027.97
+  angleY 124.364
+ }
+ M998_covered_long_USAF_D_cachehunters3 {
+  coords 2694.441 8.219 3022.621
+  angleY 124.364
+ }
+}

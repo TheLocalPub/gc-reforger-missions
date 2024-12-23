@@ -1,0 +1,26 @@
+$grp GenericEntity {
+ AmmoCrateSpawn {
+  coords 2678.861 8.025 3083.566
+  angleY 35.887
+ }
+ HMVspawn3 {
+  coords 2659.194 9.048 3015.848
+  angleY 35.887
+ }
+ HMVspawn4 {
+  coords 2653.158 9.048 3019.01
+  angleY 35.887
+ }
+ HMVspawn5 {
+  coords 2646.033 9.051 3024.219
+  angleY 35.887
+ }
+ HMVspawn1 {
+  coords 2667.848 9.507 3028.678
+  angleY 35.887
+ }
+ HMVspawn2 {
+  coords 2663.621 8.867 3022.495
+  angleY 35.887
+ }
+}

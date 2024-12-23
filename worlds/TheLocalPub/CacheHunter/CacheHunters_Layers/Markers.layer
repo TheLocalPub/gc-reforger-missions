@@ -1,0 +1,10 @@
+PS_ManualMarker BluforBase : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2725.78 8 3064.161
+ angleY 89.599
+ m_MarkerColor 0 0.298 0.6 1
+ m_sQuadName "flag-2"
+ m_fWorldSize 100
+ m_sDescription "US ARMY HOMEBASE"
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
+}

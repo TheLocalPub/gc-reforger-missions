@@ -1,0 +1,134 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ BLUSRVSP {
+  coords 1904.224 0 9504.53
+  m_sTitle "Service & Support"
+  m_sTextData "- There is a ammo crate at spawn with a bunch of supplies."\
+  "After we have destroyed three caches, a 2nd ammo crate will be delivered to spawn."\
+  ""\
+  "- Within the garage where the Humvees are located is a crate with a mix of humvee ammo, fuel, and repair kits."\
+  ""\
+  "- We currently have 20x tickets in the team pool."\
+  "For each cache destroyed, we'll recieve 5 tickets to the pool."\
+  "Individual users are not limited to how many tickets each person can use from the pool. We'll spawn where we started."\
+  "(THERE IS NO WAY TO TRACK USED TICKETS, YOU BETTER KEEP COUNT OR SOMETHING IDK)"\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 5
+ }
+ BLUCOMSIG {
+  coords 1855.937 -4.674 9493.537
+  m_sTitle "Command & signals"
+  m_sTextData "CALLSIGNS"\
+  "HQ - 36R"\
+  "CO - 3'6"\
+  "PSG - 3'7"\
+  "1SQD - 3'1"\
+  "2SQD - 3'2"\
+  "3SQD - 3'3"\
+  ""\
+  "CHANNELS AND FREQUENCYS"\
+  "Platoon NET: 40hz"\
+  "HQ: 39hz"\
+  "1st SQD: 38hz"\
+  "2nd SQD: 37hz"\
+  "3rd SQD: 36hz"\
+  "4th SQD (WEPs): 35hz"\
+  "Medical Team: 34hz"\
+  ""\
+  "PYROTECHNICS AND SIGNALS:"\
+  "White smoke/flare- Maneuvers/Illuimnation"\
+  "Green smoke/flare - Friendly location"\
+  "Red smoke/flare - Enemy location"\
+  "Purple smoke - Casualties"\
+  ""\
+  "PASSWORD:"\
+  "Challenge - Grand"\
+  "Password-  Wizard"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 6
+ }
+ BLUEN {
+  coords 1883.729 -6.147 9485.146
+  m_sTitle "Enemy forces"
+  m_sTextData "COMPOSITION & DISPOSITION:"\
+  "Enemy forces are the Taliban."\
+  "Numbered in the hundreads, if not thousands within this region."\
+  "The Korengal valley is home to some of the most experienced, determined, and well equip Talban fighters. "\
+  "The civilian populas is not to be trusted."\
+  ""\
+  "STRENGTHS & CAPABILITIES:"\
+  "Enemy forces are equip with a range of older weaponry, primarily eastern block, but also some western weapons, expect AKs, PKMs, RPKs, SVDs, GP/VOG, M16s, Lee enfields, disposable AT launchers including RPG-7 reusable launchers, the use of soviet mines and IEDs."\
+  ""\
+  "The use of light skin armed vehicles is low but should not be ruled out. Previous armaments have been 50cal, GMG, and rocket techies."\
+  ""\
+  "- Mine/IED threat is high risk."\
+  "- IDF is low risk."\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 4
+ }
+ BLUFRIEND {
+  coords 1901.836 -2.924 9459.733
+  m_sTitle "Friendly forces"
+  m_sTextData "COMPOSITION & DISPOSITION:"\
+  "Friendly forces are third Platoon, B Company, 2nd Battalion, 503rd Infantry Regiment, 173rd Airborne Brigade Combat Team"\
+  "Our home is FOB Michigan located at GRID 027030"\
+  ""\
+  "We currently consist of 24x pax"\
+  ""\
+  "STRENGTHS & CAPABILITIES:"\
+  "- We have no fires available."\
+  "- We have 4x 50cal humvees, 3x unarmed humvees, and an ambulance."\
+  "For each cache we destory, 1x 50cal humvee will be created."\
+  ""\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 3
+ }
+ BLUMIS {
+  coords 1894.074 17.116 9581.171
+  m_sTitle "Mission"
+  m_sTextData "MISSION STATEMENT:"\
+  "Our mission is to locate several supply caches in the Korengal valley."\
+  "We have intel that there are supplies located in each area of interest (AOI)"\
+  ""\
+  "Go out into these AOIs, search for these caches, and DESTROY them."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 2
+ }
+ BLUSIT {
+  coords 1882.398 -5.484 9487.985
+  m_sTitle "Situation"
+  m_sTextData "DTL:  01/02/2016, 1200, Afganistan, Kunar Provience, Korengal Valley."\
+  "WEATHER: Clear skies, no rain, no overcast, no fog, 1km+ visabiliy, no forecast of change."\
+  ""\
+  "Lore:"\
+  "Operation Serpents head"\
+  ""\
+  "The Korengal Valley has been a ruthless area of Afghanistan."\
+  "Some of the most experienced, well equip, dedicated and motivated Talban fighters live within this region."\
+  "Not afraid of a fight, they've rentlessly given hell to US forces who've tried to get a grip on this area for many years."\
+  "None the less, the struggle continues for the \"hearts and minds\" of the Afghan populas, even though we're well aware they'd much prefer us to be gone from their homeland, just like how we'd much prefer to be gone also."\
+  ""\
+  "It's our yearly valley sweep, in which we comb through the villages within the main parts of the Korengal valley in an attempt to destroy Taliban supplies which will be used throughout the year to conduct attacks on us."\
+  ""\
+  "Let's go hunting!"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 1
+ }
+}
