@@ -1,0 +1,155 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D8120C87FF4216B2}Assets/Props/Military/Camps/PalletAmmo_01/PalletAmmo_01_US.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "LargeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_SoundDataComponent "{630B2B92F81AA741}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{630B2B92F81AA75B}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{630B2B92F81AA750}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{630B2B912AF736FA}" {
+   Attributes SCR_ItemAttributeCollection "{630B2B912C6B86E1}" {
+    ItemDisplayName SCR_InventoryUIInfo "{630B2B9121D6D3E6}" {
+     Name "#AR-Ammobox_Name"
+     Description "#AR-Ammobox_Name"
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{5E76A7E6C3C73E23}" {
+       Name "#AR-Item_SupplyConsumer_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+     }
+    }
+   }
+   CapacityCoefficient 200
+   MultiSlots {
+    MultiSlotConfiguration "{630B2B9113179AE7}" {
+     SlotTemplate InventoryStorageSlot stuff {
+      Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{630B2B91135124CB}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{7278219B7BD0E8CE}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_M855A1.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{630B2B911086DFD1}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{35BEBF9814FC4A46}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_T_30rnd_M855A1.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{630B2B9110CA2D13}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{630B2B91103FAE30}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{0CAD83389EE8E3DC}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd_tan.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{630B2B9110613125}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B91105A06F3}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B91118DF3CC}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9111FA6CFE}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9111DC084D}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B91113A0BE0}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{630B2B9111041BE5}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{630B2B911161685E}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+     NumSlots 18
+    }
+    MultiSlotConfiguration "{630B2B91114503F2}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+  ActionsManagerComponent "{630B2B92D5462500}" {
+   ActionContexts {
+    UserActionContext "{630B2B92CB997130}" {
+     ContextName "default"
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.0769 0
+     }
+     Radius 0.5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{630B2B9139F36552}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{62F7223390A0D9CA}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ coords 0 0 0
+}

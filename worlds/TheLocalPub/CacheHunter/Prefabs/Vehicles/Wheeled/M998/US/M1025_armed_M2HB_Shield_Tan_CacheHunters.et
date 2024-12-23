@@ -1,0 +1,76 @@
+Vehicle : "{409E007AC9FA4B68}Prefabs/Vehicles/Wheeled/M998/US/M1025_armed_M2HB_Shield.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{630B2B9CD54C61C0}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle_HMMWV_M1025 - #TF-Vehicle-Color-Tan (#TF-Vehicle-Weapon-GPK + #TF-Vehicle-Weapon-M2HB)"
+    m_Image "{BEC9BBE5425F1729}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/US/HMMWV_Shield_Tan.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+     SlotTemplate InventoryStorageSlot HandGrenades {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A60CECAD76E3803}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A60CECAC8B21989}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A60CECA3D786B16}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A7CC68685CE799D}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{5A7CC686F738D96E}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Prefab ""
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+   Enabled 1
+   m_factionLock {
+    "RHS_USAF"
+   }
+   m_sReasonText "You're Taliban, fuck off lad.. you don't know how to drive this lol"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{2DC3350771070A6E}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Shield_Tan.et"
+    }
+   }
+  }
+ }
+ coords 1677.007 39 2836.929
+}

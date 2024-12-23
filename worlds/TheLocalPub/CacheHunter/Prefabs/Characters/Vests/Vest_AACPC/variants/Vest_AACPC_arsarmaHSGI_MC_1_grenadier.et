@@ -1,0 +1,47 @@
+GenericEntity : "{D07EC661F93D65F9}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_MC_1_rifleman.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo bleeder {
+     PivotID "Spine5"
+     Offset 0.1853 0.0456 0.166
+     Angles -0.887 49.1266 1.2371
+     Prefab "{325F38C98ED87C7A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
+    }
+    LoadoutSlotInfo arsbelt {
+     Offset -0.1657 0.0535 0.0457
+     Angles 1.3906 -52.4983 0.6193
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Offset -0.1831 0.0556 -0.0224
+     Angles 5.5143 -96.579 -1.9048
+    }
+    LoadoutSlotInfo arsbeltpistol1 {
+     Offset 0.2402 0.0334 0.0046
+     Angles 5.5341 80.2606 0.5282
+    }
+    LoadoutSlotInfo grenade3 {
+     Offset 0.2022 0.0326 0.0866
+     Angles 5.7917 47.7888 -3.728
+    }
+    LoadoutSlotInfo arsbelt_pistol2 {
+     Offset 0.1018 0.065 -0.1475
+     Angles -1.4211 -116.80901 6.0921
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset 0.2195 0.0309 -0.0874
+     Prefab "{32C385404C395648}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_MC.et"
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.1244 0.05 -0.1304
+     Angles 3.0417 -144.98639 1.9839
+     Prefab "{007021611B006CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_MC.et"
+    }
+   }
+  }
+ }
+ coords 0 -0.006 -0.023
+ angleX -0.628
+ angleZ 0
+}

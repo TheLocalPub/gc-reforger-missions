@@ -1,0 +1,42 @@
+GenericEntity : "{25B7C4411742B1E9}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_MC_1_grenadier.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo arsbeltpistol1 {
+     Offset 0.208 0.0391 0.066
+     Angles 7.9907 49.8128 -2.3483
+    }
+    LoadoutSlotInfo grenade3 {
+     Prefab ""
+    }
+    LoadoutSlotInfo arsbelt_pistol2 {
+     Offset 0.1944 0.0807 -0.0575
+     Angles -0.3209 -166.1683 5.0514
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab ""
+    }
+    LoadoutSlotInfo up103 {
+     Offset 0.0042 0.0432 -0.1684
+     Angles 3.9604 179.44749 -0.6203
+     Prefab "{8B0DA8405586EC90}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_MC.et"
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.1479 0.0425 -0.1322
+     Angles 2.733 -136.90819 2.3916
+     Prefab "{A3DC8A3B052FDAD9}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_MC.et"
+    }
+    LoadoutSlotInfo bleeder {
+     PivotID "Spine1"
+     Offset 0.1542 0.0092 -0.1541
+     Angles -1.1199 146.12933 -1.0311
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angleX 0
+ angleY 3.31
+ angleZ 0
+}

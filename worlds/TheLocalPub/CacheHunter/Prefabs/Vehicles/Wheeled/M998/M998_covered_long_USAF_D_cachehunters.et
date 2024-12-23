@@ -1,0 +1,50 @@
+Vehicle : "{23FB589C8BF6EC6E}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{630B2B84FB4916D0}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{698A89DA9D343C97}UI/Textures/EditorPreviews/Vehicles/m998/M998_covered_long_USAF_D.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab ""
+     }
+    }
+   }
+  }
+  SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+   Enabled 1
+   m_sReasonText "You're Taliban, fuck off lad.. you don't know how to drive this lol"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Antenna_rear {
+     Prefab "{A1D042E36F91EA44}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_antenna_rear_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{043F0CF18FDEB7B7}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{9B4A3C537F363CAE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{F7760445AFF2B2F4}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{4B09506C50940B15}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_canvas_long_USAF_D.et"
+    }
+   }
+  }
+ }
+}

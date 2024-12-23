@@ -1,0 +1,155 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D8120C87FF4216B2}Assets/Props/Military/Camps/PalletAmmo_01/PalletAmmo_01_US.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "LargeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_SoundDataComponent "{630B2B9B8D975E1C}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{630B2B9B8D975E16}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{630B2B9B8D975FEC}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{630B2B9B8D975FE1}" {
+   Attributes SCR_ItemAttributeCollection "{630B2B9B8D975FE2}" {
+    ItemDisplayName SCR_InventoryUIInfo "{630B2B9B8D975FE4}" {
+     Name "#AR-Ammobox_Name"
+     Description "#AR-Ammobox_Name"
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{630B2B9B8D975FE6}" {
+       Name "#AR-Item_SupplyConsumer_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+     }
+    }
+   }
+   CapacityCoefficient 200
+   MultiSlots {
+    MultiSlotConfiguration "{630B2B9B8D975FFC}" {
+     SlotTemplate InventoryStorageSlot stuff {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FF3}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FF5}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 35
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FF7}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FC9}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FCB}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FC7}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FD8}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FDD}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FDC}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FDE}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FD0}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FD2}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 18
+    }
+    MultiSlotConfiguration "{630B2B9B8D975FD7}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab ""
+     }
+     NumSlots 40
+    }
+   }
+  }
+  ActionsManagerComponent "{630B2B9B8D975FAB}" {
+   ActionContexts {
+    UserActionContext "{630B2B9B8D975FAD}" {
+     ContextName "default"
+     Position PointInfo "{630B2B9B8D975FAF}" {
+      Offset 0 0.0769 0
+     }
+     Radius 0.5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{630B2B9B8D975FB8}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{630B2B9B8D975FBB}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ coords 0 0 0
+}
