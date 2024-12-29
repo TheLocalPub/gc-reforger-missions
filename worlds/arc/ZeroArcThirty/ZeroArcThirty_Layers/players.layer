@@ -1,0 +1,86 @@
+$grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C82382D95B}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8405.432 111.531 7083.137
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{B01580BC01AADA78}worlds/arc/ZeroArcThirty/Prefabs/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{FF19CA397D21C540}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_LAT_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{B01580BC01AADA78}worlds/arc/ZeroArcThirty/Prefabs/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C83E67471B}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8404.883 111.531 7065.644
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{B01580BC01AADA78}worlds/arc/ZeroArcThirty/Prefabs/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{FF19CA397D21C540}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_LAT_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{B01580BC01AADA78}worlds/arc/ZeroArcThirty/Prefabs/Character_RHS_RANGER_BREACH_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_RifleSquad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BC2D6D09}" {
+   }
+  }
+  coords 2587.401 143.344 8903.63
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{535CFD9552641200}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sharpshooter_P.et"
+  }
+  m_sCustomNameSet "Cell HQ"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BFFEF286}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2591.299 143.125 8889.372
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C8BAB40F90}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2589.361 143.038 8896.314
+  angleY -13.713
+  m_aUnitPrefabSlots {
+   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_PHQ_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C826321D72}" {
+   }
+  }
+  coords 8406.349 111.531 7104.529
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{0DEAF33C721E6912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_JTAC_P.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{632F59C83B58501A}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 8386.095 111.531 7106.642
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et" "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et"
+  }
+  m_sCustomNameSet "Air"
+ }
+}

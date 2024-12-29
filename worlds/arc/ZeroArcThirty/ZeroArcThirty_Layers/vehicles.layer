@@ -1,0 +1,20 @@
+$grp Vehicle : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ AUS_UH60_armed1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 8415.492 111.532 7163.67
+  angleY -178.378
+ }
+ AUS_UH60_armed2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 8390.647 111.531 7162.246
+  angleY -178.378
+ }
+}
