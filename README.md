@@ -14,7 +14,7 @@
 **Content guidelines:**
 - World file structure convention: GlobalConflictsMissions/worlds/AuthorName/MissionName/MissionName.ent
 - Custom prefabs which are only meant to be used by this particular mission should be saved in worlds/AuthorName/MissionName/Prefabs/prefab.et, so together with the world
-- World naming convention: Mission **world** names do not include spaces, type or player count, also keep them in **CamelCase** like e. g. "RoutePierre".
+- World naming convention: Mission **world** names do not include spaces, type or player count, also keep them in **PascalCase** like e. g. "RoutePierre".
 - Header naming convention: The name of the mission header config file matches the name of the world file, but the mission name specified **in** the header follows the "TYPE (MIN-MAX) MissionName" format, so for example "COOP (5-13) Gull Bay Guns".
 - Prefabs that are useful to other mission makers can stay in the regular Prefabs folder, however GC Missions might not always be the right place for them. For example, the place for publicly accessible characters/groups is GC Units.
 - Don't add new dependencies with are not already part of GC Core without asking. The exception would be if you know this mod has been greenlit, but GC Core is yet to be updated.
