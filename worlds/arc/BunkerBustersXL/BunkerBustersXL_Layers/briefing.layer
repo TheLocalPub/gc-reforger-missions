@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3583.707 29.702 3823.728
   m_sTitle "Overview"
-  m_sTextData "2:1 US:SEPARATIST"\
+  m_sTextData "3:1 US:SEPARATIST"\
   ""\
   "US Special Forces raid a bunker housing nuclear material which has been overrun by separatists."\
   ""\
@@ -10,7 +10,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Heli crew may be pilots depending on insertion option chosen by CO."\
   ""\
-  "5 minute setup, 45 minute TL."
+  "5 minute setup, 60 minute TL."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -68,8 +68,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3607.514 27.416 3719.429
   m_sTitle "V. Command & Signal"
-  m_sTextData "Ground net: 48.0 Mhz"\
-  "Air net: 50.0 Mhz"
+  m_sTextData "Air net: 47.0 Mhz"\
+  "Ground net: 48.0 Mhz"\
+  "1st Platoon net: 49.0 Mhz"\
+  "2nd Platoon net: 50.0 Mhz"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -79,10 +81,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission notes"
   m_sTextData "Mission by arc"\
   ""\
+  "Separatists AO limited to within fence of compound, entrance checkpoint is allowed"\
+  ""\
   "End conditions:"\
   ""\
-  "Trucks in service tunnel secured by USAF for 60 seconds, or 95% Separatist casualties: US Victory"\
-  "90% USAF casualties or 45 minutes pass: Separatist Victory"
+  "To secure nuclear material, hold the action on the truck for 30 seconds."\
+  ""\
+  "Both rucks in service tunnel secured by USAF, or 95% Separatist casualties: US Victory"\
+  "90% USAF casualties or 60 minutes pass: Separatist Victory"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
@@ -127,7 +133,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3570.604 27.345 3749.716
   m_sTitle "IV. Mission"
-  m_sTextData "Defend the marked bunker."\
+  m_sTextData "Defend the marked bunker. We must remain inside the fence of the compound, the checkpoint entrance of the compound is also permitted."\
   ""\
   "We are currently gathering the nuclear material into two trucks in a service tunnel accessible on the south side of the bunker. Defend this position for the next 45 minutes after setup, eliminating all attackers."
   m_aVisibleForFactions {

@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 481.319 15.847 2870.538
-  m_sTitle "Mission"
+  m_sTitle "IV. Mission"
   m_sTextData "Defend the 3 caches (marked by green flags on the map) from the SOBR raid by eliminating 90% of attackers or holding out for 45 minutes."\
   ""\
   "Decide if you are going to go firm and reinforce certain objectives or roam to set up ambushes on the SOBR."
@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 458.659 16.014 2885.252
-  m_sTitle "Situation"
+  m_sTitle "I. Situation"
   m_sTextData "Yesterday, we executed a significant attack in Zarichne for our cause."\
   ""\
   "We still have safehouses on the outskirts of Zarichne housing weapons and insurgents which we have yet to extract from the region."\
@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 498.322 15.628 2888.301
-  m_sTitle "Enemy Forces"
+  m_sTitle "III. Enemy Forces"
   m_sTextData "Maximum 28 pax of the Special Rapid Response Unit of the Russian Federation."\
   ""\
   "Wearing multicam fatigues with black body armor and helmets."\
@@ -38,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 532.411 15.346 2890.4
-  m_sTitle "Friendly Forces"
+  m_sTitle "II. Friendly Forces"
   m_sTextData "30-40 pax border region separatists."\
   ""\
   "Wearing a mixture of equipment, camouflage patterns and civilian clothing, armed with old Soviet equipment."\

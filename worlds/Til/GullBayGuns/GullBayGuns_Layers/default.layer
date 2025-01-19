@@ -27,13 +27,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 1491.218 1.181 1845.408
- m_queryRadius 300
- m_comparisonMode EQUAL_OR_LESS
- m_flagName "NO_PLAYERS_NEAR_OBJ"
- m_ownerFactionKey "RHS_USAF"
- m_ratioThreshold 0
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+ coords 1936.783 21.011 1921.543
+ m_queryRadius 200
+ m_flagName "US_EXTRACT"
+ m_factionKey "RHS_USAF"
+ m_ratioThreshold 0.75
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
@@ -67,12 +66,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_ConjunctionTerm "{61FA84743A7B43F9}" {
     m_operands {
+     TILW_LiteralTerm "{61FA84740502099D}" {
+      m_flagName "US_EXTRACT"
+     }
      TILW_LiteralTerm "{61FA84743B89A18E}" {
       m_invertTerm 1
       m_flagName "PLAYERS_DEAD"
-     }
-     TILW_LiteralTerm "{61FA84740502099D}" {
-      m_flagName "NO_PLAYERS_NEAR_OBJ"
      }
      TILW_DisjunctionTerm "{61FA847408174DB7}" {
       m_operands {

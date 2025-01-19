@@ -34,7 +34,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{632F52DC2394F7FD}" {
      m_sWeatherPresetName "Clear"
-     m_iStartingHour 0
+     m_iStartingHour 22
      m_iStartingMinutes 30
     }
    }
@@ -98,6 +98,48 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      }
     }
    }
+  }
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "GC_INSURGENT"
+   }
+  }
+ }
+ coords 2276.819 141.792 8711.752
+ Points {
+  ShapePoint "{645B5C4E3CEBB941}" {
+   Position 351.903 0 28.342
+  }
+  ShapePoint "{645B5C4E3DEDE3C3}" {
+   Position 321.176 0 24.857
+  }
+  ShapePoint "{645B5C4E3EA711A4}" {
+   Position 310.54 0 87.386
+  }
+  ShapePoint "{645B5C4E3A7F9D15}" {
+   Position 174.775 0 103.201
+  }
+  ShapePoint "{645B5C4E3B2C6C6F}" {
+   Position 156.435 0 258.551
+  }
+  ShapePoint "{645B5C4E3585BD2A}" {
+   Position 358.034 0 311.709
+  }
+  ShapePoint "{645B5C4E3658BDA6}" {
+   Position 396.319 0 147.424
+  }
+  ShapePoint "{645B5C4E3727CB31}" {
+   Position 376.62 0 92.268
+  }
+  ShapePoint "{645B5C4E30875CA3}" {
+   Position 386.633 0 35.462
+  }
+  ShapePoint "{645B5C4E301286CF}" {
+   Position 351.816 0 28.342
   }
  }
 }

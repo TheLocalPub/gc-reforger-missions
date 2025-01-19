@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 865.755 13.448 2203.534
-  m_sTitle "Situation"
+  m_sTitle "I. Situation"
   m_sTextData "Yesterday, a significant terror attack occured in Zarichne."\
   ""\
   "The FSB has provided intelligence that the perpetrators are part of a border region separatist faction, and may still have safehouses on the outskirts of Zarichne housing weapons and insurgents."\
@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 905.418 13.063 2206.583
-  m_sTitle "Friendly Forces"
+  m_sTitle "II. Friendly Forces"
   m_sTextData "Maximum 28 pax of the Special Rapid Response Unit of the Russian Federation."\
   ""\
   "Wearing multicam fatigues with black body armor and helmets."\
@@ -27,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 939.507 12.781 2208.682
-  m_sTitle "Enemy Forces"
+  m_sTitle "III. Enemy Forces"
   m_sTextData "30-40 pax border region separatists."\
   ""\
   "Likely wearing a mixture of equipment, camouflage patterns and civilian clothing, armed with old Soviet equipment."\
@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 888.415 13.282 2188.82
-  m_sTitle "Mission"
+  m_sTitle "IV. Mission"
   m_sTextData "Raid the 3 marked separatist compounds and locate 1x weapons cache at each location."\
   ""\
   "Look for ammo crates draped in camouflage cloth, and mark them as evidence."

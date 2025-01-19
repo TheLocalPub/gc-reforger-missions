@@ -1,0 +1,22 @@
+$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/wirecutters.et" {
+ {
+  coords 8402.943 112.323 7148.532
+  angleY 92.166
+ }
+ {
+  coords 8402.817 112.325 7148.34
+  angleY 92.166
+ }
+ {
+  coords 8402.978 112.324 7148.158
+  angleY 92.166
+ }
+ {
+  coords 8402.67 112.324 7148.609
+  angleY 92.166
+ }
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ coords 8402.91 111.518 7148.392
+ angleY 92.166
+}

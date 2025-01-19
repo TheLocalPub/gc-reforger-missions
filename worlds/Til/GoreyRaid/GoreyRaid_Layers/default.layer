@@ -340,11 +340,23 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
- coords 4859.946 111.689 8081.669
- angleY 0
- m_MarkerColor 0 0 0 0.5
- m_sQuadName "circle-2"
- m_fWorldSize 200
- m_sDescription ""
+$grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
+ {
+  coords 4859.946 111.689 8081.669
+  angleY 0
+  m_MarkerColor 0 0 0 0.5
+  m_sQuadName "circle-2"
+  m_fWorldSize 200
+  m_sDescription ""
+ }
+ covermap {
+  coords 4984.157 132.031 7723.109
+  angleY 0
+  m_sImageSet "{3B62608C6AB716B9}Covermap/UCAMF_CoverMap.imageset"
+  m_sImageSetGlow "{3B62608C6AB716B9}Covermap/UCAMF_CoverMap.imageset"
+  m_MarkerColor 0 0 0 0.5
+  m_sQuadName "8x4"
+  m_fWorldSize 20000
+  m_sDescription ""
+ }
 }

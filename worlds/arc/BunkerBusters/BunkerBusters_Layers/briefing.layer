@@ -29,7 +29,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 3x Unarmed Littlebirds"\
   "- 2x Blackhawks"\
   ""\
-  "A crate at our current position also has various short-range optics which may be helpful inside the bunker."\
+  "A crate at our current position also has various short-range optics which may be helpful inside the bunker, and wire cutters for breaching the fences."\
   ""
   m_aVisibleForFactions {
    "RHS_USAF"
@@ -73,7 +73,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   ""\
-  "Trucks in service tunnel secured by USAF for 60 seconds: Victory"\
+  "To secure nuclear material, hold the action on the truck for 30 seconds."\
+  ""\
+  "Both trucks in service tunnel secured by USAF: Victory"\
   "80% USAF casualties or 45 minutes pass: Defeat"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1

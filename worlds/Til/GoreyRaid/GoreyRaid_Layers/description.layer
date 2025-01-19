@@ -11,14 +11,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "A. Enemy Forces"\
   ""\
-  "A Soviet signal platoon has been spotted in the woods to our south, reportedly they are setting up some equipment near Gorey (049 075)."\
+  "A Soviet signal platoon has been spotted in the woods to our south, reportedly they are setting up some equipment near Gorey (048 080)."\
   ""\
   "There is also at least one infantry platoon nearby."\
   ""\
   ""\
   "B. Friendly Forces"\
   ""\
-  "Reduced British rifle platoon, located at 048 080."\
+  "Reduced British rifle platoon, located at 049 075."\
   "Since we are behind enemy lines, no friendly forces are in the vicinity."
   m_aVisibleForFactions {
    "UK"
@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D2_Mission_UK {
   coords 0 0 0
   m_sTitle "Mission"
-  m_sTextData "Raid Gorey, kill the platoons commander, destroy any specialized vehicles you find, then exfiltrate before reinforcements arrive."
+  m_sTextData "Raid Gorey, kill the platoon commander, destroy any specialized vehicles you find, then exfiltrate before reinforcements arrive."
   m_aVisibleForFactions {
    "UK"
   }
@@ -44,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "B. Friendly Forces"\
   ""\
-  "Soviet signal platoon, currently located at Gorey (049 075)."\
+  "Soviet signal platoon, currently located at Gorey (048 080)."\
   "There is also a friendly infantry platoon about 400m north - in case we were attacked, we could try to delay the enemy until it arrives."
   m_aVisibleForFactions {
    "USSR"
@@ -72,7 +72,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- Setup Timer: None"\
   "- End Conditions:"\
-  "  a) UK Victory: UK has destroyed the vehicle, killed the commander and exfiltrated"\
+  "  a) UK Victory: UK has destroyed the vehicle, killed the commander and 75% exfiltrated"\
   "  b) USSR Victory: 90% UK casualties"\
   ""\
   "- There are explosive charges for UK, on top of some logs"\

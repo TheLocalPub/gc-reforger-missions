@@ -4,7 +4,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "2:1 HTS:SAA"\
   ""\
-  "Hayat Tahrir al Sham assault a Syrian Arab Army checkpoint during the December 2024 offensive."
+  "Hayat Tahrir al Sham assault a Syrian Arab Army checkpoint during the December 2024 offensive."\
+  ""\
+  "AO limit is roughly covermap, high ground south-east of checkpoint is out of bounds."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -65,8 +67,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service & Support"
   m_sTextData "We have the following vehicles and static weapons available in the checkpoint:"\
   ""\
-  "1x Gaz TIGR armed with AGS-30"\
-  "1x KORD HMG"
+  "1x Gaz TIGR armed with scoped PKM"\
+  "1x NSV HMG deployed at front of checkpoint"
   m_aVisibleForFactions {
    "SAA"
   }
@@ -76,7 +78,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "2:1 HTS:SAA"\
   ""\
-  "3 minute setup timer with SAA restricted to checkpoint and HTS restricted to their spawn"\
+  "3 minute setup timer with SAA restricted to checkpoint and HTS restricted to their spawn."\
+  ""\
+  "AO limit is roughly covermap, high ground south-east of checkpoint is out of bounds."\
   ""\
   "End conditions:"\
   "Construction site capped for 3 minutes or 90% SAA casualties - HTS victory"\

@@ -67,9 +67,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2714.596 0 2996.179
   m_sTitle "VI. Command & Signal"
   m_sTextData "LR Channels:"\
+  "1 Platoon Net: 44.0 Mhz"\
+  "2 Platoon Net: 45.0 Mhz"\
   "Company Net: 46.0 Mhz"\
-  "1 Platoon Net: 47.0 Mhz"\
-  "2 Platoon Net: 48.0 Mhz"\
   ""\
   "Essential Personnel:"\
   "Coy Commander: 10A"\
@@ -88,6 +88,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2728.167 0 2922.937
   m_sTitle "Mission Notes"
   m_sTextData "Mission by arc"\
+  ""\
+  "VDV at the marker may require a visit from a GM camera to get moving."\
   ""\
   "End conditions:"\
   "VDV fail to capture Wolf Hill, and British forces control Le Moule for 10 minutes: Victory"\

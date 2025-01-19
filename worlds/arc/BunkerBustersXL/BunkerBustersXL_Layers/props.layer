@@ -3,13 +3,60 @@ $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_amm
   components {
    TILW_NavmeshRegenComponent "{6444F7C5CB57EAE7}" {
    }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     TILW_BaseInteraction "{645B154FF0EF9CC4}" {
+      ParentContextList {
+       "Unflipper"
+      }
+      ActionTitle "Secure Nuclear Material"
+      VisibilityRange 1
+      Duration 30
+      m_actionName "Secure Nuclear Material"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "US_CAP_1"
+     }
+    }
+   }
   }
   coords 3139.369 11.806 4266.95
   angleY -79.396
  }
  Ural4320_ammo2 {
+  components {
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     TILW_BaseInteraction "{645B154FA797DEA7}" {
+      ParentContextList {
+       "Unflipper"
+      }
+      ActionTitle "Secure Nuclear Material"
+      VisibilityRange 1
+      Duration 30
+      m_actionName "Secure Nuclear Material"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "US_CAP_2"
+     }
+    }
+   }
+  }
   coords 3151.276 11.806 4267.992
   angleY -112.383
+ }
+}
+$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/wirecutters.et" {
+ {
+  coords 3802.365 19.503 1777.506
+ }
+ {
+  coords 3802.622 19.503 1777.512
+ }
+ {
+  coords 3802.847 19.503 1777.568
  }
 }
 $grp GameEntity : "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et" {
@@ -70,7 +117,13 @@ $grp GameEntity : "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Opt
   coords 3799.887 19.548 1777.254
  }
 }
-GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
- coords 3799.955 18.743 1777.543
- angleY 90.434
+$grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ {
+  coords 3799.955 18.743 1777.543
+  angleY 90.434
+ }
+ {
+  coords 3802.581 18.697 1777.573
+  angleY 90.434
+ }
 }

@@ -1,3 +1,10 @@
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+ coords 4900 111.844 8050
+ m_queryRadius 250
+ m_flagName "BritPresence"
+ m_factionKey "UK"
+ m_ratioThreshold 0.25
+}
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
@@ -19,24 +26,27 @@ Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320
  angleY -148.038
  angleZ 0.474
 }
-SCR_ChimeraCharacter : "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et" {
- components {
-  TILW_Flag_EntityDamage "{62D9655C20C27E87}" {
-   m_flagName "CommanderKilled"
+$grp SCR_ChimeraCharacter : "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et" {
+ Officer_1 {
+  components {
+   TILW_Flag_EntityDamage "{62D9655C20C27E87}" {
+    m_flagName "CommanderKilled"
+   }
   }
+  coords 4842.431 114.18 8122.156
+  angleY -158.865
  }
- coords 4842.431 114.18 8122.156
- angleY -158.865
+ Officer_2 {
+  components {
+   TILW_Flag_EntityDamage "{62D9655C20C27E87}" {
+    m_flagName "CommanderKilled"
+   }
+  }
+  coords 4851.339 116.374 8043.453
+  angleY 15.633
+ }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 4853.831 112.202 8080.935
- m_queryRadius 200
- m_flagName "BritPresence"
- m_drawShapeSurface 0
- m_ownerFactionKey "UK"
- m_ratioThreshold 0.01
-}
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
   TILW_MissionEvent "{62D9654110655EC9}" {
    m_name "UK Victory"
@@ -85,12 +95,71 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "UK_KIA"
    }
   }
+  TILW_MissionEvent "{646627347161FDBB}" {
+   m_name "Use Commander_1"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{64662734AA474188}" {
+     m_executionDelay 0
+     m_entityNames {
+      "Officer_2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6466273474F2AFB8}" {
+    m_flagName "Commander1"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{646627340A81FA91}" {
+   m_name "Use Commander_2"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{64662734A7617064}" {
+     m_executionDelay 0
+     m_entityNames {
+      "Officer_1"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{646627341053AE7D}" {
+    m_invertTerm 1
+    m_flagName "Commander1"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6466273DC8AADF4D}" {
+   m_name "UK Presence"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{6466273DDE28F46A}" {
+     m_executionDelay 1
+     m_groupName "qrf_hq"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{6466273B51E0EAC8}" {
+     m_executionDelay 1
+     m_groupName "qrf_sq2"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{6466273B5A3D5F32}" {
+     m_executionDelay 1
+     m_groupName "qrf_sq3"
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{6466273DCDD1F8FA}" {
+    m_flagName "BritPresence"
+   }
+  }
  }
  m_factionPlayersKilledFlags {
   TILW_FactionPlayersKilledFlag "{62D96541198E508A}" {
    m_flagName "UK_KIA"
    m_factionKey "UK"
    m_casualtyRatio 0.9
+  }
+ }
+ m_randomFlags {
+  TILW_RandomFlag "{646627341982DECA}" {
+   m_flagName "Commander1"
   }
  }
 }

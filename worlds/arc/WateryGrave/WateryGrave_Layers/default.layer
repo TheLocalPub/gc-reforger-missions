@@ -88,10 +88,10 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  coords 2371.634 2.524 1920.227
  Points {
   ShapePoint "{62E2FE01FA683455}" {
-   Position -492.822 0 456.061
+   Position -696.393 0 387.222
   }
   ShapePoint "{62E2FE01F5F2D64B}" {
-   Position -475.781 0 -324.543
+   Position -602.576 0 -337.936
   }
   ShapePoint "{62E2FE01C23B8AF2}" {
    Position 1365.923 0 -130.013

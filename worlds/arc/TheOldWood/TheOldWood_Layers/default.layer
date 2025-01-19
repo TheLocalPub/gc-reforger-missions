@@ -22,6 +22,12 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  coords 4040.567 0 3194.911
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{645B15782B7984B4}" {
+   m_sFactionKey "UK"
+   m_iCount 10
+  }
+ }
  {
   SCR_FactionManager "645687597E5FFF4B" {
    ID "5ED9088735FF2D8B"
@@ -96,19 +102,6 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4029.084 0 3201.742
  m_missionEvents {
-  TILW_MissionEvent "{6455660B01512EC4}" {
-   m_name "INIT_RESPAWN"
-   m_instructions {
-    TILW_EditRespawnTicketsInstruction "{6455660B197BF05D}" {
-     m_executionDelay 0
-     m_factionKey "UK"
-     m_amount 10
-    }
-   }
-   m_condition TILW_LiteralTerm "{6455660B1C330C10}" {
-    m_invertTerm 1
-   }
-  }
   TILW_MissionEvent "{6454DECB835ECF95}" {
    m_name "UK_CAP"
    m_instructions {

@@ -1,0 +1,38 @@
+$grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Desert/P/Group_US_Army_1990_Desert_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 4529.205 134.875 5850.162
+  angleY 180
+  m_aUnitPrefabSlots {
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 4525.868 134.875 5850.02
+  angleY 180
+  m_aUnitPrefabSlots {
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_AR_DCU_1998_P.et" "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_LAT_DCU_1998_P.et"
+  }
+ }
+}
+SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Desert/P/Group_US_Army_1990_Desert_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ coords 4533.001 134.875 5850.296
+ angleY 180
+ m_aUnitPrefabSlots {
+  "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_PL_DCU_1998_P.et" "{1CEF367286E0AFD6}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_RTO_DCU_1998_P.et" "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_Medic_DCU_1998_P.et" "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/Desert/P/Character_US_Medic_DCU_1998_P.et"
+ }
+}

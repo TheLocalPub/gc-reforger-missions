@@ -1,21 +1,21 @@
-$grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
- BTR70_Base1 {
-  coords 3298.535 20.347 2225.773
-  angleY -91.077
+Vehicle M1025_Armed_M2HB_CDF1 : "{236B534019C84B7E}Prefabs/Vehicles/Wheeled/M998/CDF/M1025_Armed_M2HB_CDF.et" {
+ coords 1903.15 7.656 1980.897
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 3299.417 20.655 2226.222
+  angleY -94.222
  }
- BTR70_Base3 {
-  coords 3297.783 20.25 2253.976
-  angleY -91.077
+ BTR70_AFRF2 {
+  coords 3297.389 20.426 2237.788
+  angleY -94.222
  }
- BTR70_Base2 {
-  coords 3298.208 20.25 2239.367
-  angleY -91.077
+ BTR70_AFRF3 {
+  coords 3296.041 20.521 2251.211
+  angleY -94.222
  }
 }
-Vehicle M1025_armed_M2HB_USAF1 : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- coords 1903.07 7.643 1979.137
-}
-Vehicle GAZ_TIGR_v2_Base1 : "{ED23D3FD79C7DECF}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Base.et" {
- coords 3298.573 20.5 2211.866
- angleY -90.83
+Vehicle GAZ_TIGR_v2_PKM1 : "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM.et" {
+ coords 3301.859 21.026 2212.413
+ angleY -98.696
 }

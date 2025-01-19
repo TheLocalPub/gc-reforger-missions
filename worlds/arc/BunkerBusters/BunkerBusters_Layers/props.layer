@@ -3,13 +3,60 @@ $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_amm
   components {
    TILW_NavmeshRegenComponent "{6444F7C5CB57EAE7}" {
    }
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     TILW_BaseInteraction "{645B15415E3F9DE0}" {
+      ParentContextList {
+       "Unflipper"
+      }
+      ActionTitle "Secure Nuclear Material"
+      VisibilityRange 1
+      Duration 30
+      m_actionName "Secure Nuclear Material"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "US_CAP_1"
+     }
+    }
+   }
   }
   coords 3139.369 11.806 4266.95
   angleY -79.396
  }
  Ural4320_ammo2 {
+  components {
+   ActionsManagerComponent "{C97BE5489221AE18}" {
+    additionalActions {
+     TILW_BaseInteraction "{645B154124E96559}" {
+      ParentContextList {
+       "Unflipper"
+      }
+      ActionTitle "Secure Nuclear Material"
+      VisibilityRange 1
+      Duration 30
+      m_actionName "Secure Nuclear Material"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "US_CAP_2"
+     }
+    }
+   }
+  }
   coords 3151.276 11.806 4267.992
   angleY -112.383
+ }
+}
+$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/wirecutters.et" {
+ {
+  coords 3804.353 19.553 1777.664
+ }
+ {
+  coords 3804.524 19.553 1777.625
+ }
+ {
+  coords 3804.74 19.553 1777.641
  }
 }
 $grp GameEntity : "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et" {
@@ -81,6 +128,10 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
  }
  {
   coords 3797.588 18.75 1777.506
+  angleY 90.434
+ }
+ {
+  coords 3804.566 18.747 1777.741
   angleY 90.434
  }
 }
@@ -199,20 +250,22 @@ $grp GenericEntity : "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   coords 3798.128 19.608 1777.26
   angleY 43.303
  }
+}
+$grp GenericEntity : "{ED97A510AA0A46C5}Prefabs/Weapons/Grenades/Grenade_Stun.et" {
  {
-  coords 3797.068 19.608 1777.746
-  angleY 43.303
+  coords 3797.031 19.57 1777.222
+  angleY 36.367
  }
  {
-  coords 3797.011 19.608 1777.501
-  angleY 43.303
+  coords 3797.008 19.57 1777.389
+  angleY 36.367
  }
  {
-  coords 3797.079 19.608 1777.316
-  angleY 43.303
+  coords 3797.069 19.57 1777.576
+  angleY 36.367
  }
  {
-  coords 3797.012 19.608 1777.244
-  angleY 43.303
+  coords 3796.994 19.57 1777.784
+  angleY 36.367
  }
 }

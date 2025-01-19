@@ -22,3 +22,42 @@ StaticModelEntity : "{862818969D70726C}Prefabs/Compositions/Misc/SubCompositions
   }
  }
 }
+$grp GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+ {
+  coords 1345.88 11.314 1880.802
+ }
+ {
+  coords 1345.713 11.309 1881.055
+  angleY 49.477
+ }
+ {
+  coords 1345.941 11.308 1880.989
+  angleY -12.648
+ }
+ {
+  coords 1404.956 11.809 1852.525
+  angleY 130.299
+ }
+ {
+  coords 1405.095 11.809 1852.463
+  angleY 105.112
+ }
+ {
+  coords 1405.189 11.808 1852.493
+  angleY 99.274
+ }
+}
+$grp GenericEntity : "{F513D99A28A5E5E3}Prefabs/Props/Recreation/Beach/PedalBoat_01/PedalBoat_01_blue.et" {
+ {
+  coords 1956.85 -0.087 1782.057
+  angleY 92.904
+ }
+ {
+  coords 1957.492 -0.087 1778.49
+  angleY 68.908
+ }
+ {
+  coords 1957.924 -0.087 1772.981
+  angleY 77.986
+ }
+}

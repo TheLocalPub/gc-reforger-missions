@@ -1,5 +1,8 @@
-SCR_AIGroup : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
+SCR_AIGroup qrf_hq : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
  coords 4941.487 115.066 8527.607
+ m_aStaticWaypoints {
+  "qrf_def_0"
+ }
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  def1 {
@@ -7,8 +10,16 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 20
  }
  def2 {
-  coords 4851.164 111.338 8114.214
-  CompletionRadius 15
+  coords 4852.002 111.297 8114.926
+  CompletionRadius 20
+ }
+ qrf_def_0 {
+  coords 4941.487 115.066 8527.605
+  CompletionRadius 20
+ }
+ qrf_def_1 {
+  coords 5302.712 32.47 8301.817
+  CompletionRadius 20
  }
 }
 $grp SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
@@ -32,13 +43,19 @@ $grp SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam
  }
 }
 $grp SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
- {
-  coords 4777.297 99.501 8355.114
+ qrf_sq1 {
+  coords 4785.396 101.109 8340.584
  }
- {
-  coords 5335.02 30.25 8319.239
+ qrf_sq2 {
+  coords 4941.487 115.066 8527.606
+  m_aStaticWaypoints {
+   "qrf_def_0"
+  }
  }
- {
-  coords 4943.08 115.235 8525.291
+ qrf_sq3 {
+  coords 5301.281 32.506 8302.813
+  m_aStaticWaypoints {
+   "qrf_def_1"
+  }
  }
 }

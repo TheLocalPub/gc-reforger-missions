@@ -90,7 +90,7 @@ $grp GenericEntity {
   angleY 54.688
  }
  QRF1SPAWN2 {
-  coords 5338.35 110.062 7138.208
+  coords 5723.356 99.616 7082.788
   angleY 54.67
  }
  QRF1SPAWN3 {
@@ -196,18 +196,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
      m_idleGroup 1
     }
-    TILW_SpawnVehicleInstruction "{644498DADE50FEA6}" {
-     m_prefab "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et"
-     m_locationName "QRF1SPAWN2"
-     m_spawnCargo 0
-     m_customCrew {
-      "{B10F1DDDA0236CA7}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_TL.et" "{4CD55831FEBBBF0E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_Rifleman.et"
-     }
-     m_waypointNames {
-      "QRF1ATTACK1"
-     }
-     m_idleGroup 1
-    }
     TILW_SpawnVehicleInstruction "{644498DAD7972953}" {
      m_prefab "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et"
      m_locationName "QRF1SPAWN3"
@@ -219,6 +207,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "QRF1ATTACK2"
      }
      m_idleGroup 1
+    }
+    TILW_SpawnGroupInstruction "{645CF70816022213}" {
+     m_prefab "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et"
+     m_locationName "QRF1SPAWN2"
+     m_waypointNames {
+      "QRF1ATTACK2"
+     }
     }
    }
    m_condition TILW_LiteralTerm "{644498D8E8A58F4A}" {

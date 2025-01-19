@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "Reduced platoon of US Army Rangers, consisting of a Platoon HQ, 2 Rifle Squads and a Weapons Squad."\
   ""\
-  "6x Humvees armed with shielded M2 Browning machine guns are available for transport and combat, each seating 5 people including driver and gunner."\
+  "6x Humvees armed with scoped M2 Browning machine guns are available for transport and combat, each seating 5 people including driver and gunner."\
   ""\
   "2x AH-6M helicopters are also available for CAS."
   m_bEmptyFactionVisibility 1
