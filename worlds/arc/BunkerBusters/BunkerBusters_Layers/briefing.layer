@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "US Special Forces raid a bunker housing nuclear material which has been overrun by separatists."\
   ""\
-  "Air is optional, ground insert is available. 45 minute TL."
+  "Air is optional, ground insert is available. 60 minute TL."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -52,7 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Mission"
   m_sTextData "Assault the marked bunker."\
   ""\
-  "We believe the separatists will be gathering the nuclear material at a service tunnel accessible somewhere on the south side of the bunker. Reach and secure that point within 45 minutes."
+  "We believe the separatists will be gathering the nuclear material into a crate on the lowest accessible floor of the bunker. Reach and secure that point within 60 minutes."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -73,10 +73,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   ""\
-  "To secure nuclear material, hold the action on the truck for 30 seconds."\
+  "To secure nuclear material, hold the action on the crate for 30 seconds."\
   ""\
-  "Both trucks in service tunnel secured by USAF: Victory"\
-  "80% USAF casualties or 45 minutes pass: Defeat"
+  "Crate secured by USAF: Victory"\
+  "80% USAF casualties or 60 minutes pass: Defeat"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }

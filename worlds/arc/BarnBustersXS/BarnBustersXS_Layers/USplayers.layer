@@ -1,0 +1,79 @@
+$grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{646121D02167870F}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4840.869 28.539 11031.105
+  angleY 90
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{532C6BE3D51D3718}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AR_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{646121D03C9D18A8}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4840.889 28.653 11028.011
+  angleY 90
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{532C6BE3D51D3718}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AR_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{646121D03C9D18A8}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4841.102 28.723 11023.434
+  angleY 90
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{532C6BE3D51D3718}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AR_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_PHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{646121D026275250}" {
+   }
+  }
+  coords 4840.956 28.663 11034.854
+  angleY 90
+  m_aUnitPrefabSlots {
+   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{0DEAF33C721E6912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_JTAC_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{646121D00DE69466}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4840.916 28.649 11017.132
+  angleY 90
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Littlebirds"
+ }
+}

@@ -4,7 +4,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "A US Army airmobile platoon combs Erquy island for Spetznaz trapped after an Mi-8 crash."\
   ""\
-  "US HQ Combat Signaller is the FAC."
+  "US HQ Combat Signaller is the FAC."\
+  ""\
+  "Extraction zones will activate 35 minutes in."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -21,9 +23,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 4793.944 21.031 12152.007
   m_sTitle "Mission"
-  m_sTextData "Locate and eliminate all Spetznaz trapped on Erquy island."\
+  m_sTextData "Locate and eliminate all Spetznaz trapped on Erquy island, or prevent their escape."\
   ""\
-  "You have 45 minutes to achieve this before other transportation arrives for the Spetznaz."
+  "In 35 minutes boat extract will arrive for them at the 3 marked spots. Preventing their extraction for 25 minutes after this (60 minutes total from mission start) will force their surrender."
   m_aVisibleForFactions {
    "US"
   }
@@ -51,7 +53,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "We believe an airmobile platoon is inbound to comb the island for us."\
   ""\
-  "Repel this attack, or evade the US forces for 45 minutes at which point alternate transportation will arrive for extraction."
+  "Repel this attack, or evade the US forces for 35 minutes at which point alternate transportation will arrive for extraction."\
+  ""\
+  "Once extraction has arrived, move to one of the 3 extraction points and hold it for 2 minutes with 80% of surviving forces to extract."\
+  ""\
+  "Extraction will be available for 25 minutes, so if 60 minutes pass from mission start we will be forced to surrender."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -84,8 +90,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "Mission by arc"\
   ""\
-  "All Soviet forces eliminated - US Victory"\
-  "All US forces eliminated or 45 minutes pass - Soviet victory"\
+  "All Soviet forces eliminated or 60 minutes pass - US Victory"\
+  "All US forces eliminated or 80% of living Soviets extract to 1 of 3 extraction zones for 2 minutes - Soviet victory"\
+  ""\
+  "Extraction areas will become active after 35 minutes have passed, you require 80% of surviving Soviets to cap it for 2 minutes to extract."\
   ""\
   "GMs should apply common sense to end early, no point letting the mission drag on to locate 1-2 Soviet survivors or if all US ground forces are eliminated."\
   ""\
@@ -114,11 +122,35 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 8144.384 0 11120.982
-  m_sImageSet "{3B62608C6AB716B9}Covermap/UCAMF_CoverMap.imageset"
+  coords 8442.584 0 10786.431
+  m_sImageSet "{3B62608C6AB716B9}worlds/TheLocalPub/TopMaloHouse/Covermap/UCAMF_CoverMap.imageset"
   m_sImageSetGlow ""
   m_sQuadName "10x4"
   m_fWorldSize 96000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ EXTRACT_SOUTH {
+  coords 11490.135 1.88 10902.027
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 80
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ EXTRACT_EAST {
+  coords 11485.549 2.351 11596.604
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 80
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ EXTRACT_NORTH {
+  coords 10931.35 0.996 12072.337
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 80
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }

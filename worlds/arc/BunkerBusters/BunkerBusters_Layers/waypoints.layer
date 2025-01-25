@@ -20,15 +20,15 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  BunkerDefWp1 {
-  coords 3145.834 11.145 4288.146
-  CompletionRadius 45
+  coords 3137.473 16.002 4296.64
+  CompletionRadius 30
  }
  CheckpointDefWp1 {
   coords 3015.649 26.888 4131.637
   CompletionRadius 40
  }
- ExitDefWp {
-  coords 3145.376 11.806 4268.421
-  CompletionRadius 8
+ BunkerDefWp2 {
+  coords 3132.765 25.794 4288.267
+  CompletionRadius 30
  }
 }

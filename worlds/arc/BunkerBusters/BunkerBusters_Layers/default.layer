@@ -100,12 +100,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{6444F7C70EFA31CE}" {
-     m_executionDelay 2705
+     m_executionDelay 3605
      m_messageTitle "DEFEAT"
      m_messageBody "Time limit reached. The separatists are now extracting via the service tunnel."
     }
     TILW_EndGameInstruction "{6444F7C7040FAB69}" {
-     m_executionDelay 2715
+     m_executionDelay 3615
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "RHS_USAF"
     }
@@ -119,7 +119,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6444F7C7FD80D63A}" {
      m_messageTitle "VICTORY"
-     m_messageBody "The nuclear material has been secured in the service tunnel."
+     m_messageBody "The nuclear material has been secured."
     }
     TILW_EndGameInstruction "{6444F7C7F578D0BE}" {
      m_executionDelay 15
@@ -129,10 +129,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{645B15413C78A1BC}" {
     m_operands {
      TILW_LiteralTerm "{645B15413D595FE9}" {
-      m_flagName "US_CAP_1"
-     }
-     TILW_LiteralTerm "{645B15413E5AC8D7}" {
-      m_flagName "US_CAP_1"
+      m_flagName "US_CAP"
      }
     }
    }

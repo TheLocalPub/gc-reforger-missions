@@ -2,9 +2,6 @@ $grp GenericEntity {
  CacheSpawnMid {
   coords 3741.633 80.505 6631.623
  }
- CacheSpawnN {
-  coords 3874.013 73.304 6924.906
- }
  CacheSpawnW {
   coords 3509.065 99.532 6455.614
  }

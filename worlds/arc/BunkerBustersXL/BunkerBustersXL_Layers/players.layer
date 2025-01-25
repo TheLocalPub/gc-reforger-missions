@@ -49,8 +49,8 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Gr
  {
   components {
    PS_GroupCallsignAssigner "{64451697913A025D}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
    }
   }
   coords 3868.259 18.463 1752.315
@@ -61,23 +61,11 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Gr
  {
   components {
    PS_GroupCallsignAssigner "{6445169794835A61}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
    }
   }
   coords 3838.544 18.617 1752.17
-  m_aUnitPrefabSlots {
-   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
-  }
- }
- {
-  components {
-   PS_GroupCallsignAssigner "{644516979605367D}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 2
-   }
-  }
-  coords 3856.617 18.502 1752.461
   m_aUnitPrefabSlots {
    "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{262B3C71D7FEFE59}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_BREACH_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
   }
@@ -93,7 +81,7 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
   coords 3090.929 25.031 4290.626
   angleY 90.999
   m_aUnitPrefabSlots {
-   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et"
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et"
   }
  }
  {
@@ -105,23 +93,11 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
   coords 3097.38 25.031 4290.693
   angleY 90.999
   m_aUnitPrefabSlots {
-   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et"
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_SL_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_AT_P.et" "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_GL_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_TL_P.et" "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_MG_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Rifleman_P.et" "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/P/Character_GC_SEPARATIST_Medic_P.et"
   }
  }
 }
 $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_PHQ_P.et" {
- {
-  components {
-   PS_GroupCallsignAssigner "{644516979EDC1808}" {
-    m_iPlatoonCallsign 1
-   }
-  }
-  coords 3770.03 20.06 1753.306
-  m_aUnitPrefabSlots {
-   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et"
-  }
-  m_sCustomNameSet ""
- }
  {
   components {
    PS_GroupCallsignAssigner "{6445169799B0DAC5}" {
@@ -137,23 +113,12 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Gr
  {
   components {
    PS_GroupCallsignAssigner "{644516979EDC1808}" {
-    m_iPlatoonCallsign 2
-   }
-  }
-  coords 3823.517 18.657 1753.452
-  m_aUnitPrefabSlots {
-   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et"
-  }
-  m_sCustomNameSet ""
- }
- {
-  components {
-   PS_GroupCallsignAssigner "{644516979EDC1808}" {
+    m_iPlatoonCallsign 1
    }
   }
   coords 3759.263 19.649 1753.285
-  m_aUnitPrefabSlots {
-   "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{0DEAF33C721E6912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_JTAC_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
+  m_aUnitPrefabSlots + {
+   "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et"
   }
   m_sCustomNameSet "Command Element"
  }

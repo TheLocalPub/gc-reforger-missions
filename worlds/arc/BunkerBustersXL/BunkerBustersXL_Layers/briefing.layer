@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3583.707 29.702 3823.728
   m_sTitle "Overview"
-  m_sTextData "3:1 US:SEPARATIST"\
+  m_sTextData "2.5:1 US:SEPARATIST"\
   ""\
   "US Special Forces raid a bunker housing nuclear material which has been overrun by separatists."\
   ""\
@@ -60,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Mission"
   m_sTextData "Assault the marked bunker."\
   ""\
-  "We believe the separatists will be gathering the nuclear material at a service tunnel accessible somewhere on the south side of the bunker. Reach and secure that point within 45 minutes after setup."
+  "We believe the separatists will be gathering the nuclear material at a service tunnel accessible somewhere on the south side of the bunker. Reach and secure that point within 60 minutes after setup."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -135,7 +135,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Mission"
   m_sTextData "Defend the marked bunker. We must remain inside the fence of the compound, the checkpoint entrance of the compound is also permitted."\
   ""\
-  "We are currently gathering the nuclear material into two trucks in a service tunnel accessible on the south side of the bunker. Defend this position for the next 45 minutes after setup, eliminating all attackers."
+  "We are currently gathering the nuclear material into a stack of crates on the lowest accessible floor of the bunker. Defend this position for the next 60 minutes after setup, eliminating all attackers."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }

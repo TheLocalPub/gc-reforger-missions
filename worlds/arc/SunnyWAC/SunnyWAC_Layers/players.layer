@@ -4,6 +4,9 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
+   PS_GroupCallsignAssigner "{6469511E7491C82A}" {
+    m_iSquadCallsign 1
+   }
   }
   coords 4529.205 134.875 5850.162
   angleY 180
@@ -15,6 +18,9 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{6469511E778C7450}" {
+    m_iSquadCallsign 2
    }
   }
   coords 4525.868 134.875 5850.02
@@ -28,6 +34,8 @@ SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Deser
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{6469511E7AEE5819}" {
   }
  }
  coords 4533.001 134.875 5850.296

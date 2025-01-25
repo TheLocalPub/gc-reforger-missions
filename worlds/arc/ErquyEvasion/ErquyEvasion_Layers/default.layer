@@ -1,4 +1,20 @@
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{C35ECF3276824654}worlds/GameMaster/Navmeshes/GM_Eden_vehicles.nmn"
+    }
+   }
+  }
+ }
  coords 4813.209 24.744 12001.562
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
@@ -99,17 +115,61 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{62DB64909FBE1522}" {
-     m_executionDelay 2700
-     m_messageTitle "SOVIET VICTORY"
-     m_messageBody "45 minutes have passed, allowing the Spetznaz to escape."
+     m_executionDelay 3605
+     m_messageTitle "US VICTORY"
+     m_messageBody "60 minutes have passed, the window for the Spetznaz to escape has closed."
     }
     TILW_EndGameInstruction "{62DB64937927E8C8}" {
-     m_executionDelay 2720
-     m_factionKey "USSR"
+     m_executionDelay 3615
+     m_factionKey "US"
     }
    }
    m_condition TILW_LiteralTerm "{62DB64935D4B538A}" {
     m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6472C15BC4B7AFE2}" {
+   m_name "ENABLE_EXTRACTION"
+   m_instructions {
+    TILW_SendMessageInstruction "{6472C140E1BDCB6E}" {
+     m_executionDelay 2105
+     m_messageTitle "EXTRACTION AVAILABLE"
+     m_messageBody "The three extraction zones are now available for the Spetznaz to escape."
+    }
+    TILW_SpawnPrefabInstruction "{6472C140CBE98DB9}" {
+     m_executionDelay 2105
+     m_prefab "{08CC1BE96848B1EF}worlds/arc/ErquyEvasion/Prefabs/ErquyEvasion_ExtractionTriggerNorth.et"
+     m_locationName "EXTRACT_NORTH"
+    }
+    TILW_SpawnPrefabInstruction "{6472C140D4515FC2}" {
+     m_executionDelay 2105
+     m_prefab "{8B23564712FD8E95}worlds/arc/ErquyEvasion/Prefabs/ErquyEvasion_ExtractionTriggerEast.et"
+     m_locationName "EXTRACT_EAST"
+    }
+    TILW_SpawnPrefabInstruction "{6472C140AF175724}" {
+     m_executionDelay 2105
+     m_prefab "{5D86879496BB62BE}worlds/arc/ErquyEvasion/Prefabs/ErquyEvasion_ExtractionTriggerSouth.et"
+     m_locationName "EXTRACT_SOUTH"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6472C15BC0E4FB22}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6472C15E6F585DA5}" {
+   m_name "USSR_EXTRACT"
+   m_instructions {
+    TILW_SendMessageInstruction "{6472C14013AA0426}" {
+     m_messageTitle "SOVIET VICTORY"
+     m_messageBody "The Spetznaz have extracted from Erquy."
+    }
+    TILW_EndGameInstruction "{6472C140EB273E34}" {
+     m_executionDelay 15
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6472C15E6B9BC847}" {
+    m_flagName "USSR_EXTRACT"
    }
   }
   TILW_MissionEvent "{62DB649370F91260}" {

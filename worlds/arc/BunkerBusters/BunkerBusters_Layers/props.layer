@@ -1,54 +1,4 @@
-$grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
- Ural4320_ammo1 {
-  components {
-   TILW_NavmeshRegenComponent "{6444F7C5CB57EAE7}" {
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     TILW_BaseInteraction "{645B15415E3F9DE0}" {
-      ParentContextList {
-       "Unflipper"
-      }
-      ActionTitle "Secure Nuclear Material"
-      VisibilityRange 1
-      Duration 30
-      m_actionName "Secure Nuclear Material"
-      m_factionKeys {
-       "RHS_USAF"
-      }
-      m_flagName "US_CAP_1"
-     }
-    }
-   }
-  }
-  coords 3139.369 11.806 4266.95
-  angleY -79.396
- }
- Ural4320_ammo2 {
-  components {
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     TILW_BaseInteraction "{645B154124E96559}" {
-      ParentContextList {
-       "Unflipper"
-      }
-      ActionTitle "Secure Nuclear Material"
-      VisibilityRange 1
-      Duration 30
-      m_actionName "Secure Nuclear Material"
-      m_factionKeys {
-       "RHS_USAF"
-      }
-      m_flagName "US_CAP_2"
-     }
-    }
-   }
-  }
-  coords 3151.276 11.806 4267.992
-  angleY -112.383
- }
-}
-$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/wirecutters.et" {
+$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et" {
  {
   coords 3804.353 19.553 1777.664
  }
@@ -200,6 +150,37 @@ $grp GenericEntity : "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_
   coords 3802.552 19.563 1777.415
   angleZ 90
  }
+}
+GenericEntity : "{E1AED4C5182AA514}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_decal_01.et" {
+ components {
+  ActionsManagerComponent "{6469335EB8C2EDF2}" {
+   ActionContexts {
+    UserActionContext "{6469335EB80D1542}" {
+     ContextName "default"
+     Position PointInfo "{6469335EB3F04798}" {
+     }
+     Radius 1.5
+    }
+   }
+   additionalActions {
+    TILW_BaseInteraction "{6469335E8F8F5B90}" {
+     ParentContextList {
+      "default"
+     }
+     ActionTitle "Secure Nuclear Material"
+     VisibilityRange 1.5
+     Duration 30
+     m_actionName "Secure Nuclear Material"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+     m_flagName "US_CAP"
+    }
+   }
+  }
+ }
+ coords 3132.05 11.878 4289.118
+ angleY -87.816
 }
 $grp GenericEntity : "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" {
  {

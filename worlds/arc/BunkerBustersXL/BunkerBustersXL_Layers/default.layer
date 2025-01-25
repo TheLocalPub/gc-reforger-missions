@@ -77,6 +77,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{6445169647911B72}" {
         m_sCallsign "4"
        }
+       SCR_CallsignInfo "{6469081EA14C340B}" {
+        m_sCallsign "5"
+       }
       }
       m_sCallsignGroupFormat "%2-%3"
       m_sCallsignCharacterFormat "%2-%3: %4"
@@ -190,7 +193,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6444F7C7FD80D63A}" {
      m_messageTitle "US VICTORY"
-     m_messageBody "The nuclear material has been secured in the service tunnel."
+     m_messageBody "The nuclear material has been secured."
     }
     TILW_EndGameInstruction "{6444F7C7F578D0BE}" {
      m_executionDelay 15
@@ -200,10 +203,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{645B154FB4A7DA9C}" {
     m_operands {
      TILW_LiteralTerm "{645B154FB5747328}" {
-      m_flagName "US_CAP_1"
-     }
-     TILW_LiteralTerm "{645B154FB60D6F97}" {
-      m_flagName "US_CAP_2"
+      m_flagName "US_CAP"
      }
     }
    }
@@ -237,7 +237,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.95
   }
  }
- m_suppressGameEnd 1
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {

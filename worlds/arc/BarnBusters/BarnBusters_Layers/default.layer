@@ -26,13 +26,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{646121C634D28884}" {
-     m_sWeatherPresetName "Cloudy"
+     m_sWeatherPresetName "Clear"
      m_iStartingHour 0
     }
    }
   }
  }
  coords 2863.351 0 7933.696
+ m_iFreezeTime 300000
  {
   SCR_FactionManager "645E97DF0EF8A49C" {
    ID "5ED9088735FF2D8B"
@@ -65,6 +66,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{6468B72058332A74}" {
+        m_sCallsign "4"
        }
       }
       m_sCallsignGroupFormat "%2-%3"
@@ -104,10 +108,10 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -294.332 145.477 -813.749
   }
   ShapePoint "{645E97C5B1EA79A9}" {
-   Position -166.385 137.03 -2150.659
+   Position -143.208 137.03 -2523.554
   }
   ShapePoint "{645E97C58EC74B70}" {
-   Position 1341.006 188.882 -2056.969
+   Position 1349.607 199.592 -2438.001
   }
   ShapePoint "{645E97C58936F233}" {
    Position 1310.093 150.386 -687.421
@@ -117,31 +121,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2810.76 0 7901.953
  m_missionEvents {
-  TILW_MissionEvent "{645C0A2E49D21A55}" {
-   m_name "CACHE_SPAWN_N"
-   m_instructions {
-    TILW_SpawnPrefabInstruction "{645C0A2E40B4C55E}" {
-     m_prefab "{9C6718B84174C37A}worlds/arc/BarnBusters/Prefabs/BarnBusters_Cache.et"
-     m_locationName "CacheSpawnN"
-     m_setEntityName "CACHE"
-    }
-    TILW_EditMapItemInstruction "{645C0B32554C5778}" {
-     m_itemNames {
-      "CacheLocN" "CacheMarkerN2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{645C0A2E459EBE13}" {
-    m_flagName "CACHE_N"
-   }
-   m_pregameEvent 1
-  }
   TILW_MissionEvent "{645C0B32251B73B9}" {
    m_name "CACHE_SPAWN_MID"
    m_instructions {
@@ -271,6 +250,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{646121D53DBC034C}" {
      m_executionDelay 4805
      m_messageTitle "SEPARATIST VICTORY"
+     m_messageBody "Time limit reached."
     }
     TILW_EndGameInstruction "{646121D50DD40BEF}" {
      m_executionDelay 4815
@@ -296,8 +276,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_randomFlags {
   TILW_FlagSampling "{645B7CE93A41700B}" {
    m_flagNames {
-    "CACHE_N" "CACHE_W" "CACHE_S" "CACHE_MID"
+    "CACHE_W" "CACHE_S" "CACHE_MID"
    }
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 4848.602 28.447 11020.415
+ m_fWarnRadius 90
+ m_fZoneRadius 125
+ m_fZoneTeleportedRadius 135
 }

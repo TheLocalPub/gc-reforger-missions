@@ -1,5 +1,5 @@
 SCR_AIWaypoint M1_1 : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  coords 3571.895 192.056 13037.212
  CompletionRadius 50
- m_fPriorityLevel 100
+ m_fPriorityLevel 30
 }

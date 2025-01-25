@@ -2,9 +2,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2870.249 0 7830.246
   m_sTitle "Overview"
-  m_sTextData "2:1 US:SEPARATIST"\
+  m_sTextData "1.5:1 US:SEPARATIST"\
   ""\
-  "US Army Rangers raid separatist hideouts for a weapons cache that may be located on any one of the four red circled buildings between Montignac and Villeneuf."\
+  "US Army Rangers raid separatist hideouts for a weapons cache that may be located on any one of the three red circled buildings between Montignac and Villeneuf."\
   ""\
   "5 minute setup, 75 minute TL"\
   ""\
@@ -19,7 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "5 minute setup, 75 minute TL. Separatists AO limited to roughly their covermap."\
   ""\
-  "Objective randomized between the 4 options, Separatists will know which one it is in briefing."\
+  "Objective randomized between the 3 options, Separatists will know which one it is in briefing."\
   ""\
   "To secure the cache, hold the interaction that pops up for 30 seconds."\
   ""\
@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "I. Situation"
   m_sTextData "A splinter faction of the long-disbanded FIA has caused renewed violence in Everon over the past few months. Your ranger platoon has been deployed to the island to increase security."\
   ""\
-  "Intelligence suggests a weapons cache is present between Montignac and Villeneuf, and may be in one of the four red circled houses. We are unsure which house exactly it's located in."
+  "Intelligence suggests a weapons cache is present between Montignac and Villeneuf, and may be in one of the three red circled houses. We are unsure which house exactly it's located in."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "1x Ranger platoon with reduced weapons squad folded into HQ."\
   ""\
-  "2x Black Hawks available for air insert, 6x humvees armed with M2 machine guns seating 5 each available for ground insert."
+  "4x unarmed Littlebirds available for air insert, 8x humvees armed with M2 machine guns seating 5 each available for ground insert."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -68,7 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3293.569 0 7969.566
   m_sTitle "IV. Mission"
-  m_sTextData "Locate and secure the weapons cache in one of the four circled houses, or eliminate all separatist defenders."\
+  m_sTextData "Locate and secure the weapons cache in one of the three circled houses, or eliminate all separatist defenders."\
   ""\
   "Complete this within 75 minutes after setup."
   m_aVisibleForFactions {
@@ -86,8 +86,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2IC: 1-6B"\
   "JTAC: 1-6J"\
   ""\
-  "1st Black Hawk: Super 6-1"\
-  "2nd Black Hawk: Super 6-2"
+  "1st Littlebird: Super 6-1"\
+  "2nd Littlebird: Super 6-2"\
+  "3rd Littlebird: Super 6-3"\
+  "4th Littlebird: Super 6-4"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -96,7 +98,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2998.834 0 8142.853
   m_sTitle "I. Situation"
-  m_sTextData "Our splinter faction of the long-disbanded FIA has caused taken up arms in Everon over the past few months. Our cell is defending and distributing arms from a weapons cache located at the red circled building between Montignac and Villeneuf."\
+  m_sTextData "Our splinter faction of the long-disbanded FIA has caused taken up arms in Everon over the past few months. Our cell is defending and distributing arms from a weapons cache located at the red marked building between Montignac and Villeneuf."\
   ""\
   "A US Army Ranger platoon has recently arrived in Everon, and we suspect they are gearing up to raid our cache."
   m_aVisibleForFactions {
@@ -120,7 +122,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Enemy Forces"
   m_sTextData "1x Ranger platoon. Wearing multicam, equipped with latest US equipment, NVG capable."\
   ""\
-  "May opt for an air insert via Black Hawks or a ground insert via Humvee."
+  "May opt for an air insert via Littlebirds or a ground insert via Humvee."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
@@ -135,12 +137,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
-  m_iOrder 0
- }
- CacheLocN {
-  coords 3088.172 0 7983.602
-  m_sTitle "V. Cache Location"
-  m_sTextData "The cache is located at the NORTH safehouse (038 069)."
   m_iOrder 0
  }
  CacheLocS {
@@ -158,19 +154,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  CacheLocMid {
   coords 3183.029 0 7804.209
   m_sTitle "V. Cache Location"
-  m_sTextData "The cache is located at the MIDDLE safehouse (037 066)."
+  m_sTextData "The cache is located at the NORTH safehouse (037 066)."
   m_iOrder 0
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- CacheMarkerN {
-  coords 3874.994 69.64 6918.571
-  angleY 0
-  m_MarkerColor 1 0 0 1
-  m_fWorldSize 60
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
  CacheMarkerMid {
   coords 3741.761 80.505 6631.481
   angleY 0
@@ -194,18 +182,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 60
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
- }
- Covermap_opfor {
-  coords 3472.012 91.013 6497.655
-  angleY 0
-  m_sImageSet "{3B62608C6AB716B9}Covermap/UCAMF_CoverMap.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "4x4"
-  m_fWorldSize 48000
-  m_aVisibleForFactions {
-   "GC_SEPARATIST"
-  }
-  m_bVisibleForEmptyFaction 1
  }
  Covermap_blufor {
   coords 4268.369 55.305 8545.305
@@ -245,13 +221,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "cross-2"
   m_fWorldSize 60
  }
- CacheMarkerN2 {
-  coords 3874.991 69.98 6918.124
-  angleY 0
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "cross-2"
-  m_fWorldSize 60
- }
  CacheMarkerS2 {
   coords 3878.041 108.873 6307.97
   angleY 0
@@ -265,5 +234,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 0 0 1
   m_sQuadName "cross-2"
   m_fWorldSize 60
+ }
+ Covermap_opfor {
+  coords 3651.524 103.933 6381.429
+  angleY 0
+  m_sImageSet "{3B62608C6AB716B9}Covermap/UCAMF_CoverMap.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "4x4"
+  m_fWorldSize 48000
+  m_aVisibleForFactions {
+   "GC_SEPARATIST"
+  }
+  m_bVisibleForEmptyFaction 1
  }
 }
