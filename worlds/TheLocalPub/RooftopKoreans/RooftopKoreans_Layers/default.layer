@@ -126,4 +126,9 @@ SCR_ChimeraCharacter : "{26A667635D631C54}worlds/TheLocalPub/RooftopKoreans/Pref
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3440.797 24.636 3058.687
+ m_missionEvents {
+  TILW_MissionEvent "{6856ED5E94E5E62E}" {
+   m_name "OPFORWIN"
+  }
+ }
 }

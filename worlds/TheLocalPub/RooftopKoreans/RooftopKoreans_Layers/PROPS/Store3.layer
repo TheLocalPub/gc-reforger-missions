@@ -8,9 +8,17 @@ $grp GenericEntity : "{0D5F3D3C5246BEE8}Prefabs/Compositions/Misc/FreeRoamBuildi
   angles 0 -116.998 0
  }
 }
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 1396.85 20.619 2321.801
+ angles 0 18.939 0
+}
 GenericEntity : "{3B61BB74E06316C6}PrefabsEditable/Auto/Props/Crates/E_Crate_01_red.et" {
  coords 1371.928 25.924 2425.2
  angles 0 -33.156 0
+}
+GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+ coords 1357.97 20.656 2300.23
+ angles 0 -88.796 0
 }
 GenericEntity : "{3C01EE1C92530749}Prefabs/Models/props/tem_WoodCrate_1.et" {
  coords 1392.629 25.48 2420.597
@@ -23,6 +31,20 @@ GenericEntity : "{5BD7E085DFB4DB35}Prefabs/Compositions/Misc/SubCompositions/Cra
  coords 1383.348 24.938 2434.335
  angles 0 0 0
 }
+$grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
+ {
+  coords 1361.304 20.785 2429.654
+  angles 0 -56.527 0
+ }
+ {
+  coords 1361 20.785 2426.685
+  angles 0 -119.466 0
+ }
+ {
+  coords 1363.319 20.656 2422.858
+  angles 0 -127.425 0
+ }
+}
 GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
  coords 1366.842 24.938 2421.133
  angles 0 74.096 0
@@ -30,6 +52,16 @@ GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/Cra
 GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_01.et" {
  coords 1386.122 24.938 2431.591
  angles 0 -27.175 0
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 1404.233 20.656 2307.271
+  angles 0 -82.519 0
+ }
+ {
+  coords 1381.254 20.656 2327.583
+  angles 0 69.377 0
+ }
 }
 GenericEntity : "{A68843299F29FC45}PrefabsEditable/Auto/Props/Crates/E_CrateWooden_01_blue.et" {
  coords 1385.267 24.938 2432.841
@@ -96,4 +128,8 @@ $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  coords 1371.941 24.938 2425.238
+}
+GenericEntity : "{F95F8C9DF736662B}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock 4.et" {
+ coords 1375.182 0 2436.934
+ angles 0 -27.014 0
 }
