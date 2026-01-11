@@ -6,10 +6,19 @@ SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Pref
     m_bRandomizeDefaultVariant 1
     m_aVariants {
      SCR_EditableEntityVariant "{6854D8426295EB8E}" {
-      m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1.et"
+      m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1_P.et"
      }
      SCR_EditableEntityVariant "{685567B2862519DF}" {
-      m_sVariantPrefab "{8E1BFD5BC36133CD}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean2.et"
+      m_sVariantPrefab "{8E1BFD5BC36133CD}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean2_P.et"
+     }
+     SCR_EditableEntityVariant "{6856BAC5205FE3A7}" {
+      m_sVariantPrefab "{6B87B1A2CF84A4A6}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean3_P.et"
+     }
+     SCR_EditableEntityVariant "{6856BAC51AB16AB8}" {
+      m_sVariantPrefab "{56B3949ABAE82D91}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean4_P.et"
+     }
+     SCR_EditableEntityVariant "{6856BACBF838C3AE}" {
+      m_sVariantPrefab "{FFDE4BCE7EAF5A17}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Korean5_P.et"
      }
     }
    }

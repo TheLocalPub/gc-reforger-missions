@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AD1B343E015F2D11}Prefabs/Weapons/Rifles/M3A1/BC_M3A1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{554D761A11D3D7EC}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_sawmillregina.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A707F4543A61CA8B}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DBF40E7D1C46502B}Prefabs/Characters/Footwear/Boots_Jackboots/Boots_Jackboots.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{341D83C95C8E6F46}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_UK.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D5CAB0757CB4F003}Prefabs/Characters/Handwear/Gloves_WoolNVA/Gloves_WoolNVA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6854D8502C041397}" {
+     TargetStorage "Jacket/Suit_GroundCrew_UK_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{6856BACB471CFA2A}" {
+     TargetStorage "Vest/Vest_SRU21P_UK.et"
+     PrefabsToSpawn {
+      "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et" "{0B17FB1F4A9F5289}Prefabs/Weapons/Magazines/M3A1/BC_Magazine_45acp_M3A1_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}
