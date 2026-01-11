@@ -1,0 +1,9 @@
+PK_EntityDeleter {
+ coords 1439.427 26.723 2318.806
+ m_fRadius 15
+ m_prefabFilterList {
+  "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et"
+  "{E192B19B229A0539}PrefabLibrary/DefaultLibrary/Structures/Commercial/NewspaperBooth_E_01/NewspaperBooth_E_01_redwhite.et"
+ }
+ m_excludePrefabsInList 1
+}

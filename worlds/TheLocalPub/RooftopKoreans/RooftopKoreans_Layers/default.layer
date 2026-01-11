@@ -1,0 +1,80 @@
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 3387.645 24.588 3055.792
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3429.122 24.375 2986.421
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 3406.565 24.812 3144.574
+ {
+  SCR_FactionManager "6856B74E37DE2A89" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{685567B01E48B428}" : "{7C5EDA9DBA134554}Configs/Factions/GC_MUJ.conf" {
+     FactionKey "RTK"
+     UIInfo SCR_FactionUIInfo "{670CF087CE37FA75}" {
+      Name "Rooftop Koreans"
+      m_sNameUpper "ROOFTOP KOREANS"
+     }
+    }
+   }
+  }
+ }
+}
+$grp SCR_ChimeraCharacter : "{26A667635D631C54}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Character_RTK_KoreanRandomised_P.et" {
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_VariantData SCR_EditableEntityVariantData "{6854D8426C63250C}" {
+     m_bRandomizeDefaultVariant 1
+     m_aVariants {
+      SCR_EditableEntityVariant "{6854D8426295EB8E}" {
+       m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1.et"
+      }
+     }
+    }
+   }
+  }
+  coords 1065.568 19.926 1401.287
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_VariantData SCR_EditableEntityVariantData "{6854D8426C63250C}" {
+     m_aVariants {
+      SCR_EditableEntityVariant "{685567B2F03A609F}" {
+      }
+     }
+    }
+   }
+  }
+  coords 1250.116 15.173 1674.805
+ }
+}
+SCR_ChimeraCharacter : "{6B87B1A2CF84A4A6}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean3.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A22C976003AA5BA3}Prefabs/Characters/HeadGear/Hat_Ushanka_01/Hat_Ushanka_01_folded.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B5DBF8CAE1C591CB}Prefabs/Characters/Uniforms/Jacket_Bomber_2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C1E8240AF1C918EC}Prefabs/Characters/Uniforms/Pants_Taksuit_4.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+   }
+  }
+ }
+ coords 1247.887 15.246 1674.345
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3440.797 24.636 3058.687
+}
+SCR_AIGroup : "{B64031E4DE35A0F2}worlds/TheLocalPub/RooftopKoreans/Prefabs/AI/Groups/Group_RTK_Fighters.et" {
+ coords 1248.916 15.139 1671.085
+}

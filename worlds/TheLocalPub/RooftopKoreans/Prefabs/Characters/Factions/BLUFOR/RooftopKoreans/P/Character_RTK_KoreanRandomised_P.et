@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6854D8426C63250C}" {
+    m_bRandomizeDefaultVariant 1
+    m_aVariants {
+     SCR_EditableEntityVariant "{6854D8426295EB8E}" {
+      m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1.et"
+     }
+     SCR_EditableEntityVariant "{685567B2862519DF}" {
+      m_sVariantPrefab "{8E1BFD5BC36133CD}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean2.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD1BCD7922BBB516}Prefabs/Weapons/Rifles/Carl Gustaf M45/BC_Rifle_Carl_Gustaf_M45.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6FEB0D9130EC400E}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_lightgrey.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B0F4EAC29E9058EA}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6854D8502C041397}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey.et"
+    }
+    ItemsInitConfigurationItem "{6854D8422CF7E3C5}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
+     PrefabsToSpawn {
+      "{2A9A50C23773AC87}Prefabs/Weapons/Magazines/Carl Gustaf M45/BC_Magazine_9x19_M45_36rnd_Ball.et" "{2A9A50C23773AC87}Prefabs/Weapons/Magazines/Carl Gustaf M45/BC_Magazine_9x19_M45_36rnd_Ball.et" "{2A9A50C23773AC87}Prefabs/Weapons/Magazines/Carl Gustaf M45/BC_Magazine_9x19_M45_36rnd_Ball.et" "{2A9A50C23773AC87}Prefabs/Weapons/Magazines/Carl Gustaf M45/BC_Magazine_9x19_M45_36rnd_Ball.et" "{2A9A50C23773AC87}Prefabs/Weapons/Magazines/Carl Gustaf M45/BC_Magazine_9x19_M45_36rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

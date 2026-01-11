@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6AA1C567A2F7F8CE}Prefabs/Weapons/Rifles/PPSH41/BC_PPSh41.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{88EFDDF294A918FC}Prefabs/Characters/Uniforms/Jacket_Bomber_5.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DC91A67E1074AAC0}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/Pants_Tanker_USSR_01_tucked.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{B12C47DF95EC9C17}Prefabs/Characters/Footwear/CombatBoots_Insurgents.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6854D8502C041397}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{685567B247075619}" {
+     PrefabsToSpawn {
+      "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et" "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et"
+     }
+    }
+   }
+  }
+ }
+}

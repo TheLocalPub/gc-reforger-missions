@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity store2building : "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6854D855C740804B}" {
+  }
+ }
+ coords 1442.746 1.317 2313.895
+ angles 0 -28.94 0
+}

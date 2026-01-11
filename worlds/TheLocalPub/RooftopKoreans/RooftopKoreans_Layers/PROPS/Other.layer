@@ -1,0 +1,16 @@
+$grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
+ {
+  coords 285.77 20.379 135.958
+  angles 0 90 0
+ }
+ {
+  coords 282.27 20.379 219.958
+ }
+ {
+  coords 285.77 20.379 221.458
+  angles 0 90 0
+ }
+ {
+  coords 171.77 20.379 219.958
+ }
+}
