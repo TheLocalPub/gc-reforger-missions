@@ -1,33 +1,33 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Store1 {
   coords 1750.708 19.851 2257.59
-  angles 0 0 0
+  angles 0 90 0
   m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
   m_sImageSetGlow "{00FE3DBDFD15227B}UI/Textures/Icons/icons_wrapperUI-glow.imageset"
   m_sQuadName "structures"
-  m_fWorldSize 100
+  m_fWorldSize 50
   m_sDescription "Jin's Bargin Bin (Store 1)"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
  Store2 {
   coords 1432.038 25.518 2309.189
-  angles 0 0 0
+  angles 0 90 0
   m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
   m_sImageSetGlow "{00FE3DBDFD15227B}UI/Textures/Icons/icons_wrapperUI-glow.imageset"
   m_sQuadName "structures"
-  m_fWorldSize 100
+  m_fWorldSize 50
   m_sDescription "Min Sun’s Value Mart (Store 2)"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
  Store3 {
   coords 1378.342 24.938 2422.331
-  angles 0 0 0
+  angles 0 90 0
   m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
   m_sImageSetGlow "{00FE3DBDFD15227B}UI/Textures/Icons/icons_wrapperUI-glow.imageset"
   m_sQuadName "structures"
-  m_fWorldSize 100
+  m_fWorldSize 50
   m_sDescription "Han’s Pans Kitchen ware (Store 3)"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
