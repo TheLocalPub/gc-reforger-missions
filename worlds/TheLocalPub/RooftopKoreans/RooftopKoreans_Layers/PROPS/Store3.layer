@@ -1,0 +1,99 @@
+$grp GenericEntity : "{0D5F3D3C5246BEE8}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongBurlap_S_USSR_01.et" {
+ {
+  coords 1361.878 20.713 2429.16
+  angles 0 -58.095 0
+ }
+ {
+  coords 1361.784 20.713 2426.797
+  angles 0 -116.998 0
+ }
+}
+GenericEntity : "{3B61BB74E06316C6}PrefabsEditable/Auto/Props/Crates/E_Crate_01_red.et" {
+ coords 1371.928 25.924 2425.2
+ angles 0 -33.156 0
+}
+GenericEntity : "{3C01EE1C92530749}Prefabs/Models/props/tem_WoodCrate_1.et" {
+ coords 1392.629 25.48 2420.597
+}
+SCR_DestructibleBuildingEntity : "{4EEE140BBF69CAB3}Prefabs/Structures/Culture/Castle/Castle Wooden Stairs.et" {
+ coords 1383.294 -5.835 2413.167
+ angles 0 -27.879 0
+}
+GenericEntity : "{5BD7E085DFB4DB35}Prefabs/Compositions/Misc/SubCompositions/CrateClutteredCombined_US_04.et" {
+ coords 1383.348 24.938 2434.335
+ angles 0 0 0
+}
+GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ coords 1366.842 24.938 2421.133
+ angles 0 74.096 0
+}
+GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_01.et" {
+ coords 1386.122 24.938 2431.591
+ angles 0 -27.175 0
+}
+GenericEntity : "{A68843299F29FC45}PrefabsEditable/Auto/Props/Crates/E_CrateWooden_01_blue.et" {
+ coords 1385.267 24.938 2432.841
+ angles 0 -38.596 0
+}
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 1383.368 24.938 2436.221
+ angles 0 -10.114 0
+}
+$grp GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+ {
+  coords 1368.1 24.938 2419.013
+  angles 0 59.921 0
+ }
+ {
+  coords 1370.936 24.938 2423.763
+  angles 0 -29.141 0
+ }
+}
+GenericEntity : "{B5C9960522721F0C}Prefabs/Models/props/tem_woodcrate_3.et" {
+ coords 1392.006 25.481 2420.089
+ angles 0 -35.869 0
+}
+GenericEntity : "{B6F0B7461EDFD186}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_USSR_01.et" {
+ coords 1364.378 20.656 2428.342
+ angles 0 -64.912 0
+}
+GenericEntity : "{C6383B39766208EE}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_CrateWooden_Cluttered_USSR_01.et" {
+ coords 1386.563 24.938 2430.104
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 1369.543 25.486 2424.044
+  angles 0 -23.11 0
+ }
+ {
+  coords 1368.989 25.486 2423.808
+  angles 0 -23.11 0
+ }
+ {
+  coords 1368.397 25.486 2423.458
+  angles 0 149.425 0
+ }
+ {
+  coords 1367.935 25.486 2423.185
+  angles 0 -34.033 0
+ }
+ {
+  coords 1367.412 25.486 2422.906
+  angles 0 -26.784 0
+ }
+ {
+  coords 1366.941 25.486 2422.668
+  angles 0 -26.784 0
+ }
+ {
+  coords 1366.76 25.645 2422.056
+  angles 0 -21.539 0
+ }
+ {
+  coords 1366.889 25.463 2422.469
+  angles 25.311 -26.784 -10.843
+ }
+}
+GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+ coords 1371.941 24.938 2425.238
+}

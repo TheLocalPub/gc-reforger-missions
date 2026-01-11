@@ -12,10 +12,53 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    Factions {
     SCR_Faction "{685567B01E48B428}" : "{7C5EDA9DBA134554}Configs/Factions/GC_MUJ.conf" {
      FactionKey "RTK"
+     FactionColor 0.1216 0.7648 0.949 1
      UIInfo SCR_FactionUIInfo "{670CF087CE37FA75}" {
       Name "Rooftop Koreans"
       m_sNameUpper "ROOFTOP KOREANS"
      }
+     "Identity of soldiers" FactionIdentity "{570EEB96B808B7E1}" {
+      VisualIdentityArray {
+       VisualIdentity "{570EDB8787206B1C}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{570CE64C784286B5}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{570CFDC06CAAD480}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{570CFDC05A2BFCE8}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{570CFDC037CCBCD3}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{570CFDC1C8B17A43}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{588508C196393A8F}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+       VisualIdentity "{588508C1951A8A0F}" {
+        Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+        Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+       }
+      }
+     }
+     m_iOrder 2001
+     m_OutlineFactionColor 0.063 0.231 0.373 1
+     m_NotificationFactionColor 0.122 0.765 0.949 1
+     m_NotificationTextFactionColor 0.122 0.765 0.949 1
+     m_FactionFlagMaterial "{5A1B3B1C76F584C8}Assets/Props/Fabric/Flags/Data/Flag_1_2_Blue.emat"
+     m_FactionLabel FACTION_US
     }
    }
   }
@@ -28,9 +71,18 @@ SCR_ChimeraCharacter : "{26A667635D631C54}worlds/TheLocalPub/RooftopKoreans/Pref
     m_bRandomizeDefaultVariant 1
     m_aVariants {
      SCR_EditableEntityVariant "{6854D8426295EB8E}" {
-      m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1.et"
+      m_sVariantPrefab "{E24FC9BB7FA5BCE3}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean1_P.et"
      }
      SCR_EditableEntityVariant "{685567B2862519DF}" {
+     }
+     SCR_EditableEntityVariant "{6856BAC5205FE3A7}" {
+      m_sVariantPrefab "{6B87B1A2CF84A4A6}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean3_P.et"
+     }
+     SCR_EditableEntityVariant "{6856BAC51AB16AB8}" {
+      m_sVariantPrefab "{56B3949ABAE82D91}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/P/Varients/Character_RTK_Korean4_P.et"
+     }
+     SCR_EditableEntityVariant "{6856BACBF838C3AE}" {
+      m_sVariantPrefab "{FFDE4BCE7EAF5A17}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Korean5_P.et"
      }
     }
    }
@@ -74,10 +126,4 @@ SCR_ChimeraCharacter : "{26A667635D631C54}worlds/TheLocalPub/RooftopKoreans/Pref
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3440.797 24.636 3058.687
-}
-SCR_ChimeraCharacter : "{A136628DC122D418}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Korean6_P.et" {
- coords 1251.813 15.156 1674.232
-}
-SCR_AIGroup : "{B64031E4DE35A0F2}worlds/TheLocalPub/RooftopKoreans/Prefabs/AI/Groups/Group_RTK_Fighters.et" {
- coords 1248.916 15.139 1671.085
 }

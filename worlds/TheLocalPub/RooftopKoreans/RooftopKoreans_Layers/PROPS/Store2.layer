@@ -1,3 +1,7 @@
+SCR_DestructibleBuildingEntity : "{4EEE140BBF69CAB3}Prefabs/Structures/Culture/Castle/Castle Wooden Stairs.et" {
+ coords 1458.231 -4.247 2315.259
+ angles 0 -117.544 0
+}
 SCR_DestructibleBuildingEntity store2building : "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et" {
  components {
   TILW_NavmeshRegenComponent "{6854D855C740804B}" {

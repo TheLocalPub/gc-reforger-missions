@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24FFA508861139C9}Prefabs/Weapons/Rifles/L42A1/Rifle_L8.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{690819A92A3A8D14}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_orange.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F8F61736427CD5C2}Prefabs/Characters/Uniforms/Pants_Cargo_3.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{3E907D6732445C0F}Prefabs/Characters/Footwear/Boots_DMS_UK_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6854D8502C041397}" {
+     TargetStorage "Pants/Pants_Cargo_3.et"
+    }
+    ItemsInitConfigurationItem "{6856ED4CCE552964}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

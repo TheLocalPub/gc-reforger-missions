@@ -2,8 +2,12 @@ PK_EntityDeleter {
  coords 1439.427 26.723 2318.806
  m_fRadius 15
  m_prefabFilterList {
-  "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et"
-  "{E192B19B229A0539}PrefabLibrary/DefaultLibrary/Structures/Commercial/NewspaperBooth_E_01/NewspaperBooth_E_01_redwhite.et"
+  "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et"
+  "{C4D461E315095F1F}PrefabLibrary/CainLibrary/Structures/Houses/Shed_06/Shed_06_grey.et"
+  "{BDB16F4FF9C6C627}PrefabLibrary/CainLibrary/Structures/Houses/Shed_06/Shed_06_red.et"
+  "{1E1F126F747B2E60}PrefabLibrary/CainLibrary/Structures/Houses/Shed_06/Shed_06_blue.et"
+  "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et"
+  "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et"
+  "{3AE5243288F71FA6}Prefabs/Structures/Military/Houses/ClubMilitary_01/ClubMilitary_E_01.et"
  }
- m_excludePrefabsInList 1
 }

@@ -1,0 +1,121 @@
+$grp GenericEntity {
+ TP2 {
+  coords 1422.82 20.787 2321.837
+ }
+ TP3 {
+  coords 1364.839 20.656 2429.555
+ }
+ TP1 {
+  coords 1752.492 15.094 2273.204
+ }
+}
+$grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+ {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Teleport: Store 1"
+      m_locationName "TP1"
+      m_factionKeys {
+       "RTK"
+      }
+     }
+    }
+   }
+  }
+  coords 230.504 21.879 164.542
+ }
+ {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Teleport: Store 2"
+      m_locationName "TP2"
+      m_factionKeys {
+       "RTK"
+      }
+     }
+    }
+   }
+  }
+  coords 236.01 21.879 164.633
+ }
+ {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Teleport: Store 3"
+      m_locationName "TP3"
+      m_factionKeys {
+       "RTK"
+      }
+     }
+    }
+   }
+  }
+  coords 241.475 21.879 164.816
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ Capzone1 {
+  coords 1753.072 19.851 2256.867
+  m_queryRadius 16
+  m_sendStatusMessages 1
+  m_statusMessages {
+   "The rioters have taken control of jin's Bargin Bin store! (Store 1)"
+   ""
+   ""
+   ""
+   ""
+   ""
+  }
+  m_locationName "jin's Bargin Bin store! (Store 1)"
+  m_displayTo {
+   "RTK"
+  }
+  m_flagName "Capzone1Captured"
+  m_stopAfterFirstChange 1
+ }
+ Capzone2 {
+  coords 1440.339 26.723 2311.786
+  m_queryRadius 18
+  m_sendStatusMessages 1
+  m_statusMessages {
+   "The rioters have taken control of Min Sun’s Value Mart! (Store 2)"
+   ""
+   ""
+   ""
+   ""
+   ""
+  }
+  m_locationName "Min Sun’s Value Mart! (Store 2)"
+  m_displayTo {
+   "RTK"
+  }
+  m_flagName "Capzone2Captured"
+  m_stopAfterFirstChange 1
+ }
+ Capzone3 {
+  coords 1378.248 24.938 2424.027
+  angles 0 -26.089 0
+  m_queryRadius 15
+  m_sendStatusMessages 1
+  m_statusMessages {
+   "The rioters have taken control of Han’s Pans Kitchen ware (Store 3)"
+   ""
+   ""
+   ""
+   ""
+   ""
+  }
+  m_locationName "Han’s Pans Kitchen ware (Store 3)"
+  m_displayTo {
+   "RTK"
+  }
+  m_flagName "Capzone3Captured"
+  m_stopAfterFirstChange 1
+ }
+}

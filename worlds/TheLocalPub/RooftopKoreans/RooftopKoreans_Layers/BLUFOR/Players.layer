@@ -1,0 +1,14 @@
+$grp SCR_AIGroup : "{B64031E4DE35A0F2}worlds/TheLocalPub/RooftopKoreans/Prefabs/AI/Groups/Group_RTK_Fighters.et" {
+ {
+  coords 231.193 20.573 158.051
+  angles 0 -1.735 0
+ }
+ {
+  coords 231.135 20.562 156.421
+  angles 0 -1.735 0
+ }
+ {
+  coords 230.973 20.594 154.704
+  angles 0 -1.735 0
+ }
+}

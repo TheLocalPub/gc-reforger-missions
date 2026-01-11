@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{24DE9928E7720F08}worlds/TheLocalPub/RooftopKoreans/Prefabs/Characters/Factions/BLUFOR/RooftopKoreans/Character_RTK_Base.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6E0EC7AC1F6D748F}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_brown.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0048AA56450ED17F}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6854D8502C041397}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+    }
+    ItemsInitConfigurationItem "{6856ED4F2E26EED0}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

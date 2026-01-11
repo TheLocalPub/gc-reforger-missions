@@ -1,3 +1,71 @@
+GenericEntity : "{32C9FCE22770A987}Prefabs/Structures/BuildingParts/Doors/Door_Lighthouse_main_RIGHT_EXT_COV_B.et" {
+ components {
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   Enabled 0
+  }
+ }
+ coords 229.831 20.601 164.791
+ angles 0 -1.735 0
+}
+$grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+ {
+  coords 1684.821 15.853 2244.148
+  angles 0 -16.748 0
+ }
+ {
+  coords 1604.897 20.031 2232.47
+  angles 0 -49.661 0
+ }
+ {
+  coords 1488.32 20.409 2181.174
+  angles 0 28.41 0
+ }
+ {
+  coords 1481.269 20.385 2180.875
+  angles 0 -35.375 0
+ }
+ {
+  coords 1611.19 20.031 2234.535
+  angles 0 -14.678 0
+ }
+}
+$grp GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et" {
+ {
+  coords 1472.601 20.656 2644.137
+  angles 0 -51.98 0
+ }
+ {
+  coords 1497.858 20.45 2624.491
+  angles 0 31.486 0
+ }
+}
+$grp GenericEntity : "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et" {
+ {
+  coords 1367.183 19.018 2114.994
+  angles 0 5.466 0
+ }
+ {
+  coords 1478.616 20.656 2647.899
+  angles 0 170.416 0
+ }
+ {
+  coords 1498.423 20.298 2179.03
+  angles 0 -21.429 0
+ }
+ {
+  coords 1811.34 15.094 2278.637
+  angles 0 -90.195 0
+ }
+}
+GenericEntity : "{806C6E808FD364DB}Prefabs/Structures/BuildingParts/Doors/Door_Lighthouse_main_RIGHT_EXT_COV_M1.et" {
+ components {
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   Enabled 0
+  }
+ }
+ coords 240.823 20.594 165.15
+ angles 0 -1.735 0
+}
 $grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
  {
   coords 285.77 20.379 135.958
@@ -13,4 +81,41 @@ $grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et
  {
   coords 171.77 20.379 219.958
  }
+}
+$grp GenericEntity : "{B26712B1722C8A08}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_03.et" {
+ {
+  coords 1357.41 19.308 2124.571
+  angles 0 -107.291 0
+ }
+ {
+  coords 1697.651 15.365 2245.731
+  angles 0 160.69 0
+ }
+ {
+  coords 1813.662 15.094 2290.197
+  angles 0 104.443 0
+ }
+}
+$grp GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ {
+  coords 1355.865 19.731 2141.006
+  angles 0 -83.262 0
+ }
+ {
+  coords 1286.107 20.656 2527.829
+  angles 0 -31.115 0
+ }
+ {
+  coords 1259.177 20.656 2501.325
+  angles 0 -102.245 0
+ }
+}
+GenericEntity : "{EB0A90E485CFF16D}Prefabs/Structures/BuildingParts/Doors/Door_LighthouseMedium_RIGHT_EXT_ST_B.et" {
+ components {
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   Enabled 0
+  }
+ }
+ coords 235.342 20.598 164.929
+ angles 0 -1.735 0
 }
