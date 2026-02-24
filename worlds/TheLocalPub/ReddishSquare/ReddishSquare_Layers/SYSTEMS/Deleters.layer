@@ -1,0 +1,17 @@
+$grp PK_EntityDeleter {
+ {
+  coords 1389.046 28.534 2444.788
+  m_fRadius 80
+ }
+ {
+  coords 1416.599 29.947 2381.905
+  m_fRadius 80
+ }
+}
+SCR_AIGroup : "{970C68F1D13A62B2}worlds/TheLocalPub/ReddishSquare/Prefabs/AI/Groups/Soviets/Group_SovietWW2_Base.et" {
+ coords 1348.564 20.656 2515.837
+ m_aUnitPrefabSlots {
+  "{3CA568158AFBCD70}worlds/TheLocalPub/ReddishSquare/Prefabs/Characters/Factions/Soviet/Character_SovietWW2_Base.et"
+ }
+ m_bSetPlayable 1
+}
