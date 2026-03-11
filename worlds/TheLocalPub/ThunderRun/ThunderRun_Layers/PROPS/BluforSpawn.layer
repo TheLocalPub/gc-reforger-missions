@@ -1,0 +1,52 @@
+$grp SCR_DestructibleBuildingEntity : "{34C1AEC1879CBB34}Prefabs/Structures/Bulding/Military/fort_artillery_nest_ep1.et" {
+ {
+  coords 7985.464 12.133 4893.588
+  angles 0 -86.643 0
+ }
+ {
+  coords 8007.216 11.359 4892.314
+  angles 0 93.357 0
+ }
+ {
+  coords 8006.411 10.826 4870.627
+  angles 0 93.357 0
+ }
+ {
+  coords 7984.659 11.625 4871.901
+  angles 0 -86.643 0
+ }
+ {
+  coords 8005.471 10.502 4848.95
+  angles 0 93.357 0
+ }
+ {
+  coords 7983.718 11.22 4850.223
+  angles 0 -86.643 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8F92FA56BC6BBB4F}Prefabs/Structures/Bulding/Military/fort_rampart_ep1.et" {
+ {
+  coords 7999.519 11.292 4881.814
+  angles 0.03 -87.874 0
+ }
+ {
+  coords 7992.203 11.53 4882.319
+  angles -0.03 92.126 0
+ }
+ {
+  coords 7991.397 11.122 4860.631
+  angles -0.03 92.126 0
+ }
+ {
+  coords 7998.713 10.831 4860.126
+  angles 0.03 -87.874 0
+ }
+ {
+  coords 7993.241 10.689 4836.442
+  angles -1.378 2.908 0
+ }
+ {
+  coords 7996.685 11.731 4904.265
+  angles 1.378 -177.092 0
+ }
+}

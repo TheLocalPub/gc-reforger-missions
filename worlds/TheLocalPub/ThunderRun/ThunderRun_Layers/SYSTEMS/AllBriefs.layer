@@ -1,0 +1,26 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 6243.466 136.379 7884.045
+  m_sTitle "Mission notes"
+  m_sTextData "<h2>NOTES</h2>"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ MN {
+  coords 6243.466 136.379 7884.045
+  m_sTitle "Summary"
+  m_sTextData "<h2>END CONDITIONS</h2>"\
+  "<b>US ARMY</b>"\
+  ""\
+  "<b>IRAQI ARMY</b>"\
+  ""\
+  "<h2>NOTES</h2>"\
+  ""\
+  ""\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+}

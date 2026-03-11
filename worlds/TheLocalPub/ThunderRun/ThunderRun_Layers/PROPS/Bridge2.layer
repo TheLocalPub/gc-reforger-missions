@@ -1,0 +1,76 @@
+$grp StaticModelEntity : "{0C904BACB486FC2E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Small.et" {
+ {
+  coords 4916.673 0 3871.434
+  angles 0 -30.306 0
+  scale 2
+ }
+ {
+  coords 4905.14 0.946 3869.751
+  angles 0 -61.962 0
+  scale 2
+ }
+ {
+  coords 4906.888 0 3865.327
+  angles 0 -87.334 0
+  scale 2
+ }
+ {
+  coords 4916.502 -0.96 3852.087
+  angles 0 -119.711 0
+  scale 3
+ }
+}
+SCR_DestructibleBuildingEntity : "{12485FE8D622B6DA}Prefabs/Structures/Ruins/House_Ruin_1I01/Dst/House_Ruin_1I01_V5_ruin.et" {
+ coords 4906.856 -1.39 3868.804
+ angles 0 -150.479 0
+ scale 3
+}
+StaticModelEntity : "{4C606A89029A7E69}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Small.et" {
+ coords 4910.244 2.122 3875.167
+ scale 2.2
+}
+SCR_DestructibleBuildingEntity : "{5A81BD9171FC3B07}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Big.et" {
+ coords 4912.378 1.935 3862.244
+ scale 5
+}
+StaticModelEntity : "{8940EB8236BDEDED}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Narrow_Huge.et" {
+ coords 4916.519 0 3875.9
+ angles 0 37.023 0
+ scale 2.3
+}
+$grp StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+ {
+  coords 4911.418 0 3866.801
+  scale 2
+ }
+ {
+  coords 4929.711 0 3882.582
+  angles 0 -40.156 0
+  scale 2
+ }
+ {
+  coords 4907.484 0 3885.029
+  angles 0 -50.445 0
+  scale 2
+ }
+ {
+  coords 4920.931 0 3866.094
+  angles 0 -74.775 0
+  scale 2
+ }
+ {
+  coords 4935.939 0 3869.292
+  angles 0 -89.547 0
+  scale 2.2
+ }
+ {
+  coords 4921.852 0.899 3876.47
+  angles 0 -137.651 0
+  scale 2.2
+ }
+}
+SCR_DestructibleBuildingEntity : "{F7919E01B9B17B3E}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Small.et" {
+ coords 4898.751 1.745 3872.865
+ angles 0 0 -14.402
+ scale 3
+}

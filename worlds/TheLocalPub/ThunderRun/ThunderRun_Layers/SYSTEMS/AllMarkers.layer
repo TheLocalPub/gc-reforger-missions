@@ -1,0 +1,435 @@
+PolylineShapeEntity MinefieldShape1 : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_color 0.624 0.503 0.156 0.5
+   m_drawLine 1
+   m_lineColor 0.502 0.376 0 1
+   m_lineWidth 4
+  }
+ }
+ coords 7235.109 95.024 7163.793
+ Points {
+  ShapePoint "{68CD5641CC993E71}" {
+   Position -2292.623 -95.074 -1827.492
+  }
+  ShapePoint "{68CD5641CCC50C6E}" {
+   Position -2313.616 -95.069 -1843.598
+  }
+  ShapePoint "{68CD5641CC37C4F3}" {
+   Position -2315.243 -94.643 -1868.687
+  }
+  ShapePoint "{68CD5641CC646395}" {
+   Position -2278.835 -94.291 -1899.497
+  }
+  ShapePoint "{68CD5641CC554A98}" {
+   Position -2262.999 -95.006 -1928.619
+  }
+  ShapePoint "{68CD5641CDEFCA2A}" {
+   Position -2251.197 -94.592 -1951.104
+  }
+  ShapePoint "{68CD5641CD0776E8}" {
+   Position -2241.419 -94.435 -2002.322
+  }
+  ShapePoint "{68CD5641C21B8055}" {
+   Position -2268.338 -94.451 -2008.87
+  }
+  ShapePoint "{68CD5641C253B872}" {
+   Position -2265.859 -94.786 -2050.34
+  }
+  ShapePoint "{68CD5641C395C849}" {
+   Position -2236.718 -94.744 -2096.264
+  }
+  ShapePoint "{68CD5641C3C264FB}" {
+   Position -2193.368 -94.452 -2164.368
+  }
+  ShapePoint "{68CD5641C31BB0FA}" {
+   Position -2176.061 -94.845 -2221.638
+  }
+  ShapePoint "{68CD5641C0261B9A}" {
+   Position -2125.204 -93.452 -2195.098
+  }
+  ShapePoint "{68CD5641C196C177}" {
+   Position -2100.839 -92.89 -2275.571
+  }
+  ShapePoint "{68CD5641C71FE25E}" {
+   Position -2031.078 -80.801 -2272.994
+  }
+  ShapePoint "{68CD5641C490DB2D}" {
+   Position -1959.653 -77.205 -2274.985
+  }
+  ShapePoint "{68CD565A06F7AC69}" {
+   Position -1943.364 -77.162 -2274.936
+  }
+  ShapePoint "{68CD565A001BEB14}" {
+   Position -1930.265 -77.18 -2263.158
+  }
+  ShapePoint "{68CD565A0095E9CA}" {
+   Position -1914.9 -77.18 -2249.286
+  }
+  ShapePoint "{68CD565A09499E1F}" {
+   Position -1902.581 -77.18 -2243.193
+  }
+  ShapePoint "{68CD5641C55D6CE9}" {
+   Position -1891.798 -77.18 -2245.996
+  }
+  ShapePoint "{68CD565A2D35B0E1}" {
+   Position -1847.297 -77.18 -2280.982
+  }
+  ShapePoint "{68CD56463A3172A7}" {
+   Position -1816.305 -77.18 -2283.534
+  }
+  ShapePoint "{68CD56463B9B3EEA}" {
+   Position -1764.621 -77.172 -2297.912
+  }
+  ShapePoint "{68CD564633DC30AD}" {
+   Position -1707.448 -77.079 -2318.393
+  }
+  ShapePoint "{68CD564630978572}" {
+   Position -1672.65 -77.079 -2330.902
+  }
+  ShapePoint "{68CD5658B631952F}" {
+   Position -1647.697 -77.034 -2340.86
+  }
+  ShapePoint "{68CD5658B0BB3F3A}" {
+   Position -1588.466 -77.024 -2364.799
+  }
+  ShapePoint "{68CD5658BD745C2E}" {
+   Position -1526.019 -77.07 -2389.907
+  }
+  ShapePoint "{68CD5658BCF16BE4}" {
+   Position -1435.849 -77.046 -2428.309
+  }
+  ShapePoint "{68CD5658BFAD63FA}" {
+   Position -1337.344 -77.024 -2467.366
+  }
+  ShapePoint "{68CD5658B9CBF658}" {
+   Position -1268.52 -77.023 -2487.943
+  }
+  ShapePoint "{68CD5658BA72099C}" {
+   Position -1176.451 -77.051 -2499.439
+  }
+  ShapePoint "{68CD5658BABB3CA5}" {
+   Position -1088.869 -77.053 -2500.152
+  }
+  ShapePoint "{68CD565845BF5B66}" {
+   Position -1038.428 -77.146 -2492.887
+  }
+  ShapePoint "{68CD565847706FEC}" {
+   Position -983.269 -77.096 -2484.545
+  }
+  ShapePoint "{68CD565846442FCE}" {
+   Position -899.321 -77.125 -2467.969
+  }
+  ShapePoint "{68CD565841D45EE5}" {
+   Position -837.813 -76.373 -2455.659
+  }
+  ShapePoint "{68CD565843B1ECCB}" {
+   Position -770.797 -75.53 -2436.958
+  }
+  ShapePoint "{68CD56584C0C9FEF}" {
+   Position -721.658 -73.45 -2427.917
+  }
+  ShapePoint "{68CD56584FA6EEB4}" {
+   Position -715.561 -95.13 -2301.962
+  }
+  ShapePoint "{68CD565849FB46F2}" {
+   Position -820.453 -93.224 -2332.11
+  }
+  ShapePoint "{68CD565855F420FC}" {
+   Position -877.31 -95.826 -2306.5
+  }
+  ShapePoint "{68CD56585438BC8B}" {
+   Position -911.066 -94.559 -2293.292
+  }
+  ShapePoint "{68CD5658516B69AF}" {
+   Position -948.145 -94.11 -2288.982
+  }
+  ShapePoint "{68CD5658519D3520}" {
+   Position -1015.578 -95.815 -2267.152
+  }
+  ShapePoint "{68CD56585230EA9C}" {
+   Position -1014.075 -93.299 -2284.033
+  }
+  ShapePoint "{68CD565852B52140}" {
+   Position -1087.27 -93.702 -2331.475
+  }
+  ShapePoint "{68CD56585C448D9C}" {
+   Position -1161.07 -94.913 -2306.784
+  }
+  ShapePoint "{68CD56585FE69BE2}" {
+   Position -1253.645 -94.754 -2305.333
+  }
+  ShapePoint "{68CD56585EDC5CE0}" {
+   Position -1347.624 -94.526 -2267.599
+  }
+  ShapePoint "{68CD56585838116E}" {
+   Position -1382.607 -94.471 -2253.46
+  }
+  ShapePoint "{68CD565858BAFCE8}" {
+   Position -1438.423 -93.88 -2219.94
+  }
+  ShapePoint "{68CD56585BBF7A76}" {
+   Position -1481.611 -94.76 -2165.64
+  }
+  ShapePoint "{68CD565865F81F8F}" {
+   Position -1502.416 -94.934 -2156.763
+  }
+  ShapePoint "{68CD565865A5218F}" {
+   Position -1531.544 -95.166 -2162.058
+  }
+  ShapePoint "{68CD5658671CB550}" {
+   Position -1544.427 -94.569 -2165.059
+  }
+  ShapePoint "{68CD565867DA1526}" {
+   Position -1584.267 -94.73 -2139.996
+  }
+  ShapePoint "{68CD56586784EB7D}" {
+   Position -1603.253 -94.632 -2140.026
+  }
+  ShapePoint "{68CD565866754F43}" {
+   Position -1627.535 -94.215 -2129.359
+  }
+  ShapePoint "{68CD565861321B19}" {
+   Position -1638.049 -94.537 -2121.986
+  }
+  ShapePoint "{68CD565861EBAEEC}" {
+   Position -1651.012 -94.95 -2104.069
+  }
+  ShapePoint "{68CD5658607856F7}" {
+   Position -1670.6 -95.327 -2100.909
+  }
+  ShapePoint "{68CD565863954995}" {
+   Position -1692.26 -94.527 -2107.813
+  }
+  ShapePoint "{68CD565863AB854A}" {
+   Position -1719.702 -92.888 -2095.223
+  }
+  ShapePoint "{68CD56586D3EA824}" {
+   Position -1730.117 -95.325 -2071.964
+  }
+  ShapePoint "{68CD56586DCBDCF3}" {
+   Position -1750.056 -95.354 -2061.537
+  }
+  ShapePoint "{68CD56586C59D7A7}" {
+   Position -1769.811 -95.431 -2038.652
+  }
+  ShapePoint "{68CD56580654906B}" {
+   Position -1792.583 -95.505 -2028.076
+  }
+  ShapePoint "{68CD56462D5147A9}" {
+   Position -1786.294 -94.444 -2059.542
+  }
+  ShapePoint "{68CD564622E5E68F}" {
+   Position -1807.951 -94.112 -2075.172
+  }
+  ShapePoint "{68CD564622282907}" {
+   Position -1819.629 -93.799 -2077.818
+  }
+  ShapePoint "{68CD5646237205FA}" {
+   Position -1830.21 -94.417 -2077.063
+  }
+  ShapePoint "{68CD56462356962C}" {
+   Position -1845.29 -93.517 -2077.034
+  }
+  ShapePoint "{68CD5646208A612F}" {
+   Position -1861.355 -91.985 -2066.025
+  }
+  ShapePoint "{68CD564620C5BC2F}" {
+   Position -1876.931 -95.236 -2025.362
+  }
+  ShapePoint "{68CD564621CCB7B6}" {
+   Position -1887.454 -94.53 -2012.671
+  }
+  ShapePoint "{68CD56462119893F}" {
+   Position -1913.863 -93.628 -1992.335
+  }
+  ShapePoint "{68CD5646217349D3}" {
+   Position -1915.054 -94.124 -1983.152
+  }
+  ShapePoint "{68CD564626ADFB37}" {
+   Position -1945.03 -94.842 -1958.669
+  }
+  ShapePoint "{68CD5646264AD401}" {
+   Position -1969.655 -94.246 -1942.463
+  }
+  ShapePoint "{68CD564627A4D8BE}" {
+   Position -2002.248 -95.109 -1913.197
+  }
+  ShapePoint "{68CD5646279116A5}" {
+   Position -2045.391 -94.844 -1902.477
+  }
+  ShapePoint "{68CD564627C9AA80}" {
+   Position -2087.94 -94.202 -1888.41
+  }
+  ShapePoint "{68CD564624DDD61E}" {
+   Position -2102.392 -94.629 -1879.861
+  }
+  ShapePoint "{68CD56462431E827}" {
+   Position -2141.228 -94.953 -1863.576
+  }
+  ShapePoint "{68CD5646246897D0}" {
+   Position -2191.394 -95.296 -1855.84
+  }
+  ShapePoint "{68CD56462449EC39}" {
+   Position -2226.633 -94.785 -1836.847
+  }
+  ShapePoint "{68CD56461ABE892C}" {
+   Position -2247.464 -94.767 -1812.398
+  }
+  ShapePoint "{68CD56461A95C30C}" {
+   Position -2257.49 -94.495 -1787.02
+  }
+  ShapePoint "{68CD56461ACB0022}" {
+   Position -2266.021 -93.231 -1787.581
+  }
+  ShapePoint "{68CD56461A3C0B83}" {
+   Position -2278.625 -93.797 -1809.987
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ BluforSpawn {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 8108.605 12.14 4927.649
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_sQuadName "combined"
+  m_fWorldSize 125
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield1 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5005.645 17.492 5244.169
+  angles 0 5.933 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield2 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5183.63 13.396 4991.239
+  angles 0 -90 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield3 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5409.018 14.243 4982.194
+  angles 0 19.636 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield4 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5144.366 17.788 5160.567
+  angles 0 -139.981 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ BridgeDestroyed {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 4913.546 17.91 3866.951
+  angles 0 95.933 0
+  m_MarkerColor 0.776 0 0 1
+  m_sQuadName "destroy-2"
+  m_fWorldSize 175
+  m_sDescription "Destroyed bridge"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield5 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5620.6 10.997 4931.168
+  angles 0 -131.051 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield6 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 5930.612 13.747 4777.08
+  angles 0 17.741 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Minefield7 {
+  components {
+   PK_EntityProtectorComponent "{68C72569B4599BC8}" {
+   }
+  }
+  coords 6294.593 14.956 4764.051
+  angles 0 123.18 0
+  m_MarkerColor 0.624 0.506 0.157 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 100
+  m_sDescription "Minefield"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+}

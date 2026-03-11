@@ -1,0 +1,12 @@
+TILW_FactionTriggerEntity BridgeCaptureZone : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 5332.173 35.596 4693.255
+ m_queryRadius 250
+ m_comparisonMode EQUAL_OR_LESS
+ m_captureTime 5
+ m_flagName "BridgeClear"
+ m_ignoredFactions {
+  "US"
+ }
+ m_ownerFactionKey "GC_IRAQ"
+ m_ratioThreshold 0
+}

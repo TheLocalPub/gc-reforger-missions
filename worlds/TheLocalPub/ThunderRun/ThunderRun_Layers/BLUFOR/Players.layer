@@ -1,0 +1,252 @@
+$grp SCR_AIGroup : "{0E562A1A70F8F534}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_CoyHQ_P.et" {
+ COYHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8165.972 12.293 4840.251
+  angles 0 -87.926 0
+  m_aUnitPrefabSlots {
+   "{70E57722BC5508B2}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CoyL_P.et"
+   "{16F985E1B8EEA271}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CoyXO_P.et"
+   "{37D2FAF7F8A360BF}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_Coy1SG_P.et"
+   "{717A945AD17E28ED}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_RTO_P.et"
+   "{DA8F352AD4618929}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_FO.et"
+   "{828AC5FC3F83F791}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_Medic_P.et"
+  }
+  m_sCustomNameSet "Company HQ"
+  m_bSetPlayable 1
+ }
+ LogiTeam {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8163.402 12.691 4867.754
+  angles 0 -88.244 0
+  m_aUnitPrefabSlots {
+   "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_SL_P.et"
+   "{E840D0C49F7A7FAA}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_Rifleman.et"
+   "{E840D0C49F7A7FAA}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_Rifleman.et"
+   "{E840D0C49F7A7FAA}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_Rifleman.et"
+  }
+  m_sCustomNameSet "Logistics Group"
+  m_bSetPlayable 1
+ }
+}
+SCR_AIGroup PLT2WEPSQD : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_WeaponsSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 8069.469 11.492 4914.058
+ angles 0 -180 0
+}
+$grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_RifleSqua_P.et" {
+ PLT1SQD1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8132.182 12.563 4758.228
+  angles 0 3.037 0
+  m_aUnitPrefabSlots {
+   "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_SL_P.et"
+   "{FD5490AFC17740B3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_TL_P.et"
+   "{A5ED8F8254FF6906}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_Grenadier_P.et"
+   "{66A3913A20F33942}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_AR_P.et"
+   "{46CF76BA1F697980}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_RiflemanLAT_P.et"
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+  }
+  m_sCustomNameSet "Bradley Troop 1st Squad"
+  m_bSetPlayable 1
+ }
+ PLT1SQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8155.461 11.931 4757.307
+  angles 0 3.601 0
+  m_aUnitPrefabSlots {
+   "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_SL_P.et"
+   "{FD5490AFC17740B3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_TL_P.et"
+   "{A5ED8F8254FF6906}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_Grenadier_P.et"
+   "{66A3913A20F33942}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_AR_P.et"
+   "{46CF76BA1F697980}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_RiflemanLAT_P.et"
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+  }
+  m_sCustomNameSet "Bradley Troop 2nd Squad"
+  m_bSetPlayable 1
+ }
+ PLT1SQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8178.894 11.25 4756.71
+  angles 0 3.601 0
+  m_aUnitPrefabSlots {
+   "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_SL_P.et"
+   "{FD5490AFC17740B3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_TL_P.et"
+   "{A5ED8F8254FF6906}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_Grenadier_P.et"
+   "{66A3913A20F33942}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_AR_P.et"
+   "{46CF76BA1F697980}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_RiflemanLAT_P.et"
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+  }
+  m_sCustomNameSet "Bradley Troop 3rd Squad"
+  m_bSetPlayable 1
+ }
+ PLT2SQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8094.204 11.97 4914.519
+  angles 0 -179.71 0
+ }
+ PLT2SQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8116.931 12.298 4914.403
+  angles 0 -179.71 0
+ }
+ PLT2SQD1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8139.464 11.669 4914.289
+  angles 0 -179.71 0
+ }
+ MortarTeam {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8018.757 12.178 4872.431
+  angles 0 90.703 0
+  m_aUnitPrefabSlots {
+   "{D4F6A0787181CB1F}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_SL_P.et"
+   "{C6AAC8B810CBD517}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarGunner.et"
+   "{024979900145BBCB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarLoader.et"
+   "{C6AAC8B810CBD517}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarGunner.et"
+   "{024979900145BBCB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarLoader.et"
+   "{C6AAC8B810CBD517}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarGunner.et"
+   "{024979900145BBCB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MortarLoader.et"
+  }
+  m_sCustomNameSet "Mortar Team"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{DE58221F44A01B5A}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_PlatoonHQ_P.et" {
+ PLTHQ1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8105.347 13.094 4759.926
+  angles 0 4.499 0
+  m_aUnitPrefabSlots +{
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+  }
+  m_sCustomNameSet "Bradley Troop HQ"
+  m_bSetPlayable 1
+ }
+ TankHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8026.464 12.996 4761.502
+  angles 0 -43.209 0
+  m_aUnitPrefabSlots {
+   "{180700C91A734038}worlds/TheLocalPub/ThunderRun/Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_TankTRPCommander.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+  }
+  m_sCustomNameSet "1st Tank Crew"
+  m_bSetPlayable 1
+ }
+ TankCrew2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8037.767 13.339 4762.807
+  angles 0 -43.209 0
+  m_aUnitPrefabSlots {
+   "{7ACA2E3F83A4E8FD}worlds/TheLocalPub/ThunderRun/Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_TankTRP2IC.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+  }
+  m_sCustomNameSet "2nd Tank Crew"
+  m_bSetPlayable 1
+ }
+ TankCrew3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8048.736 13.433 4762.553
+  angles 0 -43.209 0
+  m_aUnitPrefabSlots {
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+  }
+  m_sCustomNameSet "3rd Tank Crew"
+  m_bSetPlayable 1
+ }
+ TankCrew4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8062.31 14.011 4762.126
+  angles 0 -43.209 0
+  m_aUnitPrefabSlots {
+   "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et"
+   "{B49BEE78AB3B6850}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewGunner.et"
+   "{53B0499883CC61FD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewDriver.et"
+  }
+  m_sCustomNameSet "4th Tank Crew"
+  m_bSetPlayable 1
+ }
+ PLTHQ2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 8098.684 12.318 4892.994
+  angles 0 3.401 0
+  m_sCustomNameSet "Bradley Troop HQ"
+  m_bSetPlayable 1
+ }
+}

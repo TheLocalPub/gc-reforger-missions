@@ -1,0 +1,309 @@
+Vehicle M998_covered_D_1 : "{1760FB5C6ABFDC51}Prefabs/Vehicles/Wheeled/M998/M998_covered_D_2004.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 8171.41 12.245 4881.848
+ angles 0 -87.848 0
+}
+Vehicle M923A1_tanker_D_1 : "{3545C6A1B2F5C6B1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_D_2004.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECA66163838}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 8170.469 12.774 4864.395
+ angles 0 -87.848 0
+}
+$grp Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
+ M1A1_Tan1 {
+  coords 8023.123 12.825 4768.047
+  angles 0 -40.28 0
+ }
+ M1A1_Tan2 {
+  coords 8034.203 13.089 4768.555
+  angles 0 -40.28 0
+ }
+ M1A1_Tan3 {
+  coords 8045.569 13.378 4768.318
+  angles 0 -40.28 0
+ }
+ M1A1_Tan4 {
+  coords 8057.643 13.529 4767.159
+  angles 0 -40.28 0
+ }
+}
+$grp Vehicle : "{55A3575FAE3ED7C4}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_D_2004.et" {
+ M998_covered_long_D_1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8170.153 12.276 4845.903
+  angles 0 -88.771 0
+ }
+ M998_covered_long_D_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8170.022 12.154 4839.856
+  angles 0 -88.771 0
+ }
+}
+Vehicle M923A1_ammo_D_1 : "{6A70962458985FCB}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_D_2004.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECA66163838}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{68C68273E31FDF9E}" {
+     SlotTemplate EquipmentStorageSlot fuel {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 8170.664 12.592 4870.116
+ angles 0 -87.848 0
+}
+$grp Tank : "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et" {
+ M2A2_Desert1 {
+  coords 8182.636 11.279 4761.876
+  angles 0 3.571 0
+ }
+ M2A2_Desert2 {
+  coords 8159.152 11.901 4763.342
+  angles 0 3.571 0
+ }
+ M2A2_Desert4 {
+  coords 8108.415 13.208 4766.508
+  angles 0 3.571 0
+ }
+ M2A2_Desert3 {
+  coords 8134.621 12.896 4764.873
+  angles 0 3.571 0
+ }
+}
+$grp Vehicle : "{90F1EA23AB2B0D69}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_D_2004.et" {
+ M1025_armed_M2HB_D_1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8137.789 11.611 4908.707
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8133.289 11.774 4908.7
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8110.706 12.404 4908.665
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8115.207 12.316 4908.672
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8087.177 11.862 4908.628
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8091.678 11.975 4908.635
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8063.087 11.493 4908.591
+  angles 0 179.911 0
+ }
+ M1025_armed_M2HB_D_8 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8067.588 11.553 4908.598
+  angles 0 179.911 0
+ }
+}
+$grp Vehicle : "{94618A08101CF622}Prefabs/Vehicles/Wheeled/M998/M1025_D_2004.et" {
+ M1025_D_1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8098.038 12.472 4888.964
+  angles 0 -180 0
+ }
+ M1025_D_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 8103.538 12.472 4888.964
+  angles 0 -180 0
+ }
+}
+Vehicle M1025_armed_M2HB_GulfWar_RAS1 : "{D690EA0575130764}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_GulfWar_RAS.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA44BB8DB7F8}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 8170.071 12.093 4834.225
+ angles 0.497 -87.845 0
+}
+Vehicle M923A1_repair_D_1 : "{EF2F7657DBB9F3CA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_D_2004.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECA66163838}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{68C68273DCA4F9D9}" {
+     SlotTemplate EquipmentStorageSlot "{68C68273D1977006}" {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 8170.773 12.543 4875.409
+ angles 0 -89.42 0
+}
+Vehicle M997_maxi_ambulance_USAF_D1 : "{FD6C3FAC03F8E761}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF_D.et" {
+ coords 8169.881 12.597 4852.614
+ angles 0 -88.739 0
+}

@@ -1,0 +1,397 @@
+$grp SplineShapeEntity {
+ {
+  coords 5335.316 18 4880.919
+  Points {
+   ShapePoint "{68CD564505822016}" {
+    Position 55.191 0 -10.854
+   }
+   ShapePoint "{68CD564505820A5F}" {
+    Position 25.559 -0.156 12.594
+   }
+   ShapePoint "{68CD564554604CF9}" {
+    Position 9.604 -0.156 25.763
+   }
+   ShapePoint "{68CD5645559838A1}" {
+    Position -6.636 -0.156 29.365
+   }
+   ShapePoint "{68CD56454960EBA2}" {
+    Position -43.237 -0.03 -3.952
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      coords -1.502 0 -5.447
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 56.693 0 -5.408
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position 27.061 -0.156 18.041
+       }
+       ShapePoint "{68CD564554605D73}" {
+        Position 11.106 -0.156 31.21
+       }
+       ShapePoint "{68CD5645559BC9F4}" {
+        Position -5.134 -0.156 34.812
+       }
+       ShapePoint "{68CD56454960F567}" {
+        Position -41.735 -0.03 1.495
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      EndPiece "1st version"
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5328.302 18 4870.646
+  Points {
+   ShapePoint "{68CD5645D2AF275F}" {
+    Position -50.184 -0.072 0.047
+   }
+   ShapePoint "{68CD5645DDBF0C8F}" {
+    Position -23.382 -0.013 0.553
+   }
+   ShapePoint "{68CD5645F2149CAD}" {
+    Position 9.016 0 -0.267
+   }
+   ShapePoint "{68CD5645F214CAAB}" {
+    Position 82.677 -0.009 -9.208
+   }
+   ShapePoint "{68CD5645C4142CC1}" {
+    Position 99.881 0 -12.109
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords -4.729 0 -0.452
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position -45.455 -0.072 0.499
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position -18.653 -0.013 1.005
+       }
+       ShapePoint "{68CD5645DDBF3016}" {
+        Position 13.745 0 0.186
+       }
+       ShapePoint "{68CD5645D2AEEFB6}" {
+        Position 87.406 -0.009 -8.755
+       }
+       ShapePoint "{68CD5645C417C0D4}" {
+        Position 104.61 0 -11.657
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      EndPiece "4th version"
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{485880B76486BE94}Prefabs/Structures/Houses/Military/Guard Houses/Guard House 01.et" {
+ coords 5325.879 -0.015 4894.767
+ angles 0 47.679 0
+}
+SCR_DestructibleBuildingEntity : "{86649C93BC876C19}Prefabs/Structures/Bulding/Military/Fortifield_Sandbag_Bunker_01.et" {
+ coords 5420.187 0 4860.319
+ angles 0 -166.149 0
+}
+$grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleObstacle_USSR_02/VehicleObstacle_USSR_02.et" {
+ {
+  coords 5433.694 18 4855.039
+  angles 0 -81.116 0
+ }
+ {
+  coords 5433.99 18 4856.936
+  angles 0 -81.116 0
+ }
+ {
+  coords 5404.446 18 4863.307
+  angles 0 -78.725 0
+ }
+ {
+  coords 5404.821 18 4865.189
+  angles 0 -78.725 0
+ }
+ {
+  coords 5435.952 18 4871.967
+  angles 0 -167.488 0
+ }
+ {
+  coords 5434.077 18 4872.384
+  angles 0 -167.488 0
+ }
+ {
+  coords 5430.102 18 4873.109
+  angles 0 -164.304 0
+ }
+ {
+  coords 5432.045 18 4872.806
+  angles 0 -171.091 0
+ }
+ {
+  coords 5434.584 18 4860.733
+  angles 0 -81.116 0
+ }
+ {
+  coords 5434.286 18 4858.837
+  angles 0 -81.116 0
+ }
+ {
+  coords 5436.292 18 4870.582
+  angles 0 -80.963 0
+ }
+ {
+  coords 5431.768 17.844 4844.676
+  angles 0 102.739 0
+ }
+ {
+  coords 5430.837 17.844 4843.55
+  angles 0 -168.405 0
+ }
+ {
+  coords 5428.89 17.845 4843.854
+  angles 0 11.886 0
+ }
+ {
+  coords 5426.915 17.844 4844.371
+  angles 0 20.297 0
+ }
+ {
+  coords 5424.844 17.844 4844.731
+  angles 0 11.886 0
+ }
+ {
+  coords 5422.934 17.844 4845.073
+  angles 0 11.886 0
+ }
+ {
+  coords 5420.98 17.844 4845.408
+  angles 0 11.886 2.878
+ }
+ {
+  coords 5419.007 17.844 4845.717
+  angles 0 -168.114 0
+ }
+ {
+  coords 5417.012 17.844 4846.07
+  angles 0 -168.161 0
+ }
+ {
+  coords 5414.981 17.844 4846.402
+  angles 0 -169.02 0
+ }
+ {
+  coords 5413.072 17.843 4846.665
+  angles -0.377 -171.164 0.005
+ }
+ {
+  coords 5411.06 17.844 4847.019
+  angles 0 -168.161 0
+ }
+ {
+  coords 5409.118 17.844 4847.377
+  angles 0 -168.161 0
+ }
+ {
+  coords 5407.183 17.844 4847.721
+  angles 0 -171.158 0
+ }
+ {
+  coords 5405.297 17.844 4848.198
+  angles 0 -170.052 0
+ }
+ {
+  coords 5403.297 17.844 4848.461
+  angles 0 10.258 0
+ }
+ {
+  coords 5408.542 18.022 4876.662
+  angles 0 -170.634 0
+ }
+ {
+  coords 5428.2 18 4873.587
+  angles 0 -173.634 0
+ }
+ {
+  coords 5410.51 18.019 4876.341
+  angles 0 9.366 2.878
+ }
+ {
+  coords 5414.525 18.022 4875.783
+  angles 0 9.366 0
+ }
+ {
+  coords 5412.472 18.022 4876.063
+  angles 0 9.366 0
+ }
+ {
+  coords 5420.447 17.996 4874.787
+  angles 0 10.179 0
+ }
+ {
+  coords 5426.31 18 4873.977
+  angles 0 -168.803 0
+ }
+ {
+  coords 5416.505 18.02 4875.585
+  angles -0.377 7.912 0
+ }
+ {
+  coords 5418.539 18.022 4875.279
+  angles 0 10.179 0
+ }
+ {
+  coords 5424.314 18 4874.271
+  angles 0 10.887 0
+ }
+ {
+  coords 5422.411 17.999 4874.573
+  angles 0 7.182 0
+ }
+ {
+  coords 5402.072 17.844 4849.282
+  angles 0 -82.349 0
+ }
+ {
+  coords 5407.029 17.855 4876.112
+  angles 0.462 -78.179 -4.114
+ }
+ {
+  coords 5423.313 17.844 4853.144
+  angles 0 -74.582 0
+ }
+ {
+  coords 5423.836 17.844 4855.042
+  angles 0 -74.582 0
+ }
+ {
+  coords 5417.384 17.844 4856.118
+  angles 0 -78.008 0
+ }
+ {
+  coords 5415.945 17.844 4855.819
+  angles 0 -168.008 0
+ }
+ {
+  coords 5413.993 17.844 4856.233
+  angles 0 -168.008 0
+ }
+ {
+  coords 5411.894 17.844 4850.105
+  angles 0 -76.712 0
+ }
+ {
+  coords 5411.456 17.844 4848.203
+  angles 0 -76.712 0
+ }
+ {
+  coords 5415.015 18 4872.623
+  angles 0 -76.712 0
+ }
+ {
+  coords 5432.173 17.844 4846.467
+  angles 0 102.739 0
+ }
+ {
+  coords 5435.985 18 4868.651
+  angles 0 -80.963 0
+ }
+ {
+  coords 5426.357 18 4865.805
+  angles 0 -77.807 0
+ }
+ {
+  coords 5425.959 18 4863.882
+  angles 0 -82.173 0
+ }
+ {
+  coords 5415.461 18 4874.516
+  angles 0 -76.712 0
+ }
+ {
+  coords 5415.961 18 4865.455
+  angles 0 -168.161 0
+ }
+ {
+  coords 5414.083 18 4865.849
+  angles 0 -168.161 0
+ }
+ {
+  coords 5405.723 18 4866.343
+  angles 0 10.061 0
+ }
+ {
+  coords 5404.056 18 4861.357
+  angles 0 -78.725 0
+ }
+ {
+  coords 5403.677 18 4859.451
+  angles 0 -78.725 0
+ }
+ {
+  coords 5403.99 18 4858.068
+  angles 0 -168.725 0
+ }
+ {
+  coords 5405.463 18.022 4867.685
+  angles 0 102.399 0
+ }
+ {
+  coords 5432.304 18 4854.662
+  angles 0 -168.386 0
+ }
+ {
+  coords 5433.395 18 4861.604
+  angles 0 -168.386 0
+ }
+ {
+  coords 5425.984 18 4867.188
+  angles 0 -170.077 0
+ }
+ {
+  coords 5414.096 18 4871.519
+  angles 0 -165.444 0
+ }
+ {
+  coords 5435.124 18 4867.449
+  angles 0 -170.077 0
+ }
+ {
+  coords 5422.352 17.844 4851.986
+  angles 0 -165.079 0
+ }
+ {
+  coords 5430.696 17.844 4843.239
+  angles 0 -170.077 0
+ }
+ {
+  coords 5403.173 18 4856.924
+  angles 0 -78.725 0
+ }
+ {
+  coords 5411.539 17.844 4851.491
+  angles 0 -169.85 0
+ }
+ {
+  coords 5431.879 17.844 4847.871
+  angles 0 -164.744 0
+ }
+}
+GenericEntity : "{D9E5ECE2F8648AC2}Prefabs/Structures/Wreck/bus_city.et" {
+ coords 5336.682 17.844 4900.437
+ angles 0 129.617 0
+}

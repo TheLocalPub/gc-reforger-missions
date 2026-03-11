@@ -1,0 +1,14 @@
+$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ {
+  coords 7994.336 10.949 4849.366
+  angles 0 -89.379 0
+ }
+ {
+  coords 7995.293 11.092 4871.45
+  angles 0 -89.379 0
+ }
+ {
+  coords 7995.256 11.683 4893.204
+  angles 0 -89.379 0
+ }
+}

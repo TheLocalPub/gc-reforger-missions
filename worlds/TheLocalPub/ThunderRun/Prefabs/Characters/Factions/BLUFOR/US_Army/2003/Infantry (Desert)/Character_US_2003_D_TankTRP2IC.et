@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{A1E843CCE71A32A3}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_CrewCommander.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Tank Troop 2IC"
+   }
+  }
+ }
+}

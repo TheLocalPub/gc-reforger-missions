@@ -1,0 +1,21 @@
+SCR_AIWorld : "{0946C019EBADE117}Prefabs/AI/SCR_AIworld_AL_Hadra.et" {
+ coords 7950.019 138.574 7906.666
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7772.212 179.177 7850.571
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 7950.908 138.184 7906.227
+ {
+  SCR_FactionManager "68C8B220AECC06A2" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{68CB651C8514BBA8}" : "{01D7E2ADE73BB975}Configs/Factions/GC_IRAQ.conf" {
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 7712.344 176.513 7881.655
+}
