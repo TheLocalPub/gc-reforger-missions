@@ -1,0 +1,87 @@
+GenericEntity {
+ components {
+  MeshObject "{68DEFDD019F60716}" {
+   Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
+  }
+  RigidBody "{68DEFDD05B085310}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4235.69 17.407 4733.411
+ angles -6.212 0 0
+}
+ParticleEffectEntity {
+ coords 4235.475 19.574 4733.717
+ EffectPath "{20B8063E61892CE3}Prefabs/Systems/Smoke/Smoke_inf_black.ptc"
+}
+GenericEntity : "{1A4A501E5DFA6051}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_OilStain_01_extralarge.et" {
+ coords 4232.844 17.844 4728.084
+}
+DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ coords 4234.776 17.844 4733.221
+ angles -90 0 -85.167
+ scale 10
+ Stretch 2
+ TerrainOnly 0
+}
+GenericEntity : "{7B033D9E21CFD095}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_OilStain_01_small.et" {
+ coords 4239.396 17.844 4733.255
+}
+$grp GenericEntity : "{8EC389D1E77D1CB9}PrefabLibrary/props/SandPile_01.et" {
+ {
+  coords 4235.197 16.949 4734.347
+ }
+ {
+  coords 4235.632 16.644 4736.429
+  angles 0 -77.114 0
+ }
+ {
+  coords 4236.103 16.374 4739.023
+  angles 0 131.678 0
+ }
+}
+DecalEntity : "{97A820CF29C72121}Prefabs/Decals/Blood/Decal_Blood_7.et" {
+ coords 4240.52 0 4735.164
+ angles -90 180 95.89
+ scale 4.8
+}
+GenericEntity : "{ADA72BDCEF79C40A}Prefabs/MP/CombatOps/Cain/COCain_Ammo_MortarBox.et" {
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 0
+  }
+  SCR_GadgetComponent "{622065B556A6130B}" {
+   Enabled 0
+  }
+  SCR_PreviewEntityComponent "{58EEFD4A6943595E}" {
+   Enabled 0
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 0
+  }
+ }
+ coords 4237.08 17.926 4736.154
+ angles 0 0 40.424
+}
+DecalEntity : "{B38FBA56FA69E392}Prefabs/Decals/Fluids/Decal_OilStain_01_large.et" {
+ coords 4241.877 0.127 4732.765
+ angles -90 0 -172.376
+ TerrainOnly 0
+}
+DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+ coords 4236.74 17.844 4736.298
+ angles -90 -180 -180
+ scale 10
+}
+GenericEntity : "{DEB57429CD49782E}Prefabs/Props/Construction/SandPile_01_fd_fd.et" {
+ coords 4235.36 17.635 4731.847
+}
+DecalEntity : "{EDC06ABFC31E334F}Prefabs/Decals/Blood/Decal_Blood_9.et" {
+ coords 4238.122 0 4734.953
+ angles -90 180 103.375
+ scale 2.5
+}

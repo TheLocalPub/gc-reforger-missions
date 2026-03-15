@@ -1,0 +1,188 @@
+$grp SCR_DestructibleBuildingEntity : "{059F50F77B695C02}Prefabs/Structures/Ruins/House_Ruin_1I01/Dst/House_Ruin_1I01_V1_ruin.et" {
+ {
+  coords 4930.277 0.308 3867.385
+  angles 0 -29.766 0
+ }
+ {
+  coords 4956.483 0.281 3876.479
+  angles 0 112.435 0
+ }
+}
+$grp StaticModelEntity : "{0C904BACB486FC2E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Small.et" {
+ {
+  coords 4916.673 0 3871.434
+  angles 0 -30.306 0
+  scale 2
+ }
+ {
+  coords 4905.14 0.946 3869.751
+  angles 0 -61.962 0
+  scale 2
+ }
+ {
+  coords 4906.888 0 3865.327
+  angles 0 -87.334 0
+  scale 2
+ }
+ {
+  coords 4916.502 -0.96 3852.087
+  angles 0 -119.711 0
+  scale 3
+ }
+}
+SCR_DestructibleBuildingEntity : "{12485FE8D622B6DA}Prefabs/Structures/Ruins/House_Ruin_1I01/Dst/House_Ruin_1I01_V5_ruin.et" {
+ coords 4906.856 -1.39 3868.804
+ angles 0 -150.479 0
+ scale 3
+}
+StaticModelEntity : "{17BD9C2F3D704C6C}Prefabs/Structures/Ruins/House_Ruin_1I01/Dst/House_Ruin_1I01_V4_ruin.et" {
+ coords 4944.675 0 3853.922
+ angles 0 -64.101 0
+ scale 3.95
+}
+StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+ coords 4925.394 0.127 3863.134
+}
+SCR_DestructibleBuildingEntity : "{36BD536E60DA215D}Prefabs/Structures/Ruins/HouseRuin_02/HouseRuin_02_Debris.et" {
+ coords 4950.741 -0.043 3851.015
+ angles -0.928 0 -11.474
+}
+StaticModelEntity : "{4C606A89029A7E69}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Small.et" {
+ coords 4910.244 2.122 3875.167
+ scale 2.2
+}
+$grp SCR_DestructibleBuildingEntity : "{5A81BD9171FC3B07}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Big.et" {
+ {
+  coords 4912.378 1.935 3862.244
+  scale 5
+ }
+ {
+  coords 4943.875 0.059 3876.563
+  angles 1.474 0 0.765
+  scale 3.15
+ }
+ {
+  coords 4894.647 1.227 3866.328
+  scale 4.854
+ }
+ {
+  coords 4918.46 0.551 3886.734
+  angles -12.179 -0.185 0.782
+  scale 3.15
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+ {
+  coords 4871.356 0.563 3878.8
+  angles 2.454 0.313 7.266
+  scale 2.68
+ }
+ {
+  coords 4879.782 1.447 3881.468
+  scale 3.359
+ }
+}
+$grp StaticModelEntity : "{8940EB8236BDEDED}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Narrow_Huge.et" {
+ {
+  coords 4916.519 0 3875.9
+  angles 0 37.023 0
+  scale 2.3
+ }
+ {
+  coords 4885.899 0 3876.682
+  angles 0 -26.001 0
+  scale 2.3
+ }
+}
+StaticModelEntity : "{8E4573676405F031}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Medium.et" {
+ coords 4877.685 0.524 3880.002
+ scale 3.66
+}
+$grp StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+ {
+  coords 4911.418 0 3866.801
+  scale 2
+ }
+ {
+  coords 4930.671 0 3880.062
+  angles 0 -40.156 0
+  scale 2
+ }
+ {
+  coords 4907.484 0 3885.029
+  angles 0 -50.445 0
+  scale 2
+ }
+ {
+  coords 4920.931 0 3866.094
+  angles 0 -74.775 0
+  scale 2
+ }
+ {
+  coords 4935.939 0 3869.292
+  angles 0 -89.547 0
+  scale 2.2
+ }
+ {
+  coords 4921.852 0.899 3876.47
+  angles 0 -137.651 0
+  scale 2.2
+ }
+ {
+  coords 4882.902 0 3890.468
+  angles 0 -118.058 0
+  scale 3.7
+ }
+ {
+  coords 4898.312 0 3875.869
+  angles 0 98.471 0
+  scale 3.7
+ }
+ {
+  coords 4955.225 0.142 3853.218
+  angles -0.214 98.469 1.436
+  scale 3.7
+ }
+ {
+  coords 4882.648 0.59 3867.14
+  angles 0 -107.387 0
+  scale 3.7
+ }
+ {
+  coords 4936.116 0.273 3862.395
+  angles 0 135.42 0
+  scale 3.7
+ }
+ {
+  coords 4892.38 1.108 3877.203
+  angles 0 -118.821 0
+  scale 2
+ }
+ {
+  coords 4867.644 0.61 3867.374
+  angles 0 -40.156 0
+  scale 2
+ }
+}
+StaticModelEntity : "{BF31B7BDF8A7F526}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/Dst/Ruins/ShopHouse_E_2I01t_V2_dst_01_dbr_04_ruins.et" {
+ coords 4898.322 -0.12 3869.721
+ angles 0 -44.968 0
+ scale 1.64
+}
+$grp SCR_DestructibleBuildingEntity : "{F7919E01B9B17B3E}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_BrickPile_Small.et" {
+ {
+  coords 4898.751 1.745 3872.865
+  angles 0 0 -14.402
+  scale 3
+ }
+ {
+  coords 4947.288 0.488 3861.815
+  angles 0 0 -6.43
+  scale 5.69
+ }
+ {
+  coords 4871.947 1.628 3886.266
+  angles 0 0 6.209
+  scale 3.62
+ }
+}

@@ -1,0 +1,279 @@
+$grp PolylineShapeEntity {
+ {
+  coords 5386.409 17.868 4881.687
+  Points {
+   ShapePoint "{68DEFDCCE53B8837}" {
+    Position -0.163 0.105 -1.339
+   }
+   ShapePoint "{68DEFDCCE53BCC4F}" {
+    Position -16.174 -0.025 22.899
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{D6BDCB7A8BDCB610}Prefabs/WEGenerators/Walls/Crashbarrier/WG_CrashBarrier_01A.et" {
+    Flags 0x100003 0
+    m_iSeed 23265
+    {
+     $grp SCR_DestructibleEntity : "{04A36304123DADEF}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V1.et" {
+      {
+       components {
+        PK_EntityProtectorComponent "{68DEFDCB70AAE6A1}" {
+        }
+       }
+       coords -0.296 0.089 -1.138
+       angles 0 -123.447 0
+      }
+      {
+       components {
+        PK_EntityProtectorComponent "{68DEFDCB778BDC77}" {
+        }
+       }
+       coords -9.059 -0.025 12.129
+       angles 0 -123.447 0
+      }
+     }
+     SCR_DestructibleEntity : "{264B9F9E83A58187}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V2.et" {
+      components {
+       PK_EntityProtectorComponent "{68DEFDCB7414169B}" {
+       }
+      }
+      coords -13.441 -0.025 18.762
+      angles 0 -123.447 0
+     }
+     SCR_DestructibleEntity : "{68F757E4AEF922C1}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V2.et" {
+      components {
+       PK_EntityProtectorComponent "{68DEFDCB710228E3}" {
+       }
+      }
+      coords -4.677 -0.025 5.495
+      angles 0 -123.447 0
+     }
+     SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
+      components {
+       PK_EntityProtectorComponent "{68DEFDCB72F09F37}" {
+       }
+      }
+      coords -0.163 0.105 -1.339
+      angles 0 -123.447 0
+     }
+     SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
+      components {
+       PK_EntityProtectorComponent "{68DEFDCB6A537095}" {
+       }
+      }
+      coords -15.646 -0.025 22.1
+      angles 0 -123.447 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5351.214 17.844 4920.026
+  Points {
+   ShapePoint "{68DEFDCB62671B2C}" {
+    Position 0.695 0 -0.45
+   }
+   ShapePoint "{68DEFDCB62625FA6}" {
+    Position -5.303 0 4.232
+   }
+   ShapePoint "{68DEFDCBA58A46EF}" {
+    Position -12.878 -0 8.749
+   }
+   ShapePoint "{68DEFDCBA50AA3D1}" {
+    Position -19.355 0 10.583
+   }
+   ShapePoint "{68DEFDCB9AECEDFF}" {
+    Position -25.937 -0 10.138
+   }
+   ShapePoint "{68DEFDCB9A7F5BC1}" {
+    Position -32.881 0 7.317
+   }
+   ShapePoint "{68DEFDCB9BF6803D}" {
+    Position -37.479 -0 3.656
+   }
+   ShapePoint "{68DEFDCB9E569874}" {
+    Position -67.031 0.125 -34.453
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{D6BDCB7A8BDCB610}Prefabs/WEGenerators/Walls/Crashbarrier/WG_CrashBarrier_01A.et" {
+    Flags 0x100003 0
+    m_iSeed 8446
+    {
+     $grp SCR_DestructibleEntity : "{04A36304123DADEF}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V1.et" {
+      {
+       coords -24.527 0 10.081
+       angles 0 -198.308 0
+      }
+      {
+       coords -35.352 0 5.209
+       angles 0 -231.385 0
+      }
+      {
+       coords -40.314 0 -1.003
+       angles 0 -231.385 0
+      }
+      {
+       coords -45.275 0 -7.215
+       angles 0 -231.385 0
+      }
+      {
+       coords -50.237 0 -13.426
+       angles 0 -231.385 0
+      }
+      {
+       coords -55.198 0 -19.638
+       angles 0 -231.385 0
+      }
+      {
+       coords -60.16 -0.015 -25.85
+       angles 0 -231.385 0
+      }
+     }
+     SCR_DestructibleEntity : "{264B9F9E83A58187}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V2.et" {
+      coords 0.505 0 -0.302
+      angles 0 -142.019 0
+     }
+     $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
+      {
+       coords -9.332 0 6.465
+       angles 0 -147.215 0
+      }
+      {
+       coords -12.695 0 8.631
+       angles 0 -163.66 0
+      }
+      {
+       coords -32.122 0 7.568
+       angles 0 -216.141 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{68F757E4AEF922C1}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V2.et" {
+      {
+       coords -2.649 0 2.16
+       angles 0 -147.215 0
+      }
+      {
+       coords -16.534 0 9.756
+       angles 0 -177.674 0
+      }
+     }
+     SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
+      coords 0.695 0 -0.45
+      angles 0 -142.019 0
+     }
+     SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
+      coords -65.152 0.035 -32.101
+      angles 0 -231.385 0
+     }
+    }
+   }
+  }
+ }
+}
+$grp SplineShapeEntity {
+ {
+  coords 5335.309 18 4880.892
+  Points {
+   ShapePoint "{68CD564505822016}" {
+    Position 55.191 0 -10.854
+   }
+   ShapePoint "{68CD564505820A5F}" {
+    Position 25.559 -0.156 12.594
+   }
+   ShapePoint "{68CD564554604CF9}" {
+    Position 9.604 -0.156 25.763
+   }
+   ShapePoint "{68CD5645559838A1}" {
+    Position -6.636 -0.156 29.365
+   }
+   ShapePoint "{68CD56454960EBA2}" {
+    Position -43.237 -0.03 -3.952
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      coords -1.502 0 -5.447
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 56.693 0 -5.407
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position 27.061 -0.156 18.041
+       }
+       ShapePoint "{68CD564554605D73}" {
+        Position 11.106 -0.156 31.21
+       }
+       ShapePoint "{68CD5645559BC9F4}" {
+        Position -5.134 -0.156 34.812
+       }
+       ShapePoint "{68CD56454960F567}" {
+        Position -41.735 -0.03 1.495
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      EndPiece "1st version"
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5328.302 18 4870.646
+  Points {
+   ShapePoint "{68CD5645D2AF275F}" {
+    Position -50.184 -0.072 0.047
+   }
+   ShapePoint "{68CD5645DDBF0C8F}" {
+    Position -23.382 -0.013 0.553
+   }
+   ShapePoint "{68CD5645F2149CAD}" {
+    Position 9.016 0 -0.267
+   }
+   ShapePoint "{68CD5645F214CAAB}" {
+    Position 82.677 -0.009 -9.208
+   }
+   ShapePoint "{68CD5645C4142CC1}" {
+    Position 99.881 0 -12.109
+   }
+  }
+  {
+   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+    coords -4.729 0 -0.452
+    {
+     RoadEntity {
+      ID "556C655491CDCD64"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position -45.455 -0.072 0.499
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position -18.653 -0.013 1.005
+       }
+       ShapePoint "{68CD5645DDBF3016}" {
+        Position 13.745 0 0.186
+       }
+       ShapePoint "{68CD5645D2AEEFB6}" {
+        Position 87.406 -0.009 -8.755
+       }
+       ShapePoint "{68CD5645C417C0D4}" {
+        Position 104.61 0 -11.657
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+      EndPiece "4th version"
+     }
+    }
+   }
+  }
+ }
+}
