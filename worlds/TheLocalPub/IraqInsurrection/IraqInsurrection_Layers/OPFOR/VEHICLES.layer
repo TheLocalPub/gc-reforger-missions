@@ -1,0 +1,27 @@
+$grp Vehicle : "{78E46A3CAC36BB1E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_tan.et" {
+ Ural4320_transport_covered_tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 4217.339 17.844 4685.184
+  angles 0 138.449 0
+ }
+ Ural4320_transport_covered_tan2 {
+  coords 4247.524 17.844 4758.108
+  angles 0 136.501 0
+ }
+}
+Tank BMP1ZU : "{7CE967DF2F6E2618}worlds/HitTheMan/Prefabs/Vehicles/BMP1_Desert_ZU_HTM.et" {
+ coords 4194.315 17.844 4747.926
+ angles 0 -132.178 0
+}
+Tank T72 : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ coords 4208.89 17.844 4761.005
+ angles 0 -131.561 0
+}

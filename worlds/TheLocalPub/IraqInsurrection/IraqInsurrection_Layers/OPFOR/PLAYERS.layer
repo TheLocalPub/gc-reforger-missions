@@ -1,0 +1,68 @@
+$grp SCR_AIGroup : "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_PHQ.et" {
+ CHQ {
+  coords 4230.622 17.971 4727.065
+  angles 0 139.691 0
+  m_aUnitPrefabSlots {
+   "{8DBFB534F461359A}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_COYCmdr.et"
+   "{02B20DDF3FE47A40}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_RTO.et"
+   "{77DB4A1E32B46BA0}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Medic.et"
+   "{D97920CFDC026CBF}Prefabs/Characters/Factions/OPFOR/GC_IRAQ/2000/Standard dress/Character_IRAQ_2000_Sharpshooter.et"
+  }
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+ PHQ1 {
+  coords 4229.158 17.971 4722.748
+  angles 0 47.298 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Platoon Headquaters"
+  m_bSetPlayable 1
+ }
+ PHQ2 {
+  coords 4235.081 17.971 4723.972
+  angles 0 -133.326 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "2nd Platoon Headquaters"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et" {
+ PLT1SQD1 {
+  coords 4202.817 18.086 4683.531
+  angles 0 47.838 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+ PLT1SQD2 {
+  coords 4193.657 18.103 4693.596
+  angles 0 45.931 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+ PLT2SQD1 {
+  coords 4265.225 18.067 4758.273
+  angles 0 -132.162 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+ PLT2SQD2 {
+  coords 4274.384 18.07 4748.208
+  angles 0 -134.069 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{DBA7B8EAC547EE82}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_Crewmen.et" {
+ {
+  coords 4191.714 18.076 4751.202
+  angles 0 136.52 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+ {
+  coords 4206.453 18.13 4764.73
+  angles 0 136.52 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+}
