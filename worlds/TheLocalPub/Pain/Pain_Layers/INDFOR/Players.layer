@@ -1,0 +1,17 @@
+SCR_AIGroup INDFOR_CHQ : "{CEAFC72F2D3C0312}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechCHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 2986.948 28.732 4130.735
+ angles 0 143.4 0
+ m_aUnitPrefabSlots {
+  "{BF6C3DF72FA131E8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CoyCO_P.et"
+  "{BF4EDDF1A0E36FE2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Coy2IC_P.et"
+  "{A1015491E6929F91}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_1SG_P.et"
+  "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
+ }
+ m_sCustomNameSet "Company HQ"
+ m_bSetPlayable 1
+}

@@ -1,0 +1,168 @@
+SCR_AIGroup OPFOR_CHQ : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_CoyHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 3867.24 33.936 360.941
+ angles 0 59.111 0
+ m_bSetPlayable 1
+}
+SCR_AIGroup OPFOR_PLT1HQ : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3917.356 29.96 412.631
+ angles 0 -124.228 0
+ m_aUnitPrefabSlots +{
+  "{918062BE34F7C4D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CC.et"
+  "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+ }
+}
+$grp SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
+ OPFOR_PLT1SQD1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3922.038 28.249 443.204
+  angles 0 -125.607 0
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+   "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et"
+   "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+   "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et"
+   "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+   "{918062BE34F7C4D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CC.et"
+   "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+  m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
+ }
+ OPFOR_PLT1SQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3920.379 29.136 427.235
+  angles 0 -125.607 0
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+   "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et"
+   "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+   "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et"
+   "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+   "{918062BE34F7C4D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CC.et"
+   "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+  m_sCustomNameSet "2nd Squad"
+  m_bSetPlayable 1
+ }
+ T72Crew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3882.615 29.359 439.38
+  angles 0 118.433 0
+  m_aUnitPrefabSlots {
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "T-72 Crew"
+  m_bSetPlayable 1
+ }
+ BMPZSUCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3882.361 28.539 426.376
+  angles 0 118.433 0
+  m_aUnitPrefabSlots {
+   "{918062BE34F7C4D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CC.et"
+   "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+  m_sCustomNameSet "BMP-1ZSU Crew"
+  m_bSetPlayable 1
+ }
+ BMPCrew1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3878.007 30.846 394.774
+  angles 0 118.433 0
+  m_aUnitPrefabSlots {
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "BMP-1 Crew"
+  m_bSetPlayable 1
+ }
+ BMPCrew2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3877.296 32.042 379.601
+  angles 0 118.433 0
+  m_aUnitPrefabSlots {
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "BMP-1 Crew"
+  m_bSetPlayable 1
+ }
+ BRDMCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3877.947 33.37 365.242
+  angles 0 118.433 0
+  m_aUnitPrefabSlots {
+   "{918062BE34F7C4D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CC.et"
+   "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+  m_sCustomNameSet "BRDM Crew"
+  m_bSetPlayable 1
+ }
+}

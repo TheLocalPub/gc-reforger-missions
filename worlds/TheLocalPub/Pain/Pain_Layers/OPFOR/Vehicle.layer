@@ -1,0 +1,68 @@
+$grp Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
+ BMP1_2 {
+  coords 3875.38 32.035 380.162
+  angles 0 26.258 0
+  m_sAttachmentGroupName "BMPCrew2"
+ }
+ BMP1_1 {
+  coords 3876.162 30.769 395.76
+  angles 0 29.765 0
+  m_sAttachmentGroupName "BMPCrew1"
+ }
+}
+Vehicle BRDM : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 3875.881 33.272 365.419
+ angles 0 29.597 0
+ m_sAttachmentGroupName "BRDMCrew"
+}
+SCR_AIGroup GRADCrew : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 3893.146 35.337 343.694
+ angles 0 7.334 0
+ m_aUnitPrefabSlots {
+  "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
+  "{50982796B32CBF15}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_Random.et"
+ }
+ m_sCustomNameSet "GRAD BM-21 Creweeeqw"
+ m_bSetPlayable 1
+}
+$grp Vehicle : "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et" {
+ GRAD1 {
+  coords 3899.784 36.139 338.111
+  angles 0 7.042 0
+ }
+ GRAD2 {
+  coords 3888.064 35.867 339.558
+  angles 0 7.042 0
+ }
+}
+$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
+ BTR2 {
+  coords 3914.33 29.238 426.929
+  angles 0 -34.631 0
+  m_sAttachmentGroupName "OPFOR_PLT1SQD2"
+ }
+ BTR1 {
+  coords 3914.889 28.399 441.861
+  angles 0 -34.631 0
+  m_sAttachmentGroupName "OPFOR_PLT1SQD1"
+ }
+ BTR3 {
+  coords 3911.691 29.873 413.279
+  angles 0 -34.631 0
+ }
+}
+Tank T72 : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ coords 3880.345 27.551 440.004
+ angles 0 27.605 0
+ m_sAttachmentGroupName "T72Crew"
+}
+Tank BMP1ZSU : "{BDB60CD1A2B8A70C}worlds/HitTheMan/Prefabs/Vehicles/BMP1_ZSU_base_HTM.et" {
+ coords 3879.921 28.45 426.76
+ angles 0 27.139 0
+ m_sAttachmentGroupName "BMPZSUCrew"
+}

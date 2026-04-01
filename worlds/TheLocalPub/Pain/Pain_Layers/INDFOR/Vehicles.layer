@@ -1,0 +1,12 @@
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 2986.375 26.973 4125.142
+ angles 0 161.289 0
+}
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 2991.407 26.899 4127.86
+ angles 0 162.191 0
+}
+Tank M113A2_MEV1 : "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A2_MEV.et" {
+ coords 2997.102 26.931 4130.766
+ angles 0 165.284 0
+}
