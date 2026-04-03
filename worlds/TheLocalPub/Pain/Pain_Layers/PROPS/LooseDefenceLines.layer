@@ -1350,8 +1350,188 @@ $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortific
   }
  }
  {
-  coords 4232.261 -0.096 3991.007
-  angles -2.473 96.608 2.431
+  coords 4232.384 -0.083 3985.735
+  angles -2.473 96.608 1.872
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 4546.733 -0.338 3347.904
+  angles 0.997 -107.922 0.141
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 4554.466 0 3322.644
+  angles 0.112 160.394 1.498
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 4580.665 0.208 3322.644
+  angles 0.112 160.394 1.498
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 4605.371 0.122 3338.864
+  angles 0.112 -109.606 1.498
   {
    $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
     {

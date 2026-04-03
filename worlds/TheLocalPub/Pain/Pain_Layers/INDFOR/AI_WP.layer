@@ -1,0 +1,17 @@
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ WP_DEF1 {
+  coords 2588.038 13.885 2142.497
+  CompletionRadius 400
+  m_bFastInit 1
+ }
+ WP_DEF2 {
+  coords 2266.52 13.885 2654.221
+  CompletionRadius 300
+  m_bFastInit 1
+ }
+ WP_DEF3 {
+  coords 2193.663 14.945 3325.531
+  CompletionRadius 500
+  m_bFastInit 1
+ }
+}

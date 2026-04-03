@@ -1,0 +1,10 @@
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 2972.039 27.223 4111.69
+  angles 0 112.093 0
+ }
+ {
+  coords 2987.186 26.616 4094.936
+  angles 0 0.575 0
+ }
+}

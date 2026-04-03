@@ -5,6 +5,24 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 720.316 21.696 1346.071
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+   m_iStartingMinutes 30
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6903001EC5FA3C06}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 10
+     m_iStartingMinutes 30
+    }
+   }
+   m_iDay 2
+   m_iMonth 4
+   m_iYear 2022
+   m_bUseSpecifiedDate 1
+  }
+ }
  coords 715.839 24.972 1244.467
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {

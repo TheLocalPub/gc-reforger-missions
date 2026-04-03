@@ -1,22 +1,23 @@
-$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- OFFORSpawn {
-  coords 3879.096 33.342 363.654
-  angles -0.042 90 0
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
-  m_sQuadName "combined"
-  m_fWorldSize 100
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 788.085 24.432 1336.819
+  m_sTitle "Summary"
+  m_sTextData "CDF defend agains orks"\
+  ""\
+  "<h2>Summary notes</h2>"
+  m_bEmptyFactionVisibility 1
  }
- CDFHQBunker {
-  coords 3132.769 28.951 4291.185
-  angles 0 90 0
-  m_MarkerColor 0.25 0.503 0 1
-  m_sQuadName "flag-2"
-  m_fWorldSize 100
-  m_sDescription "CDF HQ Bunker"
-  m_bVisibleForEmptyFaction 1
+ MN {
+  coords 788.085 24.432 1336.819
+  m_sTitle "Mission notes"
+  m_sTextData "<h2>End conditions</h2>"\
+  "<b>CDF:</b>"\
+  ""\
+  "<b>AFRF:</b>"\
+  ""\
+  "<h2>Misc</h2>"
+  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 10
  }
 }

@@ -700,7 +700,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles 1.97 132.799 1.823
  }
  {
-  coords 3772.841 3.148 3256.424
+  coords 3772.841 0 3256.424
   angles -1.808 -42.317 -1.984
  }
  {
@@ -708,7 +708,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles 1.863 -43.954 1.932
  }
  {
-  coords 3787.432 -0 3230.703
+  coords 3787.432 0 3230.703
   angles 0 112.069 0
  }
  {
@@ -724,7 +724,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles 23.083 150.854 -8.688
  }
  {
-  coords 3500.655 -0 3410.706
+  coords 3500.655 0 3410.706
   angles 23.083 150.854 -8.688
  }
  {
@@ -1124,11 +1124,11 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   angles -2.829 109.204 -0.038
  }
  {
-  coords 3764.83 -0 3300.94
+  coords 3764.83 0 3300.94
   angles -34.873 41.445 16.641
  }
  {
-  coords 3752.39 -0 3295.2
+  coords 3752.39 0 3295.2
   angles -3.508 155.036 -3.293
  }
  {
@@ -1152,11 +1152,11 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   angles -0.509 34.632 0.737
  }
  {
-  coords 3485.609 -0 3416.847
+  coords 3485.609 0 3416.847
   angles -0.509 34.632 0.737
  }
  {
-  coords 3488.45 -0 3427.872
+  coords 3488.45 0 3427.872
   angles -34.873 41.445 16.641
  }
  {

@@ -1,0 +1,497 @@
+GenericEntity : "{302806EE37C2F372}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V5.et" {
+ coords 3534.826 26.021 3234.874
+ angles 2.028 0 0
+}
+GenericEntity : "{3B19CA49C71B8D33}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_01_burlap.et" {
+ coords 3208.186 25.536 3163.421
+}
+GenericEntity : "{4575A2ADDC292742}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_04_burlap.et" {
+ coords 3210.416 25.536 3161.375
+}
+SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
+ coords 3207.704 25.482 3163.857
+ angles 0 -47.8 0
+ scale 0.5
+}
+GenericEntity : "{6CD0F0A7E8010BCD}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_newspaper_V1.et" {
+ coords 3528.689 25.789 3236.76
+ angles 1.802 0 0
+}
+$grp StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ {
+  coords 3524.875 26.867 3227.565
+  angles 0 -174.071 0
+ }
+ {
+  coords 3214.159 24.659 3158.5
+  angles 0 -174.071 0
+ }
+ {
+  coords 3250.728 24.84 3159.059
+  angles 0 98.718 0
+ }
+ {
+  coords 3230.273 24.98 3161.813
+  angles 0 178.66 0
+ }
+ {
+  coords 3542.485 26.562 3231.535
+  angles 0 115 0
+ }
+ {
+  coords 3482.567 26.259 3257.757
+  angles 0 -108.006 0
+ }
+}
+$grp GenericEntity : "{736C875F2F2C1C6B}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUS_01.et" {
+ {
+  coords 3207.774 24.759 3264.55
+  angles 0 -46.713 0
+  {
+   GenericEntity : "{736C875F2F2C1C6B}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUS_01.et" {
+    coords 0 0 5.862
+    angles 0 -180 0
+   }
+  }
+ }
+ {
+  coords 3230.663 24.333 3292.604
+  angles 0 -51.955 0
+ }
+ {
+  coords 3527.667 27.362 3246.107
+  angles 2.163 -10.358 0
+  {
+   GenericEntity : "{736C875F2F2C1C6B}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUS_01.et" {
+    coords 0 0 5.862
+    angles 0 -180 0
+   }
+  }
+ }
+}
+GenericEntity : "{799E5AAAB698E210}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_bowl.et" {
+ coords 3531.963 27.092 3234.927
+ angles 0 0 -13.151
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3248.441 23.356 3161.493
+  angles -0.621 10.492 -0.49
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3213.613 24.229 3163.978
+  angles -0.493 23.638 -0.618
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3217.47 24.246 3159.904
+  angles -0.703 -0.425 -0.363
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3212.407 24.212 3164.759
+  angles -0.3 39.911 -0.732
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3246.215 24.437 3158.427
+  angles -0.56 17.183 -0.559
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3246.55 23.372 3159.263
+  angles -0.507 22.388 -0.608
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3207.6 24.188 3164.302
+  angles -0.118 53.637 -0.782
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3208.586 24.211 3162.911
+  angles -0.026 60.36 -0.791
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3246.968 23.635 3162.005
+  angles -0.586 14.437 -0.532
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3247.979 23.384 3158.998
+  angles -0.621 10.492 -0.49
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3248.492 24.447 3161.762
+  angles -0.621 10.492 -0.49
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3211.407 24.26 3160.357
+  angles -0.439 28.519 -0.658
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3215.104 24.242 3163.71
+  angles -0.688 1.768 -0.39
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3247.79 24.488 3158.088
+  angles -0.663 5.287 -0.432
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3533.489 26.045 3233.444
+  angles 0 27.596 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3532.077 26.045 3233.971
+  angles 0 13.111 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3532.077 26.045 3233.971
+  angles 0 13.111 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3525.599 25.714 3233.24
+  angles 0 108.293 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3525.957 25.918 3234.759
+  angles 0 96.189 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3526.094 26.121 3236.025
+  angles 0 111.14 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3526.425 26.121 3237.48
+  angles 0 97.475 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3526.49 26.219 3239.01
+  angles 0 85.002 1.462
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3526.344 26.313 3240.674
+  angles 0 86.291 2.789
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3526.062 26.443 3242.363
+  angles 0 79.327 3.224
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3530.833 26.045 3234.261
+  angles 0 13.111 0
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3531.799 26.288 3238.41
+  angles 0 28.354 -2.302
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3531.116 26.245 3239.391
+  angles 1.848 81.727 1.781
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3530.858 26.389 3240.944
+  angles 2.25 76.321 4.16
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3530.447 26.478 3242.62
+  angles 2.25 76.321 0.567
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3533.16 26.35 3237.676
+  angles -0.121 25.332 -2.299
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3534.687 26.416 3237.047
+  angles -0.424 17.741 -2.263
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3536.217 26.482 3236.442
+  angles -0.153 24.554 -2.297
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3537.731 26.392 3235.91
+  angles -0.444 17.253 2.665
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3539.185 26.303 3235.416
+  angles -0.05 27.106 1.706
+ }
+ {
+  components {
+   Hierarchy "{59B6A7678CF6C075}" {
+    Enabled 1
+   }
+  }
+  coords 3540.772 26.229 3234.604
+  angles -0.05 27.106 -2.823
+ }
+}
+GenericEntity : "{9F2AA7588FBE77A6}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_mug.et" {
+ coords 3531.64 27.057 3234.867
+ angles 0 -77.076 0
+}
+$grp SCR_DestructibleBuildingEntity : "{A443DA5AFA5A5B70}Prefabs/Structures/Industrial/CoalMineShaft_01/CoalMineShaft_USSR_01_10m_metalcover.et" {
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    LODFactors {
+     0
+     0
+     0
+     1
+     1
+    }
+   }
+  }
+  coords 3515.081 25.759 3321.79
+  angles 0 -167.185 0
+ }
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    LODFactors {
+     0
+     0
+     0
+     1
+     1
+    }
+   }
+  }
+  coords 3554.926 25.629 3305.573
+  angles 0 21.557 0
+ }
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    LODFactors {
+     0
+     0
+     0
+     1
+     1
+    }
+   }
+  }
+  coords 3238.258 22.931 3214.519
+  angles 0 45.593 0
+ }
+}
+GameEntity : "{AC0FC88DBE628086}Prefabs/Props/Military/AmmoBoxes/AmmoBox_S5_Rocket_USSR/AmmoBox_S5_Rocket_USSR.et" {
+ components {
+  SignalsManagerComponent "{62B06A3BB20B0A60}" {
+   Enabled 0
+  }
+ }
+ coords 3528.172 26.766 3231.842
+ angles 0 -65.885 0
+}
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ coords 3209.147 24.233 3167.75
+ angles 0 -127.548 0
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 3538.624 26.427 3231.798
+  angles 0 22.983 0
+ }
+ {
+  coords 3535.594 25.988 3232.79
+  angles 0 14.203 2.651
+ }
+}
+StaticModelEntity : "{C2ACB740ED1CEB46}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation_camonet.et" {
+ coords 3392.283 26.283 3283.073
+ angles 0 -144.152 0
+}
+GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ coords 3528.718 26.285 3243.808
+ angles 0 -112.785 0
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 3211.643 25.51 3160.261
+ }
+ {
+  coords 3210.081 25.557 3161.746
+  angles 0.046 -132.587 11.816
+ }
+ {
+  coords 3209.511 25.536 3162.188
+ }
+}
+GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 0
+  }
+ }
+ coords 3532.047 27.319 3234.289
+}

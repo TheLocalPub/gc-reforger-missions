@@ -1,0 +1,583 @@
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 1778.742 25.053 3676.96
+  angles 0 10.047 0
+ }
+ {
+  coords 1782.252 24.925 3672.026
+  angles 0 -79.743 0
+ }
+}
+$grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ {
+  coords 1827.548 8.282 3449.886
+  angles 0 -149.228 0
+ }
+ {
+  coords 1840.188 8.387 3446.668
+  angles 0 173.273 0
+ }
+}
+StaticModelEntity : "{2AD330CAD22BE0AC}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/CzechHedgehog_01_painted_CompositionDestruction.et" {
+ coords 1870.114 0 3651.191
+ angles 0 -85.371 0
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 1824.078 8.533 3456.47
+ angles 0 -146.452 0
+}
+SCR_DestructibleEntity : "{683F021171DBC274}Prefabs/Props/Furniture/Sunshade_01/Sunshade_01_rainbow.et" {
+ coords 1776.847 24.88 3673.726
+}
+GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_02.et" {
+ coords 1830.211 9.962 3669.513
+ angles 0 116.634 0
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 1842.499 10.008 3651.323
+ angles 0 -169.914 0
+}
+$grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+ {
+  coords 1775.506 21.637 3679.355
+  angles 0 -80.414 0
+ }
+ {
+  coords 1783.281 21.637 3677.894
+  angles 0 -80.608 0
+ }
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 1855.887 8.755 3455.047
+  angles 0 42.951 0
+ }
+ {
+  coords 1776.314 24.859 3673.869
+  angles 0 158.968 0
+ }
+}
+$grp StaticModelEntity : "{7F8D6A0D827EA34B}Prefabs/Props/Military/Fortification/CzechHedgehog_01_base.et" {
+ {
+  coords 1850.472 0.087 3637.05
+ }
+ {
+  coords 1860.922 0 3635.67
+  angles 0 -158.102 0
+ }
+ {
+  coords 1878.017 -0 3644.338
+ }
+}
+GenericEntity : "{881FCB0BDCE4B89F}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Medical_USSR_02.et" {
+ coords 1777.47 24.881 3673.414
+ angles 0 -35.676 0
+}
+Turret : "{8FB601FB0E816582}Prefabs/Weapons/Tripods/BGM71TOW/Deployable_Tripod_BGM71_TOW.et" {
+ coords 1777.757 24.908 3670.863
+ angles 0 164.063 0
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 1849.643 8.656 3453.845
+ angles 0 140.958 0
+}
+$grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ {
+  coords 1857.341 0.05 3643.175
+ }
+ {
+  coords 1873.254 -0 3635.944
+  angles 0 -31.599 0
+ }
+ {
+  coords 1871.653 0.418 3642.582
+  angles 0 0 -73.612
+ }
+}
+$grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ {
+  coords 1781.816 24.897 3669.497
+  angles 0 99.3 0
+ }
+ {
+  coords 1773.929 24.935 3670.839
+  angles 0 100.006 0
+ }
+ {
+  coords 1781.134 24.912 3668.971
+  angles 0 -170.7 0
+ }
+ {
+  coords 1774.411 24.912 3670.072
+  angles 0 9.3 0
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 1855.656 8.851 3457.319
+  angles -1.656 -74.932 -6.005
+ }
+ {
+  coords 1834.97 8.404 3448.106
+  angles 0 13.322 0
+ }
+ {
+  coords 1838.034 8.413 3447.84
+  angles 0 -2.552 0
+ }
+ {
+  coords 1831.869 8.368 3449.156
+  angles 0 24.318 0
+ }
+ {
+  coords 1782.808 24.882 3675.071
+  angles 0 -80.146 0
+ }
+ {
+  coords 1781.037 24.882 3676.517
+  angles 0 -169.073 0
+ }
+ {
+  coords 1774.922 24.882 3676.476
+  angles 0 -79.931 0
+ }
+ {
+  coords 1774.372 24.882 3673.378
+  angles 0 -79.931 0
+ }
+}
+GenericEntity : "{C0CCCB68B7147DEC}Prefabs/Props/Furniture/Chair_02/Chair_02_Base.et" {
+ coords 1776.975 24.877 3673.046
+ angles 0 136.598 0
+}
+GenericEntity : "{C529E6E1AE272891}Prefabs/Compositions/Misc/SubCompositions/Barrel_Cluttered_01.et" {
+ coords 1777.852 24.894 3673.868
+ angles 0 -10.67 0
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 1780.284 25.572 3668.631
+ }
+ {
+  coords 1779.583 25.562 3668.72
+  angles 0 -161.606 0
+ }
+ {
+  coords 1778.943 25.59 3668.778
+  angles 0 -164.497 0
+ }
+ {
+  coords 1778.333 25.594 3668.899
+  angles 0 -172.689 1.698
+ }
+ {
+  coords 1777.856 25.603 3669.045
+  angles 0 16.573 0
+ }
+ {
+  coords 1777.175 25.567 3669.07
+  angles 0 -165.006 0
+ }
+ {
+  coords 1776.6 25.597 3669.221
+  angles 0 7.311 0
+ }
+ {
+  coords 1775.897 25.593 3669.372
+  angles 0 -166.29 0
+ }
+ {
+  coords 1775.365 25.581 3669.51
+  angles 0 15.001 0
+ }
+}
+GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+ coords 1856.556 9.218 3459.353
+ angles 0.457 -46.151 -5.58
+}
+$grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ {
+  coords 2062.953 -0.049 3403.268
+  angles -2.032 -49.559 4.727
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 2042.832 -0.017 3389.476
+  angles -3.183 -34.607 4.042
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 2020.61 0.147 3379.485
+  angles -3.015 -49.522 0.429
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 2000.103 0.348 3364.864
+  angles -3.707 -49.487 -0.164
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 1980.603 0.168 3349.963
+  angles -2.938 -62.751 -0.003
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 1961.364 0.068 3332.728
+  angles -2.938 -33.768 3.154
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 1935.982 0.081 3328.315
+  angles -1.762 38.233 1.327
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+ {
+  coords 2083.231 0.022 3388.962
+  angles 5.617 61.944 -5.136
+  {
+   $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+    {
+     coords -17.677 -0.58 4.083
+    }
+    {
+     coords -19.104 -0.639 7.463
+    }
+    {
+     coords -17.116 -0.566 6.292
+     angles 0 -30.399 0
+    }
+    {
+     coords -14.548 -0.439 6.641
+    }
+    {
+     coords -13.087 -0.357 3.651
+    }
+    {
+     coords -9.648 -0.266 4.711
+    }
+    {
+     coords -9.657 -0.215 2.442
+    }
+    {
+     coords -5.921 -0.127 3.477
+    }
+    {
+     coords 3.968 -0.086 0.286
+    }
+    {
+     coords 2.006 -0.054 1.406
+    }
+    {
+     coords -1.799 0.284 2.398
+    }
+    {
+     coords -4.799 -0.068 0.979
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et" {
+ {
+  coords 1779.058 25.167 3670.526
+  angles -0.801 10.659 -88.628
+ }
+ {
+  coords 1778.681 25.172 3670.596
+  angles -0.242 10.659 -88.521
+ }
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 1775.575 22.212 3679.476
+  angles 0 -80.927 0
+ }
+ {
+  coords 1783.387 22.212 3678.005
+  angles 0 -79.853 0
+ }
+}
+GenericEntity : "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et" {
+ coords 1862.078 11.058 3649.051
+ angles 0 -48.274 80.059
+}
