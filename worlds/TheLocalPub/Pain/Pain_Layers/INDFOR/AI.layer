@@ -1,0 +1,95 @@
+SCR_AIGroup AISQD10 : "{2309BEE0CC53AB1E}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechCHQ.et" {
+ coords 1891.894 11.981 3515.088
+ m_aUnitPrefabSlots {
+  "{607F980B02C7D6ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_CoyCO.et"
+  "{7F2A31E797B5887E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Coy2IC.et"
+  "{93999B88D23BF5D3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_1SG.et"
+  "{3146BF015ED67124}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_Medic.et"
+ }
+ m_aStaticWaypoints {
+  "WP_DEF3"
+ }
+}
+$grp SCR_AIGroup : "{36AC489E01F17547}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechPHQ.et" {
+ AISQD4 {
+  coords 2541.588 14.062 2234.474
+  m_aStaticWaypoints {
+   "WP_DEF1"
+  }
+ }
+ AISQD5 {
+  coords 2184.254 7.611 2628.909
+  m_aStaticWaypoints {
+   "WP_DEF2"
+  }
+ }
+ AISQD8 {
+  coords 1888.923 6.545 3258.47
+  m_aStaticWaypoints {
+   "WP_DEF3"
+  }
+ }
+}
+$grp SCR_AIGroup : "{79CDA4B2A831B2A7}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_3.et" {
+ AISQD1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2292.496 8.96 2118.516
+  angles 0 150 0
+  m_aStaticWaypoints {
+   "WP_DEF1"
+  }
+ }
+ AISQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2458.103 11.503 2237.977
+  angles 0 150 0
+  m_aStaticWaypoints {
+   "WP_DEF1"
+  }
+ }
+ AISQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2541.969 11.149 2124.842
+  angles 0 150 0
+  m_aStaticWaypoints {
+   "WP_DEF1"
+  }
+ }
+}
+$grp SCR_AIGroup : "{9C51E84BA4D425CC}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_2.et" {
+ AISQD6 {
+  coords 2400.301 9.551 2592.794
+  m_aStaticWaypoints {
+   "WP_DEF2"
+  }
+ }
+ AISQD7 {
+  coords 2104.97 13.16 3222.355
+  m_aStaticWaypoints {
+   "WP_DEF3"
+  }
+ }
+}
+SCR_AIGroup AISQD9 : "{F005DCAB1810AAE2}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_1.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 2418.719 2.648 3507.237
+ m_aStaticWaypoints {
+  "WP_DEF3"
+ }
+}

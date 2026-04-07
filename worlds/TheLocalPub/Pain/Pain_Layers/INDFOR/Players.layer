@@ -1,17 +1,189 @@
-SCR_AIGroup INDFOR_CHQ : "{CEAFC72F2D3C0312}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechCHQ_P.et" {
+$grp SCR_AIGroup : "{595A0CBCBD6228F4}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_3_P.et" {
+ INDFOR_SQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Squad (Mech)"
+    }
+   }
+  }
+  coords 3414.37 24.899 3554.117
+  angles 0 165.333 0
+  m_aUnitPrefabSlots {
+   "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et"
+   "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AT_P.et"
+   "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AAT_P.et"
+   "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
+   "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+   "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
+  }
+ }
+ INDFOR_AT {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Squad (Mech)"
+    }
+   }
+  }
+  coords 3358.327 24.281 3538.788
+  angles 0 165.333 0
+  m_aUnitPrefabSlots {
+   "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et"
+   "{15A1F53F24A66F96}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RiflemanLAT_P.et"
+   "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+   "{15A1F53F24A66F96}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RiflemanLAT_P.et"
+   "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+   "{15A1F53F24A66F96}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RiflemanLAT_P.et"
+   "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+   "{15A1F53F24A66F96}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RiflemanLAT_P.et"
+  }
+  m_sCustomNameSet "Anti-tank team"
+ }
+}
+SCR_AIGroup INDFOR_PHQ1 : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechPHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "File"
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Platoon HQ (Mech)"
+   }
+  }
  }
- coords 2986.948 28.732 4130.735
- angles 0 143.4 0
+ coords 3420.112 25.281 3523.362
+ angles 0 -17.663 0
+ m_aUnitPrefabSlots +{
+  "{5259C88F9C1735CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MG_P.et"
+  "{36C9B30224DB71F4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AMG_P.et"
+ }
+}
+SCR_AIGroup INDFOR_SQD1 : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_1_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Squad (Mech)"
+   }
+  }
+ }
+ coords 3447.539 24.889 3541.976
+ angles 0 -107.728 0
  m_aUnitPrefabSlots {
-  "{BF6C3DF72FA131E8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CoyCO_P.et"
-  "{BF4EDDF1A0E36FE2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Coy2IC_P.et"
-  "{A1015491E6929F91}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_1SG_P.et"
-  "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
+  "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et"
+  "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AT_P.et"
+  "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AAT_P.et"
+  "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
+  "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+  "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
  }
- m_sCustomNameSet "Company HQ"
- m_bSetPlayable 1
+}
+SCR_AIGroup INDFOR_SQD2 : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_2_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Squad (Mech)"
+   }
+  }
+ }
+ coords 3391.874 24.577 3530.337
+ angles 0 71.574 0
+ m_aUnitPrefabSlots {
+  "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et"
+  "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AT_P.et"
+  "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AAT_P.et"
+  "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
+  "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
+  "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et"
+ }
+}
+$grp SCR_AIGroup : "{CEAFC72F2D3C0312}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechCHQ_P.et" {
+ INDFOR_CHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "Platoon HQ (Mech)"
+    }
+   }
+  }
+  coords 2986.948 28.663 4130.735
+  angles 0 143.4 0
+  m_aUnitPrefabSlots {
+   "{BF6C3DF72FA131E8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CoyCO_P.et"
+   "{BF4EDDF1A0E36FE2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Coy2IC_P.et"
+   "{A1015491E6929F91}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_1SG_P.et"
+   "{1F37DEC383E18BD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RTO_P.et"
+   "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
+   "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
+  }
+  m_sCustomNameSet "Company HQ"
+  m_bSetPlayable 1
+ }
+ INDFOR_DroneTeam {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3002.346 26.41 4111.474
+  angles 0 -11.633 0
+  m_aUnitPrefabSlots {
+   "{0DDE0B3D23184E78}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneCO_3.et"
+   "{16CF957D365B2800}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneDropper_2.et"
+   "{841673249339563D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneFPV_1.et"
+   "{E84247C42FFDD913}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneFPV_2.et"
+  }
+  m_sCustomNameSet "Drone team"
+  m_bSetPlayable 1
+ }
 }

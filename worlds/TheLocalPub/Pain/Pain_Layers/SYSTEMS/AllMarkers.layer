@@ -337,11 +337,8 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
   }
   coords 708.754 25.026 1268.335
   Points {
-   ShapePoint "{68FEF006A28D63F8}" {
-    Position 2780.525 -0.108 2145.088
-   }
    ShapePoint "{68FEF006A39A5F86}" {
-    Position 2792.819 0.468 2176.02
+    Position 2799.719 0.325 2162.111
    }
    ShapePoint "{68FEF006A0F3F000}" {
     Position 2884.022 0.742 2171.236
@@ -1119,7 +1116,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  OFFORSpawn {
-  coords 3879.096 33.342 363.654
+  coords 3884.133 27.907 434.806
   angles -0.042 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"

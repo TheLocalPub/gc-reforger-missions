@@ -1,0 +1,9 @@
+GenericEntity Jammer1 : "{163A6815DEEE28E3}Prefabs/Items/Equipment/Backpacks/JammerBagStatic.et" {
+ components {
+  SAL_DroneJammerComponent "{66F620F06939FA77}" {
+   m_fJammingRange 1300
+  }
+ }
+ coords 3577.593 31.033 523.407
+ angles 0 0 0
+}

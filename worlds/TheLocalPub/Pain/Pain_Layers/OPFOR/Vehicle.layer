@@ -1,68 +1,488 @@
+Vehicle UAZPKM : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 3875.138 34.84 349.207
+ angles 0 42.503 0
+}
 $grp Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
  BMP1_2 {
+  components {
+   RHS_GroupMaterialController "{68686390A098EBB2}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{68686390A150EE71}" {
+      m_iTextureID 3
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F6FDCBCB3}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 3875.38 32.035 380.162
-  angles 0 26.258 0
+  angles 0 25.945 0
   m_sAttachmentGroupName "BMPCrew2"
  }
  BMP1_1 {
+  components {
+   RHS_GroupMaterialController "{68686390A098EBB2}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{68686390A150EE71}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F6FDCBCB3}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 3876.162 30.769 395.76
   angles 0 29.765 0
   m_sAttachmentGroupName "BMPCrew1"
  }
 }
 Vehicle BRDM : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
- coords 3875.881 33.272 365.419
+ components {
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6908F89F074449DA}" {
+     SlotTemplate EquipmentStorageSlot fuel {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 3880.918 27.763 436.571
  angles 0 29.597 0
  m_sAttachmentGroupName "BRDMCrew"
 }
-SCR_AIGroup GRADCrew : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
+Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "File"
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
   }
  }
- coords 3893.146 35.337 343.694
- angles 0 7.334 0
- m_aUnitPrefabSlots {
-  "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
-  "{50982796B32CBF15}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_Random.et"
+ coords 3874.977 35.589 343.788
+ angles 0 43.192 0
+}
+Vehicle Ambulance : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+     SlotTemplate InventoryStorageSlot FieldDressing {
+      Prefab "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et"
+     }
+    }
+    MultiSlotConfiguration "{6908F89F1D45EDD7}" {
+     SlotTemplate EquipmentStorageSlot fuel {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
  }
- m_sCustomNameSet "GRAD BM-21 Creweeeqw"
- m_bSetPlayable 1
+ coords 3875.019 34.21 355.087
+ angles 0 41.117 0
+}
+Vehicle GAZ2 : "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B43BCF2B1B8028}" {
+     SlotTemplate InventoryStorageSlot Medikit {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3912.023 24.004 495.955
+ angles 0 -58.154 0
 }
 $grp Vehicle : "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et" {
  GRAD1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 3899.784 36.139 338.111
   angles 0 7.042 0
+  m_sAttachmentGroupName "GRADCrew"
  }
  GRAD2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 3888.064 35.867 339.558
   angles 0 7.042 0
+  m_sAttachmentGroupName "GRADCrew"
  }
+}
+Vehicle GAZ1 : "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B43BCF2B1B8028}" {
+     SlotTemplate InventoryStorageSlot Medikit {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3913.309 23.252 501.827
+ angles 0 -57.701 0
+}
+Vehicle URAL1 : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3873.514 36.339 337.351
+ angles 0 38.727 0
 }
 $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
  BTR2 {
-  coords 3914.33 29.238 426.929
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 3
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3912.514 28.155 446.402
   angles 0 -34.631 0
   m_sAttachmentGroupName "OPFOR_PLT1SQD2"
  }
  BTR1 {
-  coords 3914.889 28.399 441.861
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3911.374 29.026 430.771
   angles 0 -34.631 0
   m_sAttachmentGroupName "OPFOR_PLT1SQD1"
  }
  BTR3 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
   coords 3911.691 29.873 413.279
   angles 0 -34.631 0
+  m_sAttachmentGroupName "OPFOR_PLT1HQ"
+ }
+ BTR4 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3886.959 25.122 498.911
+  angles 0 43.426 0
+  m_sAttachmentGroupName "OPFOR_PLT2HQ"
+ }
+ BTR5 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 3
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3881.019 26.956 460.429
+  angles 0 43.426 0
+  m_sAttachmentGroupName "OPFOR_PLT2SQD2"
+ }
+ BTR7 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6908F89F5FFBBC3C}" {
+      SlotTemplate EquipmentStorageSlot fuel {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 3883.88 26.467 478.316
+  angles 0 43.426 0
+  m_sAttachmentGroupName "OPFOR_PLT2SQD1"
  }
 }
 Tank T72 : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
- coords 3880.345 27.551 440.004
+ components {
+  RHS_GroupMaterialController "{686863902FC16A1D}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{686863902F6ACF37}" {
+     m_iTextureID 1
+    }
+    RHS_MaterialGroupProperties "{6868639030BA1E45}" {
+     m_iTextureID 5
+    }
+    RHS_MaterialGroupProperties "{6868639030E58630}" {
+     m_iTextureID 2
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E38B925DD33F65F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E38B925DD33F644}" {
+     SlotTemplate InventoryStorageSlot "{5E157C7762407F59}" {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3878.99 28.69 423.366
  angles 0 27.605 0
  m_sAttachmentGroupName "T72Crew"
 }
 Tank BMP1ZSU : "{BDB60CD1A2B8A70C}worlds/HitTheMan/Prefabs/Vehicles/BMP1_ZSU_base_HTM.et" {
- coords 3879.921 28.45 426.76
+ components {
+  RHS_GroupMaterialController "{68686390A098EBB2}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+     m_iTextureID 1
+    }
+    RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+     m_iTextureID 4
+    }
+    RHS_MaterialGroupProperties "{68686390A150EE71}" {
+     m_iTextureID 1
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6908F89F6FDCBCB3}" {
+     SlotTemplate EquipmentStorageSlot fuel {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 3878.566 29.678 410.122
  angles 0 27.139 0
  m_sAttachmentGroupName "BMPZSUCrew"
+}
+$grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ motorbike_green2 {
+  coords 3918.415 21.539 512.931
+  angles 0 -58.03 0
+ }
+ motorbike_green4 {
+  coords 3915.886 22.243 508.88
+  angles 0 -58.03 0
+ }
+ motorbike_green1 {
+  coords 3919.739 21.17 515.052
+  angles 0 -58.03 0
+ }
+ motorbike_green5 {
+  coords 3920.38 21.723 510.177
+  angles 0 -58.03 0
+ }
+ motorbike_green6 {
+  coords 3919.225 22.051 508.327
+  angles 0 -58.03 0
+ }
+ motorbike_green7 {
+  coords 3917.852 22.433 506.126
+  angles 0 -58.03 0
+ }
+ motorbike_green8 {
+  coords 3921.704 21.334 512.298
+  angles 0 -58.03 0
+ }
+ motorbike_green3 {
+  coords 3917.26 21.86 511.081
+  angles 0 -58.03 0
+ }
 }

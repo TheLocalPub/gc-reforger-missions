@@ -1,12 +1,59 @@
-Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- coords 2986.375 26.973 4125.142
- angles 0 161.289 0
+$grp Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ M1151_armed_M2HB1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2992.458 26.879 4128.395
+  angles 0 158.424 0
+ }
+ M1151_armed_M2HB2 {
+  coords 3391.873 24.781 3535.544
+  angles 0 89.095 0
+ }
+ M1151_armed_M2HB3 {
+  coords 3396.402 24.839 3521.487
+  angles 0 48.667 0
+ }
+ M1151_armed_M2HB4 {
+  coords 3418.847 24.784 3555.54
+  angles 0 -164.775 0
+ }
+ M1151_armed_M2HB5 {
+  coords 3404.509 24.887 3552.091
+  angles 0 137.121 0
+ }
+ M1151_armed_M2HB6 {
+  coords 3446.961 25.187 3535.484
+  angles 0 -55.058 0
+ }
+ M1151_armed_M2HB7 {
+  coords 3441.843 25.187 3551.368
+  angles 0 -145.259 0
+ }
+ M1151_armed_M2HB8 {
+  coords 3429.134 25.258 3525.265
+  angles 0 -47.636 0
+ }
 }
-Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- coords 2991.407 26.899 4127.86
- angles 0 162.191 0
+Tank M113A2_APC1 : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
+ coords 3002.879 26.678 4135.496
+ angles 0 164.123 0
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 2986.972 26.973 4126.091
+ angles 0 158.859 0
+}
+Vehicle M1151_armed_MK1 : "{A35A4AE2AD56643E}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19.et" {
+ coords 3412.516 25.48 3520.215
+ angles 0 21.988 0
 }
 Tank M113A2_MEV1 : "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A2_MEV.et" {
- coords 2997.102 26.931 4130.766
- angles 0 165.284 0
+ coords 2997.451 26.931 4132.165
+ angles 0 162.854 0
 }

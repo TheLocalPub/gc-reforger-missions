@@ -26,6 +26,10 @@ GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 1824.078 8.533 3456.47
  angles 0 -146.452 0
 }
+StaticModelEntity : "{5196CA1829D428F7}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_US_01.et" {
+ coords 1941.195 10.369 3621.039
+ angles 0 -172.232 0
+}
 SCR_DestructibleEntity : "{683F021171DBC274}Prefabs/Props/Furniture/Sunshade_01/Sunshade_01_rainbow.et" {
  coords 1776.847 24.88 3673.726
 }
@@ -66,7 +70,7 @@ $grp StaticModelEntity : "{7F8D6A0D827EA34B}Prefabs/Props/Military/Fortification
   angles 0 -158.102 0
  }
  {
-  coords 1878.017 -0 3644.338
+  coords 1878.017 0 3644.338
  }
 }
 GenericEntity : "{881FCB0BDCE4B89F}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Medical_USSR_02.et" {
@@ -86,7 +90,7 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   coords 1857.341 0.05 3643.175
  }
  {
-  coords 1873.254 -0 3635.944
+  coords 1873.254 0 3635.944
   angles 0 -31.599 0
  }
  {
@@ -194,6 +198,10 @@ $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_
 GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
  coords 1856.556 9.218 3459.353
  angles 0.457 -46.151 -5.58
+}
+GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01.et" {
+ coords 3238.975 24.808 3171.44
+ angles 1.443 28.907 1.681
 }
 $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
  {

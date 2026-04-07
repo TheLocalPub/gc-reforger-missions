@@ -1,0 +1,130 @@
+GenericEntity {
+ components {
+  MeshObject "{69074229E8BDE4FD}" {
+   Object "{1ED97737C4ED7300}Assets/Vehicles/Helicopters/Mi24V/Wreck/mi24_wreck.xob"
+  }
+ }
+ coords 2371.673 8.015 2217.756
+ angles -18.481 0 -0.853
+}
+GenericEntity : "{002B8C09F0E7E371}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck_static.et" {
+ coords 2200.813 7.828 2525.739
+ angles 0 -162.688 0
+}
+StaticModelEntity : "{00A32060CC5CAE03}Prefabs/Models/tem_tractor_open_wreck.et" {
+ coords 2231.784 7.745 2346.407
+ angles 0 0 -47.893
+}
+StaticModelEntity : "{1EEA9E4F16701768}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Wood_01_Debris_02.et" {
+ coords 2374.596 9.647 2216.837
+}
+$grp GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
+ {
+  coords 2282.089 16.59 3224.24
+  angles 0 -79.158 0
+ }
+ {
+  coords 2400.933 16.392 3393.859
+  angles 0 -138.248 0
+ }
+ {
+  coords 2234.897 7.642 2392.67
+ }
+}
+GenericEntity : "{4D885B74767234F0}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_05.et" {
+ coords 1855.698 7.626 3474.238
+ angles -26.276 0 0
+}
+SCR_DestructibleEntity : "{4D8C6C01C420F054}Prefabs/Props/Industrial/CompressorTrailerWreck_01/CompressorTrailerWreck_01_Gray.et" {
+ coords 1844.075 8.844 3476.815
+ angles 0 77.365 0
+}
+$grp StaticModelEntity : "{4EEAF2F0308CFAEE}Prefabs/Models/tem_ikarus1_wreck.et" {
+ {
+  coords 2165.962 8.007 2314.057
+ }
+ {
+  coords 1856.09 10.21 3698.867
+  angles 0 48.751 0
+ }
+}
+GenericEntity : "{5BB425E4206FA9B0}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_08.et" {
+ coords 1828.448 7.467 3474.314
+}
+SCR_DestructibleBuildingEntity : "{5CDDDFB2D698DCC3}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_WoodPile.et" {
+ coords 2371.42 0.076 2214.981
+ scale 1.59
+}
+GenericEntity : "{654B33C808C4D93E}Prefabs/Props/Wrecks/M151A2_wreck/M151A2_wreck_static.et" {
+ coords 2348.191 9.447 2203.79
+ angles 0 0 -174.346
+}
+GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck_static.et" {
+ coords 1784.122 7.865 3463.382
+ angles 0 -173.589 0
+}
+GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_small.et" {
+ coords 2369.193 9.372 2211.576
+ angles 0 -45.218 0
+}
+GenericEntity : "{7F29BE4FBFC98392}Prefabs/Props/Wrecks/UAZ452_wreck/UAZ452_wreck.et" {
+ coords 2235.142 7.969 2441.865
+}
+$grp GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck/S105_wreck.et" {
+ {
+  coords 1697.375 2.823 3347.974
+  angles 0 -15.487 0
+ }
+ {
+  coords 2175.16 8.425 2566.672
+  angles 0 0 93.111
+ }
+ {
+  coords 2488.462 7.562 1671.725
+  angles 0 -39.012 0
+ }
+}
+GenericEntity : "{8E7E6EDD479D4AF2}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_10.et" {
+ coords 1843.31 8.261 3487.81
+ angles 0 0 112.819
+}
+StaticModelEntity : "{90083B2935EF911B}Prefabs/Models/tem_datsun_wreck.et" {
+ coords 2270.144 7.688 2314.817
+}
+GenericEntity : "{90299A76FC1AE10F}Prefabs/Props/Wrecks/T62_wreck/T62_wreck_turret.et" {
+ coords 1870.1 9.144 3486.572
+ angles 10.457 -25.608 0
+}
+StaticModelEntity : "{97F01D47E387935A}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Wood_01.et" {
+ coords 2370.962 9.315 2221.256
+}
+StaticModelEntity : "{A46154C492EB961E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Medium.et" {
+ coords 2370.771 9.78 2217.229
+}
+$grp GenericEntity : "{AE57C45CB32D6168}Prefabs/Props/Wrecks/M113_wreck/M113_wreck_static.et" {
+ {
+  coords 2431.063 10.802 2223.164
+ }
+ {
+  coords 2192.979 7.656 2509.779
+  angles 0 -28.833 0
+ }
+}
+$grp StaticModelEntity : "{B3DF8DD4A8F774F9}Prefabs/Models/tem_volha_wreck.et" {
+ {
+  coords 2256.201 7.706 2346.184
+  angles 0 105.938 0
+ }
+ {
+  coords 2519.295 7.572 1948.6
+  angles 0 -78.097 0
+ }
+ {
+  coords 1838.513 9.196 3528.175
+  angles 0 -63.901 0
+ }
+}
+StaticModelEntity : "{D93A7286584E122C}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_base.et" {
+ coords 2370.232 9.301 2224.646
+ scale 0.578
+}
