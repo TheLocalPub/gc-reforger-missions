@@ -1,5 +1,11 @@
 $grp SCR_AIGroup : "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_PHQ.et" {
  CHQ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+   }
+  }
   coords 4230.622 17.971 4727.065
   angles 0 139.691 0
   m_aUnitPrefabSlots {
@@ -12,6 +18,13 @@ $grp SCR_AIGroup : "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard
   m_bSetPlayable 1
  }
  PHQ1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 1
+   }
+  }
   coords 4229.158 17.971 4722.748
   angles 0 47.298 0
   m_bSnapToTerrain 0
@@ -19,6 +32,13 @@ $grp SCR_AIGroup : "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard
   m_bSetPlayable 1
  }
  PHQ2 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 2
+   }
+  }
   coords 4235.081 17.971 4723.972
   angles 0 -133.326 0
   m_bSnapToTerrain 0
@@ -28,41 +48,110 @@ $grp SCR_AIGroup : "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard
 }
 $grp SCR_AIGroup : "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et" {
  PLT1SQD1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
   coords 4202.817 18.086 4683.531
   angles 0 47.838 0
   m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
  PLT1SQD2 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
   coords 4193.657 18.103 4693.596
   angles 0 45.931 0
   m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
  PLT2SQD1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
   coords 4265.225 18.067 4758.273
   angles 0 -132.162 0
   m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
  PLT2SQD2 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
   coords 4274.384 18.07 4748.208
   angles 0 -134.069 0
   m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
-}
-$grp SCR_AIGroup : "{DBA7B8EAC547EE82}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_Crewmen.et" {
- {
-  coords 4191.714 18.076 4751.202
-  angles 0 136.52 0
+ PLT1SQD3 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4210.2 18.086 4675.377
+  angles 0 47.838 0
   m_bSnapToTerrain 0
   m_bSetPlayable 1
  }
- {
+ PLT2SQD3 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 6
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4257.842 18.067 4766.427
+  angles 0 -132.162 0
+  m_bSnapToTerrain 0
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{DBA7B8EAC547EE82}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_Crewmen.et" {
+ BMP1ZUCrew {
+  coords 4191.714 18.076 4751.202
+  angles 0 136.52 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "BMP-1ZU"
+  m_bSetPlayable 1
+ }
+ T72Crew {
   coords 4206.453 18.13 4764.73
   angles 0 136.52 0
   m_bSnapToTerrain 0
+  m_sCustomNameSet "T-72 Crew"
+  m_bSetPlayable 1
+ }
+ BTRCrew {
+  coords 4219.547 18.117 4776.11
+  angles 0 136.52 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "BTR Crew"
   m_bSetPlayable 1
  }
 }

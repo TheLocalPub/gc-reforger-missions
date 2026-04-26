@@ -1,0 +1,29 @@
+PolylineShapeEntity OpforAO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 6
+   m_factionKeys {
+    "GC_IRAQ"
+   }
+   m_visibility FACTION
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   m_drawLine 1
+  }
+ }
+ coords 6624.402 73.54 7170.924
+ Points {
+  ShapePoint "{6931445EF64B2CC3}" {
+   Position -2634.185 -55.696 -2485.726
+  }
+  ShapePoint "{6931445EEBAC6DCE}" {
+   Position -2201.704 -55.696 -2092.551
+  }
+  ShapePoint "{6931445EE9626450}" {
+   Position -1892.971 -55.696 -2421.74
+  }
+  ShapePoint "{6931445EE14F03CD}" {
+   Position -2321.29 -55.696 -2814.426
+  }
+ }
+}
