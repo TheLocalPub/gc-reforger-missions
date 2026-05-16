@@ -14,8 +14,4 @@ SCR_DefendWaypoint OPAI_DEFEND2_1 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWa
 }
 SCR_DefendWaypoint OPAI_DEFEND4_1 : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  coords 2073.235 93.074 5854.436
- m_DefendPresets {
-  SCR_DefendWaypointPreset "{58D688448899BCA0}" {
-  }
- }
 }

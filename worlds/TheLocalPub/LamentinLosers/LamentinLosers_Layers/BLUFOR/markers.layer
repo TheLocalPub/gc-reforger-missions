@@ -1,0 +1,12 @@
+PS_ManualMarker BLUFORSniper2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2541.673 106.912 5511.374
+ angles 0 161.966 0
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sQuadName "sniper"
+ m_fWorldSize 50
+ m_sDescription "FAC + FO Location"
+ m_aVisibleForFactions {
+  "US"
+ }
+}

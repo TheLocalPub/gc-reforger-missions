@@ -1,0 +1,45 @@
+Vehicle AH1S_Marines1 : "{0174CF72FDB6B805}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines.et" {
+ coords 4868.172 28.982 11793.104
+ angles 0 -90 0
+}
+Vehicle M1 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ coords 2545.993 106.161 5504.463
+ angles 0 71.18 0
+}
+Vehicle M151A2_M2HB1 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CC529C3B736D}" {
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{62E6FCB14AC516E0}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{62E6FCB1EB848B25}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{62E6FCB077EE5B7A}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{62E6FCB0773C34D1}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+ }
+ coords 2545.413 106.718 5513.778
+ angles 0 86.292 0
+}

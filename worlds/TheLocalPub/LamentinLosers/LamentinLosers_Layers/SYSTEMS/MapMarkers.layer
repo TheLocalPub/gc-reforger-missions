@@ -1,7 +1,7 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  OPFORMain {
   coords 1295.091 37.775 6034.088
-  angleY 90.782
+  angles 0 90.782 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "motorized-infantry"
@@ -21,7 +21,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd1 {
   coords 1495.025 39.715 5764.457
-  angleY -75.611
+  angles 0 -75.611 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -35,7 +35,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd2 {
   coords 1535.499 56.274 5933.106
-  angleY 0
+  angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -49,7 +49,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd3 {
   coords 1539.837 62.42 6039.743
-  angleY 0
+  angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -63,7 +63,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd4 {
   coords 1813.153 65.386 5900.111
-  angleY 0
+  angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -77,7 +77,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd5 {
   coords 2003.288 136.143 5775.041
-  angleY 0
+  angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -91,7 +91,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MG {
   coords 1284.279 42.927 5904.977
-  angleY -157.463
+  angles 0 -157.463 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -106,7 +106,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORHQ {
   coords 1277.679 37.441 6033.763
-  angleY 90.295
+  angles 0 90.295 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -127,7 +127,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  FP1 {
   coords 1546.465 58.993 5884.332
-  angleY -160.661
+  angles 0 -160.661 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -136,14 +136,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription ""\
   ""
   m_aVisibleForFactions {
-   "USSR" "US"
+   "USSR"
+   "US"
   }
   m_aHideOnGameModeStates {
   }
  }
  FP2 {
   coords 1443.454 62.196 6120.055
-  angleY -150.458
+  angles 0 -150.458 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -152,14 +153,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription ""\
   ""
   m_aVisibleForFactions {
-   "USSR" "US"
+   "USSR"
+   "US"
   }
   m_aHideOnGameModeStates {
   }
  }
  FP3 {
   coords 1599.114 58.012 6005.048
-  angleY -176.731
+  angles 0 -176.731 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -168,14 +170,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription ""\
   ""
   m_aVisibleForFactions {
-   "USSR" "US"
+   "USSR"
+   "US"
   }
   m_aHideOnGameModeStates {
   }
  }
  FP5 {
   coords 1543.749 66.768 5747.512
-  angleY -157.471
+  angles 0 -157.471 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -184,14 +187,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription ""\
   ""
   m_aVisibleForFactions {
-   "USSR" "US"
+   "USSR"
+   "US"
   }
   m_aHideOnGameModeStates {
   }
  }
  BTR_1 {
   coords 1237.545 32.222 6062.267
-  angleY -92.455
+  angles 0 -92.455 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -201,12 +205,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
   m_aHideOnGameModeStates {
-   1
+   GAME
   }
  }
  BTR_2 {
   coords 1238.273 33.838 6041.218
-  angleY -95.305
+  angles 0 -95.305 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -216,12 +220,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
   m_aHideOnGameModeStates {
-   1
+   GAME
   }
  }
  SPGaa1 {
   coords 1299.784 43.83 5991.766
-  angleY 52.44
+  angles 0 52.44 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -231,12 +235,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
   m_aHideOnGameModeStates {
-   1
+   GAME
   }
  }
  BLUFORHeli {
   coords 4855.357 28.593 11787.661
-  angleY 88.441
+  angles 0 88.441 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "helicopter-attack"
@@ -250,7 +254,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MSR2 {
   coords 1921.566 70.998 5903.095
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
@@ -262,7 +266,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  DT1 {
   coords 1732.455 77.991 5755.012
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
@@ -274,7 +278,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  DT2 {
   coords 1614.259 60.047 5658.811
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
@@ -286,7 +290,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF1 {
   coords 1848.282 91.927 5728.186
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -296,7 +300,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF2 {
   coords 1806.624 87.212 5672.268
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -306,7 +310,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF3 {
   coords 1762.569 70.684 5601.589
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -316,7 +320,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF4 {
   coords 1679.475 65.018 5540.54
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -326,7 +330,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF5 {
   coords 1602.11 49.244 5499.06
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -336,7 +340,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF6 {
   coords 1517.277 27.416 5458.878
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -346,7 +350,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF7 {
   coords 1450.652 16.259 5431.983
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mine-field-2"
@@ -356,7 +360,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MSR1 {
   coords 1877.88 83.525 5584.23
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
@@ -368,7 +372,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  AA1 {
   coords 2370.578 91.777 5341.308
-  angleY -73.534
+  angles 0 -73.534 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0.298 0.6 1
   m_sQuadName "direction-of-attack"
@@ -378,7 +382,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  AA2 {
   coords 2467.277 81.531 6263.952
-  angleY -131.689
+  angles 0 -131.689 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0.298 0.6 1
   m_sQuadName "direction-of-attack"
@@ -388,7 +392,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  BLUFORCOY1 {
   coords 2828.68 90.461 6372.662
-  angleY -93.364
+  angles 0 -93.364 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_MarkerColor 0 0.298 0.6 1
@@ -401,7 +405,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  BLUFORCOY2 {
   coords 2616.955 91.834 5356.29
-  angleY -91.891
+  angles 0 -91.891 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_MarkerColor 0 0.298 0.6 1
@@ -414,7 +418,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MG2 {
   coords 1448.625 59.797 6165.033
-  angleY 177.679
+  angles 0 177.679 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -429,7 +433,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MG3 {
   coords 1342.161 40.211 5792.813
-  angleY -118.074
+  angles 0 -118.074 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -444,7 +448,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  OPFORSqd6 {
   coords 1515.458 60.318 5852.131
-  angleY 0
+  angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sQuadName "infantry"
@@ -458,7 +462,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MG4 {
   coords 1456.567 67.439 6062.353
-  angleY -160.835
+  angles 0 -160.835 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -473,7 +477,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  MF8 {
   coords 1782.428 82.49 5635.468
-  angleY 30.432
+  angles 0 30.432 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 0 1
   m_sQuadName "join-3"
@@ -483,7 +487,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  SPGaa {
   coords 1245.891 50.756 6308.14
-  angleY 52.44
+  angles 0 52.44 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0.502 0 0 1
@@ -495,14 +499,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aHideOnGameModeStates {
   }
  }
- BLUFORHeli2 {
-  coords 2556.902 105.691 5774.479
-  angleY 88.441
+ BLUFORSniper {
+  coords 2541.673 106.912 5511.374
+  angles 0 161.966 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "sniper"
   m_fWorldSize 50
-  m_sDescription "FAC/Sniper team"
+  m_sDescription "FAC/FO/SNIPER location"
   m_aVisibleForFactions {
    "US"
   }

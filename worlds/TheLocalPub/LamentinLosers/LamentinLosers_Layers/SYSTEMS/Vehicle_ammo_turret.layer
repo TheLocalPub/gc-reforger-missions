@@ -20,7 +20,7 @@ Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   }
  }
  coords 1288.469 37.423 6018.711
- angleY 137.822
+ angles 0 137.822 0
 }
 Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
  components {
@@ -53,14 +53,14 @@ Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ur
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62E4AEDA347B545A}" {
      PrefabsToSpawn {
-      "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/Ammo_545x39_Ball_7N6.et"
+      "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/SmallArms/Ammo_545x39_Ball_7N6.et"
      }
     }
    }
   }
  }
  coords 1293.501 37.68 6025.166
- angleY 135.052
+ angles 0 135.052 0
 }
 GenericEntity MainCrate : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
  components {
@@ -219,11 +219,11 @@ GenericEntity MainCrate : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/Pallet
   }
  }
  coords 1282.736 37.555 6030.129
- angleY 135.702
+ angles 0 135.702 0
 }
 Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
  coords 1456.916 68.236 6058.646
- angleY 113.635
+ angles 0 113.635 0
 }
 GenericEntity MedCrate : "{7C93700E1AC4C387}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Medical_USSR.et" {
  components {
@@ -316,16 +316,16 @@ GenericEntity MedCrate : "{7C93700E1AC4C387}Prefabs/Props/Military/Arsenal/AmmoB
   }
  }
  coords 1282.869 38.499 6030.127
- angleY -158.233
+ angles 0 -158.233 0
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR1 {
   coords 1239.329 32.323 6061.336
-  angleY 180
+  angles 0 180 0
  }
  BTR2 {
   coords 1240.384 33.859 6041.943
-  angleY 174.352
+  angles 0 174.352 0
  }
 }
 $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
@@ -406,7 +406,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
    }
   }
   coords 1614.51 57.85 5976.661
-  angleY -88.855
+  angles 0 -88.855 0
  }
  ammocrate2 {
   components {
@@ -485,7 +485,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
    }
   }
   coords 1578.335 62.338 5860.45
-  angleY -69.96
+  angles 0 -69.96 0
  }
  ammocrate3 {
   components {
@@ -564,7 +564,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
    }
   }
   coords 1526.984 67.244 5743.439
-  angleY -9.119
+  angles 0 -9.119 0
  }
  ammocrate4 {
   components {
@@ -643,7 +643,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
    }
   }
   coords 1459.969 63.026 6112.7
-  angleY 48.645
+  angles 0 48.645 0
  }
  ammocrate5 {
   components {
@@ -724,44 +724,7 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   coords 1344.977 41.279 5796.458
  }
 }
-Vehicle M151A2_M2HB1 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5A60CC529C3B736D}" {
-     NumSlots 3
-    }
-    MultiSlotConfiguration "{62E6FCB14AC516E0}" {
-     SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et"
-     }
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{62E6FCB1EB848B25}" {
-     SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
-     }
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{62E6FCB077EE5B7A}" {
-     SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
-     }
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{62E6FCB0773C34D1}" {
-     SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
-     }
-     NumSlots 4
-    }
-   }
-  }
- }
- coords 2555.657 105.317 5778.747
- angleY 12.767
-}
 Vehicle AAUral : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  coords 1295.696 37.287 5996.964
- angleY -37.133
+ angles 0 -37.133 0
 }

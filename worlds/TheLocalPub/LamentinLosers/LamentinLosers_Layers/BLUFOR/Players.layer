@@ -1,0 +1,55 @@
+$grp SCR_AIGroup : "{1E91FCDB0DA40A55}Prefabs/Groups/BLUFOR/Group_US_SentryTeam_p.et" {
+ HeliCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4852.788 28.594 11794.133
+  angles 0 93.197 0
+  m_aUnitPrefabSlots {
+   "{A22C005F2ED253E3}worlds/TheLocalPub/LamentinLosers/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P_edited.et"
+   "{CA75CE2CB2DDC217}worlds/TheLocalPub/LamentinLosers/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew_P_edited.et"
+  }
+  m_sCustomNameSet "AH-1 Cobra"
+  m_bSetPlayable 1
+ }
+ fac {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2539.678 107.048 5511.251
+  angles 0 73.525 0
+  m_aUnitPrefabSlots {
+   "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et"
+   "{3D67614F24B76051}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter_P.et"
+  }
+  m_sCustomNameSet "Sniper tea"
+  m_bSetPlayable 1
+ }
+ FO {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2543.152 107.048 5499.503
+  angles 0 73.525 0
+  m_aUnitPrefabSlots {
+   "{4AE9BC917A6377D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_FO_P.et"
+   "{225C56388686C965}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Force Recon Marines (Woodland)/Character_US_FORCON_80_RTO_P.et"
+  }
+  m_sCustomNameSet "FO team"
+  m_bSetPlayable 1
+ }
+}
