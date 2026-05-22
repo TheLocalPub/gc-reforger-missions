@@ -1,0 +1,18 @@
+PS_ManualMarker BluforSpawn : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4348.471 17.844 3906.071
+ angles 0 0 0
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+ m_sQuadName "infantry"
+ m_fWorldSize 80
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+  GAME
+  POSTGAME
+  SLOTSELECTION
+  CUTSCENE
+  BRIEFING
+  DEBRIEFING
+ }
+ m_bShowForAnyFaction 1
+}
