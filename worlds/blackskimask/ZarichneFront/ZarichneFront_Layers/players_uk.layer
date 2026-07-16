@@ -387,7 +387,7 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
      SlotTemplate InventoryStorageSlot stuff {
       Prefab "{82E5944974B9DEBD}Prefabs/SB300.et"
      }
-     NumSlots 4
+     NumSlots 5
     }
     MultiSlotConfiguration "{632EA9BEBE5C68ED}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
@@ -399,13 +399,13 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{9217E0286DD37447}Prefabs/Drones/DJIBase/SB300RECON.et"
      }
-     NumSlots 2
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68EB}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{4977C9711C8F1943}Prefabs/Items/Equipment/Backpacks/JammerBag.et"
      }
-     NumSlots 2
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68D5}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
@@ -449,9 +449,11 @@ $grp SCR_AIGroup : "{F4698570FD677A29}Prefabs/Groups/BLUFOR/British Forces/2024/
    "{E58B00C4D27F9F3C}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/1 RIFLES/P/Character_UK_2024_1Rifles_RTO_P.et"
    "{1882DD6296132F93}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/1 RIFLES/P/Character_UK_2024_1RIFLES_AT_P.et"
    "{EB66F1610BF247A4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/1 RIFLES/P/Character_UK_2024_1RIFLES_AAT_P.et"
-   ""
+   "{4A7F8FBD4C3B6C36}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_CounterDroneSpecialist .et"
    "{F33B4D68B476589B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/1 RIFLES/P/Character_UK_2024_1Rifles_CompanyMedic_P.et"
   }
+  m_bPlayable 1
+  m_bSetPlayable 1
  }
  {
   components {
@@ -467,7 +469,10 @@ $grp SCR_AIGroup : "{F4698570FD677A29}Prefabs/Groups/BLUFOR/British Forces/2024/
    "{7B98424129DBBD97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_PlatoonSergeant_P.et"
    "{3067DA6B1EA4AE26}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_RTO_P.et"
    "{57331E9151B2BE50}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_CompanyMedic_P.et"
+   "{4A7F8FBD4C3B6C36}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_CounterDroneSpecialist .et"
   }
+  m_bPlayable 1
+  m_bSetPlayable 1
  }
 }
 SCR_AIGroup MortarSection : "{FC3850752FAB8FF5}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/P/Group_UK_2024_RifleSection_P.et" {

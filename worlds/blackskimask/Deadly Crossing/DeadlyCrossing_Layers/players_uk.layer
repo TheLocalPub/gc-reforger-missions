@@ -10,7 +10,7 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
     }
     MultiSlotConfiguration "{632EA9BEBE5C68ED}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
-      Prefab "{9217E0286DD37447}Prefabs/Drones/DJIBase/SB300RECON.et"
+      Prefab "{82E5944974B9DEBD}Prefabs/SB300.et"
      }
      NumSlots 3
     }
@@ -18,7 +18,7 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{4977C9711C8F1943}Prefabs/Items/Equipment/Backpacks/JammerBag.et"
      }
-     NumSlots 1
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68EB}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
@@ -59,6 +59,7 @@ SCR_AIGroup : "{F4698570FD677A29}Prefabs/Groups/BLUFOR/British Forces/2024/Light
   "{3DBC05C92FC5C033}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_DroneOperator.et"
   "{7ADE222BC2B76040}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_AT_P.et"
   "{2407880837C6D373}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/P/Character_UK_2024_AAT_P.et"
+  "{4A7F8FBD4C3B6C36}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Light Infantry/Character_UK_2024_CounterDroneSpecialist .et"
  }
  m_bPlayable 1
  m_bSetPlayable 1

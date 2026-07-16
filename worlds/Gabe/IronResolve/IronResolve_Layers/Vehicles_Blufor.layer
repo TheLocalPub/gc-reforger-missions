@@ -1,25 +1,3 @@
-$grp Vehicle : "{5AF5B5080C157AC1}Prefabs/Vehicles/Wheeled/M998/M1025_GulfWar_RAS.et" {
- Squad1victor2 {
-  coords 4714.113 17.844 4726.262
-  angles 0 52.206 0
-  m_sAttachmentGroupName "Squad1"
- }
- Squad2victor2 {
-  coords 4701.805 17.844 4716.254
-  angles 0 52.206 0
-  m_sAttachmentGroupName "Squad2"
- }
- Squad3victor2 {
-  coords 4689.687 17.844 4705.811
-  angles 0 49.92 0
-  m_sAttachmentGroupName "Squad3"
- }
- Weaponsvictor2 {
-  coords 4676.224 17.844 4693.96
-  angles 0 50.15 0
-  m_sAttachmentGroupName "Weapons"
- }
-}
 $grp Vehicle : "{65A1EB5BC8449FD3}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS_Tan.et" {
  Stryker2 {
   components {
@@ -27,6 +5,7 @@ $grp Vehicle : "{65A1EB5BC8449FD3}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/S
     MultiSlots {
      MultiSlotConfiguration "{5EAD79DA34C929EB}" {
       SlotTemplate LoadoutSlotInfo MA {
+       Enabled 0
        Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
       }
       NumSlots 1
@@ -44,6 +23,7 @@ $grp Vehicle : "{65A1EB5BC8449FD3}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/S
     MultiSlots {
      MultiSlotConfiguration "{5EAD79DA34C929EB}" {
       SlotTemplate LoadoutSlotInfo MA {
+       Enabled 0
        Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
       }
       NumSlots 1
@@ -56,15 +36,42 @@ $grp Vehicle : "{65A1EB5BC8449FD3}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/S
   m_sAttachmentGroupName "StrykerCrew1"
  }
 }
-$grp Vehicle : "{6B0E98CE6921FCC2}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield.et" {
+Vehicle HQvictor : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
+ coords 4727.2 17.844 4738.047
+ angles 0 50.126 0
+ m_sAttachmentGroupName "PltHQ"
+}
+$grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ Squad1victor2 {
+  coords 4713.845 17.844 4726.653
+  angles 0 50.216 0
+  m_sAttachmentGroupName "Squad1"
+ }
+ Squad2victor2 {
+  coords 4701.673 17.844 4716.138
+  angles 0 49.445 0
+  m_sAttachmentGroupName "Squad2"
+ }
+ Squad3victor2 {
+  coords 4689.64 17.844 4705.769
+  angles 0 49.378 0
+  m_sAttachmentGroupName "Squad3"
+ }
+ Weaponsvictor2 {
+  coords 4676.145 17.844 4693.849
+  angles 0 49.379 0
+  m_sAttachmentGroupName "Weapons"
+ }
+}
+$grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield_DESERT.et" {
  Squad1victor1 {
-  coords 4718.437 17.844 4729.724
-  angles 0 50.982 0
+  coords 4718.187 17.844 4730.345
+  angles 0 49.3 0
   m_sAttachmentGroupName "Squad1"
  }
  Squad2victor1 {
-  coords 4706.356 17.844 4719.996
-  angles 0 50.982 0
+  coords 4706.241 17.844 4720.132
+  angles 0 49.3 0
   m_sAttachmentGroupName "Squad2"
  }
  Squad3victor1 {
@@ -77,9 +84,4 @@ $grp Vehicle : "{6B0E98CE6921FCC2}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   angles 0 48.926 0
   m_sAttachmentGroupName "Weapons"
  }
-}
-Vehicle HQvictor : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
- coords 4727.104 17.844 4736.95
- angles 0 49.833 0
- m_sAttachmentGroupName "PltHQ"
 }

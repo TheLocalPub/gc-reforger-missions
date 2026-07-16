@@ -41,7 +41,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "100% Russian casualties (MAJOR VICTORY - UK)"\
   ""\
   ""\
-  "UK hold the objective for 5min (MAJOR VICTORY - UK)"\
+  "UK hold the PLT Barnhouse for 5min. 50m radius.  (MAJOR VICTORY - UK)"\
   ""\
   "UK falls back to withdrawal marker (DRAW- UK)"\
   ""\
@@ -75,9 +75,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "100% Russian casualties (MAJOR VICTORY - UK)"\
   ""\
   ""\
-  "UK hold the objective for 5min (MAJOR VICTORY - UK)"\
+  "UK hold the PLT Barnhouse for 5min. 50m radius.  (MAJOR VICTORY - UK)"\
   ""\
-  "UK falls back to withdrawal marker (MINOR DEFEAT- UK)"\
+  "UK falls back to withdrawal marker (DRAW- UK)"\
   ""\
   "60min time limit (MINOR DEFEAT - UK)"\
   ""\
@@ -85,7 +85,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Thanks to Til and Blue, I have used your assets in this mission."\
   ""\
-  ""
+  "I have hopefully sort of disabled trenches, however if you still can please do not dig them. RU is already dug in and UK should not be entrenching anything:)"\
+  ""\
+  ""\
+  "THERE IS AI FIREFIGHTING AT THE START."
   m_bShowForAnyFaction 1
  }
 }

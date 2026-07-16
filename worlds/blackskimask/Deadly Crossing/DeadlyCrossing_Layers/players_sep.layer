@@ -15,6 +15,14 @@ $grp SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
   }
   coords 1450.873 122.111 2349.303
   angles 0 56.689 0
+  m_aUnitPrefabSlots {
+   "{E0EBFD8094F98337}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_PL_P.et"
+   "{AB6F88A1E567AF40}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_PSG_P.et"
+   "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_Sharpshooter_P.et"
+   "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_Medic_P.et"
+   "{C16C2DB016452658}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_DroneOperator.et"
+  }
+  m_bPlayable 1
  }
  {
   components {
@@ -28,6 +36,12 @@ $grp SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
   }
   coords 1475.411 19.057 2303.536
   angles 0 37.46 0
+  m_aUnitPrefabSlots {
+   "{E0EBFD8094F98337}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_PL_P.et"
+   "{AB6F88A1E567AF40}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_PSG_P.et"
+   "{63E34E68CD2DF356}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_Sharpshooter_P.et"
+   "{E31FE387C44DE69B}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_Medic_P.et"
+  }
  }
 }
 $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_RifleSquad_P.et" {
@@ -116,31 +130,31 @@ GenericEntity ammoboxRED : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulg
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRPG.et"
      }
-     NumSlots 2
+     NumSlots 8
     }
     MultiSlotConfiguration "{632EA9BEBE5C68E9}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{2A283EA7BADDBD28}Prefabs/Drones/FPVBase/FPVBase.et"
      }
-     NumSlots 2
+     NumSlots 1
     }
     MultiSlotConfiguration "{632EA9BEBE5C68EB}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
      }
-     NumSlots 1
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68D5}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et"
      }
-     NumSlots 1
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68D7}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{1602B2595AC224FB}Prefabs/Drones/FPVBase/FPVBattery.et"
      }
-     NumSlots 2
+     NumSlots 1
     }
    }
   }

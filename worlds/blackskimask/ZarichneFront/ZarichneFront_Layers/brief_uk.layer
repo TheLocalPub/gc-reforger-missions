@@ -82,9 +82,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No attachments."\
   ""\
-  "2x Jammer backpack"\
-  "4x S300"\
-  "2x S300 RECON"\
+  "5x S300"\
   "4x Wirecutters"\
   "Ammo box at spawn"\
   ""\
@@ -110,7 +108,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3080.195 30.15 2550.679
   m_sTitle "EXECUTION"
-  m_sTextData "ACOY probes OBJ HAPPY, if enemy strength is weak in area conduct a hasty attack. If enemy starts to attrit our forces more than 50%, withdraw."\
+  m_sTextData "ACOY probes OBJ HAPPY, recommended northern flank approach as it is the most covered, if enemy strength is weak in area conduct a hasty attack. If enemy starts to attrit our forces more than 50%, withdraw. "\
   ""\
   "EXECUTION: CO intent."
   m_aVisibleForFactions {

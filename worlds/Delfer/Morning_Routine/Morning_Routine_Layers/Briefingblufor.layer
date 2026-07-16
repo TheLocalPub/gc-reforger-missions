@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation Friendly"
   m_sTextData "The rest of the company has established an ambush and blocking position to our west, leaving us the task of guarding our eastern flank."\
   ""\
-  "As the rearguard, we have a platoon of infantry at 033 035, with additional anti tank weapons from the rest of the company. 2nd Platoon has also spared us 3 men to man a forward observation post (OP) at 035 031."
+  "As the rearguard, we have a platoon of infantry at 033 035, with additional anti tank weapons from the rest of the company. We also have two captured AGS systems we've deployed to guard our flank. 2nd Platoon has given us two sections (AI) to defend each trench line, and we have been given two attached LP/OP teams (Players)."
   m_aVisibleForFactions {
    "UK"
   }
@@ -55,11 +55,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2955.674 21.724 2876.985
   m_sTitle "Service and Support"
   m_sTextData "We have 1x Carl G per section and several M72s."\
+  "We have 2x Captured AGS systems with some ammunition marked on your map."\
   "There are white, green and orange flares dispersed among the platoon but the sun will be rising shortly."\
   ""\
   "Platoon and Section leadership have radios."\
   ""\
-  "Note: The OP does not have a radio but has enough people to send a runner. "
+  "Note: The OPs do not have radios and should return to friend lines when they have something to report, or if they are outflanked."
   m_aVisibleForFactions {
    "UK"
   }
@@ -74,8 +75,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "21A"\
   "21B"\
   "21C"\
-  "21D"\
-  ""\
+  "21D 21E"\
   "Platoon net: 48.0MHz"
   m_aVisibleForFactions {
    "UK"
@@ -90,7 +90,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Note: Once a member of the OP team crosses back into the Blue AO Limit, they can no longer go back outside of it. "\
   ""\
-  "OP team spawns a different location and has no radio, they have a third person so they can send a runner back to Platoon if they need to but they are meant to retreat into the Blue AO limit once they have information to pass on."
+  "OP teams spawns at different locations and have radio. They are meant to retreat into the Blue AO limit once they have information to pass on or out outflanked. "
   m_aVisibleForFactions {
    "UK"
   }

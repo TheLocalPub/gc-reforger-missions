@@ -27,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      m_sTitle "Situation"
      m_sTextData "The remanets of US and Russian forces have taken shelter at the marked construction site.We are ordered to kill them to show our strength to the world."\
      ""\
-     "To make sure we succussed we have access to our brand new vehicles the HMMWVWBMPT and the HMMWVWBTRWT."
+     "To make sure we succussed we have access to our brand new vehicles the HMMWVWBMPT and the HMMWVWBTRT."
      m_aVisibleForFactions {
       "GC_INSURGENT"
      }

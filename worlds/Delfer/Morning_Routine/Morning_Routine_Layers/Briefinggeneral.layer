@@ -9,7 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3332.707 24.656 3235.575
   m_sTitle "Mission Notes"
   m_sTextData "Time Limit: 50 Min"\
-  "3:1 Opfor:Blufor"\
+  ""\
   ""\
   "OPFOR Victory: USSR Secure the Town Objective and both Gun Pit Objectives OR"\
   "90% of Blufor are killed"\

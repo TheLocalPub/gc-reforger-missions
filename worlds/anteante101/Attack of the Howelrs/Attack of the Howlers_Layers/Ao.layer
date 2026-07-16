@@ -34,16 +34,16 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   coords 1102.28 17.871 5735.724
   Points {
    ShapePoint "{68E71EB93459FDEE}" {
-    Position -222.802 0 -1213.96
+    Position 400.088 -39.949 -1250.412
    }
    ShapePoint "{68E71EB9375DB465}" {
-    Position 409.086 0 1348.111
+    Position 887.188 -153.109 952.273
    }
    ShapePoint "{68E71EB941376FCA}" {
-    Position 4766.818 0 -795.17
+    Position 4375.319 -114.72 -838.456
    }
    ShapePoint "{68E71EB94FBE34DF}" {
-    Position 3174.214 -33.372 -2877.667
+    Position 3172.912 -103.353 -2876.981
    }
   }
  }
