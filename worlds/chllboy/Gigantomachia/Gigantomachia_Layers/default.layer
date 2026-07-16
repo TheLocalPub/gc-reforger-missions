@@ -1,20 +1,4 @@
-SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{66AB6351F8DE57F6}" {
-     NavmeshFile "{935C52C1479660D1}NavMesh/Kunar_LowRes.nmn"
-    }
-   }
-  }
- }
- coords 1773.026 207.632 803.377
- {
-  CommentEntity {
-   ID "66AB635128D9B497"
-   coords -31.783 2.608 -27.059
-  }
- }
+SCR_AIWorld : "{77C3151F7A6E588C}Prefabs/SCR_AIWorld_Kunar.et" {
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1765.724 193.948 1354.034
