@@ -1,6 +1,7 @@
 SCR_AIGroup : "{0D0F5331CCF04C37}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/Group_SanSerriffe_Mortar_Section.et" {
  components {
-  PS_GroupCallsignAssigner "{689B7287AEED5CE1}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 1
    m_iPlatoonCallsign 5
    m_iSquadCallsign 7
@@ -14,9 +15,10 @@ $grp SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
@@ -29,9 +31,10 @@ $grp SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3

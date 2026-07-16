@@ -1,6 +1,7 @@
 SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
  components {
-  PS_GroupCallsignAssigner "{66EF01B60F26A465}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 1
    m_iPlatoonCallsign 1
   }
@@ -12,7 +13,8 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
   $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
    {
     components {
-     PS_GroupCallsignAssigner "{66EF01B6002C4B80}" {
+     PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+      Enabled 1
       m_iCompanyCallsign 1
       m_iPlatoonCallsign 1
       m_iSquadCallsign 1
@@ -35,7 +37,8 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
    }
    {
     components {
-     PS_GroupCallsignAssigner "{66EF01B605AA2B1C}" {
+     PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+      Enabled 1
       m_iCompanyCallsign 1
       m_iPlatoonCallsign 1
       m_iSquadCallsign 2
@@ -57,7 +60,8 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
    }
    {
     components {
-     PS_GroupCallsignAssigner "{66EF01B618DC3D0E}" {
+     PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+      Enabled 1
       m_iCompanyCallsign 1
       m_iPlatoonCallsign 1
       m_iSquadCallsign 3
@@ -79,20 +83,39 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
    }
    {
     components {
-     PS_GroupCallsignAssigner "{66F139C95475B715}" {
+     PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+      Enabled 1
       m_iCompanyCallsign 1
       m_iPlatoonCallsign 1
       m_iSquadCallsign 4
      }
     }
-    coords -152.982 0.068 398.619
-    angles 0 -1.254 0
+    coords 577.568 0.49 545.219
+    angles 0 -19.597 0
     m_aUnitPrefabSlots {
-     "{411344ED9B9B3D1A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Section2IC_P.et"
+     "{FA3FD49E7CDAD25A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Sergeant_P.et"
      "{C94E2C6DBF8480DE}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_LAT_P.et"
-     "{C94E2C6DBF8480DE}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_LAT_P.et"
+     ""
     }
     m_sCustomNameSet "OP 1"
+   }
+   {
+    components {
+     PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+      Enabled 1
+      m_iCompanyCallsign 1
+      m_iPlatoonCallsign 1
+      m_iSquadCallsign 5
+     }
+    }
+    coords -422.208 -2.447 365.964
+    angles 0 -47.776 0
+    m_aUnitPrefabSlots {
+     "{FA3FD49E7CDAD25A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Sergeant_P.et"
+     "{C94E2C6DBF8480DE}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_LAT_P.et"
+     ""
+    }
+    m_sCustomNameSet "OP 2"
    }
   }
  }

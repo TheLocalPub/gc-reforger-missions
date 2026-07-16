@@ -12,9 +12,7 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 10
-   m_bWindOverride 1
-   m_fWindSpeed 8
-   m_fWindDirection 0.67
+   m_fWindDirection 0.572
    m_fFogAmount 0.8
    m_fFogHeightDensity 0.86
    m_iDay 7
@@ -90,6 +88,9 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign "3"
        }
+       SCR_CallsignInfo "{64E2F896A8E698B6}" {
+        m_sCallsign ""
+       }
        SCR_CallsignInfo "{685E078F2F05FC93}" {
         m_sCallsign "4"
        }
@@ -136,10 +137,15 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
         m_sCallsign "2"
        }
        SCR_CallsignInfo "{58B2B630FDD64B50}" {
-        m_sCallsign ""
+        m_sCallsign "3"
        }
        SCR_CallsignInfo "{61C8F1ACA9FDB12D}" {
-        m_sCallsign ""
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{68D2482B2CD01E2C}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{68D2482B2CA083DE}" {
        }
       }
       m_sCallsignGroupFormat "%1 %2 %3"
@@ -173,25 +179,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   angles 0 37.867 0
   Points {
    ShapePoint "{68B374A026557A5A}" {
-    Position 1065.804 -0.005 -427.988
-   }
-   ShapePoint "{68B374A0223B1361}" {
-    Position 1405.346 -0.425 -257.212
-   }
-   ShapePoint "{68B374A020AE017C}" {
-    Position 1446.062 -0.557 -264.915
-   }
-   ShapePoint "{68B374A02F461ED8}" {
-    Position 1489.439 2.162 -278.458
-   }
-   ShapePoint "{68B374A02E7368C6}" {
-    Position 1542.361 1.917 -329.861
-   }
-   ShapePoint "{68B374A02E0696F7}" {
-    Position 1608.222 2.509 -371.078
+    Position 1105.708 11.157 -551.97
    }
    ShapePoint "{68B374A02EBD2DC7}" {
-    Position 1666.631 4.556 -371.889
+    Position 1668.376 0.669 -382.986
    }
    ShapePoint "{68B374A02CD57CDC}" {
     Position 1740.7 5.652 -362.785
@@ -217,35 +208,8 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{68B374A019389A50}" {
     Position 1961.187 0.265 226.992
    }
-   ShapePoint "{68B374A3F17D58CB}" {
-    Position 1174.776 -0.117 407.318
-   }
-   ShapePoint "{68B374A3F1ED2AAD}" {
-    Position 1109.387 -1.652 408.081
-   }
-   ShapePoint "{68B374A3F1868574}" {
-    Position 1060.481 -0.249 396.796
-   }
-   ShapePoint "{68B374A3F0B1B05F}" {
-    Position 1022.45 -0.004 384.862
-   }
-   ShapePoint "{68B374A3FF1E5F4D}" {
-    Position 996.991 -0.005 390.299
-   }
-   ShapePoint "{68B374A3FCA29A07}" {
-    Position 782.619 -0.053 486.108
-   }
-   ShapePoint "{68B374A3FADC35D5}" {
-    Position 662.56 -0.005 545.09
-   }
-   ShapePoint "{68B374A3F94ED695}" {
-    Position 617.936 -0.007 563.125
-   }
-   ShapePoint "{68B374A3F8E57536}" {
-    Position 558.635 -0.005 582.205
-   }
-   ShapePoint "{68B374A3E7C10E47}" {
-    Position 529.265 -0.433 580.98
+   ShapePoint "{68D0079D421009CD}" {
+    Position 1260.054 5.143 611.043
    }
    ShapePoint "{68B374A3E6D78FC3}" {
     Position 518.139 -0.377 567.792
@@ -294,28 +258,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -236.371 0.583 -1550.35
    }
    ShapePoint "{68B56D42B4F6FF82}" {
-    Position -190.312 0.588 -1906.004
-   }
-   ShapePoint "{68B56D43F09A6D88}" {
-    Position 217.084 0.591 -1938.185
-   }
-   ShapePoint "{68B56D43FE89A194}" {
-    Position 590.527 0.158 -2011.774
-   }
-   ShapePoint "{68B56D43FC35F813}" {
-    Position 617.902 0.053 -2042.723
-   }
-   ShapePoint "{68B56D43FCA6CFD7}" {
-    Position 644.103 2.938 -2079.879
-   }
-   ShapePoint "{68B56D43FB862269}" {
-    Position 653.949 2.509 -2153.035
-   }
-   ShapePoint "{68B56D43FAF8B16E}" {
-    Position 680.592 3.049 -2226.543
+    Position -170.654 0.585 -1924.843
    }
    ShapePoint "{68B56D43F9CA1E6B}" {
-    Position 726.694 5.257 -2262.434
+    Position 721.095 1.363 -2272.647
    }
    ShapePoint "{68B56D43F8393268}" {
     Position 792.859 5.736 -2302.172
@@ -339,7 +285,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 1335.742 0.585 -2002.174
    }
    ShapePoint "{68B56D43D74785C0}" {
-    Position 1326.4 0.902 -1969.975
+    Position 1326.063 0.881 -1970.131
    }
    ShapePoint "{68B56D43CBF91057}" {
     Position 1008.211 5.713 -1237.196
@@ -371,12 +317,12 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_color 0.823 0.553 0.002 0.394
     m_invert 0
     m_drawLine 1
-    m_lineColor 0.136 0.095 0.002 0.863
+    m_lineColor 0 0 0 0.863
     m_lineWidth 1
    }
   }
-  coords 5996.406 20.126 2950.121
-  scale 9.5
+  coords 6329.805 20.126 2975.571
+  scale 4.1
   Points {
    ShapePoint "{66BC00EC00D6DEB5}" {
     Position 5.852 0 -0.746
@@ -478,8 +424,8 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 TILW_FactionTriggerEntity CapZone : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 6333.402 17.851 2996.276
- m_queryRadius 290
+ coords 6477.231 17.851 2996.865
+ m_queryRadius 125
  m_sendStatusMessages 1
  m_locationName "the city"
  m_flagName "BluforObjectiveVictory"
@@ -487,7 +433,7 @@ TILW_FactionTriggerEntity CapZone : "{8C576D46F6579229}Prefabs/Logic/Triggers/TI
  m_setShapeColor 0.175 0.01 0.01 1
  m_playersOnly 1
  m_ownerFactionKey "US"
- m_ratioThreshold 0.8
+ m_ratioThreshold 0.95
 }
 TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4445.768 17.844 4053.37
@@ -527,6 +473,9 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
      m_messageBody "Die with honor."
     }
    }
+   m_condition TILW_LiteralTerm "{68DD339B75CB8782}" {
+    m_invertTerm 1
+   }
   }
   TILW_MissionEvent "{68B6181C4CF7581A}" {
    m_name "BluforVictoryObjective"
@@ -556,6 +505,12 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 4686.922 17.845 4701.484
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   coords 0 -0.001 0
+  }
+ }
 }
 $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_GroupFlagsIndfor_Base.et" {
  SpawnMarkerBlufor {
@@ -570,7 +525,7 @@ $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_G
   }
  }
  SpawnMarkerOpfor {
-  coords 6390.978 17.844 2972.106
+  coords 6594.826 17.844 3009.737
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"

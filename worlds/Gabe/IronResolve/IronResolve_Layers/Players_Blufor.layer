@@ -2,9 +2,10 @@ $grp SCR_AIGroup : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
  Weapons {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E07898580FDCC}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 4
    }
   }
@@ -12,54 +13,55 @@ $grp SCR_AIGroup : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 -39.537 0
   m_sCustomNameSet "Weapons"
  }
- BradleyCrew {
+ StrykerCrew1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E07898580FDCC}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 7
    }
   }
-  coords 4668.418 17.844 4674.646
-  angles 0 -41.309 0
+  coords 4670.317 17.844 4675.853
+  angles 0 -40.617 0
   m_aUnitPrefabSlots {
-   "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et"
-   "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et"
-   "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
+   "{3D83A5A0EC9F7416}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewCommander_P.et"
+   "{8735575F8B41A7DD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewDriver_P.et"
   }
-  m_sCustomNameSet "M2A3 Bradley"
+  m_sCustomNameSet "Stryker Crew"
  }
- BradleyCrew2 {
+ StrykerCrew2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E07898580FDCC}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 6
+    m_iSquadCallsign 8
    }
   }
-  coords 4657.177 17.844 4664.655
-  angles 0 -41.309 0
+  coords 4661.821 17.844 4667.447
+  angles 0 -41.748 0
   m_aUnitPrefabSlots {
-   "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et"
-   "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et"
-   "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
+   "{3D83A5A0EC9F7416}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewCommander_P.et"
+   "{8735575F8B41A7DD}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/P/Character_US_2003_D_CrewDriver_P.et"
   }
-  m_sCustomNameSet "M2A3 Bradley"
+  m_sCustomNameSet "Stryker Crew"
  }
 }
 $grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_RifleSqua_P.et" {
  Squad1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E07897D8501F9}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 1
    }
   }
@@ -70,9 +72,10 @@ $grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
  Squad2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E0789739F421F}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 2
    }
   }
@@ -83,9 +86,10 @@ $grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
  Squad3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{685E078977200929}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 3
    }
   }
@@ -97,9 +101,10 @@ $grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
 SCR_AIGroup PltHQ : "{DE58221F44A01B5A}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_PlatoonHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "file"
+   Enabled 0
   }
-  PS_GroupCallsignAssigner "{685E0789673BC412}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
   }
  }
  coords 4731.594 19.671 4729.929

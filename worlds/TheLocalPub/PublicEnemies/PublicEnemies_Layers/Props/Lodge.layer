@@ -733,6 +733,7 @@ GenericEntity : "{0BE3BDE3910436F2}Prefabs/Props/Decorations/Flowerpots/Flowerpo
 Vehicle S105_randomized2 : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
    m_lockPilot 1
    m_lockTurret 1
    m_lockCargo 1
@@ -766,6 +767,7 @@ GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
 Vehicle UAZ469_uncovered_CIV_Randomized1 : "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
    m_lockPilot 1
    m_lockTurret 1
    m_lockCargo 1
@@ -892,6 +894,7 @@ $grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport
  S1203_transport_randomized1 {
   components {
    SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
     m_lockPilot 1
     m_lockTurret 1
     m_lockCargo 1
@@ -910,6 +913,7 @@ $grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport
  S1203_transport_randomized2 {
   components {
    SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
     m_lockPilot 1
     m_lockTurret 1
     m_lockCargo 1
@@ -968,6 +972,7 @@ SCR_IndestructibleEnvironmentalEntity : "{57275CBF897BCA7A}Prefabs/Structures/Cu
 Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
    m_lockPilot 1
    m_lockTurret 1
    m_lockCargo 1

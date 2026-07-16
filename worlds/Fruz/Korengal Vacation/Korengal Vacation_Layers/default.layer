@@ -1,4 +1,4 @@
-SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
+SCR_AIWorld : "{77C3151F7A6E588C}Prefabs/SCR_AIWorld_Kunar.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
@@ -109,7 +109,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{68A976BDD8BF0CC3}" {
    m_flagName "US"
    m_factionKey "RHS_USAF"

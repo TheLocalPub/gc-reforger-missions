@@ -8,7 +8,8 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 1
-   m_iStartingMinutes 45
+   m_iStartingMinutes 40
+   m_fDayTimeAcceleration 0.8
    m_iSetMonth 1
   }
  }

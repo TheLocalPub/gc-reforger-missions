@@ -2,7 +2,10 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
  CivGroup1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
    }
   }
   coords 661.302 38.591 3274.525
@@ -17,9 +20,10 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
  CivGroup2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 1
    }
   }
@@ -35,9 +39,10 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
  CivGroup3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 2
    }
   }
@@ -53,9 +58,10 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
  CivGroup4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
+    Enabled 0
    }
-   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 3
    }
   }

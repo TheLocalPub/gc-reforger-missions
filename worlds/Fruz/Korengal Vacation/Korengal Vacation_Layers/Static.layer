@@ -97,6 +97,52 @@ GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/Mo
   }
  }
 }
+$grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/P/GC_INS_Afghan_Squad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3320.385 311.263 434.384
+  angles 0 109.022 0
+  m_sCustomNameSet "Gooba Cell"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3325.912 312.502 454.03
+  angles 0 109.022 0
+  m_sCustomNameSet "Shalom Cell"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3316.506 311.504 436.53
+  angles 0 109.022 0
+  m_sCustomNameSet "Sariq Cell"
+ }
+}
 Vehicle M1240A1_MATV_Base3 : "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et" {
  coords 1879.248 205.594 1362.242
  angles 0 -42.065 0
@@ -104,6 +150,31 @@ Vehicle M1240A1_MATV_Base3 : "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1
 Vehicle S1203_transport_beige5 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
  coords 3333.213 311.082 439.623
  angles 0 -159.824 0
+}
+SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 3
+  }
+ }
+ coords 2367.846 163.5 1869.615
+ angles 0 179.922 0
+ m_aUnitPrefabSlots {
+  "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_SL_P.et"
+  "{09A251A6EE382179}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_TL_P.et"
+  "{7EA1D92DA3093111}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AR_P.et"
+  "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
+  "{2774BE94F3C9C46C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_LAT_P.et"
+  "{09A251A6EE382179}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_TL_P.et"
+  "{7EA1D92DA3093111}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AR_P.et"
+  "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
+  "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
+ }
+ m_iGroupRadioFrequency 3
 }
 GenericEntity StaticCrate : "{762430A240108C70}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Ammunition_01_USSR.et" {
  components {
@@ -183,7 +254,7 @@ GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes
      SlotTemplate EquipmentStorageSlot radio {
       Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/RU/Radio_R107M.et"
      }
-     NumSlots 6
+     NumSlots 12
     }
     MultiSlotConfiguration "{68A976222669D4E7}" {
      SlotTemplate EquipmentStorageSlot mg {
@@ -275,38 +346,38 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   coords 2792.471 51.243 2521.838
   Points {
    ShapePoint "{68A976BF423E87D0}" {
-    Position -153.356 99.595 -214.748
+    Position -186.767 45.798 -451.925
    }
    ShapePoint "{68A976BF5DF034AD}" {
-    Position 338.67 64.317 -395.76
+    Position -49.517 50.442 -547.19
    }
    ShapePoint "{68A976BF58D48963}" {
-    Position 244.887 131.13 -481.097
+    Position -46.503 72.593 -719.26
    }
    ShapePoint "{68A976BF554A73CF}" {
-    Position 41.937 135.36 -1091.295
+    Position -182.763 59.637 -840.766
    }
    ShapePoint "{68A976BF6F519258}" {
-    Position -146.832 179.755 -1230.066
+    Position -368.788 93.41 -1054.284
    }
    ShapePoint "{68A976BF6B09DA1A}" {
-    Position -734.82 143.414 -1751.07
+    Position -829.108 83.931 -1495.764
    }
    ShapePoint "{68A976BF6848B8DA}" {
-    Position -1165.749 182.564 -1264.297
+    Position -1115.956 171.707 -1218.574
    }
    ShapePoint "{68A976BF64A6769B}" {
-    Position -691.478 158.915 -689.836
+    Position -663.803 129.286 -733.711
    }
    ShapePoint "{68A976BF611976AE}" {
-    Position -518.451 121.236 -487.321
+    Position -475.288 104.439 -553.471
    }
   }
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 2359.008 160.976 1817.13
- m_captureIterations 18
+ m_captureTime 180
  m_sendStatusMessages 1
  m_locationName "the COP"
  m_flagName "INS_CAP"

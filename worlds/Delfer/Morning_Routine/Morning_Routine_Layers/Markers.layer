@@ -25,26 +25,14 @@ $grp PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_G
 }
 $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
  bluestart {
-  coords 3398.821 24.638 3564.387
+  coords 3388.937 24.638 3523.998
   angles 0 90 0
   m_sDescription "Blufor Start"
- }
- OP {
-  coords 3578.124 25.277 3126.876
-  angles 0 90 0
-  m_fWorldSize 35
-  m_sDescription "OP Location"
-  m_aVisibleForFactions {
-   "UK"
-  }
-  m_bVisibleForEmptyFaction 0
-  m_aHideOnGameModeStates {
-  }
-  m_bShowForAnyFaction 0
  }
  m2 {
   coords 2544.497 19.108 3256.37
   angles 0 90 0
+  m_sImageSet "{196CE5C155D0BF95}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor-outline-200_atlas.edds"
   m_fWorldSize 35
   m_sDescription "22 Platoon"
   m_aVisibleForFactions {
@@ -81,6 +69,58 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   }
   m_bShowForAnyFaction 0
  }
+ OP1 {
+  coords 2850.526 23.735 2999.701
+  angles 0 90 0
+  m_fWorldSize 35
+  m_sDescription "OP1 Location"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 0
+ }
+ OP2 {
+  coords 3851.954 22.582 3177.51
+  angles 0 90 0
+  m_fWorldSize 35
+  m_sDescription "OP2 Location"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 0
+ }
+ sect1 {
+  coords 3223.773 24.781 3208.466
+  angles 0 90 0
+  m_fWorldSize 25
+  m_sDescription "Friendly AI Section"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 0
+ }
+ sect2 {
+  coords 3549.306 26.991 3287.366
+  angles 0 90 0
+  m_fWorldSize 25
+  m_sDescription "Friendly AI Section"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 0
+ }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  blufor_ao {
@@ -92,6 +132,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_visibility FACTION
     m_defaultColor 0 0.125 0.502 1
     m_useFactionColor 0
+    m_lineWidth 5
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     m_factionKeys {
@@ -137,6 +178,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_visibility FACTION
     m_defaultColor 0 0.502 0.125 1
     m_useFactionColor 0
+    m_lineWidth 5
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     m_factionKeys {
@@ -193,6 +235,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     }
     m_visibility FACTION
     m_defaultColor 0.502 0 0 1
+    m_lineWidth 5
    }
    TILW_CoverMapComponent "{6473480FCAB7760B}" {
     Enabled 1
@@ -206,10 +249,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   coords 3274.538 20.958 2351.313
   Points {
    ShapePoint "{66F12D6410EE72CA}" {
-    Position 1316.277 0 -370.997
+    Position 1337.193 0 -450.354
    }
    ShapePoint "{66F12D6416731C02}" {
-    Position 833.834 0 -639.274
+    Position 836.848 0 -673.046
    }
    ShapePoint "{66F12D642D59C3FB}" {
     Position 17.013 0 -712.168
@@ -298,6 +341,40 @@ $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_O
   m_sDescription "Eastern Gun Position"
   m_aVisibleForFactions {
    "USSR"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_bShowForAnyFaction 0
+ }
+ ags2 {
+  components {
+   PK_EntityProtectorComponent "{696F01E556B14821}" {
+   }
+  }
+  coords 3534.063 28.164 3433.873
+  angles 0 107.724 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "ags"
+  m_sDescription "Captured Soviet AGS"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_bShowForAnyFaction 0
+ }
+ ags3 {
+  components {
+   PK_EntityProtectorComponent "{696F01E556B14821}" {
+   }
+  }
+  coords 3363.552 23.866 3578.843
+  angles 0 107.724 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "ags"
+  m_sDescription "Captured Soviet AGS"
+  m_aVisibleForFactions {
+   "UK"
   }
   m_bVisibleForEmptyFaction 0
   m_bShowForAnyFaction 0

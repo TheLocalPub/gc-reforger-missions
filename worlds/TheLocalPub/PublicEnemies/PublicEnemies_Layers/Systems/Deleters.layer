@@ -40,16 +40,4 @@ $grp PK_EntityDeleter {
    "{AED5759B653DF6D0}Prefabs/Vegetation/Bush/b_rosa_canina_1s_collision.et"
   }
  }
- {
-  coords 2724.065 62.623 945.8
-  m_prefabFilterList {
-   "{85D3610D3DC3CBB6}Prefabs/Models/tem_finhouse3_yellow.et"
-  }
- }
- {
-  coords 2776.153 59.437 1022.609
-  m_prefabFilterList {
-   "{C6258CB925769D10}Prefabs/Models/tem_finhouse4_red.et"
-  }
- }
 }

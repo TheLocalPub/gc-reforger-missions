@@ -26,7 +26,17 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  Formations {
   AIFormationDefinition "{56ACE3951AA8D3EB}" {
    Offsets {
-    0 0 0 0 0 -2 0 0 -4 0 0 -6 0 0 -8 0 0 -10 0 0 -12 0 0 -14 0 0 -16 0 0 -18 0 0 -20
+    0 0 0
+    0 0 -2
+    0 0 -4
+    0 0 -6
+    0 0 -8
+    0 0 -10
+    0 0 -12
+    0 0 -14
+    0 0 -16
+    0 0 -18
+    0 0 -20
    }
   }
  }
@@ -34,7 +44,7 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 0 0 0
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   GC_CommandosManager "{659C5DFB11CD048A}" {
    m_objectives {
@@ -81,11 +91,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_name "SU-57s"
      m_objectiveCompletedMsg "The %1 has been sabotaged!"
      m_briefingDescription "Sabotage atleast ONE of the SU-57s (Interaction)"
-    }
-    GC_CommandosObj "{65E45757C1679969}" {
-     m_name "Ship"
-     m_objectiveCompletedMsg "The %1 has been sabotaged!"
-     m_briefingDescription "Sabotage the hull near the rear of the Ship (Interaction)"
     }
     GC_CommandosObj "{65E45BDC308A67EA}" {
      m_name "Intel"
@@ -136,7 +141,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Destroy the MI-8 using an Igla (Cache Marked on map)"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65F27573FB51061D}" {
@@ -145,7 +156,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Base Commander"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65FE1DE08226E680}" {
@@ -154,7 +171,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Political Officer"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65FE1DE082DB9717}" {
@@ -163,117 +186,25 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Scientist"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew" "Scientist"
-     }
-    }
-   }
-  }
-  PS_MissionDataManager "{5F2B46885537B66A}" {
-   Enabled 0
-  }
-  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
-   Enabled 0
-  }
-  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_bUsePredefineStartingTimeAndWeather 1
-   m_aStartingWeatherAndTime {
-    SCR_TimeAndWeatherState "{647776E54F5F3190}" {
-     m_sWeatherPresetName "Rainy"
-     m_iStartingHour 0
-    }
-   }
-   m_bUseSpecifiedDate 1
-   m_iSetDay 2
-   m_iSetYear 2005
-   m_bOverrideEnvironment 1
-   m_fFogHeight 0
-   m_fWind 5
-  }
- }
- PlayerControllerPrefab "{85F3B42282EF19BD}worlds/arc/CommandosReforged/Prefabs/Commandos_PlayerController.et"
- m_iFreezeTime 300000
- {
-  SCR_FactionManager "64775BA06B584BC9" {
-   ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{5978B9CE6585BBE8}" {
-     m_aFriendlyFactionsIds {
-      "RHS_USAF"
-     }
-     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
-      m_aCompanyNames {
-       SCR_CallsignInfo "{5977478D568C0922}" {
-        m_sCallsign "1"
-       }
-      }
-      m_aSquadNames {
-       SCR_CallsignInfo "{55CCB79287936EBD}" {
-        m_sCallsign "1"
-       }
-       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
-        m_sCallsign "2"
-       }
-       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
-        m_sCallsign "3"
-       }
-       SCR_CallsignInfo "{64E2F896E232A50B}" {
-        m_sCallsign "4"
-       }
-       SCR_CallsignInfo "{64E2F896FFC45153}" {
-        m_sCallsign "5"
-       }
-       SCR_CallsignInfo "{64E2F896FFF772BB}" {
-        m_sCallsign "6"
-       }
-       SCR_CallsignInfo "{64E2F896F01D8C83}" {
-        m_sCallsign "7"
-       }
-       SCR_CallsignInfo "{64E2F896F044B7B6}" {
-        m_sCallsign "8"
-       }
-       SCR_CallsignInfo "{64E2F896F0699D6A}" {
-        m_sCallsign "9"
-       }
-       SCR_CallsignInfo "{5977478D568C092E}" {
-        m_sCallsign "0"
-       }
-       SCR_CallsignInfo "{5977478D568C092D}" {
-       }
-       SCR_CallsignInfo "{5977478D568D935E}" {
-       }
-       SCR_CallsignInfo "{64E30A2D51F0B029}" {
-        m_sCallsign "3 HQ"
-       }
-       SCR_CallsignInfo "{64E30A2D52199F03}" {
-        m_sCallsign "3"
-       }
-      }
-      m_sCallsignGroupFormat "%1%2%3"
-      m_sCallsignCharacterFormat "%1%2%3: %4"
-      m_sCallsignCharacterWithRoleFormat "%1%2%3: %4"
-     }
-    }
-    SCR_Faction "{5CC8DE37E1FF0F7A}" {
-     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
-      m_aSquadNames {
-       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
-        m_sCallsign "Alpha"
-       }
-       SCR_CallsignInfo "{55CCB792D13759D8}" {
-        m_sCallsign "Bravo"
-       }
-       SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign "Charlie"
-       }
-      }
-      m_sCallsignGroupFormat "%3"
-      m_sCallsignCharacterFormat "%3: %4"
-      m_sCallsignCharacterWithRoleFormat "%3: %4"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
+      "Scientist"
      }
     }
    }
   }
  }
+ coords 1339.142 39 2266.699
+ PlayerControllerPrefab "{30319F56A7F20B33}worlds/arc/CommandosReforged/Prefabs/DefaultPlayerControllerMP_Coop_Commandos.et"
+}
+Vehicle Mi8MT_armed1_Comandos1 : "{405EE651B23BF8AE}worlds/arc/CommandosReforged/Prefabs/Mi8MT_armed1_Comandos.et" {
+ coords 1391.602 36.85 2676.979
+ angles 0 -104.036 0
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 3268.057 2.186 2870.736

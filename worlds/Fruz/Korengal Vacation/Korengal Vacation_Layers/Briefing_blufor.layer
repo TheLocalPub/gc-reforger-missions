@@ -41,6 +41,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Command and Signal:"\
   ""\
   "PLT NET= 48.00"\
+  "1st Squad= 44.00"\
+  "2nd Squad=45.00"\
+  "3rd Squad= 46.00"\
+  "Wpns=47.00"\
   ""\
   ""
   m_aVisibleForFactions {

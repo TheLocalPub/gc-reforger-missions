@@ -9,6 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "At Bohemian Lodge, alliances will be tested — and peace may prove more dangerous than war."\
   ""\
   "<h2>Notes</h2>"\
+  "• SLOT BOTH MOB BOSSES - Mission critical roles."\
   "• Setup timer: 1min - Blufor."
   m_bEmptyFactionVisibility 1
  }
