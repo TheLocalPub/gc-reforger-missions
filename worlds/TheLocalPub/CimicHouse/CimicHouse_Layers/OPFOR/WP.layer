@@ -1,0 +1,12 @@
+SCR_EntityWaypoint Attack1 : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
+ coords 4348.01 17.844 3902.4
+ angles 0 41.494 0
+ CompletionRadius 20
+ m_fPriorityLevel 250
+ m_aSettings {
+  SCR_AIGroupCombatModeSetting "{69E8F113F2DA06AA}" {
+  }
+  SCR_AIGroupFormationSetting "{69E8F12CBEE75D70}" {
+  }
+ }
+}
