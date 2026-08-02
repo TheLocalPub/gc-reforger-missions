@@ -1,0 +1,144 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 3675.143 203.11 7673.506
+  angles 0 -114.175 0
+  m_prefab "{E07F0AF2AA97C15E}Prefabs/Groups/OPFOR/GC_IRA/Group_IRA_PHQ.et"
+  m_conditionFlag "UKClose"
+  m_spawnTimings {
+   240
+  }
+  m_waypointNames {
+   "WP_A1"
+  }
+ }
+ {
+  coords 3209.023 219.562 8048.167
+  angles 0 -169.009 0
+  m_prefab "{E07F0AF2AA97C15E}Prefabs/Groups/OPFOR/GC_IRA/Group_IRA_PHQ.et"
+  m_conditionFlag "UKClose"
+  m_spawnTimings {
+   240
+  }
+  m_waypointNames {
+   "WP_A1"
+  }
+ }
+}
+$grp SCR_AIGroup : "{AD4CFD71DC37897F}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_ATSquad_P.et" {
+ IRA_AI_ATSQD {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+  }
+  coords 2970.981 193.499 6181.303
+  angles 0 37.532 0
+  m_aUnitPrefabSlots {
+   "{C00463049DDCA7A7}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AT.et"
+   "{E7EEB0ADDDC83290}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_ATA.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D2"
+  }
+ }
+ IRA_AI_ATSQD2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+  }
+  coords 2459.986 237.987 7076.74
+  angles 0 37.532 0
+  m_aUnitPrefabSlots {
+   "{C00463049DDCA7A7}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AT.et"
+   "{E7EEB0ADDDC83290}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_ATA.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D1"
+  }
+ }
+ IRA_AI_ATSQD3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+  }
+  coords 3638.532 224.737 7185.786
+  angles 0 37.532 0
+  m_aUnitPrefabSlots {
+   "{C00463049DDCA7A7}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AT.et"
+   "{E7EEB0ADDDC83290}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_ATA.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D4"
+  }
+ }
+}
+SCR_AIGroup IRA_AI_PHQ1 : "{E07F0AF2AA97C15E}Prefabs/Groups/OPFOR/GC_IRA/Group_IRA_PHQ.et" {
+ coords 3262.862 210.384 7520.323
+ m_aStaticWaypoints {
+  "WP_D5"
+ }
+}
+$grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_RifleSquad_P.et" {
+ IRA_AI_Rifle1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3024.569 209.607 6960.789
+  angles 0 99.127 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{57C12C4EC62AE403}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Medic.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et"
+   "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D3"
+  }
+ }
+ IRA_AI_Rifle2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3228.647 210.436 7452.903
+  angles 0 99.127 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{57C12C4EC62AE403}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Medic.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et"
+   "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D5"
+  }
+ }
+ IRA_AI_Rifle3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2728.396 181.976 6700.722
+  angles 0 99.127 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{57C12C4EC62AE403}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Medic.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et"
+   "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D6"
+  }
+ }
+}

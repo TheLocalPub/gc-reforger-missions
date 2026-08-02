@@ -1,0 +1,40 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ IRA_Spawn {
+  coords 2651.464 181.813 6687.609
+  angles 0 90 0
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sQuadName "motorized"
+  m_fWorldSize 60
+  m_sDescription "IRA stagin area"
+  m_aVisibleForFactions {
+   "GC_IRA"
+  }
+ }
+ IRA_PKM {
+  coords 3134.699 215.452 7594.525
+  angles 0 -29.903 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "lmg"
+  m_fWorldSize 50
+  m_sDescription "Dug-in PKM"
+  m_aVisibleForFactions {
+   "GC_IRA"
+  }
+ }
+ IRA_HMG {
+  coords 2295.518 249.896 7232.91
+  angles 0 -82.501 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 50
+  m_sDescription "HMG"
+  m_aVisibleForFactions {
+   "GC_IRA"
+  }
+ }
+}

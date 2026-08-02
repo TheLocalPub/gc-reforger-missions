@@ -1,0 +1,27 @@
+SCR_AIGroup IRA_MGSQD : "{A271E51B38240F4F}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_MGSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 2648.538 183.686 6691.422
+ angles 0 38.157 0
+}
+SCR_AIGroup IRA_ATSQD : "{AD4CFD71DC37897F}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_ATSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "file"
+  }
+ }
+ coords 2643.067 183.686 6695.576
+ angles 0 37.532 0
+}
+SCR_AIGroup IRA_HQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_PHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "File"
+  }
+ }
+ coords 2643.134 181.812 6703.476
+ angles 0 131.718 0
+}

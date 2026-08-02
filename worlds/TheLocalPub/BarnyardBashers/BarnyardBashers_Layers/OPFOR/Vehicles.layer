@@ -1,0 +1,58 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 2657.994 181.813 6693.719
+ angles 0 129.646 0
+}
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 3136.897 214.794 7595.494
+ angles 0 -116.832 0
+ {
+  GenericEntity {
+   ID "5CCCBEDC9EB8023A"
+   {
+    Turret {
+     ID "5CC6B4BEF18D0296"
+     components {
+      TILW_VehicleCrewComponent "{6A048679F0AC60BD}" {
+       m_spawnPilot 1
+       m_spawnTurret 1
+       m_spawnCargo 1
+       m_customCrew {
+        "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+       }
+       m_noTurretDismount 1
+      }
+     }
+     coords 0.004 0.65 -0.766
+    }
+   }
+  }
+ }
+}
+Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ coords 2653.718 181.812 6683.725
+ angles 0 104.64 0
+}
+Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et" {
+ components {
+  TILW_VehicleCrewComponent "{6A04867B6DE33557}" {
+   m_spawnPilot 1
+   m_spawnTurret 1
+   m_spawnCargo 1
+   m_customCrew {
+    "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   }
+   m_noTurretDismount 1
+  }
+ }
+ coords 2295.59 249.884 7233.326
+ angles 0 -172.007 0
+}
