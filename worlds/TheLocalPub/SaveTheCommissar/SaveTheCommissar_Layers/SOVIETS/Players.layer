@@ -1,0 +1,159 @@
+SCR_AIGroup Soviet_HQ : "{68FED4CCDCCD904B}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRifleCoyHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "FILE"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 2711.618 24.219 5537.89
+ angles 0 -91.518 0
+ m_aUnitPrefabSlots {
+  "{68FED29FF1098893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_PL.et"
+  "{68FED29FBD8D6F0D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_DPL.et"
+  "{68FED29F9345FA89}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Medic.et"
+ }
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{68FED4CD200944F5}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRifleSquad.et" {
+ Soviet_rifle1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2694.381 24.219 5535.64
+  angles 0 -0.12 0
+  m_sCustomNameSet "Security group"
+  m_bSetPlayable 1
+ }
+ Soviet_rifle2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2702.231 24.219 5542.103
+  angles 0 180 0
+  m_sCustomNameSet "Security group"
+  m_bSetPlayable 1
+ }
+ Soviet_HVT {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+   }
+  }
+  coords 2689.675 24.227 5538.812
+  angles 0 87.499 0
+  m_aUnitPrefabSlots {
+   "{E16F7B7530013586}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_Commissar_Pub.et"
+   "{266E518B86B364F4}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_Chauffeur _Pub.et"
+   "{A729A5F5010B97BD}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_Bodyguard_Pub.et"
+   "{A729A5F5010B97BD}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_Bodyguard_Pub.et"
+  }
+  m_sCustomNameSet "Commissar's group"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{68FED4CD28AB3850}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_RifleSquad.et" {
+ Soviet_BRDMCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 8
+   }
+  }
+  coords 2709.722 24.269 5542.18
+  angles 0 -179.696 0
+  m_aUnitPrefabSlots {
+   "{68FED29FA0E98321}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewCdr.et"
+   "{68FED29FB523F8F2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewGunner.et"
+   "{68FED29FACD12ABC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewDriver.et"
+  }
+  m_sCustomNameSet "BRDM crew"
+  m_bSetPlayable 1
+ }
+ Soviet_move2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 6
+   }
+  }
+  coords 2706.049 24.269 5542.199
+  angles 0 -179.696 0
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29FDCC33063}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_RTO.et"
+   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+  }
+  m_sCustomNameSet "Maneuver team"
+  m_bSetPlayable 1
+ }
+ Soviet_move1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
+   }
+  }
+  coords 2704.126 24.269 5535.618
+  angles 0 0.304 0
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29FDCC33063}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_RTO.et"
+   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+  }
+  m_sCustomNameSet "Maneuver team"
+  m_bSetPlayable 1
+ }
+ Soviet_move3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 7
+   }
+  }
+  coords 2708.106 24.269 5535.596
+  angles 0 0.304 0
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29FDCC33063}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_RTO.et"
+   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+  }
+  m_sCustomNameSet "Maneuver team"
+  m_bSetPlayable 1
+ }
+}

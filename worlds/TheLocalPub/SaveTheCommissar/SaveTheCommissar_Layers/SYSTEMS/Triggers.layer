@@ -1,0 +1,8 @@
+TILW_FactionTriggerEntity Trigger_Fireworks : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 2685.965 24.227 5538.598
+ m_flagName "Fireworks"
+ m_drawShapeSurface 0
+ m_drawShapeOutline 0
+ m_ownerFactionKey "USSR"
+ m_ratioThreshold 0.1
+}

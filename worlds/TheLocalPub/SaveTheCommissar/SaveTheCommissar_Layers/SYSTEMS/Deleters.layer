@@ -1,0 +1,10 @@
+PK_EntityDeleter {
+ coords 2698.454 24.136 5557.455
+ m_prefabFilterList {
+  "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et"
+  "{CF7E43120709D9BE}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_grey.et"
+  "{84B029EBE9BD61C8}Prefabs/Props/Industrial/Pallets/MarsBoxContainer_01.et"
+  "{B6F08413C6198D9D}Prefabs/Props/Military/FireExtinguisherBox_USSR_01/FireExtinguisherBox_USSR_01.et"
+ }
+ m_bPreviewShape 0
+}

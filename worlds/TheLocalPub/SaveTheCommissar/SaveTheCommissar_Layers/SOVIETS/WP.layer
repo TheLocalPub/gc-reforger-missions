@@ -1,0 +1,30 @@
+$grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+ WP_LO1 {
+  coords 2697.843 24.656 5685.554
+ }
+ WP_LO2 {
+  coords 2774.308 24.033 5381.361
+ }
+ WP_LO3 {
+  coords 3077.673 26.893 4935.901
+  CompletionRadius 25
+ }
+}
+$grp GenericEntity : "{BA388E12A76B90E9}Prefabs/Models/props/tem_carpet3.et" {
+ {
+  coords 2698.224 24.232 5538.743
+  angles -0.062 88.907 0
+ }
+ {
+  coords 2702.174 24.228 5538.818
+  angles -0.062 88.907 0
+ }
+ {
+  coords 2706.087 24.223 5538.893
+  angles -0.062 88.907 0
+ }
+ {
+  coords 2710.105 24.219 5538.97
+  angles -0.062 88.907 0
+ }
+}

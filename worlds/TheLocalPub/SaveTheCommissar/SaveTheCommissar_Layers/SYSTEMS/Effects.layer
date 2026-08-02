@@ -1,0 +1,8 @@
+TILW_PrefabSpawnerEntity Fireworkspawner : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 2684.696 24.227 5538.852
+ m_prefab "{59EC39C0628DA84F}Prefabs/Systems/Fireworks/FireworkSpawner_bigRandom.et"
+ m_conditionFlag "Fireworks"
+ m_spawnTimings {
+  0
+ }
+}

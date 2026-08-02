@@ -1,0 +1,34 @@
+$grp SCR_AIGroup : "{68FED4CD28AB3850}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_RifleSquad.et" {
+ AI_SOVIET_RIFLE2 {
+  coords 2775.598 24.007 5378.421
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO2"
+  }
+ }
+ AI_SOVIET_RIFLE1 {
+  coords 2673.899 24.656 5676.063
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29F1ED5FC29}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AR.et"
+   "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
+   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO1"
+  }
+ }
+ AI_SOVIET_RIFLE3 {
+  coords 3066.326 26.82 4927.206
+  m_aUnitPrefabSlots {
+   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
+   "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO3"
+  }
+ }
+}
