@@ -13,37 +13,6 @@ GenericEntity {
  coords 2671.869 24.219 5551.036
  angles 0 179.625 0
 }
-Vehicle GC_BRDM2_unarmed_Commissar_Pub1 : "{0C4ED5F4EE11B450}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed_Commissar_Pub.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Flag_left : Turret {
-     PivotID "Light_Front_R"
-     Offset 0.0068 -0.0575 -0.2912
-     Angles -12.2019 -1.231 5.0177
-     Prefab "{EA7DA9300CD08B21}Prefabs/Props/Military/DeskFlags_01/DeskFlags_01_USSR_SovietArmy.et"
-     RegisterDamage 0
-    }
-    RegisteringComponentSlotInfo Flag_back : Turret {
-     PivotID "v_hatch_rear"
-     Offset 0.0069 -0.0574 0.464
-     Angles -86.8017 -29.4161 33.7023
-     Prefab "{EA7DA9300CD08B21}Prefabs/Props/Military/DeskFlags_01/DeskFlags_01_USSR_SovietArmy.et"
-     RegisterDamage 0
-    }
-    RegisteringComponentSlotInfo Flag_right : Turret {
-     PivotID "Light_Front_L"
-     Offset 0.0068 -0.0575 -0.2912
-     Angles -11.9778 2.0005 -10.3229
-     Prefab "{EA7DA9300CD08B21}Prefabs/Props/Military/DeskFlags_01/DeskFlags_01_USSR_SovietArmy.et"
-     RegisterDamage 0
-    }
-   }
-  }
- }
- coords 2715.525 24.144 5538.906
- angles 0 90.466 0
-}
 SCR_DestructibleEntity : "{19818F8252E5A9A3}Prefabs/Structures/Cultural/Statues/MonumentMiG15_01/MonumentMiG15_01_soviet.et" {
  coords 2776.485 0.29 5575.364
  angles 0 158.247 0

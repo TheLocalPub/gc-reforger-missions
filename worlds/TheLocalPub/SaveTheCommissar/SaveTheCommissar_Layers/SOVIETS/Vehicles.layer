@@ -1,3 +1,7 @@
+Vehicle GC_BRDM2_unarmed_Commissar_Pub : "{0C4ED5F4EE11B450}worlds/TheLocalPub/SaveTheCommissar/Prefabs/Vehicles/Wheeled/BRDM2/GC_BRDM2_unarmed_Commissar_Pub.et" {
+ coords 2716.531 24.211 5538.999
+ angles 0 89.308 0
+}
 $grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
  UAZ469_uncovered3 {
   coords 2729.898 24.422 5569.436

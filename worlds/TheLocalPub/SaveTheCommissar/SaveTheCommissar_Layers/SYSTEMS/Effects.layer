@@ -4,5 +4,6 @@ TILW_PrefabSpawnerEntity Fireworkspawner : "{7F10372CF1CA1175}Prefabs/Utils/TILW
  m_conditionFlag "Fireworks"
  m_spawnTimings {
   0
+  10
  }
 }
