@@ -29,11 +29,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The apartment building is a large complex consisting of 5 floors and a rooftop. With roughly 50 meters of frontage along it's largest sides."\
   "Fortifed with dug-in fighting positions and good 360 degree sightlines."\
   ""\
-  "<h2>STRENGTHS & CAPABILITIES</h2> "\
-  "• The enemy is completely isolated and cut off from reinforcements and external support."\
-  "• They are assessed to have limited capabilities, low morale, and dwindling supplies."\
-  "• However, fighters with no avenue of escape can become highly determined and unpredictable. Expect them to exploit every available advantage, even at significant cost, and to resist fiercely despite their situation."\
-  "• There is a PKM turret on the 3rd floor west facing balcony."
+  "<h2>STRENGTHS & CAPABILITIES</h2>"\
+  "• There is a PKM turret on the 3rd floor west facing balcony."\
+  "• The enemy is completely isolated and cut off from reinforcements and external support. They are assessed to have limited capabilities, low morale, and dwindling supplies."\
+  "• However, fighters with no avenue of escape can become highly determined and unpredictable. Expect them to exploit every available advantage, even at significant cost, and to resist fiercely despite their situation."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -47,18 +46,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We are currently located at the staging area, preparing to step off toward the designated insertion points."\
   ""\
   "After the setup timer has ended, we may deploy to any designated insertion location via the doors at the staging area."\
-  "At the staging area, a mock-up model of the target building is available. This allows us to study the layout, plan our approach, and rehearse entry methods - including ladder placement and other breaching techniques prior to execution."\
+  "A mock-up model of the target building is available where we start."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
-  "• We have total freedom of movement within the city. All other organized enemy resistance has been neutralized."\
-  "• We are able to take the time required to properly position, coordinate, and prepare for the assault without concern for external interference."\
+  "• We have total freedom of movement within the city. All other organized enemy resistance has been neutralized, which gives us the  time required to properly position, coordinate, and prepare for the assault without external interference."\
   " "\
   "<h2>SERVICE & SUPPORT</h2> "\
   "A supply crate is available at the staging location containing:"\
-  "• 8x deployable ladders"\
-  "• 16x demolition charges"\
-  "• 8x clackers (detonators)"\
-  "• 10x wire cutters"
+  "• 8x deployable ladders"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

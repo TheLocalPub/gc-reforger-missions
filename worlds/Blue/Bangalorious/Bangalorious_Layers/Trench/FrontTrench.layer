@@ -15561,8 +15561,8 @@ $grp StaticModelEntity : "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain
   scale 1.96
  }
  {
-  coords 3328.767 33.519 1130.114
-  angles -10.558 71.245 -2.132
+  coords 3328.659 33.544 1130.056
+  angles -10.558 71.245 -6.133
   scale 1.96
  }
  {
@@ -16583,6 +16583,11 @@ $grp StaticModelEntity : "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain
   coords 3451.088 30.843 1110.38
   angles -21.44 13.954 2.377
   scale 1.182
+ }
+ {
+  coords 3298.799 27.742 1165.033
+  angles -10.825 -100.05 13.137
+  scale 1.96
  }
 }
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
@@ -17772,17 +17777,21 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
  }
  {
   coords 3325.247 25.062 1195.088
+  angles -2.683 0.042 -0.896
  }
  {
   coords 3596.505 23.206 1062.419
  }
  {
   coords 3315.065 24.569 1197.351
+  angles -4.457 0.209 -2.692
  }
  {
-  coords 3302.941 23.368 1200.01
+  coords 3302.941 23.369 1200.01
+  angles -7.935 0.749 -5.408
  }
  {
-  coords 3292.526 22.217 1200.929
+  coords 3292.526 22.216 1200.929
+  angles -8.804 0.832 -5.42
  }
 }

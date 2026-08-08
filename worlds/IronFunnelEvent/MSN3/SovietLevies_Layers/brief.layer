@@ -67,9 +67,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR4 {
   coords 6100.131 59.79 4628.04
   m_sTitle "SIGNALS"
-  m_sTextData "331 (You) 42.0 "\
-  "Tulip 43.0 --> Fires Net"\
-  ""
+  m_sTextData "331 (You) 45.0 "\
+  "Tulip 42.0 --> Fires Net"
   m_aVisibleForFactions {
    "USSR"
   }

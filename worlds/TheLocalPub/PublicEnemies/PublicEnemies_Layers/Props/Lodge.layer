@@ -1111,14 +1111,6 @@ GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
  coords 2767.357 60.174 1001.875
  angles -4.297 -74.789 2.631
 }
-SCR_DestructibleBuildingEntity : "{85D3610D3DC3CBB6}Prefabs/Models/tem_finhouse3_yellow.et" {
- components {
-  PK_EntityProtectorComponent "{68B0E4A53A3EBB44}" {
-  }
- }
- coords 2728.14 -0.026 947.097
- angles 0 102.128 0
-}
 GameEntity : "{862432FB57C1C1B3}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_green.et" {
  coords 2765.716 65.015 1021.136
  angles 0 -68.051 0
@@ -1192,14 +1184,6 @@ GenericEntity : "{9C231B6AC1BD0A26}Prefabs/Props/Civilian/Broom_01.et" {
  coords 2775.054 61.094 1014.944
  angles -10.025 27.854 -4.166
 }
-GenericEntity : "{9F75AE30F166DC47}Prefabs/Models/Building_furniture_finhouse4.et" {
- components {
-  PK_EntityProtectorComponent "{68B0E4A5B8A9CB12}" {
-  }
- }
- coords 2774.624 60.5 1021.128
- angles 0 28.3 0
-}
 GenericEntity : "{9FC8D552DAF9C9A0}Prefabs/Props/Civilian/InkwellDecorative_01/InkwellDecorative_01.et" {
  coords 2766.147 65.015 1020.492
  angles 0 30.684 0
@@ -1221,14 +1205,6 @@ $grp GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubComposition
 GenericEntity : "{A208248B503EF831}Prefabs/Props/Civilian/Cart_01.et" {
  coords 2762.992 61.392 975.779
  angles 49.723 99.326 -4.914
-}
-GenericEntity : "{A2418B08840A5570}Prefabs/Models/Building_furniture_finhouse3.et" {
- components {
-  PK_EntityProtectorComponent "{68B0E4A6E9F0FE3B}" {
-  }
- }
- coords 2728.14 57.318 947.097
- angles 0 102.255 0
 }
 GenericEntity : "{A31E5B2DD8FBA845}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_ashtray.et" {
  coords 2778.843 62.265 987.557
@@ -1260,10 +1236,6 @@ GenericEntity : "{B985BC22BF2EDF0D}Prefabs/Props/Civilian/AlarmClock_01/AlarmClo
 GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
  coords 2774.679 60.967 1015.212
 }
-GenericEntity : "{BD1F07D0C32629AF}Prefabs/Structures/Wreck/volha.et" {
- coords 2744.986 58.532 1004.601
- angles -2.745 -97.759 -0.734
-}
 SCR_DestructibleBuildingEntity : "{C25857B8323C8D1C}Prefabs/Structures/Cultural/Fountains/Fountain_01_water_SUFFIX.et" {
  coords 2743.941 0.355 971.661
  angles 0 0 0
@@ -1275,14 +1247,6 @@ GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" 
 GenericEntity : "{C4444C5766E5387C}Prefabs/Props/Civilian/Birdhouse_01/Birdhouse_01.et" {
  coords 2752.16 62.277 1001.51
  angles 0 0 0
-}
-SCR_DestructibleBuildingEntity : "{C6258CB925769D10}Prefabs/Models/tem_finhouse4_red.et" {
- components {
-  PK_EntityProtectorComponent "{68B0E4A5BE6B668F}" {
-  }
- }
- coords 2774.624 0 1021.128
- angles 0 28.286 0
 }
 GenericEntity : "{C67A378521482995}Prefabs/Props/Furniture/Rack_03.et" {
  coords 2784.861 60.967 1018.003
@@ -1348,6 +1312,10 @@ GenericEntity : "{E46EF21920C34AD1}Prefabs/Models/kaljakori.et" {
 GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_green.et" {
  coords 2769.456 65.126 1027.083
  angles 0 0 0
+}
+GenericEntity : "{E9001839B5F2D85E}Prefabs/Structures/Wreck/volha.et" {
+ coords 2744.986 58.532 1004.601
+ angles -2.745 -97.759 -0.734
 }
 GenericEntity : "{EA8D922E189837C2}Prefabs/Props/Civilian/Suitcase_04_open.et" {
  coords 2769.814 64.606 1029.386

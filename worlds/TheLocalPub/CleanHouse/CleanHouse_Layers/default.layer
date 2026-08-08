@@ -22,7 +22,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 13294.985 0 9615.088
- m_iFreezeTime 240000
+ m_iFreezeTime 120000
  m_eJIPState Deny
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -32,11 +32,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "SetupTimer"
    m_instructions {
     TILW_SetFlagInstruction "{68B2F38D12C79402}" {
-     m_executionDelay 240
+     m_executionDelay 120
      m_flagName "SetupFinished"
     }
     TILW_SendMessageInstruction "{68B2F3804A907139}" {
-     m_executionDelay 240
+     m_executionDelay 120
      m_messageTitle "Teleports activated"
      m_messageBody "You can now teleport to the insert locations via the coloured doors"
      m_factionKeys {

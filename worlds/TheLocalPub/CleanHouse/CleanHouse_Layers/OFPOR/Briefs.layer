@@ -50,8 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• The enemy has total freedom of movement within the city. With no remaining resistance outside this position, they can take their time to plan, coordinate, and prepare their assault without fear of disruption."\
-  "• They are able to establish overwatch positions, including sniper teams and support elements, in surrounding buildings and maintain sustained pressure over time, gradually degrading our defenses."\
-  "• They may plan to destroy the whole building through demolitions."
+  "• They are able to establish overwatch positions, including sniper teams and support elements, in surrounding buildings and maintain sustained pressure over time, gradually degrading our defenses."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }

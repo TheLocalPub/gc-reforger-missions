@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_I
     ItemsInitConfigurationItem "{6326AD173E72F429}" {
      TargetStorage "Pants/Pants_Cargo_7.et"
      PrefabsToSpawn + {
-      "{5EA981DCE79C32B1}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Insurgent.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Insurgent.et"
      }
     }
     ItemsInitConfigurationItem "{6326AD173E72FB11}" {

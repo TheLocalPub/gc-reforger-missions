@@ -2500,7 +2500,7 @@ GenericEntity : "{32DE30B02A04B844}Prefabs/Compositions/Misc/SubCompositions/For
  coords 11881.897 8.287 10603.948
  angles 0 165.826 0
 }
-SCR_DestructibleEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
+GenericEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
  components {
   PK_EntityProtectorComponent "{68B4C8C4F8F5D473}" {
   }
@@ -6984,7 +6984,7 @@ GenericEntity : "{8F05D427252644F8}Prefabs/Props/Civilian/Suitcase_01.et" {
  coords 11808.287 12.688 10643.407
  angles 88.612 0 0
 }
-SCR_DestructibleEntity : "{8F3C2CE67D6501A8}Prefabs/Models/tem_bike1.et" {
+GenericEntity : "{8F3C2CE67D6501A8}Prefabs/Models/tem_bike1.et" {
  components {
   PK_EntityProtectorComponent "{68B4C8C77052911C}" {
   }
@@ -6996,7 +6996,7 @@ StaticModelEntity : "{90083B2935EF911B}Prefabs/Models/tem_datsun_wreck.et" {
  coords 11988.001 3.967 10679.558
  angles 0 0 -101.937
 }
-SCR_DestructibleEntity : "{90180A1F8AED476F}Prefabs/Models/tem_tractor_open.et" {
+GenericEntity : "{90180A1F8AED476F}Prefabs/Models/tem_tractor_open.et" {
  coords 12006.889 -0.011 10699.113
  angles 0 -121.424 0
 }
@@ -8747,7 +8747,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles -3.143 37.93 5.468
  }
  {
-  coords 11839.713 -0 10642.33
+  coords 11839.713 0 10642.33
   angles -6.676 68.633 7.339
  }
  {
@@ -9230,7 +9230,7 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   angles -2.684 0 2.681
  }
  {
-  coords 11905.32 -0 10665.688
+  coords 11905.32 0 10665.688
   angles -2.684 0 6.235
  }
  {
@@ -9262,7 +9262,7 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   angles 4.467 0 0
  }
  {
-  coords 11910.254 -0 10668.531
+  coords 11910.254 0 10668.531
   angles -1.79 0 4.465
  }
  {

@@ -7,6 +7,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Can the garrison hold long enough to force the attackers to withdraw?"\
   ""\
   "<h2>Summary Notes</h2>"\
+  "• E-tool usage is strictly forbidden."\
   "• Iraqi forces only to be slotted if missions is <b>FULL</b> or if blufor accept the challenge."\
   "• The mission is <b>LIVE</b> from the moment you enter the game."
   m_bEmptyFactionVisibility 1
@@ -31,12 +32,32 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Overrun the British garrison by eliminating at least 85% (26/30) of British forces and occupy the compound."\
   ""\
   "<h2>Mission Notes</h2>"\
-  "• JIP TP"\
+  "• E-tool usage is strictly forbidden."\
   "• Iraqi forces only to be slotted if missions is <b>FULL</b> or if blufor accept the challenge."\
+  "• JIP TP."\
+  "• UK AO limit."\
   ""\
   "Mission made by TheLocalPub. Please use the <b>#feedback</b> channel on Discord to report issues or submit suggestions."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
+ }
+ CL {
+  coords 7070.548 152.503 742.933
+  m_sTitle "Changelog"
+  m_sTextData "<h2>Added:</h2>"\
+  "• More buildings around the outside of the compound and their respective markers."\
+  "• Further low/small cover to the area outside the compound to make the AI not a total turkey shoot at times."\
+  "• Further fortifications to the compound, including a ladder to the garage roof with fighting positions."\
+  "• UK AO limit to brief."\
+  "• MMG Markers"\
+  ""\
+  "<h2>Changed:</h2>"\
+  "• AI settings - They should now be more aggressive, faster to the compound, and also better at engaging from a distance."\
+  "• AI numbers - Increased by 10 units a wave."\
+  "• AI placement - Moved some groups to different areas to try spread out their direction of travel."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 11
  }
 }

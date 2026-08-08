@@ -30,6 +30,8 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 6692.722 53.557 3608.832
+ m_fPrepMultiplier 1000
+ m_fGameMultiplier 1000
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6693.593 65.693 3356.336

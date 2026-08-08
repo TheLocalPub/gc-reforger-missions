@@ -1,3 +1,7 @@
+GenericEntity : "{039684B010E892B9}Prefabs/Models/props/tem_pillow3.et" {
+ coords 4339.724 21.204 3895.495
+ angles 0 -67.413 0
+}
 $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchSegment_01_short.et" {
  {
   components {
@@ -257,6 +261,18 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4332.755 20.954 3913.411
   angles 0 133.085 0
  }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348B6C7BD34}" {
+   }
+  }
+  coords 4319.502 21.119 3902.601
+  angles 0 -48.642 0
+ }
+}
+GenericEntity : "{2F78465F2439D72F}Prefabs/Props/Furniture/Carpet_03_base_anizay_test.et" {
+ coords 4339.212 21.204 3894.157
+ angles 0 -50.045 0
 }
 GenericEntity : "{43366695B8CC85A2}Prefabs/Props/Military/H Barrier/Hesco barrier Triple v2.et" {
  components {
@@ -315,13 +331,39 @@ StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_0
  coords 4345.621 22.309 3926.781
  angles 0 -47.861 0
 }
-GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
- components {
-  TILW_NavmeshRegenComponent "{69E6C5F252475CE4}" {
+GenericEntity : "{8A5EFCA9A0C98AFC}Prefabs/Models/props/tem_pillow1.et" {
+ coords 4339.036 21.204 3895.616
+ angles 0 -36.877 0
+}
+GenericEntity : "{8FCA78A788DF338C}Prefabs/Structures/Misc/pillow1.et" {
+ coords 4340.65 21.364 3894.601
+ angles 0 0 -43.779
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69E6C5F252475CE4}" {
+   }
   }
+  coords 4339.573 20.968 3917.999
+  angles 0 -46.879 0
  }
- coords 4339.573 20.968 3917.999
- angles 0 -46.879 0
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348B19E2E48}" {
+   }
+  }
+  coords 4318.671 21.159 3901.116
+  angles 0 42.824 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348A93F64A3}" {
+   }
+  }
+  coords 4323.161 21.062 3905.96
+  angles 0 41.825 0
+ }
 }
 $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
  {
@@ -538,6 +580,30 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4337.494 27.567 3886.587
   angles 0.008 -48.049 -0.697
  }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348B271B7F1}" {
+   }
+  }
+  coords 4319.914 21.136 3899.981
+  angles 0 43.873 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348AA456027}" {
+   }
+  }
+  coords 4324.423 21.07 3904.847
+  angles 0 42.875 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348B70347C8}" {
+   }
+  }
+  coords 4321.756 21.108 3903.424
+  angles 0 41.162 0
+ }
 }
 StaticModelEntity : "{B9BD7523E6370435}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_03_narrow_v2.et" {
  components {
@@ -546,6 +612,10 @@ StaticModelEntity : "{B9BD7523E6370435}Prefabs/Structures/BuildingParts/Entry/Co
  }
  coords 4338.127 21.366 3921.829
  angles 0 131.302 0
+}
+GenericEntity : "{BA388E12A76B90E9}Prefabs/Models/props/tem_carpet3.et" {
+ coords 4337.271 21.199 3894.282
+ angles 0 0 0
 }
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
  {
@@ -607,6 +677,14 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
   }
   coords 4356.142 21.164 3919.237
   angles 0 -137.821 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348B5B696A7}" {
+   }
+  }
+  coords 4321.615 21.087 3904.973
+  angles 0 -48.065 0
  }
 }
 $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
@@ -1268,6 +1346,27 @@ $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_
 GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
  coords 4319.445 17.844 3894.913
  angles 0 42.978 0
+}
+$grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348BF777EAD}" {
+   }
+  }
+  coords 4320.801 21.131 3899.114
+  angles 0 41.992 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{69F6F348A89E485D}" {
+   }
+  }
+  coords 4325.326 21.072 3903.995
+  angles 0 40.993 0
+ }
+}
+GenericEntity : "{E39E4C47341BBCA2}Prefabs/Structures/Misc/pillow2.et" {
+ coords 4337.776 21.204 3894.206
 }
 $grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
  {

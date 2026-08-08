@@ -11,19 +11,17 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 4
-   m_iStartingMinutes 45
+   m_iStartingHours 22
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{68AD304EAC9D6DCB}" {
      m_sWeatherPresetName "Clear"
-     m_iStartingHour 4
-     m_iStartingMinutes 45
+     m_iStartingHour 22
     }
    }
    m_bUseSpecifiedDate 1
    m_iSetDay 22
-   m_iSetMonth 7
+   m_iSetMonth 3
    m_iSetYear 1945
   }
  }

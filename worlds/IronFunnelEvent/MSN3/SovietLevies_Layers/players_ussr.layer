@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{68FED4CD200944F5}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRifleSquad.et" {
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_MSV80/Group_USSR_MSV80_MotRifleSquad.et" {
  MTR322 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -14,14 +14,14 @@ $grp SCR_AIGroup : "{68FED4CD200944F5}Prefabs/Groups/OPFOR/Russia/1970s/MotorRif
   coords 7504.771 165.692 4315.548
   angles 1.974 107.114 -0.329
   m_aUnitPrefabSlots {
-   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
-   "{68FED29FB523F8F2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewGunner.et"
-   "{68FED29FACD12ABC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewDriver.et"
-   "{68FED29F1ED5FC29}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AR.et"
-   "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
-   "{68FED29F3DA03FB2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AAT.et"
-   "{68FED29E03864B46}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SR.et"
-   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SL.et"
+   "{EBAAF538F0029853}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewGunner.et"
+   "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewDriver.et"
+   "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AR.et"
+   "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AT.et"
+   "{566506FE40CF16E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AAT.et"
+   "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SR.et"
+   "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_Rifleman.et"
   }
   m_bSetPlayable 1
  }
@@ -40,14 +40,14 @@ $grp SCR_AIGroup : "{68FED4CD200944F5}Prefabs/Groups/OPFOR/Russia/1970s/MotorRif
   coords 7519.14 166.148 4287.112
   angles -0.266 -72.709 0.855
   m_aUnitPrefabSlots {
-   "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
-   "{68FED29FB523F8F2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewGunner.et"
-   "{68FED29FACD12ABC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewDriver.et"
-   "{68FED29F1ED5FC29}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AR.et"
-   "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
-   "{68FED29F3DA03FB2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AAT.et"
-   "{68FED29E03864B46}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SR.et"
-   "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SL.et"
+   "{EBAAF538F0029853}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewGunner.et"
+   "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewDriver.et"
+   "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AR.et"
+   "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AT.et"
+   "{566506FE40CF16E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AAT.et"
+   "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SR.et"
+   "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_Rifleman.et"
   }
   m_bSetPlayable 1
  }
@@ -76,26 +76,11 @@ $grp SCR_AIGroup : "{68FED4CD200944F5}Prefabs/Groups/OPFOR/Russia/1970s/MotorRif
   m_bSetPlayable 1
  }
 }
-SCR_AIGroup HQ321 : "{68FED4CD22CBC55C}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRiflePHQ.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
-  }
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   Enabled 1
-   m_iCompanyCallsign 2
-   m_iPlatoonCallsign 2
-   m_iSquadCallsign 1
-  }
- }
- coords 7507.325 165.75 4274.649
- m_aUnitPrefabSlots +{
-  "{68FED29FDCC33063}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_RTO.et"
- }
- m_sCustomNameSet "Platoon HQ"
- m_bSetPlayable 1
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 7548.19 161.562 4475.537
+ angles 0 36.689 0
 }
-SCR_AIGroup MTR321 : "{68FED4CD2B4B6C8D}Prefabs/Groups/OPFOR/Russia/1970s/MotorRifle_MSV75/Group_USSR_MSV75_MotRifleSquadSVD.et" {
+SCR_AIGroup MTR321 : "{82927FFD013CC95B}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_MSV80/Group_USSR_MSV80_MotRifleSquadSVD.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    Enabled 0
@@ -110,23 +95,38 @@ SCR_AIGroup MTR321 : "{68FED4CD2B4B6C8D}Prefabs/Groups/OPFOR/Russia/1970s/MotorR
  coords 7514.694 165.607 4338.245
  angles 5.268 105.832 -2.214
  m_aUnitPrefabSlots {
-  "{68FED29E2D008687}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SL.et"
-  "{68FED29FB523F8F2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewGunner.et"
-  "{68FED29FACD12ABC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_CrewDriver.et"
-  "{68FED29F1ED5FC29}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AR.et"
-  "{68FED29F64E91BE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AT.et"
-  "{68FED29F3DA03FB2}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_AAT.et"
-  "{68FED29E2874F63A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Sharpshooter.et"
-  "{68FED29E03864B46}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_SR.et"
-  "{68FED29FD31CF182}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_Rifleman.et"
+  "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SL.et"
+  "{EBAAF538F0029853}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewGunner.et"
+  "{0C8152D8D8F591FF}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_CrewDriver.et"
+  "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AR.et"
+  "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AT.et"
+  "{566506FE40CF16E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_AAT.et"
+  "{A8A47F001DA13B74}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_Sharpshooter.et"
+  "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_SR.et"
+  "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_Rifleman.et"
  }
  m_bSetPlayable 1
 }
-GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
- coords 7548.19 161.562 4475.537
- angles 0 36.689 0
+SCR_AIGroup HQ321 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/MotorRifle_MSV80/Group_USSR_MSV80_MotRiflePHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 7507.325 165.75 4274.649
+ m_aUnitPrefabSlots +{
+  "{5888F75B9942CE7D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV80/Character_USSR_MSV80_RTO.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+ m_bSetPlayable 1
 }
-$grp Vehicle : "{99F269B9D2CFE28E}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR_70sAmmo.et" {
+$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
  BTR70_USSR2 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {

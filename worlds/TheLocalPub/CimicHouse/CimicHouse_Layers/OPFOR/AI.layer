@@ -1,10 +1,10 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  AI_HQ1 {
-  coords 3935.483 17.97 4583.932
+  coords 3824.995 17.844 4003.319
   angles 0 129.308 0
   m_prefab "{03B12A3C43CCACFF}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_PHQ.et"
   m_spawnTimings {
-   3
+   20
    300
    600
    950
@@ -12,6 +12,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1560
   }
   m_waypointNames {
+   "FM3"
    "Attack1"
   }
  }
@@ -28,6 +29,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1510
   }
   m_waypointNames {
+   "FM8"
    "Attack1"
   }
  }
@@ -44,15 +46,16 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM9"
    "Attack1"
   }
  }
  AI_AT1 {
-  coords 4311.471 17.844 4451.207
+  coords 4091.705 17.841 4223.518
   angles 0 -126.55 0
   m_prefab "{936293AB24844C2C}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_ATGroup.et"
   m_spawnTimings {
-   1
+   5
    300
    680
    900
@@ -60,6 +63,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1555
   }
   m_waypointNames {
+   "FM1"
    "Attack1"
   }
  }
@@ -76,6 +80,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1520
   }
   m_waypointNames {
+   ""
    "Attack1"
   }
  }
@@ -92,6 +97,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM4"
    "Attack1"
   }
  }
@@ -108,6 +114,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM6"
    "Attack1"
   }
  }
@@ -116,7 +123,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angles 0 129.308 0
   m_prefab "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et"
   m_spawnTimings {
-   11
+   30
    300
    600
    900
@@ -124,11 +131,12 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM11"
    "Attack1"
   }
  }
  AI_AT2 {
-  coords 4881.823 15.36 4366.429
+  coords 4881.823 14.841 4366.429
   angles 0 -126.55 0
   m_prefab "{936293AB24844C2C}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_ATGroup.et"
   m_spawnTimings {
@@ -140,6 +148,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM2"
    "Attack1"
   }
  }
@@ -156,11 +165,12 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM5"
    "Attack1"
   }
  }
  AI_Rifle5 {
-  coords 3786.412 19.199 3679.805
+  coords 3902.604 20.756 3636.482
   angles 0 129.308 0
   m_prefab "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et"
   m_spawnTimings {
@@ -172,6 +182,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1530
   }
   m_waypointNames {
+   "FM12"
    "Attack1"
   }
  }
@@ -188,6 +199,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    1500
   }
   m_waypointNames {
+   "FM7"
    "Attack1"
   }
  }
@@ -313,6 +325,23 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     }
    }
    m_noTurretDismount 1
+  }
+ }
+ AI_Rifle6 {
+  coords 3835.462 18.695 4067.212
+  angles 0 114.067 0
+  m_prefab "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et"
+  m_spawnTimings {
+   60
+   300
+   630
+   900
+   1200
+   1510
+  }
+  m_waypointNames {
+   "FM13"
+   "Attack1"
   }
  }
 }

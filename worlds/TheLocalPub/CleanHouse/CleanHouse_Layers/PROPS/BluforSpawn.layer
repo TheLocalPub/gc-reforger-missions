@@ -59,7 +59,7 @@ GenericEntity RedDoor : "{9EB592E7C7CD1C0F}Prefabs/Structures/BuildingParts/Door
   }
  }
 }
-$grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
+$grp SCR_DestructibleBuildingEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
  {
   coords 7812.163 159.303 5450.632
  }
@@ -110,24 +110,6 @@ GenericEntity EquipmentBox : "{C2D5FBC0BB90544A}PrefabsEditable/Auto/Props/Milit
      }
      NumSlots 8
     }
-    MultiSlotConfiguration "{68B2F38933D8408F}" {
-     SlotTemplate EquipmentStorageSlot Charges {
-      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-     }
-     NumSlots 16
-    }
-    MultiSlotConfiguration "{68B2F3892DC34F2B}" {
-     SlotTemplate EquipmentStorageSlot clacker {
-      Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
-     }
-     NumSlots 8
-    }
-    MultiSlotConfiguration "{68B2F380888BB332}" {
-     SlotTemplate EquipmentStorageSlot Wirecutters {
-      Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
-     }
-     NumSlots 10
-    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -141,7 +123,7 @@ GenericEntity EquipmentBox : "{C2D5FBC0BB90544A}PrefabsEditable/Auto/Props/Milit
    }
   }
  }
- coords 10669.535 164.152 9554.237
+ coords 7914.476 164.149 5342.942
 }
 GenericEntity : "{C5E5467213DB03DA}PrefabsEditable/Auto/EffectsModuleEntities/E_EffectModule_DirectionArrow_Multiple.et" {
  coords 7892.21 168 5341.875

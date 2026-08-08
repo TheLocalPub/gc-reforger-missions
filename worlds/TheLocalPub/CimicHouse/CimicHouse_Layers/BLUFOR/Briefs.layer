@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<h2>PASSWORDS</h2>"\
   "All can be changed at CO's discretion."\
-  "• <b>Challenge:</b> Spectacal | <b>Password:</b> Paget"\
+  "• <b>Challenge:</b> Spectacle | <b>Password:</b> Paget"\
   "• Running password: 2"
   m_aVisibleForFactions {
    "UK"
@@ -63,6 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
   "We are 2nd Platoon, Y Company, 1st Battalion, Princess of Wales's Royal Regiment (1 PWRR).  "\
   "Our force consists of 30 personnel currently occupying our platoon house (CIMIC House) at GRID: 043039"\
+  "We are restricted to our compound."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• Three GPMG static machine guns have been set up around the compound within bunkers."\

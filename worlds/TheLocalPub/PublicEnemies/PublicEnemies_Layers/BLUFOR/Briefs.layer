@@ -3,7 +3,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 28.634 78.196 2605.741
   m_sTitle "Situation"
   m_sTextData "<h2>PRELIMS</h2>"\
-  "DTL: 22/07/1945, 2000hr, Manitowish Waters, Wisconsin"\
+  "DTL: 22/03/1945, 2200hr, Manitowish Waters, Wisconsin"\
   "Weather: Clear and dry with no forecast of change. Sightlines 1km+"\
   "Terrain: Multiple shallow fords located throughout the river marked with yellow, patchey open fields tyically with deep running ditches alongside and dense woodblock with scattered treelines, many dotted hamlets and towns throughout."\
   ""\
@@ -22,17 +22,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 28.634 78.196 2605.741
   m_sTitle "Enemy forces"
   m_sTextData "<h2>Composition & Disposition</h2>"\
-  ""\
-  "<b>Composition</b>"\
-  "Enemy forces consist of two established organized crime groups known as the Brown Suited Bashers and the Grey Suited Grapplers. Both outfits are well-financed, motivated, and structured criminal enterprises with influence across multiple cities within the United States."\
-  "An informant provided intelligence via a dead drop, indicating approximately 20 personnel are present at the meeting location, with no civilians in attendance."\
-  ""\
-  "<b>Disposition</b>"\
-  "Both organizations are scheduled to meet at Little Bohemian Lodge (GRID: 027010), a secluded and defensible hamlet. The location offers controlled access points, natural cover, and is flanked by a river, making it well suited for security and defensive operations."\
+  "Enemy forces consist of two organised crime groups, the Brown Suited Bashers and Grey Suited Grapplers. Both are well-financed, motivated, and structured criminal enterprises with influence across multiple US cities. "\
+  "Intelligence obtained through an informant's dead drop indicates approximately 20 personnel are expected at the meeting location, with no civilians present. Both groups are scheduled to meet at Little Bohemian Lodge (GRID: 027010), a secluded and defensible hamlet with controlled access points, natural cover, and a river flanking the area."\
   ""\
   "<h2>Strengths & Capabilities</h2>"\
   "• Our informant reports that both mobs are well armed, carrying a range of weapons including automatic submachine guns, semi-automatic rifles, shotguns, handguns, and improvised firebombs.  "\
-  "• They arrived in standard civilian vehicles, which are neither armed nor up-armoured.  "\
   "• Little Bohemian Lodge offers strong defensive potential, with high hedgerows, perimeter fencing, a flanking river, and elevated structures providing concealment, cover, and advantageous fields of fire, making it well suited for close-in defense.  "\
   ""\
   "<b>MLCO:</b> The mobs are expected to deploy sentries and conduct patrols around the compound while maintaining security and awaiting contact.  "\
@@ -59,8 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>Strengths & Capabilities</h2>"\
   "• Each insert location provides 7 unarmed civilian vehicles. The southern insert also includes 2 boats positioned on the river.  "\
   "- There is a ford between us and the objective. We can cross this with the boats if we go full speed over it. No damage taken."\
-  "• We have full freedom of movement. No other hostile elements are present in the area, and the surrounding terrain is civilian in nature, aside from the lodge itself.  "\
-  "• Personnel are equipped with automatic submachine guns, semi-automatic rifles, shotguns, and handguns."
+  "• We have full freedom of movement. No other hostile elements are present in the area, and the surrounding terrain is civilian in nature, aside from the lodge itself.  "
   m_aVisibleForFactions {
    "GC_Federal"
   }

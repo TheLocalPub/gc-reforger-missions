@@ -43,6 +43,8 @@ TILW_PresenceTriggerEntity MeetingTrigger : "{826E6F2246328952}Prefabs/Logic/Tri
  }
  m_flagName "MeetingCompleted"
  m_stopAfterFirstChange 1
+ m_drawShapeSurface 0
+ m_drawShapeOutline 0
  m_entityNames {
   "BrownMobBoss"
   "GreyMobBoss"

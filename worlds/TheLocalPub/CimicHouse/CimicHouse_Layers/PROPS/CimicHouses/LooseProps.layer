@@ -172,6 +172,28 @@ GenericEntity : "{52A12ECB132C3E1F}Prefabs/Props/Furniture/TableKitchen_02/Table
  coords 4346.902 18.024 3891.669
  angles 0 69.965 0
 }
+GameEntity : "{5345F558B02B8A91}Prefabs/Structures/BuildingParts/Ladders/Ladder_Powerline_HV_USSR_01/Ladder_Powerline_HV_USSR_01_end_v3_base.et" {
+ components {
+  TILW_NavmeshRegenComponent "{69F6F348454DFFB1}" {
+  }
+  ActionsManagerComponent "{5916A63C9331DAB0}" {
+   ActionContexts {
+    UserActionContext "{5916A63C9D2ABA4A}" {
+     Position PointInfo "{5916A63C9B51DDAE}" {
+      Offset 0.0087 0.4935 -0.0033
+     }
+    }
+    UserActionContext "{5916A63C9CED0D8A}" {
+     Position PointInfo "{5916A63CE468E545}" {
+      Offset -0.0062 -1.9445 0.0003
+     }
+    }
+   }
+  }
+ }
+ coords 4325.25 3.27 3902.47
+ angles 0 129.932 -1.021
+}
 GenericEntity : "{5D12784AFD6B64B2}Prefabs/Props/Furniture/CabinetMetal_02_Base.et" {
  components {
   TILW_NavmeshRegenComponent "{69ECF1DC750BFD45}" {

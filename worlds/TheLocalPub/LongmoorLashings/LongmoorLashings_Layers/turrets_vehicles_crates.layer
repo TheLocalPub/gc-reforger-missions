@@ -7,12 +7,6 @@ $grp GenericEntity : "{F4FE80265A0009B2}PrefabsEditable/Auto/Props/Military/Ammo
    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
     Enabled 1
     MultiSlots {
-     MultiSlotConfiguration "{66F920C112318B83}" {
-      SlotTemplate SCR_EquipmentStorageSlot default {
-       Prefab "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et"
-      }
-      NumSlots 15
-     }
      MultiSlotConfiguration "{66F920C168E2002F}" {
       SlotTemplate SCR_EquipmentStorageSlot default {
        Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
@@ -36,12 +30,6 @@ $grp GenericEntity : "{F4FE80265A0009B2}PrefabsEditable/Auto/Props/Military/Ammo
        Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
       }
       NumSlots 2
-     }
-     MultiSlotConfiguration "{66F920C1DD573500}" {
-      SlotTemplate SCR_EquipmentStorageSlot default {
-       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
-      }
-      NumSlots 75
      }
      MultiSlotConfiguration "{66FB2ED84E4D9891}" {
       SlotTemplate SCR_EquipmentStorageSlot flares {

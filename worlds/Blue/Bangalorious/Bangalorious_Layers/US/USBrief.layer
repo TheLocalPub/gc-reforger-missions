@@ -53,7 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "3. EXECUTION"
   m_sTextData "As per Commander's Intent"\
   ""\
-  "Mortar to Supress and provide concealment for Engineering Team to bridge a breach through ENY OBSTACLE IOT allow Bravo Company to Seize OBJ HILL "
+  "Artillery to suppress and provide concealment for Engineering Team to bridge a breach through ENY OBSTACLE IOT allow Bravo Company to Seize OBJ HILL "
   m_aVisibleForFactions {
    "US"
   }

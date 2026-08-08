@@ -151,14 +151,78 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
   }
  }
-}
-SCR_DestructibleBuildingEntity : "{BFAF4131777CD7ED}Prefarbs/USE_THIS_New_buildings/Garage_apartment_02_WinDoor.et" {
- components {
-  TILW_NavmeshRegenComponent "{69EF09730E2CA042}" {
+ Building6 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 0.75
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 1269.063 36.527 853.674
+  Points {
+   ShapePoint "{69F6F34F326FF6E2}" {
+    Position 2789.13 -18.683 2852.783
+   }
+   ShapePoint "{69F6F34F3337236D}" {
+    Position 2766.744 -18.683 2882.732
+   }
+   ShapePoint "{69F6F34F3030B7CE}" {
+    Position 2755.545 -18.683 2874.583
+   }
+   ShapePoint "{69F6F34F31D6ABB8}" {
+    Position 2777.633 -18.683 2844.448
+   }
   }
  }
- coords 4178.195 0 3751.377
- angles 0 77.118 0
+ Building7 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 0.75
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 1734.337 17.89 1903.051
+  Points {
+   ShapePoint "{69F6F34F7D02C9A9}" {
+    Position 2505.429 -0.046 1966.732
+   }
+   ShapePoint "{69F6F34F72139C91}" {
+    Position 2480.341 -0.046 1989.17
+   }
+   ShapePoint "{69F6F34F713084A5}" {
+    Position 2444.664 0.464 1948.624
+   }
+  }
+ }
+ Building8 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 0.75
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 1734.337 17.89 1903.051
+  Points {
+   ShapePoint "{69F6F34F7D02C9A9}" {
+    Position 2505.429 -0.046 1966.732
+   }
+   ShapePoint "{69F6F34F72139C91}" {
+    Position 2480.341 -0.046 1989.17
+   }
+   ShapePoint "{69F6F34F713084A5}" {
+    Position 2444.664 0.464 1948.624
+   }
+   ShapePoint "{69F6F34F74AB28D9}" {
+    Position 2469.607 -0.046 1926.018
+   }
+  }
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  BluforSpawn {
@@ -304,6 +368,54 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    CUTSCENE
    DEBRIEFING
    BRIEFING
+  }
+  m_bShowForAnyFaction 1
+ }
+ MMG1 {
+  coords 4346.582 22.448 3925.082
+  angles 0 45.164 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mmg"
+  m_fWorldSize 10
+  m_sDescription "GPMG"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   PREGAME
+   PREGAME
+  }
+  m_bShowForAnyFaction 1
+ }
+ MMG3 {
+  coords 4345.176 26.844 3875.283
+  angles 0 -134.836 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mmg"
+  m_fWorldSize 10
+  m_sDescription "GPMG"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   PREGAME
+   PREGAME
+  }
+  m_bShowForAnyFaction 1
+ }
+ MMG2 {
+  coords 4368.251 27.503 3901.484
+  angles 0 135.164 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mmg"
+  m_fWorldSize 10
+  m_sDescription "GPMG"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   PREGAME
+   PREGAME
   }
   m_bShowForAnyFaction 1
  }

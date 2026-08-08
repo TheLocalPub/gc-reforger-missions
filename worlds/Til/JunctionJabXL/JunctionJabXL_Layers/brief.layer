@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "b. Friendly Forces"\
   "Canadian light infantry battalion, defending Luzorad"\
-  "One light infantry platoon, spread out across the blue area, tasked with defending Hnevice and the approach towards Luzohrad, in order to maintain the flow of reinforcements and supplies into the town"\
+  "One light infantry platoon, tasked with defending Hnevice and the approach towards Luzohrad, in order to maintain the flow of reinforcements and supplies into the town"\
   "A+B+W start at Hnevice Military Base, HQ+C in Hnevice"\
   ""\
   "c. Terrain"\
@@ -50,7 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Briefing"
   m_sTextData "<h1>SITUATION</h1>"\
   "a. Enemy Forces"\
-  "Canadian light infantry battalion, defending Luzorad"\
+  "Canadian light infantry battalion, defending Luzohrad"\
   "One light infantry platoon, located within the blue area, tasked with securing the approach towards Luzohrad by defending Hnevice"\
   ""\
   "b. Friendly Forces"\
@@ -71,7 +71,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   " 4 Plt, 4, 5, 6"\
   "7 (FO), 8 (Mortar)"\
   "1+4 do not have handheld radios"\
-  "0, 7 and 8 have radio backpacks"
+  "0, 7 and 8 have radio backpacks"\
+  ""\
+  "Coy net: 42MHz"
   m_aVisibleForFactions {
    "GC_NVA"
   }

@@ -3,7 +3,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 35.415 79.481 2580.68
   m_sTitle "Situation"
   m_sTextData "<h2>PRELIMS</h2>"\
-  "DTL: 22/07/1945, 2000hr, Manitowish Waters, Wisconsin"\
+  "DTL: 22/03/1945, 2200hr, Manitowish Waters, Wisconsin"\
   "Weather: Clear and dry with no forecast of change. Sightlines 1km+"\
   "Terrain: Multiple shallow fords located throughout the river marked with yellow, patchey open fields tyically with deep running ditches alongside and dense woodblock with scattered treelines, many dotted hamlets and towns throughout."\
   ""\
@@ -36,8 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>Composition & Disposition</h2>"\
   "Unknown."\
   ""\
-  "Although this is a high-profile meeting, it has been kept quiet and tightly controlled."\
-  "We have no specific intelligence indicating an imminent attack, but we must remain prepared."\
+  "This is a high-profile meeting, it has been kept quiet and tightly controlled. We have no specific intelligence indicating an imminent attack, but we must remain prepared."\
   "Historically, our conflicts have involved the Federal Bureau of Investigation (FBI), U.S. Marshals, local law enforcement, and rival criminal organizations."\
   ""\
   "<b>MLCO:</b> If attacked, the enemy’s most likely course of action would be a rapid, coordinated strike from multiple directions, using superior numbers and timing to thin our ranks and defeat elements in detail."\
@@ -52,14 +51,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 35.415 79.481 2580.68
   m_sTitle "Friendly forces"
   m_sTextData "<h2>Composition & Disposition</h2>"\
-  ""\
-  "<b>Composition</b>"\
-  "We are two rival gangs, the Brown Suited Bashers and the Grey Suited Grapplers, coming together to negotiate peace."\
-  "Our combined strength consists of approximately 20 personnel."\
-  "We arrived at the location in unarmed civilian vehicles."\
-  ""\
-  "<b>Disposition</b>"\
-  "We are located at Little Bohemian Lodge along US Highway 51 (GRID 027010). The site is a secluded and defensible hamlet, offering controlled access points, natural cover, and a flanking river, making it well suited for security and defensive operations."\
+  "We are two rival gangs, the Brown Suited Bashers and Grey Suited Grapplers, meeting to negotiate a peace agreement. Our combined strength consists of approximately 18 personnel, arriving at Little Bohemian Lodge along US Highway 51 (GRID: 027010) in unarmed civilian vehicles. "\
   ""\
   "<h2>Strengths & Capabilities</h2>"\
   "• Little Bohemian Lodge offers strong defensive potential, with high hedgerows, perimeter fencing, a flanking river, and elevated buildings providing advantageous firing positions."

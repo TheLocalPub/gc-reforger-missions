@@ -17,8 +17,36 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 1378.628 112.672 582.441
- m_bMarkersOnlyOnBriefing 1
  m_iFreezeTime 300000
+ {
+  SCR_FactionManager "69F8CCED31BA0781" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{62EB308733CA83DD}" {
+     UIInfo SCR_FactionUIInfo "{62EB259E4C94C2BD}" {
+      Name "Sapa"
+      m_sNameUpper "SAPA"
+     }
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{69F4BC0249EC5365}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{69F4BC0249339C7C}" {
+        m_sCallsign "7"
+       }
+       SCR_CallsignInfo "{69F4BC0249596A7B}" {
+        m_sCallsign "8"
+       }
+       SCR_CallsignInfo "{69F4BC024E9CAB80}" {
+        m_sCallsign "9"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity {
  ObjLoc1 {
@@ -40,7 +68,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{66F943D97C17602A}" {
      m_executionDelay 1
-     m_prefab "{D717FA910C159EB1}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
+     m_prefab "{8452D16D2363BF8A}worlds/TheLocalPub/LongmoorLashings/PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
      m_locationName "ObjLoc1"
     }
     TILW_EditMapItemInstruction "{66FB2328DB91378B}" {
@@ -78,7 +106,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{66FAE881559E2FE3}" {
      m_executionDelay 1
-     m_prefab "{D717FA910C159EB1}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
+     m_prefab "{8452D16D2363BF8A}worlds/TheLocalPub/LongmoorLashings/PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
      m_locationName "ObjLoc2"
     }
     TILW_EditMapItemInstruction "{66FB2329293A1D16}" {
@@ -116,7 +144,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{66FAE8814AB61B0D}" {
      m_executionDelay 1
-     m_prefab "{D717FA910C159EB1}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
+     m_prefab "{8452D16D2363BF8A}worlds/TheLocalPub/LongmoorLashings/PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2_covered_LongmoorLashings.et"
      m_locationName "ObjLoc3"
     }
     TILW_EditMapItemInstruction "{66FB23291BE95103}" {
@@ -165,31 +193,42 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{62F518CDA67C880C}" {
-   m_name "EndMissionBLUWIN"
+   m_name "UKWin_OPFORDead"
    m_instructions {
     TILW_SendMessageInstruction "{62F555E1EDF917B8}" {
+     m_executionDelay 3
      m_messageTitle "UK VICTORY!"
-     m_messageBody "British forces have managed to destroy the SAPA cell and their supplies."\
-     "The last few a beginning to flee."\
+     m_messageBody "British forces have managed to eliminate the Insurgent cell and thus also destroy their cache."\
      ""\
+     "Well done lads!"\
      "Mission will end shortly..."
     }
    }
-   m_condition TILW_ConjunctionTerm "{62F555E1FA580DE2}" {
-    m_operands {
-     TILW_LiteralTerm "{62F555E1F96AC09D}" {
-      m_flagName "OPFORDead"
-     }
-     TILW_LiteralTerm "{62F555E1F07E0CFC}" {
-      m_flagName "AmmoDestroyed"
-     }
+   m_condition TILW_LiteralTerm "{69F4BC046B248A6C}" {
+    m_flagName "OPFORDead"
+   }
+  }
+  TILW_MissionEvent "{69F4BC044B4DD86A}" {
+   m_name "UKWin_CacheDead"
+   m_instructions {
+    TILW_SendMessageInstruction "{69F4BC044B4DD81A}" {
+     m_executionDelay 3
+     m_messageTitle "UK VICTORY!"
+     m_messageBody "British forces have managed to destroy the Insurgent's supply cache and have begun to withdraw from the area."\
+     ""\
+     "Well done lads!"\
+     "Mission will end shortly..."
     }
+   }
+   m_condition TILW_LiteralTerm "{69F4BC044B4DD81E}" {
+    m_flagName "AmmoDestroyed"
    }
   }
   TILW_MissionEvent "{62F72230C87BD6D9}" {
    m_name "EndMissionREDWIN"
    m_instructions {
     TILW_SendMessageInstruction "{62F7223731EFB197}" {
+     m_executionDelay 3
      m_messageTitle "SAPA VICTORY!"
      m_messageBody "British forces have been smashed by the SAPA cell."\
      "The last few have turned around and are beginning to withdraw."\
