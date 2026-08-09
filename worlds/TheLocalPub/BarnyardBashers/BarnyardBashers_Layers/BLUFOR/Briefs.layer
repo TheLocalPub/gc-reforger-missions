@@ -51,11 +51,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 345.619 36.85 7375.71
   m_sTitle "Enemy forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
-  "Enemy forces consist of the Irish Republican Army (IRA), operating throughout the marked area of operations."\
-  "Current intelligence estimates enemy strength at up to 35 personnel. This assessment is based on close target reconnaissance of previous ambush sites, reports from British and Garda convoys, and information provided by the local population."\
+  "Enemy forces consist of the Irish Republican Army (IRA), operating throughout the marked area of operations. Intelligence estimates enemy strength up to 35 personnel. This assessment is based on close target reconnaissance of ambush sites, reports from British and Garda convoys, and information provided by the local population."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
-  "• Reports from passing convoys indicate the IRA has employed heavy machine guns from elevated positions providing effective fields of fire over the MSR."\
+  "• Reports from convoys indicate the IRA has employed heavy machine guns from elevated positions providing effective fields of fire over the MSR."\
+  "• Regular use of explosive charges and booby traps."\
   "• Knowledge of the local terrain and established ambush positions particularly overlooking the MSR and its key approaches."\
   "• Expect a lightly equipped but highly mobile force capable of conducting well-coordinated hit-and-run engagements before breaking contact."
   m_aVisibleForFactions {
