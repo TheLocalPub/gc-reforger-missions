@@ -4,12 +4,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission notes"
   m_sTextData "<h2>End conditions</h2>  "\
   "<b>UK:</b>"\
+  "- Sweep and secure all three locations."\
   ""\
-  "<b>IRA:</b>"\
+  "<b>IRA victory:</b>"\
+  "- Destroy 85% of UK forces."\
   ""\
   "<h2>Notes</h2>  "\
-  "• UK 3:30 minute setup timer."\
-  "• JIP TP"\
+  "• UK 3minute setup timer."\
+  "• JIP TP."\
   "• Global and team based AO limits."\
   ""\
   "Mission made by TheLocalPub - Submit reports, suggestions, and complaints to the Discord's #Feedback channel."
@@ -25,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Can British forces clear the area, deny the IRA use of these positions, and restore freedom of movement along the MSR?"\
   ""\
   "<h2>Summary Notes</h2>"\
-  "• UK 3:30 minute setup timer."
+  "• UK 3minute setup timer."
   m_bEmptyFactionVisibility 1
  }
 }

@@ -1,8 +1,0 @@
-PK_EntityDeleter {
- coords 2295.356 249.371 7229.831
- m_fRadius 2
- m_prefabFilterList {
-  "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et"
-  "{AD7EFA7B1214DD21}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et"
- }
-}

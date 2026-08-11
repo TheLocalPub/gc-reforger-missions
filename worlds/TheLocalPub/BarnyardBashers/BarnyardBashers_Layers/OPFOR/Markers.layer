@@ -25,8 +25,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  IRA_HMG {
-  coords 2295.518 249.896 7232.91
-  angles 0 -82.501 0
+  coords 2297.691 249.216 7227.051
+  angles 0 -77.031 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_MarkerColor 0 0 0 1

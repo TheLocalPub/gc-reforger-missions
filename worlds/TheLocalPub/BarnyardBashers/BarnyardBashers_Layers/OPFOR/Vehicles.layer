@@ -5,6 +5,29 @@ Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
     MultiSlotConfiguration "{5AD4F813E67ECB53}" {
      NumSlots 0
     }
+    MultiSlotConfiguration "{6A12C514BB959C76}" {
+     SlotTemplate EquipmentStorageSlot Mines {
+      Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{6A12C514A168D83C}" {
+     SlotTemplate EquipmentStorageSlot Mines {
+      Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{6A12C514ED5409CC}" {
+     SlotTemplate EquipmentStorageSlot Mines {
+      Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{6A12CCF2B7423D48}" {
+     SlotTemplate EquipmentStorageSlot ladder {
+      Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+     }
+    }
    }
   }
  }
@@ -29,6 +52,7 @@ GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
         "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
        }
        m_noTurretDismount 1
+       m_idleGroup 1
       }
      }
      coords 0.004 0.65 -0.766
@@ -51,8 +75,26 @@ Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et
     "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
    }
    m_noTurretDismount 1
+   m_idleGroup 1
   }
  }
- coords 2295.59 249.884 7233.326
- angles 0 -172.007 0
+ coords 2297.803 249.215 7227.458
+ angles 0 -166.537 0
+ {
+  GenericEntity {
+   ID "655484C699DA0E3B"
+   coords 0 0.039 -0.22
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     coords 0 0 0.001
+     angles -89.972 0 0
+    }
+   }
+  }
+ }
+}
+Vehicle motorbike1 : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
+ coords 2650.799 181.813 6698.408
+ angles 0 148.081 0
 }

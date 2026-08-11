@@ -1,6 +1,6 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
-  coords 3675.143 203.11 7673.506
+  coords 3673.731 203.11 7669.29
   angles 0 -114.175 0
   m_prefab "{E07F0AF2AA97C15E}Prefabs/Groups/OPFOR/GC_IRA/Group_IRA_PHQ.et"
   m_conditionFlag "UKClose"

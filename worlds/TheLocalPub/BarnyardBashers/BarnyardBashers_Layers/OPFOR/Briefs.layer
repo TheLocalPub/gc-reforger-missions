@@ -40,7 +40,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>STRENGTHS & CAPABILITIES</h2>  "\
   "• We have two occupied machine gun positions: 1x M2 .50 cal and 1x PKM. Refer to maps for their locations."\
   "• Our sapper is equipped with explosive charges, with additional charges available in a small supply box at our staging area. He should use these to establish traps and exploit opportunities against the enemy where possible."\
-  "• Our forces are lightly equipped but highly mobile, allowing us to conduct coordinated hit-and-run engagements before breaking contact and repositioning."
+  "• Our forces are lightly equipped but highly mobile, allowing us to conduct coordinated hit-and-run engagements before breaking contact and repositioning."\
+  ""\
+  "<h2>SERVICE & SUPPORT</h2>"\
+  "At our staging area we have a motorbike, an unarmed UAZ, and one PKM armed UAZ which contains:"\
+  "- 1x AT mine"\
+  "- 1x Portable ladder"\
+  "- 1x Handheld periscope"\
+  "- 6x Red flares"\
+  "- 4x PKM belts for the UAZ."
   m_aVisibleForFactions {
    "GC_IRA"
   }

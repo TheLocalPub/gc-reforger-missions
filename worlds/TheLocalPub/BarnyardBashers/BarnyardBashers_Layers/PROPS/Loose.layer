@@ -1,43 +1,43 @@
 $grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylvestris_medium_01.et" {
  {
-  coords 2294.416 249.43 7232.656
-  angles 17.632 -167.4 94.167
+  coords 2296.66 248.888 7227.225
+  angles -11.003 -163.279 91.109
  }
  {
-  coords 2294.312 249.519 7233.861
-  angles 33.882 9.83 -83.701
+  coords 2296.581 249.212 7228.107
+  angles 37.003 17.321 -80.201
  }
 }
 $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
  {
-  coords 2294.539 250.153 7233.446
-  angles 6.601 -6.138 -2.595
+  coords 2296.787 249.575 7227.667
+  angles 10.414 -0.404 -0.75
   scale 0.261
  }
  {
-  coords 2296.694 250.251 7233.466
-  angles 7.09 15.39 0.002
+  coords 2298.924 249.581 7227.448
+  angles 9.962 21.316 3.138
   scale 0.261
  }
 }
 $grp GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
  {
-  coords 2956.1 201.377 5986.286
-  angles 0 -78.288 0
+  coords 2953.071 98.032 5992.98
+  angles 2.591 -78.373 -3.341
  }
  {
-  coords 2958.567 201.482 5992.064
-  angles 0 -82.639 0
+  coords 2955.545 98.439 5998.741
+  angles 2.33 -82.72 -3.528
  }
 }
 GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_medium_01.et" {
- coords 2294.424 249.216 7232.209
- angles 67.487 40.627 -21.305
+ coords 2296.521 248.713 7226.482
+ angles 68.42 56.289 -10.305
  scale 0.74
 }
 Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
- coords 2302.374 -0.138 7235.717
- angles 0.528 142.262 1.604
+ coords 2302.411 0.293 7235.634
+ angles -3.612 142.23 2.457
  scale 0.866
 }
 StaticModelEntity : "{DB5A27BF4057AEE1}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_small.et" {
@@ -45,16 +45,16 @@ StaticModelEntity : "{DB5A27BF4057AEE1}Prefabs/Structures/Military/Fortification
   TILW_NavmeshRegenComponent "{6A04867B9FE155D1}" {
   }
  }
- coords 2295.744 -0.552 7234.374
- angles -12.942 -173.497 1.569
+ coords 2298.047 -0.462 7228.498
+ angles -16.254 -167.352 -1.145
 }
 $grp GenericEntity : "{E8181E2E360A8AF4}Prefabs/Vegetation/Cuttings/Juniperus_communis_medium_01.et" {
  {
-  coords 2297.031 249.825 7232.344
-  angles -4.779 -156.981 2.596
+  coords 2299.137 248.9 7226.353
+  angles -7.217 -151.157 -0.876
  }
  {
-  coords 2297.351 249.914 7233.616
-  angles 3.138 15.541 -1.686
+  coords 2299.583 249.141 7227.575
+  angles 6.008 21.25 1.427
  }
 }
