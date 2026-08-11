@@ -65,9 +65,9 @@ Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Whe
  coords 2653.718 181.812 6683.725
  angles 0 104.64 0
 }
-Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et" {
+Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
  components {
-  TILW_VehicleCrewComponent "{6A04867B6DE33557}" {
+  TILW_VehicleCrewComponent "{6A1708DA71230643}" {
    m_spawnPilot 1
    m_spawnTurret 1
    m_spawnCargo 1
@@ -78,21 +78,8 @@ Turret : "{7F5786A00B36D0D8}Prefabs/Weapons/Tripods/Deployable_Tripod_M3_M2HB.et
    m_idleGroup 1
   }
  }
- coords 2297.803 249.215 7227.458
- angles 0 -166.537 0
- {
-  GenericEntity {
-   ID "655484C699DA0E3B"
-   coords 0 0.039 -0.22
-   {
-    DecalEntity {
-     ID "56DEFDB4A2C87F38"
-     coords 0 0 0.001
-     angles -89.972 0 0
-    }
-   }
-  }
- }
+ coords 2297.833 249.196 7227.364
+ angles -7.011 -167.543 0
 }
 Vehicle motorbike1 : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
  coords 2650.799 181.813 6698.408

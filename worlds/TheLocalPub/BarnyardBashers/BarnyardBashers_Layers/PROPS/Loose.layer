@@ -1,21 +1,21 @@
 $grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylvestris_medium_01.et" {
  {
-  coords 2296.66 248.888 7227.225
+  coords 2296.736 248.89 7227.201
   angles -11.003 -163.279 91.109
  }
  {
-  coords 2296.581 249.212 7228.107
+  coords 2296.657 249.214 7228.083
   angles 37.003 17.321 -80.201
  }
 }
 $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
  {
-  coords 2296.787 249.575 7227.667
+  coords 2296.864 249.616 7227.51
   angles 10.414 -0.404 -0.75
   scale 0.261
  }
  {
-  coords 2298.924 249.581 7227.448
+  coords 2298.889 249.564 7227.134
   angles 9.962 21.316 3.138
   scale 0.261
  }
@@ -31,30 +31,37 @@ $grp GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCh
  }
 }
 GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_medium_01.et" {
- coords 2296.521 248.713 7226.482
+ coords 2296.597 248.715 7226.458
  angles 68.42 56.289 -10.305
  scale 0.74
 }
-Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
- coords 2302.411 0.293 7235.634
- angles -3.612 142.23 2.457
- scale 0.866
+$grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+ {
+  coords 2302.411 0.293 7235.634
+  angles -3.612 142.23 2.457
+  scale 0.866
+ }
+ {
+  coords 2298.218 -0 7230.23
+  angles -3.313 120.846 6.523
+  scale 0.866
+ }
 }
 StaticModelEntity : "{DB5A27BF4057AEE1}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_small.et" {
  components {
   TILW_NavmeshRegenComponent "{6A04867B9FE155D1}" {
   }
  }
- coords 2298.047 -0.462 7228.498
+ coords 2298.124 -0.425 7228.468
  angles -16.254 -167.352 -1.145
 }
 $grp GenericEntity : "{E8181E2E360A8AF4}Prefabs/Vegetation/Cuttings/Juniperus_communis_medium_01.et" {
  {
-  coords 2299.137 248.9 7226.353
+  coords 2299.213 248.902 7226.33
   angles -7.217 -151.157 -0.876
  }
  {
-  coords 2299.583 249.141 7227.575
+  coords 2299.659 249.143 7227.551
   angles 6.008 21.25 1.427
  }
 }

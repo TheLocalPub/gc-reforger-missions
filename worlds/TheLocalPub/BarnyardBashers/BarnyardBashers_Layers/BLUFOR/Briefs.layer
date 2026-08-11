@@ -86,7 +86,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 345.619 36.85 7375.71
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT</h2>  "\
-  "We are to conduct a <b>DELIBERATE ATTACK</b> in order to <b>SWEEP</b> Objectives Dog and Cat before <b>SECURING</b> Objective Bird."\
+  "We are to conduct a <b>DELIBERATE ATTACK</b> in order to <b>SWEEP</b> Objectives Dog and Cat before <b>SECURING</b> Objective Bird by clearing and holding."\
   ""\
   "<h2>MISSION DESCRIPTION</h2>  "\
   "IRA personnel have been using the farmyards along this route to conduct irregular ambushes against British Army and Garda patrols travelling between Lovetin and Kamoryn. Their attacks have also placed civilian traffic at risk, with several non-combatants caught in the crossfire."\
