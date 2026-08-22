@@ -1,0 +1,106 @@
+$grp GenericEntity : "{0364A92598A826F3}Prefabs/Props/Furniture/BenchStadium_01.et" {
+ {
+  coords 5838.681 62.201 4365.116
+  angles 0 153.533 0
+ }
+ {
+  coords 6073.829 59.5 4278.805
+  angles 0 -146.926 0
+ }
+ {
+  coords 5847.01 62.215 4369.226
+  angles 0 155.93 0
+ }
+ {
+  coords 6079.657 59.5 4275.009
+  angles 0 -146.926 0
+ }
+ {
+  coords 6084.333 59.5 4271.963
+  angles 0 -146.926 0
+ }
+}
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 5717.831 0.086 4234.49
+ angles 0 -139.809 0
+}
+SCR_DestructibleBuildingEntity : "{1E8B5AC9B5943C6D}Prefabs/Structures/Agriculture/Gates/GateCollectiveFarm_04/GateCollectiveFarm_04_base.et" {
+ coords 6015.971 -6.848 4295.125
+ angles 0 123.836 0
+ scale 3.803
+}
+$grp GenericEntity : "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et" {
+ {
+  coords 6023.724 59.517 4282.267
+  angles 0 -55.562 0
+ }
+ {
+  coords 6034.968 59.517 4298.666
+  angles 0 -55.562 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{52D3F2118C1B68E0}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/GuardTower_USSR_01_green.et" {
+ coords 6033.293 0.064 4304.025
+ angles 0 34.395 0
+}
+SCR_DestructibleBuildingEntity : "{5312C1597A2D08C6}Prefabs/Structures/Communcation Towers/Green Mountain Tower.et" {
+ coords 5462.174 58.777 3702.955
+}
+SCR_DestructibleBuildingEntity : "{593465C224511F4F}Prefabs/Structures/Commerical/TicketBooth.et" {
+ coords 5719.93 0 4225.322
+ angles 0 -49.305 0
+}
+$grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
+ {
+  coords 6096.774 59.569 4289.215
+  angles 0 78.754 0
+ }
+ {
+  coords 6099.647 59.5 4283.834
+  angles 0 -142.124 0
+ }
+ {
+  coords 6104.997 59.5 4276.417
+  angles 0 -154.624 0
+ }
+ {
+  coords 6104.186 59.5 4271.128
+  angles 0 -78.034 0
+ }
+ {
+  coords 6101.869 59.5 4263.844
+  angles 0 -61.801 0
+ }
+ {
+  coords 6096.204 59.688 4294.248
+  angles 0 91.437 0
+ }
+ {
+  coords 6086.688 59.5 4269.201
+  angles 0 91.437 0
+ }
+ {
+  coords 6086.816 59.5 4273.473
+  angles 0 80.033 0
+ }
+ {
+  coords 6084.393 59.5 4276.669
+  angles 0 38.645 0
+ }
+ {
+  coords 6082.861 59.5 4279.651
+  angles 0 91.437 0
+ }
+ {
+  coords 6093.569 59.688 4297.105
+  angles 0 155.592 0
+ }
+ {
+  coords 6090.797 59.687 4296.24
+  angles 0 172.606 0
+ }
+}
+GenericEntity : "{A96BFF27936E912E}Prefabs/Props/Services/Police/PoliceControlPanel_01.et" {
+ coords 6053.03 68.734 4299.558
+ angles 0 34.467 0
+}

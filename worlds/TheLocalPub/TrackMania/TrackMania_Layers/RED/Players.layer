@@ -1,0 +1,60 @@
+$grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_CoyHQ.et" {
+ RED_PITCREW {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_sFaction "USSR"
+     m_aAuthoredLabels {
+      ENTITYTYPE_GROUP
+      FACTION_USSR
+     }
+    }
+   }
+  }
+  coords 6025.762 59.7 4123.438
+  angles 0 -57.396 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{604AC0DBDB600795}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedPitBoss_Pub.et"
+   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
+   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
+  }
+  m_sCustomNameSet "Pit Team"
+  m_bSetPlayable 1
+ }
+ RED_DRIVERS {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_sFaction "USSR"
+     m_aAuthoredLabels {
+      ENTITYTYPE_GROUP
+      FACTION_USSR
+     }
+    }
+   }
+  }
+  coords 6024.696 59.7 4127.22
+  angles 0 122.604 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{27CF061E2C7FA42D}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedDriver_Pub.et"
+   "{E838DF7B07545FF6}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedBackupDriver_Pub.et"
+  }
+  m_sCustomNameSet "Drivers"
+  m_bSetPlayable 1
+ }
+}

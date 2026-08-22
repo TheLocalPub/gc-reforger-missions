@@ -1,0 +1,89 @@
+SCR_DestructibleBuildingEntity : "{28A4E4862EB84600}Prefabs/Models/tem_ravirata_katsomo.et" {
+ coords 6176.495 -0.217 4146.82
+ angles 0 93.753 0
+}
+GenericEntity BLOCK1 : "{6E4573A4C194631F}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock.et" {
+ coords 6033.181 0 4300.645
+ angles 0 -54.831 0
+ {
+  $grp GenericEntity : "{6E4573A4C194631F}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock.et" {
+   BLOCK2 {
+    coords -4.099 0 0
+    angles 0 -0.4 0
+   }
+   BLOCK3 {
+    coords -19.974 0 -0.027
+    angles 0 -0.4 0
+   }
+   BLOCK4 {
+    coords -16.099 0 0
+    angles 0 -0.4 0
+   }
+   BLOCK5 {
+    coords -27.534 0 -0.08
+    angles 0 -0.4 0
+   }
+   BLOCK6 {
+    coords -23.659 0 -0.053
+    angles 0 -0.4 0
+   }
+   BLOCK7 {
+    coords -12 0 0
+   }
+   BLOCK8 {
+    coords -7.974 0 -0.027
+    angles 0 -0.4 0
+   }
+   BLOCK10 {
+    coords -208.251 1.413 105.072
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK11 {
+    coords -204.378 1.27 105.098
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK12 {
+    coords -215.808 1.722 105.019
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK13 {
+    coords -211.935 1.568 105.045
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK14 {
+    coords -200.281 1.138 105.098
+    angles 0 0 1.869
+   }
+   BLOCK15 {
+    coords -196.258 1.012 105.072
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK16 {
+    coords -192.384 0.893 105.099
+    angles 0.013 -0.4 1.869
+   }
+   BLOCK9 {
+    coords -188.288 0.734 105.098
+    angles 0 0 1.869
+   }
+  }
+ }
+}
+$grp SCR_DestructibleEntity : "{BFE70DC156DE6EAD}Prefabs/Structures/Walls/Pipe/PipeRailing_03/PipeRailing_03_V1_3m.et" {
+ {
+  coords 5875.917 -0.095 4142.225
+  angles 0 213.31 0
+ }
+ {
+  coords 5873.384 -0.123 4143.89
+  angles 0 213.31 0
+ }
+ {
+  coords 5870.891 -0.166 4145.528
+  angles 0 213.31 0
+ }
+ {
+  coords 5868.426 -0.205 4147.148
+  angles 0 213.31 0
+ }
+}

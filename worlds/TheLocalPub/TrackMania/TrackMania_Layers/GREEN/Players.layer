@@ -1,0 +1,60 @@
+$grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Woodland)/Group_US_Army_2003_W_CoyHQ.et" {
+ GREEN_PITCREW {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_sFaction "FIA"
+     m_aAuthoredLabels {
+      ENTITYTYPE_GROUP
+      FACTION_USSR
+     }
+    }
+   }
+  }
+  coords 5967.842 59.761 4158.769
+  angles 0 -57.396 0
+  m_faction "FIA"
+  m_aUnitPrefabSlots {
+   "{22534F8998602F49}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenPitBoss_Pub.et"
+   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
+   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
+  }
+  m_sCustomNameSet "Pit Team"
+  m_bSetPlayable 1
+ }
+ GREEN_DRIVERS {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_sFaction "FIA"
+     m_aAuthoredLabels {
+      ENTITYTYPE_GROUP
+      FACTION_USSR
+     }
+    }
+   }
+  }
+  coords 5966.776 59.727 4162.551
+  angles 0 122.604 0
+  m_faction "FIA"
+  m_aUnitPrefabSlots {
+   "{E1D9128E3C490FAF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenDriver_Pub.et"
+   "{9DDE613DA20FB5F0}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenBackupDriver_Pub.et"
+  }
+  m_sCustomNameSet "Drivers"
+  m_bSetPlayable 1
+ }
+}
