@@ -12,3 +12,6 @@ Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923
  coords 5913.191 59.7 4192.517
  angles 0 -147.363 0
 }
+GenericEntity : "{F553B31A9F7ADD7D}worlds/TheLocalPub/TrackMania/Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Pub.et" {
+ coords 6086.74 59.687 4286.028
+}

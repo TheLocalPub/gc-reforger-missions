@@ -4,6 +4,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Summary"
   m_sTextData "The annual Track Mania race has come to Ruha. Who'll take home the cup and claim victory this year?"\
   ""\
+  "- A casual and easy going mission ideal for seeding or end of play session missions. Not recommended for prime play."\
+  ""\
   "<h2>NOTES</h2>"\
   "• Minimum of two drivers required."\
   "• Try to keep racing teams equal so it's balanced."\
@@ -22,6 +24,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>NOTES</h2>"\
   "<b>• It is forbidden to kill unslotted roles to take the gear</b>"\
   "<b>• ALL CIVS APART FROM THE ACTIJNG REFEREE ARE NOT ALLOWED TO USE THE RACE CONTROL CONSOLE TO REMOVE PLAYERS. IT IS STRICTLY FORBIDDEN AND DIRECTLY AGAINST MISSION INTENT</b>"\
+  ""\
+  "- A casual and easy going mission ideal for seeding or end of play session missions. Not recommended for prime play."\
+  "Made by TheLocalPub. Leave suggestions, issues, and compaints in the #feedback channel on Discord."\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1

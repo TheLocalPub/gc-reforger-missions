@@ -79,6 +79,12 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
       "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et"
      }
     }
+    ItemsInitConfigurationItem "{6A2CEE4CA399DFB3}" {
+     TargetStorage "Pants/Pants_Kfz1979_KdA.et"
+     PrefabsToSpawn {
+      "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et" "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et"
+     }
+    }
    }
   }
  }
