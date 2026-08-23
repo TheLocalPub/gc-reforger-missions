@@ -1,3 +1,11 @@
+$grp GenericEntity {
+ WaterTowerTP {
+  coords 5980.022 102.877 4420.145
+ }
+ BottomTP {
+  coords 5973.661 59.181 4417.554
+ }
+}
 $grp GenericEntity : "{0364A92598A826F3}Prefabs/Props/Furniture/BenchStadium_01.et" {
  {
   coords 5838.681 62.201 4365.116
@@ -20,9 +28,30 @@ $grp GenericEntity : "{0364A92598A826F3}Prefabs/Props/Furniture/BenchStadium_01.
   angles 0 -146.926 0
  }
 }
+SCR_DestructibleBuildingEntity : "{06B906D78A33C7E0}Prefabs/Models/tem_sauna.et" {
+ coords 6029.627 -0.047 4316.568
+ angles 0 -53.842 0
+}
+GenericEntity : "{07C8783AD399E669}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_NightStand_USSR_03.et" {
+ coords 5978.683 102.877 4417.662
+ angles 0 0 0
+}
 StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  coords 5717.831 0.086 4234.49
  angles 0 -139.809 0
+}
+SCR_DestructibleBuildingEntity : "{0C95725DA4187F8F}Prefabs/Models/tem_watertower1.et" {
+ coords 5979.652 0.727 4421.481
+}
+GenericEntity : "{13B4C532861B9DE2}Prefabs/Props/Commercial/BeerKegMetal_01.et" {
+ coords 5979.129 102.877 4418.417
+}
+GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ coords 5978.531 103.377 4417.525
+}
+GenericEntity : "{1CACF9A5C3CBA652}Prefabs/Structures/Wreck/lada_old.et" {
+ coords 6049.601 59.688 4339.284
+ angles 0 -8.968 0
 }
 SCR_DestructibleBuildingEntity : "{1E8B5AC9B5943C6D}Prefabs/Structures/Agriculture/Gates/GateCollectiveFarm_04/GateCollectiveFarm_04_base.et" {
  coords 6015.971 -6.848 4295.125
@@ -39,6 +68,46 @@ $grp GenericEntity : "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/
   angles 0 -55.562 0
  }
 }
+GenericEntity : "{2A8D029D69C5281E}Prefabs/Structures/Misc/Chair.et" {
+ coords 5979.767 102.877 4417.18
+ angles 0 122.098 0
+}
+SCR_DestructibleEntity : "{2F8BA23B88A4FB07}Prefabs/Props/Furniture/Sunshade_01/Sunshade_01.et" {
+ coords 5979.192 102.877 4417.408
+}
+GenericEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
+ coords 6060.982 59.688 4294.338
+ angles 0 3.382 0
+}
+GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
+ coords 6028.971 59.739 4334.65
+ angles 0 43.595 0
+}
+SCR_DestructibleBuildingEntity : "{3964545D91B62F2F}Prefabs/Models/tem_hotairballoon1.et" {
+ coords 6050.773 97.706 4200.439
+}
+$grp GenericEntity : "{42577784E0891B02}Prefabs/Models/tem_Speaker_Set2.et" {
+ {
+  coords 6048.331 59.5 4292.512
+  angles 0 -145.675 0
+ }
+ {
+  coords 6085.921 59.5 4268.05
+  angles 0 157.759 0
+ }
+ {
+  coords 6097.021 59.687 4306.267
+  angles 0 53.523 0
+ }
+ {
+  coords 6042.754 59.687 4337.925
+  angles 0 -33.115 0
+ }
+}
+GenericEntity : "{434199706D4BFC9E}Prefabs/Structures/Wreck/volha_old.et" {
+ coords 6061.511 59.688 4331.821
+ angles 0 102.261 0
+}
 SCR_DestructibleBuildingEntity : "{52D3F2118C1B68E0}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/GuardTower_USSR_01_green.et" {
  coords 6033.293 0.064 4304.025
  angles 0 34.395 0
@@ -46,9 +115,58 @@ SCR_DestructibleBuildingEntity : "{52D3F2118C1B68E0}Prefabs/Structures/Military/
 SCR_DestructibleBuildingEntity : "{5312C1597A2D08C6}Prefabs/Structures/Communcation Towers/Green Mountain Tower.et" {
  coords 5462.174 58.777 3702.955
 }
+GenericEntity : "{565E89761C6B2B45}Prefabs/Models/tem_Mascot_Cutout1.et" {
+ coords 6073.429 59.688 4296.498
+ angles 0 175.283 0
+}
 SCR_DestructibleBuildingEntity : "{593465C224511F4F}Prefabs/Structures/Commerical/TicketBooth.et" {
  coords 5719.93 0 4225.322
  angles 0 -49.305 0
+}
+$grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+ WaterTowerTPButton {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Go to the top"
+      m_locationName "WaterTowerTP"
+     }
+    }
+   }
+  }
+  coords 5974.503 61.643 4420.846
+ }
+ WaterTowerTPButton2 {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Climb down"
+      m_locationName "BottomTP"
+     }
+    }
+   }
+  }
+  coords 5980.215 103.064 4422.567
+ }
+}
+GenericEntity : "{5DBB89C4C312D23E}Prefabs/Structures/BuildingParts/Doors/HatchSet_Lightbeacon_Camouflage.et" {
+ coords 5980.057 102.877 4422.564
+ angles 90 0 -56.981
+ {
+  GenericEntity {
+   ID "65A70CD651A3C319"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+    }
+    ActionsManagerComponent "{F32B667C3C823800}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
  {
@@ -100,7 +218,80 @@ $grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/
   angles 0 172.606 0
  }
 }
+GenericEntity : "{6B927CA5EF25340C}Prefabs/Models/tem_Soda_Machine.et" {
+ coords 6064.696 59.688 4303.031
+ angles 0 -145.916 0
+}
+SCR_DestructibleBuildingEntity : "{792D5A76DBAB523F}Prefabs/Models/tem_ruhangrilli.et" {
+ coords 6038.981 -0 4334.898
+ angles 0 -125.96 0
+}
+GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
+ coords 6044.623 59.687 4319.139
+ angles 0 -149.912 0
+}
+GenericEntity : "{88DB208DB565CA68}Prefabs/Models/tem_forklift.et" {
+ coords 6086.474 59.687 4321.963
+}
+GenericEntity : "{8F3C2CE67D6501A8}Prefabs/Models/tem_bike1.et" {
+ coords 6079.585 59.688 4291.377
+ angles 0 23.709 0
+}
+GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et" {
+ coords 5978.426 102.877 4418.063
+}
+GenericEntity : "{A5001F32836D0359}Prefabs/Props/Recreation/Beach/SunshadeClosed_01/SunshadeClosed_01_weight_base.et" {
+ coords 5979.199 102.877 4417.424
+}
+GenericEntity : "{A5EFB3FE79E5F7F4}Prefabs/Models/tem_bbqgrill.et" {
+ coords 5976.117 102.877 4420.099
+ angles 0 20.021 0
+}
 GenericEntity : "{A96BFF27936E912E}Prefabs/Props/Services/Police/PoliceControlPanel_01.et" {
  coords 6053.03 68.734 4299.558
  angles 0 34.467 0
+}
+GenericEntity : "{A96C2DBA63555562}Prefabs/Models/tem_sockerball.et" {
+ coords 6076.808 59.688 4303.434
+ angles 0 0 0
+}
+GenericEntity : "{B73423FE52121937}Prefabs/Props/Furniture/DeckChair_01/DeckChair_01_greenstripe.et" {
+ coords 5977.655 102.877 4417.958
+ angles 0 -179.97 0
+}
+$grp GenericEntity : "{BA5704FCE7D95718}Prefabs/Models/tem_moose.et" {
+ {
+  coords 6092.797 59.688 4342.824
+  angles 0 -127.615 0
+ }
+ {
+  coords 6106.498 59.648 4335.021
+  angles 0 -56.92 0
+ }
+}
+GenericEntity : "{CF9930D0DBC6DC22}Prefabs/Structures/Wreck/ikarus_b.et" {
+ coords 6017.063 59.795 4335.071
+ angles 0 113.244 0
+}
+GenericEntity : "{D9E5ECE2F8648AC2}Prefabs/Structures/Wreck/bus_city.et" {
+ coords 6056.728 59.688 4316.488
+ angles 0 164.658 0
+}
+$grp GenericEntity : "{E46EF21920C34AD1}Prefabs/Models/kaljakori.et" {
+ {
+  coords 6078.7 59.688 4291.938
+  angles 0 -43.048 0
+ }
+ {
+  coords 6078.095 59.688 4291.759
+  angles 0 -29.169 0
+ }
+}
+GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
+ coords 6040.044 59.618 4322.038
+ angles 0 82.214 0
+}
+GenericEntity : "{FD02F79C445455EB}Prefabs/Models/tem_small_trailer.et" {
+ coords 6081.417 59.688 4333.677
+ angles 0 89.696 0
 }

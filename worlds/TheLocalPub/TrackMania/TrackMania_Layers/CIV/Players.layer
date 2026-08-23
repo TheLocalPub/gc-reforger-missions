@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 1
    }
   }
-  coords 6071.625 59.688 4311.254
-  angles 0 138.294 0
+  coords 6081.34 59.688 4314.718
+  angles 0 -146.706 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
@@ -34,11 +34,11 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
   coords 6089.527 59.5 4283.601
   angles 0 -84.577 0
   m_aUnitPrefabSlots {
-   "{A09E7AF2C9E74488}worlds/TheLocalPub/TrackMania/Characters/Factions/CIVFOR/Character_Civ_Ref_Pub.et"
-   "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Characters/Factions/CIVFOR/Character_Civ_Security_Pub.et"
-   "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Characters/Factions/CIVFOR/Character_Civ_Security_Pub.et"
-   "{FD144F89B1F36EF7}worlds/TheLocalPub/TrackMania/Characters/Factions/CIVFOR/Character_Civ_Doctor_Pub.et"
-   "{B56D0B67059476E6}worlds/TheLocalPub/TrackMania/Characters/Factions/CIVFOR/Character_Civ_Vendor_Pub.et"
+   "{A09E7AF2C9E74488}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Ref_Pub.et"
+   "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Security_Pub.et"
+   "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Security_Pub.et"
+   "{FD144F89B1F36EF7}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Doctor_Pub.et"
+   "{B56D0B67059476E6}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Vendor_Pub.et"
   }
   m_sCustomNameSet "Track Staff"
   m_bSetPlayable 1
@@ -53,8 +53,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 2
    }
   }
-  coords 6070.601 59.688 4312.403
-  angles 0 138.294 0
+  coords 6071.041 59.688 4320.404
+  angles 0 -146.706 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
@@ -76,8 +76,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 3
    }
   }
-  coords 6069.574 59.688 4313.555
-  angles 0 138.294 0
+  coords 6080.046 59.688 4311.405
+  angles 0 -143.429 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
@@ -99,8 +99,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 5
    }
   }
-  coords 6068.035 59.688 4315.284
-  angles 0 138.294 0
+  coords 6070.715 59.688 4318.906
+  angles 0 -146.706 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
@@ -122,8 +122,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 4
    }
   }
-  coords 6079.056 59.688 4310.503
-  angles 0 -158.037 0
+  coords 6072.088 59.688 4321.347
+  angles 0 -145.693 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
@@ -146,7 +146,7 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    }
   }
   coords 6080.238 59.688 4313.436
-  angles 0 -158.037 0
+  angles 0 -143.566 0
   m_aUnitPrefabSlots +{
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"

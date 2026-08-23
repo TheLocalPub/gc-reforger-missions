@@ -36,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3086.754 86.25 6742.292
   m_sTitle "Track Brief"
   m_sTextData "<h2>HOW TO PLAY</h2>"\
-  "Upon finishing brief, we have 1min to drive our car to the starting line."\
+  "We have 1min to drive our car to the starting line. (Rear wheel drive)"\
   "Each team must complete 16 laps of the track. The first team to complete all 16 laps will be declared the winner."\
   "There are only winners and losers in this world. There is no second or third place. You're either first or nothing."\
   ""\
@@ -87,7 +87,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• One Jerry can and a spare wrench are on the workbench in the pits"\
   "- Each crew member spawns with 1 wrench."\
   "• A repair truck can be used to go recover their teams vehicle on the track. This should be loaded with repair \"supplies\" by interacting with the rear while close to the pit."\
-  "• A fuel tank next to the pit can be used to refill jerry cans (Drop it on the floor next to it and look at the can)"
+  "• A fuel tank next to the pit can be used to refill jerry cans (Drop it on the floor next to it and look at the can)"\
+  ""\
+  "<h2>BANANAS</h2>"\
+  "The currency of Ruha are Bananas. These don't have proper function as of yet, but use these to barter/trade with light roleplay."
   m_bShowForAnyFaction 1
   m_iOrder 4
  }

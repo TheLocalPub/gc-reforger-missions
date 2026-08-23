@@ -409,4 +409,88 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    10
   }
  }
+ {
+  coords 6007.462 62.35 4281.42
+  m_prefab "{CB514C8448F55D88}worlds/TheLocalPub/TrackMania/Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green_Pub.et"
+  m_spawnTimings {
+   70
+  }
+  m_setEntityNames {
+   "GreenLight1"
+  }
+ }
+ {
+  coords 6007.462 63.011 4281.42
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   69
+  }
+  m_setEntityNames {
+   "RedLight3"
+  }
+ }
+ {
+  coords 6007.462 63.63 4281.42
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   68
+  }
+  m_setEntityNames {
+   "RedLight2"
+  }
+ }
+ {
+  coords 6007.462 64.294 4281.42
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   67
+  }
+  m_setEntityNames {
+   "RedLight1"
+  }
+ }
+ {
+  coords 6025.435 63.011 4308.139
+  angles 0 67.845 0
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   69
+  }
+  m_setEntityNames {
+   "RedLight6"
+  }
+ }
+ {
+  coords 6025.435 64.294 4308.139
+  angles 0 67.845 0
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   67
+  }
+  m_setEntityNames {
+   "RedLight4"
+  }
+ }
+ {
+  coords 6025.435 63.63 4308.139
+  angles 0 67.845 0
+  m_prefab "{FBDB4A2BDE254410}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red.et"
+  m_spawnTimings {
+   68
+  }
+  m_setEntityNames {
+   "RedLight5"
+  }
+ }
+ {
+  coords 6025.435 62.35 4308.139
+  angles 0 67.845 0
+  m_prefab "{CB514C8448F55D88}worlds/TheLocalPub/TrackMania/Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green_Pub.et"
+  m_spawnTimings {
+   70
+  }
+  m_setEntityNames {
+   "GreenLight2"
+  }
+ }
 }

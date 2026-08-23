@@ -2133,9 +2133,6 @@ $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Ba
   angles 0 32.849 0
  }
 }
-SCR_DestructibleBuildingEntity : "{0C95725DA4187F8F}Prefabs/Models/tem_watertower1.et" {
- coords 5979.652 0 4421.481
-}
 $grp GenericEntity : "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" {
  {
   coords 5904.14 60.17 4198.111

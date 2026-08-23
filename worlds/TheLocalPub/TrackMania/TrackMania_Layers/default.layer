@@ -148,6 +148,27 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_invertTerm 1
    }
   }
+  TILW_MissionEvent "{6A2E879FFCCF94EF}" {
+   m_name "StartingLights"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{6A2E879DFBB01902}" {
+     m_executionDelay 80
+     m_entityNames {
+      "RedLight1"
+      "RedLight2"
+      "RedLight3"
+      "RedLight4"
+      "RedLight5"
+      "RedLight6"
+      "GreenLight1"
+      "GreenLight2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A2E879C5AEBA21A}" {
+    m_invertTerm 1
+   }
+  }
   TILW_MissionEvent "{6A293B35C232E3B9}" {
    m_name "DisqualifyBlue"
    m_instructions {
