@@ -1,0 +1,78 @@
+PolylineShapeEntity AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
+ }
+ coords 3201.055 32.261 118.827
+ Points {
+  ShapePoint "{6A3D10433F444F2E}" {
+   Position -1750.387 -11.658 1338.589
+  }
+  ShapePoint "{6A3D10433E064CB4}" {
+   Position -1751.337 -11.882 1388.143
+  }
+  ShapePoint "{6A3D104339CCC5AC}" {
+   Position -1742.675 -11.784 1421.53
+  }
+  ShapePoint "{6A3D104331F2CFD5}" {
+   Position -1744.333 -13.393 1451.665
+  }
+  ShapePoint "{6A3D1040D84A1BF2}" {
+   Position -1739.52 -16.776 1540.148
+  }
+  ShapePoint "{6A3D1040D23F176A}" {
+   Position -2044.404 -16.305 1568.039
+  }
+  ShapePoint "{6A3D1040D636D5A4}" {
+   Position -2045.302 -12.941 1199.996
+  }
+  ShapePoint "{6A3D1040D528796C}" {
+   Position -2023.21 -20.072 949.734
+  }
+  ShapePoint "{6A3D1040CA10AFF8}" {
+   Position -1739.25 -23.74 958.536
+  }
+  ShapePoint "{6A3D1040CD4CB215}" {
+   Position -1741.303 -23.542 1017.298
+  }
+  ShapePoint "{6A3D1040C307860A}" {
+   Position -1744.243 -23.256 1062.282
+  }
+  ShapePoint "{6A3D1040C1E4189B}" {
+   Position -1745.709 -19.732 1112.62
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ CAFSpawn {
+  coords 1309.821 15.094 1665.908
+  angles 0 -90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ FIALoc1 {
+  coords 1264.108 22.187 1380.641
+  angles 0 -90 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ FIALoc2 {
+  coords 1318.778 10.181 1136.405
+  angles 0 -90 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

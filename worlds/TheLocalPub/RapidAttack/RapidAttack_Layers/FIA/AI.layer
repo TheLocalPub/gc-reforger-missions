@@ -1,0 +1,34 @@
+$grp SCR_AIGroup : "{3E19B428E9137511}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group_FIAModern_RifleSquad.et" {
+ {
+  coords 1303.348 22.135 1337.86
+  m_aStaticWaypoints {
+   "WP_D1"
+  }
+ }
+ {
+  coords 1234.184 11.738 1185.977
+  m_aStaticWaypoints {
+   "WP_D2"
+  }
+ }
+}
+$grp SCR_AIGroup : "{579641F93C575955}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group_FIAModern_WeaponSquad.et" {
+ {
+  coords 1304.649 22.125 1337.899
+  m_aStaticWaypoints {
+   "WP_D1"
+  }
+ }
+ {
+  coords 1322.45 15.792 1120.22
+  m_aStaticWaypoints {
+   "WP_D2"
+  }
+ }
+}
+SCR_AIGroup : "{A53507F74A390408}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group_FIAModern_PLTHQ.et" {
+ coords 1321.81 10.37 1120.301
+ m_aStaticWaypoints {
+  "WP_D2"
+ }
+}

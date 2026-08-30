@@ -1,0 +1,22 @@
+SCR_AIGroup CAF_WEP : "{030E4CCD2096E191}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Light Infantry/Temperate Woodland/Group_CAF_2025_TW_WepDet.et" {
+ coords 1288.382 16.911 1671.988
+ angles 0 -180 0
+ m_bSetPlayable 1
+}
+SCR_AIGroup CAF_PHQ : "{0E57894BF65D83EF}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Light Infantry/Temperate Woodland/Group_CAF_2025_TW_Rifle_PlatoonHQ.et" {
+ coords 1341.367 15.094 1667.696
+ angles 0 -171.075 0
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{6B78CB506D9C5C64}Prefabs/Groups/BLUFOR/GC_CAF/2025 Canadian Army/Light Infantry/Temperate Woodland/Group_CAF_2025_TW_Rifle_Section.et" {
+ CAF_Rifle1 {
+  coords 1320.354 15.094 1670.243
+  angles 0 178.407 0
+  m_bSetPlayable 1
+ }
+ CAF_Rifle2 {
+  coords 1301.607 15.094 1670.754
+  angles 0 178.407 0
+  m_bSetPlayable 1
+ }
+}
