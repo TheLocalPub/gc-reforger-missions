@@ -2,27 +2,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MN {
   coords 3268.667 32.36 691.859
   m_sTitle "Mission notes"
-  m_sTextData "<h2>GM Notes</h2>"\
-  "We rarely run COOP defence missions. This scenario is intended to test the server under sustained defensive gameplay, with players holding a fixed position against continuous enemy assaults."\
+  m_sTextData "<h2>END CONDITIONS</h2>"\
+  "<b>CAF Victory:</b>"\
+  "• Secure both barnyards and destroy enough FIA to force a withdraw."\
   ""\
-  "If, at any point, the server is struggling or the assault feels too weak or too strong, GMs are encouraged to adjust enemy numbers and pacing accordingly."\
+  "<b>FIA Victory:</b>"\
+  "• Destroy 90% of CAF forces."\
   ""\
-  "• You are restricted to Iraqi 2000 infantry."\
-  "• You may spawn <b>ONE</b> UAZ PKM, BTR, BRDM, and BMP each. A maximum of one vehicle type may be active at any one time.~"\
-  "(No more than two vehicles at one time)"\
-  ""\
-  "<h2>End Conditions</h2>"\
-  "<b>British Victory:</b>"\
-  "• Hold off the Iraqi assault for 30 minutes."\
-  ""\
-  "<b>Iraqi Victory:</b>"\
-  "• Overrun the British garrison by eliminating at least 85% (26/30) of British forces and occupy the compound."\
-  ""\
-  "<h2>Mission Notes</h2>"\
-  "• E-tool usage is strictly forbidden and so is the use of any vehicle. These will break AI pathfinding in the compound. Leave everything as it is."\
-  "• Iraqi forces only to be slotted if missions is <b>FULL</b> or if blufor accept the challenge."\
-  "• JIP TP."\
-  "• UK AO limit."\
+  "<h2>NOTES</h2>"\
+  "• JIP TP: Deny"\
   ""\
   "Mission made by TheLocalPub. Please use the <b>#feedback</b> channel on Discord to report issues or submit suggestions."
   m_bEmptyFactionVisibility 1

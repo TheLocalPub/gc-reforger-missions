@@ -40,7 +40,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3268.667 32.36 691.859
   m_sTitle "Friendly forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
-  "We are <b>C Company, 3rd Battalion, Princess Patricia's Canadian Light Infantry (3 PPCLI)</b>, consisting of 28 personnel. We are currently positioned approximately 200m north of the barnyard at Parallel, preparing to conduct our assault."\
+  "We are <b>1st platoon, C Company, 3rd Battalion, Princess Patricia's Canadian Light Infantry (3 PPCLI)</b>, consisting of 26 personnel. We are currently positioned approximately 200m north of the barnyard at Parallel, preparing to conduct our assault."\
+  "Operating at Platoon- due to recent casualties. "\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
   "• We have no vehicles or supporting troops available."\
