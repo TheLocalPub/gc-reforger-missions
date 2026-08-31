@@ -20,7 +20,7 @@ $grp SCR_AIGroup : "{579641F93C575955}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group
   }
  }
  {
-  coords 1322.45 15.792 1120.22
+  coords 1320.398 15.792 1139.162
   m_aStaticWaypoints {
    "WP_D2"
   }

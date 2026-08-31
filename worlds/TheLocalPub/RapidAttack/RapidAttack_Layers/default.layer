@@ -68,12 +68,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{6A3ED8C2C9DDCAF1}" {
+   m_name "QRF"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A3ED8C2C324A1FB}" {
+     m_executionDelay 1500
+     m_messageTitle "FIA REINFORCEMENTS SPOTTED"
+     m_messageBody "Infantry contact approaching from the west and south, approximately 1km away and moving fast."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A3ED8C36B3384E4}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionAIKilledFlag "{6A3D1046ADF5D05A}" {
    m_flagName "FIADead"
    m_factionKey "FIA"
-   m_casualtyRatio 0.75
+   m_casualtyRatio 0.4
   }
   TILW_FactionPlayersKilledFlag "{6A3D10469A66325D}" {
    m_flagName "CAFDead"

@@ -6,17 +6,35 @@ PolylineShapeEntity AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLi
  }
  coords 3201.055 32.261 118.827
  Points {
+  ShapePoint "{6A3ED8E67D809906}" {
+   Position -1714.444 -16.641 1162.249
+  }
+  ShapePoint "{6A3ED8E67FDC6FE5}" {
+   Position -1718.183 -13.363 1231.355
+  }
+  ShapePoint "{6A3ED8E67B06EF07}" {
+   Position -1719.618 -12.239 1286.678
+  }
+  ShapePoint "{6A3ED8E60750CA5A}" {
+   Position -1720.983 -12.113 1310.468
+  }
+  ShapePoint "{6A3ED8E601C9E67D}" {
+   Position -1721.475 -12.179 1321.322
+  }
   ShapePoint "{6A3D10433F444F2E}" {
-   Position -1750.387 -11.658 1338.589
+   Position -1722.426 -12.177 1344.171
+  }
+  ShapePoint "{6A3ED8E62521668E}" {
+   Position -1722.734 -12.134 1359.46
   }
   ShapePoint "{6A3D10433E064CB4}" {
-   Position -1751.337 -11.882 1388.143
+   Position -1723.024 -12.509 1392.97
   }
-  ShapePoint "{6A3D104339CCC5AC}" {
-   Position -1742.675 -11.784 1421.53
+  ShapePoint "{6A3ED8E6B9F3862B}" {
+   Position -1710.05 -13.424 1422.314
   }
-  ShapePoint "{6A3D104331F2CFD5}" {
-   Position -1744.333 -13.393 1451.665
+  ShapePoint "{6A3ED8E6BECF38F8}" {
+   Position -1711.742 -14.37 1454.335
   }
   ShapePoint "{6A3D1040D84A1BF2}" {
    Position -1739.52 -16.776 1540.148
@@ -31,16 +49,28 @@ PolylineShapeEntity AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLi
    Position -2023.21 -20.072 949.734
   }
   ShapePoint "{6A3D1040CA10AFF8}" {
-   Position -1739.25 -23.74 958.536
+   Position -1705.387 -23.975 951.446
   }
   ShapePoint "{6A3D1040CD4CB215}" {
-   Position -1741.303 -23.542 1017.298
+   Position -1705.385 -23.769 1016.31
+  }
+  ShapePoint "{6A3ED8E5E50019F0}" {
+   Position -1706.994 -23.197 1058.209
   }
   ShapePoint "{6A3D1040C307860A}" {
-   Position -1744.243 -23.256 1062.282
+   Position -1710.422 -23.034 1063.758
+  }
+  ShapePoint "{6A3ED8E5DF1AD3E4}" {
+   Position -1710.884 -22.227 1084.334
   }
   ShapePoint "{6A3D1040C1E4189B}" {
-   Position -1745.709 -19.732 1112.62
+   Position -1711.4 -20.486 1108.661
+  }
+  ShapePoint "{6A3ED8E5C2FD34A1}" {
+   Position -1711.677 -19.843 1117.468
+  }
+  ShapePoint "{6A3ED8E5C01E6110}" {
+   Position -1713.592 -17.689 1147.19
   }
  }
 }
@@ -62,6 +92,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_fWorldSize 50
+  m_sDescription "OBJ: Dog"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -72,6 +103,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_fWorldSize 50
+  m_sDescription "OBJ: Cat"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }

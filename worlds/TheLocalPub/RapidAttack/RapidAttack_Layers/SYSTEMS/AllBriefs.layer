@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission notes"
   m_sTextData "<h2>END CONDITIONS</h2>"\
   "<b>CAF Victory:</b>"\
-  "• Secure both barnyards and destroy enough FIA to force a withdraw."\
+  "• Sweep and secure both barnyards + destroy 40% of FIA to force a withdraw."\
   ""\
   "<b>FIA Victory:</b>"\
   "• Destroy 90% of CAF forces."\

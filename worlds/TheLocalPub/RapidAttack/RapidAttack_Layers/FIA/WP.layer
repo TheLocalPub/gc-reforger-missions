@@ -1,3 +1,42 @@
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ WP_M1 {
+  coords 705.907 22.191 1159.882
+  CompletionRadius 10
+  m_aSettings {
+   SCR_AIGroupCombatModeSetting "{6A3ED8C11B38AB0E}" {
+   }
+   SCR_AICharacterMovementSpeedSetting "{6A3ED8C17ADDC911}" {
+    m_eCause SAFE
+    m_eSpeed RUN
+   }
+  }
+ }
+ WP_M2 {
+  coords 947.18 22.323 699.294
+  CompletionRadius 10
+  m_aSettings {
+   SCR_AIGroupCombatModeSetting "{6A3ED8C11B38AB0E}" {
+   }
+   SCR_AICharacterMovementSpeedSetting "{6A3ED8C17ADDC911}" {
+    m_eCause SAFE
+    m_eSpeed RUN
+   }
+  }
+ }
+ WP_M3 {
+  coords 1359.526 14.175 801.922
+  angles 0 -100.967 0
+  CompletionRadius 10
+  m_aSettings {
+   SCR_AIGroupCombatModeSetting "{6A3ED8C11B38AB0E}" {
+   }
+   SCR_AICharacterMovementSpeedSetting "{6A3ED8C17ADDC911}" {
+    m_eCause SAFE
+    m_eSpeed RUN
+   }
+  }
+ }
+}
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  WP_D1 {
   coords 1282.588 26.02 1369.596
@@ -8,5 +47,15 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   coords 1318.513 29.867 1164.067
   CompletionRadius 125
   m_bFastInit 1
+ }
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ WP_SD1 {
+  coords 1250.576 43.531 1376.296
+  CompletionRadius 70
+ }
+ WP_SD2 {
+  coords 1308.33 10.354 1132.083
+  CompletionRadius 70
  }
 }

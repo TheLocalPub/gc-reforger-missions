@@ -16,7 +16,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• <b>Challenge:</b> Dingus | <b>Password:</b> sasuage"\
   "• Running password: 78"
   m_aVisibleForFactions {
-   "UK"
+   "GC_CAF"
   }
   m_iOrder 5
  }
@@ -26,13 +26,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
   "Enemy forces consist of approximately a platoon of FIA light infantry occupying the barnyard at Parallel. The position was previously cleared by Canadian forces before being reoccupied by the FIA during ongoing fighting in the surrounding area."\
   ""\
-  "If we take too long to dislodge the FIA from the area, we risk making contact with potentially additional FIA forces moving into the barnyard. We should move with haste."\
+  "If we take too long to dislodge the FIA from the area, we risk making contact with potentially additional FIA forces moving into the barnyard. We should move with haste and aggression."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
   "• No armed or armoured vehicles have been spotted in the area."\
   "• The FIA have reoccupied a previous position. Expect the barnyard to contain established defensive positions and fortifications."
   m_aVisibleForFactions {
-   "UK"
+   "GC_CAF"
   }
   m_iOrder 2
  }
@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>SERVICE & SUPPORT</h2>"\
   "• No resupply or additional equipment is available."
   m_aVisibleForFactions {
-   "UK"
+   "GC_CAF"
   }
   m_iOrder 3
  }
@@ -57,14 +57,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3268.667 32.36 691.859
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT</h2>"\
-  "Conduct a <b>HASTY ASSAULT</b> to <b>DISLODGE</b> the FIA forces occupying the barnyard at Parallel."\
+  "Conduct a <b>HASTY ASSAULT</b> to <b>DISLODGE</b> the FIA forces occupying the barnyards by <b>SWEEPING & CLEARING</b> each barnyard and <b>DESTROYING</b> enough troops to cause a withdraw."\
   ""\
   "<h2>MISSION DESCRIPTION</h2>"\
-  "An FIA platoon has manoeuvred into the barnyard at Parallel and reoccupied a position previously cleared by Canadian forces. From here, they have begun harassing Canadian forces operating along our flank and disrupting ongoing operations in the area."\
+  "An FIA platoon has manoeuvred into the barnyard at Parallel and reoccupied a position previously cleared by Canadian forces. From here, they have begun harassing Canadian forces in the flank."\
   ""\
-  "We are to move quickly and assault the barnyard before the FIA can further establish themselves. <b>CLEAR</b> all hostile forces from the position and <b>SECURE</b> the barnyard, restoring control of the area and allowing friendly operations to continue uninterrupted."
+  "We are to move quickly and assault the barnyard before the FIA can further establish themselves. <b>SWEEP & CLEAR</b> all hostile forces from the position to <b>SECURE</b> the barnyards, restoring control of the area and allowing friendly operations to continue uninterrupted."
   m_aVisibleForFactions {
-   "UK"
+   "GC_CAF"
   }
   m_iOrder 4
  }
@@ -83,7 +83,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The FIA presence has quickly become a threat to the wider Canadian advance. A Canadian platoon has now been tasked with a hasty assault to dislodge the FIA and regain control of the barnyard before they can further disrupt operations in the area."\
   ""
   m_aVisibleForFactions {
-   "UK"
+   "GC_CAF"
   }
   m_iOrder 1
  }
