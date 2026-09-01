@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Until this strongpoint is neutralized, the city cannot be declared secure."\
   "The encirclement is complete. The outcome now depends on how quickly and decisively the remaining resistance is dealt with."
   m_aVisibleForFactions {
-   "GC_SEPARATIST"
+   "RHS_AFRF"
   }
   m_iOrder 1
  }
@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• <b>Challenge:</b> Egg | <b>Password:</b> Weston"\
   "• Running password: 99"
   m_aVisibleForFactions {
-   "GC_SEPARATIST"
+   "RHS_AFRF"
   }
   m_iOrder 4
  }
@@ -52,7 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• The enemy has total freedom of movement within the city. With no remaining resistance outside this position, they can take their time to plan, coordinate, and prepare their assault without fear of disruption."\
   "• They are able to establish overwatch positions, including sniper teams and support elements, in surrounding buildings and maintain sustained pressure over time, gradually degrading our defenses."
   m_aVisibleForFactions {
-   "GC_SEPARATIST"
+   "RHS_AFRF"
   }
   m_iOrder 2
  }
@@ -71,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• The building contains two internal stairwells and one external ladder, allowing access to each level and the roof."\
   "• We have a PKM turret on the 3rd floor west facing balcony."
   m_aVisibleForFactions {
-   "GC_SEPARATIST"
+   "RHS_AFRF"
   }
   m_iOrder 2
  }
@@ -88,7 +88,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We hold this building as our final strongpoint. Make the enemy pay for every room, every stairwell, every inch they attempt to take."\
   "If we fall, we do so on our terms — and we ensure they pay dearly for it."
   m_aVisibleForFactions {
-   "GC_SEPARATIST"
+   "RHS_AFRF"
   }
   m_iOrder 3
  }

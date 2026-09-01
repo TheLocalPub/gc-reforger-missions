@@ -1,0 +1,50 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Marker_C130_1 {
+  coords 6769.925 1504.193 5743.318
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "special-forces"
+  m_fWorldSize 75
+  m_sDescription "1TRP | 1+2 SEC (alt 1500m)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ Marker_C130_2 {
+  coords 5683.319 1504.25 3155.475
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "special-forces"
+  m_fWorldSize 75
+  m_sDescription "1TRP | HQ + 3SEC (alt 1500m)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ Marker_C130_3 {
+  coords 2528.094 1504.222 2445.424
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "special-forces"
+  m_fWorldSize 75
+  m_sDescription "2TRP | 1 + 2SEC (alt 1500m)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ Marker_C130_4 {
+  coords 2874.879 1504.111 4604.334
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "special-forces"
+  m_fWorldSize 75
+  m_sDescription "2TRP | HQ + 3SEC (alt 1500m)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+}

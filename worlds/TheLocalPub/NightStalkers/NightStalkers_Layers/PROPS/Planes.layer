@@ -1,346 +1,258 @@
-GenericEntity : "{176BCBF851AAA88F}Prefabs/Props/Civilian/Lamps/Lamp Industrial 02.et" {
- coords 6769.015 1502.897 5738.296
- angles -16.869 -61.21 2.44
+$grp GenericEntity : "{176BCBF851AAA88F}Prefabs/Props/Civilian/Lamps/Lamp Industrial 02.et" {
+ {
+  coords 6769.015 1502.897 5738.296
+  angles -16.869 -61.21 2.44
+ }
+ {
+  coords 2525.418 1502.897 2440.114
+  angles -16.869 -61.21 2.44
+ }
+ {
+  coords 4531.911 1502.897 3594.065
+  angles -16.869 -61.21 2.44
+ }
+ {
+  coords 2874.925 1502.862 4600.915
+  angles -16.097 -72.54 5.664
+ }
 }
-LightEntity RedLight1 : "{5CC00D578430F531}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Base.et" {
- coords 6768.927 1502.847 5738.35
- angles -14.66 -61.059 0
+$grp GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Equipment_01_US.et" {
+ ParachuteBox1 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 10000
+    MultiSlots {
+     MultiSlotConfiguration "{6A430EC52007F41C}" {
+      SlotTemplate EquipmentStorageSlot Parachute {
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6A430EC517CF9BD5}" {
+      SlotTemplate EquipmentStorageSlot JumpBag {
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 1000000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.4625 0
+      }
+     }
+    }
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 6770.66 1500.596 5744.49
+  angles 0 -57.993 0
+ }
+ ParachuteBox3 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 10000
+    MultiSlots {
+     MultiSlotConfiguration "{6A430EC52007F41C}" {
+      SlotTemplate EquipmentStorageSlot Parachute {
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6A430EC517CF9BD5}" {
+      SlotTemplate EquipmentStorageSlot JumpBag {
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 1000000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.4625 0
+      }
+     }
+    }
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2527.104 1500.566 2446.27
+  angles 0 -57.993 0
+ }
+ ParachuteBox2 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 10000
+    MultiSlots {
+     MultiSlotConfiguration "{6A430EC52007F41C}" {
+      SlotTemplate EquipmentStorageSlot Parachute {
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6A430EC517CF9BD5}" {
+      SlotTemplate EquipmentStorageSlot JumpBag {
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 1000000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.4625 0
+      }
+     }
+    }
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 5682.896 1500.594 3157.033
+  angles 0 -57.993 0
+ }
+ ParachuteBox4 {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 10000
+    MultiSlots {
+     MultiSlotConfiguration "{6A430EC52007F41C}" {
+      SlotTemplate EquipmentStorageSlot Parachute {
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6A430EC517CF9BD5}" {
+      SlotTemplate EquipmentStorageSlot JumpBag {
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
+      }
+      NumSlots 10
+     }
+    }
+    m_fMaxWeight 1000000
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.4625 0
+      }
+     }
+    }
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2875.653 1500.694 4607.606
+  angles 0 -72.937 0
+ }
+}
+$grp LightEntity : "{5CC00D578430F531}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Base.et" {
+ RedLight1 {
+  coords 6768.927 1502.847 5738.35
+  angles -14.66 -61.059 0
+ }
+ RedLight3 {
+  coords 2525.33 1502.847 2440.168
+  angles -14.66 -61.059 0
+ }
+ RedLight2 {
+  coords 5681.224 1502.847 3150.924
+  angles -14.66 -61.059 0
+ }
+ RedLight4 {
+  coords 2874.886 1502.847 4600.94
+  angles -14.66 -71.169 0
+ }
 }
 $grp GenericEntity : "{606B888D33E08CA2}Prefabs/Structures/Wreck/c130.et" {
  C130_1 {
-  coords 4553.572 1500 3360.26
-  angles 0 -147.816 -5.239
-  {
-   $grp SCR_DestructibleEntity {
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DBFC2B}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DBFC3C}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038ECC76FA3}" {
-       Static 1
-      }
-     }
-     coords -603.919 55.844 -3195.286
-     angles 84.434 111.316 21.137
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB8468}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB8462}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038EEE4193F}" {
-       Static 1
-      }
-     }
-     coords -603.938 55.703 -3199.284
-     angles 84.434 111.316 21.137
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB91A4}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB91BF}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038EBD60E39}" {
-       Static 1
-      }
-     }
-     coords -603.956 55.563 -3203.28
-     angles 84.434 111.316 21.137
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DBADF9}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DBADF1}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038F5ED6D4E}" {
-       Static 1
-      }
-     }
-     coords -603.65 57.397 -3205.521
-     angles 2.004 0.27 -84.806
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DBB837}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DBB80F}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038F6F26538}" {
-       Static 1
-      }
-     }
-     coords -605.329 57.614 -3203.678
-     angles -5.19 90.088 -87.987
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DBB487}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DBB49F}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038F3284E44}" {
-       Static 1
-      }
-     }
-     coords -605.311 57.736 -3200.18
-     angles -5.19 90.088 -87.987
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB430A}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB4302}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038FDBDBC2D}" {
-       Static 1
-      }
-     }
-     coords -605.294 57.859 -3196.683
-     angles -5.19 90.088 -87.987
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB5F54}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB5F2C}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038FEF7E697}" {
-       Static 1
-      }
-     }
-     coords -605.3 57.724 -3192.515
-     angles -5.19 90.088 -159.334
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB6BD3}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB6BAB}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038FB59EB5B}" {
-       Static 1
-      }
-     }
-     coords -605.238 58.384 -3190.757
-     angles -5.19 90.088 -159.334
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB6622}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB663A}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F6038859CC3CA}" {
-       Static 1
-      }
-     }
-     coords -602.154 58.13 -3190.692
-     angles -5.19 90.088 -159.334
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB72A3}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB72BA}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F60388676738D}" {
-       Static 1
-      }
-     }
-     coords -602.216 57.47 -3192.451
-     angles -5.19 90.088 -159.334
-     scale 0.5
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB092F}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB0927}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F603883439050}" {
-       Static 1
-      }
-     }
-     coords -601.994 57.564 -3196.544
-     angles -5.19 90.088 -87.987
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB05BB}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB05B3}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F60388E467363}" {
-       Static 1
-      }
-     }
-     coords -602.01 57.442 -3200.04
-     angles -5.19 90.088 -87.987
-    }
-    {
-     components {
-      MeshObject "{56DE7C8DCD0F4E0A}" {
-       Object "{F09986CDD3D8E7F4}Assets/Structures/Walls/Concrete/ConcreteWall_02_4m.xob"
-       Materials {
-        MaterialAssignClass "{6A3F603964DB1622}" {
-         SourceMaterial "ConcreteRetainingWall_02"
-         AssignedMaterial "{86954E92135FC74F}Assets/Vehicles/Helicopters/AH64D/Data/INVIS.emat"
-        }
-        MaterialAssignClass "{6A3F603964DB163D}" {
-         SourceMaterial "ConcreteRetainingWall_02_MLod"
-         AssignedMaterial ""
-        }
-       }
-      }
-      RigidBody "{6A3F603846CBF977}" {
-       Static 1
-      }
-     }
-     coords -602.028 57.319 -3203.538
-     angles -5.19 90.088 -87.987
-    }
-   }
-  }
- }
- C130_2 {
-  coords 2167.937 1500 2214.918
-  angles 0 -147.816 -5.176
- }
- C130_3 {
   coords 6768.918 1500 5742.786
   angles 0 -147.816 -6.018
  }
+ C130_2 {
+  coords 4847.785 1500 4154.935
+  angles -2.441 -147.558 -6.023
+ }
+ C130_3 {
+  coords 2525.322 1500 2444.604
+  angles -1.554 -147.652 -6.02
+ }
+ C130_4 {
+  coords 2874.098 1500 4605.305
+  angles -2.441 -157.668 -6.023
+ }
 }
-TILW_PrefabSpawnerEntity GreenLight1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
- coords 6768.927 1502.847 5738.35
- angles -14.66 -61.059 0
- m_prefab "{A7E05F224B4A4439}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green.et"
- m_spawnTimings {
-  9
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ GreenLight1 {
+  coords 6768.927 1502.847 5738.35
+  angles -14.66 -61.059 0
+  m_prefab "{A7E05F224B4A4439}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green.et"
+  m_spawnTimings {
+   9
+  }
+ }
+ GreenLight2 {
+  coords 5681.224 1502.847 3150.924
+  angles -14.66 -61.059 0
+  m_prefab "{A7E05F224B4A4439}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green.et"
+  m_spawnTimings {
+   9
+  }
+ }
+ GreenLight3 {
+  coords 2525.33 1502.847 2440.168
+  angles -14.66 -61.059 0
+  m_prefab "{A7E05F224B4A4439}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green.et"
+  m_spawnTimings {
+   9
+  }
+ }
+ GreenLight4 {
+  coords 2874.886 1502.847 4600.94
+  angles -14.66 -71.169 0
+  m_prefab "{A7E05F224B4A4439}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green.et"
+  m_spawnTimings {
+   9
+  }
  }
 }

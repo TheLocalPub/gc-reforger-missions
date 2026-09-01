@@ -1,8 +1,14 @@
 $grp SCR_AIGroup : "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/Group_UK_2024_SAS_Team.et" {
- UK_1SEC {
+ UK_1P1SEC {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 6768.079 1500.715 5742.034
@@ -11,10 +17,16 @@ $grp SCR_AIGroup : "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/
   m_sCustomNameSet "1 SECTION"
   m_bSetPlayable 1
  }
- UK_2SEC {
+ UK_1P2SEC {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 6769.642 1500.723 5741.081
@@ -22,5 +34,109 @@ $grp SCR_AIGroup : "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/
   m_bSnapToTerrain 0
   m_sCustomNameSet "2 SECTION"
   m_bSetPlayable 1
+ }
+ UK_1P3SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5680.316 1500.718 3154.577
+  angles 0.499 -148.655 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3 SECTION"
+  m_bSetPlayable 1
+ }
+ UK_2P1SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 4
+   }
+  }
+  coords 2524.524 1500.69 2443.814
+  angles 0.499 -148.655 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "4 SECTION"
+  m_bSetPlayable 1
+ }
+ UK_2P2SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 5
+   }
+  }
+  coords 2525.985 1500.69 2442.924
+  angles 0.499 -148.655 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "5 SECTION"
+  m_bSetPlayable 1
+ }
+ UK_2P3SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2873.351 1500.718 4604.378
+  angles 0.499 -158.765 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3 SECTION"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{55D00ACE404759A4}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/P/Group_UK_2024_SAS_TroopHQ_P.et" {
+ UK_1PHQ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5680.277 1500.676 3151.406
+  angles 0 -146.343 0
+  m_aUnitPrefabSlots +{
+   "{513CC1CD316DD80F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_Medic_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ UK_2PHQ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2873.869 1500.676 4601.249
+  angles 0 -156.453 0
+  m_aUnitPrefabSlots +{
+   "{513CC1CD316DD80F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/UKSF/SAS/P/Character_UK_2024_SAS_Medic_P.et"
+  }
+  m_bSnapToTerrain 0
  }
 }
