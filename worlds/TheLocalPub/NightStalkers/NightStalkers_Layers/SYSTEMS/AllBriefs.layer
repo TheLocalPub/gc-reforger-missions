@@ -1,0 +1,27 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 8050.367 0 7905.163
+  m_sTitle "Summary"
+  m_sTextData "British SAS troops drop deep into Russian terrortoriy to cause havoc and disruption to shape the battlefield for a future operation."\
+  "Will they succeed in their objectives and extract or be left as nameless graves."\
+  ""
+  m_bEmptyFactionVisibility 1
+ }
+ MN {
+  coords 8050.367 0 7905.163
+  m_sTitle "Mission notes"
+  m_sTextData "<h2>END CONDITIONDSs</h2>"\
+  "<b>BLUFOR:</b>"\
+  "• Destroy 100% of the separatist force."\
+  ""\
+  "<b>OPFOR:</b>"\
+  "• Destroy 90% of the Russian force causing them to withdraw."\
+  ""\
+  "<h2>NOTES</h2>"\
+  "• Setup timer: Russian Federation (RU) = 4mins"\
+  "• JIP: Deny - There is no TP option to your squad."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+}

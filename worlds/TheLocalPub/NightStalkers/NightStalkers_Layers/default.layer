@@ -1,0 +1,45 @@
+SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
+ coords 8118.625 96.883 7988.104
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 8083.134 90.588 7997.015
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A3F603AF777F8A0}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 5
+    }
+   }
+   m_bRandomWeatherChanges 1
+   m_bUseSpecifiedDate 1
+   m_iSetDay 4
+   m_iSetMonth 11
+   m_iSetYear 2020
+  }
+ }
+ coords 8180.327 91.924 7963.406
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 8087.474 96.189 7957.294
+ m_missionEvents {
+  TILW_MissionEvent "{6A3F603A1C0AE0A6}" {
+   m_name "DeleteRedLights"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{6A3F603A15C0EFF0}" {
+     m_executionDelay 8.9
+     m_entityNames {
+      "RedLight1"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A3F603A17C2A9B9}" {
+    m_invertTerm 1
+   }
+  }
+ }
+}

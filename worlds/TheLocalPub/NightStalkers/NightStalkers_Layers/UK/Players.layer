@@ -1,0 +1,26 @@
+$grp SCR_AIGroup : "{47C0A7C6C012B05B}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/Group_UK_2024_SAS_Team.et" {
+ UK_1SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 6768.079 1500.715 5742.034
+  angles 0 -148.655 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1 SECTION"
+  m_bSetPlayable 1
+ }
+ UK_2SEC {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 6769.642 1500.723 5741.081
+  angles 0 -148.655 0
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "2 SECTION"
+  m_bSetPlayable 1
+ }
+}
