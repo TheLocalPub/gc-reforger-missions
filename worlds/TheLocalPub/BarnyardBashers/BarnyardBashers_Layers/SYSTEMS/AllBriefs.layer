@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission notes"
   m_sTextData "<h2>End conditions</h2>  "\
   "<b>UK:</b>"\
-  "- Sweep and secure all three locations."\
+  "- Sweep objectives Dog+Cat and secure objective bird by clearing and holding."\
   ""\
   "<b>IRA victory:</b>"\
   "- Destroy 85% of UK forces."\

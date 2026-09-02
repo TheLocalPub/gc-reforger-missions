@@ -1,16 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- IRA_Spawn {
-  coords 2651.464 181.813 6687.609
-  angles 0 90 0
-  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sQuadName "motorized"
-  m_fWorldSize 60
-  m_sDescription "IRA stagin area"
-  m_aVisibleForFactions {
-   "GC_IRA"
-  }
- }
  IRA_PKM {
   coords 3134.699 215.452 7594.525
   angles 0 -29.903 0
@@ -44,7 +32,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.024 0.44 0 1
   m_sQuadName "defend-2"
   m_fWorldSize 70
-  m_sDescription "Contest barn yard (Acceptable lose)"
+  m_sDescription "Contest the barn yard (Acceptable lose)"
   m_aVisibleForFactions {
    "GC_IRA"
   }
@@ -56,7 +44,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.024 0.44 0 1
   m_sQuadName "defend-2"
   m_fWorldSize 70
-  m_sDescription "Contest barn yard (Acceptable lose)"
+  m_sDescription "Contest ther barn yard (Acceptable lose)"
   m_aVisibleForFactions {
    "GC_IRA"
   }
