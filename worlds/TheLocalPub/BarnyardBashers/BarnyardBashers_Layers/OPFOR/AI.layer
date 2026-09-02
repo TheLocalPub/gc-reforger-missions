@@ -76,6 +76,23 @@ $grp SCR_AIGroup : "{AD4CFD71DC37897F}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_AT
   }
   m_bPlayable 0
  }
+ IRA_AI_ATSQD4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 3125.368 209.279 6605.826
+  angles 0 163.58 0
+  m_aUnitPrefabSlots {
+   "{C00463049DDCA7A7}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AT.et"
+   "{E7EEB0ADDDC83290}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_ATA.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D2"
+  }
+  m_bPlayable 0
+ }
 }
 SCR_AIGroup IRA_AI_PHQ1 : "{E07F0AF2AA97C15E}Prefabs/Groups/OPFOR/GC_IRA/Group_IRA_PHQ.et" {
  coords 3262.862 210.384 7520.323
@@ -144,6 +161,59 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_Ri
   }
   m_aStaticWaypoints {
    "WP_D6"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3016.349 208.765 6690.2
+  angles 0 99.127 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D2"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2980.87 209.758 7223.061
+  angles 0 99.127 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D4"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2613.501 165.028 6548.59
+  angles 0 -144.55 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_D2"
   }
   m_bPlayable 0
  }
