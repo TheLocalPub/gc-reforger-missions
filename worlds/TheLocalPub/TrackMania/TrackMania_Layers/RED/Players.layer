@@ -22,10 +22,11 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 -57.396 0
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{604AC0DBDB600795}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedPitBoss_Pub.et"
-   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
-   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
+   "{604AC0DBDB600795}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedPitBoss_Pub.et"
+   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
+   "{7EA262A32EECD848}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedCrew_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Pit Team"
   m_bSetPlayable 1
  }
@@ -51,9 +52,10 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 122.604 0
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{27CF061E2C7FA42D}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedDriver_Pub.et"
-   "{E838DF7B07545FF6}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedBackupDriver_Pub.et"
+   "{27CF061E2C7FA42D}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedDriver_Pub.et"
+   "{E838DF7B07545FF6}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedBackupDriver_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Drivers"
   m_bSetPlayable 1
  }

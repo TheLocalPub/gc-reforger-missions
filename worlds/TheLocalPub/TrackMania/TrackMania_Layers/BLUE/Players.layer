@@ -16,10 +16,11 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   coords 5907.054 59.5 4195.337
   angles 0 -57.396 0
   m_aUnitPrefabSlots {
-   "{B8A001D9FEDC43AC}worlds/TheLocalPub/TrackMania/Characters/Factions/BLUFOR/Character_BluePitBoss_Pub.et"
-   "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
-   "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
+   "{B8A001D9FEDC43AC}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BluePitBoss_Pub.et"
+   "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
+   "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Pit Team"
   m_bSetPlayable 1
  }
@@ -39,9 +40,10 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   coords 5906.114 59.5 4199.651
   angles 0 121.064 0
   m_aUnitPrefabSlots {
-   "{7567FC0115C700AC}worlds/TheLocalPub/TrackMania/Characters/Factions/BLUFOR/Character_BlueDriver_Pub.et"
-   "{B3699F48672C800F}worlds/TheLocalPub/TrackMania/Characters/Factions/BLUFOR/Character_BlueBackupDriver_Pub.et"
+   "{7567FC0115C700AC}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueDriver_Pub.et"
+   "{B3699F48672C800F}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueBackupDriver_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Drivers"
   m_bSetPlayable 1
  }

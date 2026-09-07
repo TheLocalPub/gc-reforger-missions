@@ -20,6 +20,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
  {
@@ -40,6 +42,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{FD144F89B1F36EF7}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Doctor_Pub.et"
    "{B56D0B67059476E6}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Vendor_Pub.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Track Staff"
   m_bSetPlayable 1
  }
@@ -64,6 +68,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
  {
@@ -87,6 +93,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
  {
@@ -110,6 +118,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
  {
@@ -133,6 +143,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
  {
@@ -156,6 +168,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
    "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
+  m_bPlayable 0
+  m_bDeleteIfNoPlayer 0
   m_bSetPlayable 1
  }
 }

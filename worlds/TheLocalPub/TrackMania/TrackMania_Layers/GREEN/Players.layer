@@ -22,10 +22,11 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 -57.396 0
   m_faction "FIA"
   m_aUnitPrefabSlots {
-   "{22534F8998602F49}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenPitBoss_Pub.et"
-   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
-   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
+   "{22534F8998602F49}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenPitBoss_Pub.et"
+   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
+   "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Pit Team"
   m_bSetPlayable 1
  }
@@ -51,9 +52,10 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 122.604 0
   m_faction "FIA"
   m_aUnitPrefabSlots {
-   "{E1D9128E3C490FAF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenDriver_Pub.et"
-   "{9DDE613DA20FB5F0}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenBackupDriver_Pub.et"
+   "{E1D9128E3C490FAF}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenDriver_Pub.et"
+   "{9DDE613DA20FB5F0}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenBackupDriver_Pub.et"
   }
+  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Drivers"
   m_bSetPlayable 1
  }
