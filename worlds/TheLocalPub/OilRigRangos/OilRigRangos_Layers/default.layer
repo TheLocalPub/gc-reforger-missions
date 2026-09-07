@@ -38,6 +38,12 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
       "ECO"
      }
     }
+    TILW_DeleteOpenSlotsInstruction "{6A3F404487D7E9DC}" {
+     m_executionDelay 1
+     m_factionKeys {
+      "CIV"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{673CF9920095FB4B}" {
     m_invertTerm 1
@@ -65,6 +71,12 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
     TILW_ClearFlagInstruction "{668D069A483477A1}" {
      m_executionDelay 0.1
      m_flagName "Hostage>"
+    }
+    TILW_DeactivateEventsInstruction "{6A3F2998DD547CA9}" {
+     m_executionDelay 0.1
+     m_eventNames {
+      "UKMajVic"
+     }
     }
    }
    m_condition TILW_LiteralTerm "{668D069A42982172}" {
@@ -320,6 +332,10 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
    m_flagName "ECODead"
    m_factionKey "ECO"
    m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{6A3F29994E8EAEFE}" {
+   m_flagName "Hostage<"
+   m_factionKey "CIV"
   }
  }
 }

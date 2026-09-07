@@ -35,13 +35,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "As part of these exercises, today simulates an infantry attack on a compound with motorized support in the form of 2x humvees armed with M2 machine guns. The Americans will be attacking in platoon strength, the British defending with 2x reduced sections and a HQ element."
   m_aVisibleForFactions {
-   "UK" "US"
+   "UK"
+   "US"
   }
  }
  {
   coords 570.992 106.62 774.567
   m_sTitle "II. Mission"
-  m_sTextData "Assault the marked compound and capture it for 2 minutes, or eliminate 90% of British defenders. Complete this within 30 minutes after setup."
+  m_sTextData "<h2>MISSION STATEMENT</h2>"\
+  "Assault the marked compound and capture it for 2 minutes, or eliminate 90% of British defenders. Complete this within 30 minutes after setup."\
+  ""\
+  "<h2>FRIENDLY FORCES</h2>"\
+  "• 2x 50cal soft skin humvees"\
+  "• Each humvee has 2x portable ladders and extra ammo."
   m_aVisibleForFactions {
    "US"
   }

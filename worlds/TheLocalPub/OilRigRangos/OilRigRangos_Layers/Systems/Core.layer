@@ -72,20 +72,15 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
    ""
    "The %1 have been spotted in the %2."
    "The %1 are no longer defusing the bomb."
-   "The %1 has lost control of %2."
-   "The %1 is losing control of %2."
-   "The %1 is no longer losing control of %2."
+   ""
+   ""
+   ""
   }
   m_locationName "bomb site"
   m_flagName "BombCaptured"
   m_eventsOnlyDuringGame 0
-  m_stopAfterFirstChange 1
   m_drawShapeSurface 0
   m_drawShapeOutline 0
-  m_playersOnly 1
-  m_ignoredFactions {
-   "ECO"
-  }
   m_ownerFactionKey "UK"
  }
  CivChecker {

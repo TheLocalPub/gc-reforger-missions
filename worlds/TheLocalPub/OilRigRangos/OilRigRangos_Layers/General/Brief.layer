@@ -22,16 +22,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<h2>END CONDITIONS</h2>"\
   "<b>UK:</b>  "\
-  "• <b>Major Victory</b> – Defuse the bomb, eliminate 90% of ECO forces, and ensure at least 50% of the hostages remain alive by the time 90% of ECO are neutralized.  "\
-  "• <b>Minor Victory</b> – Defuse the bomb and eliminate 90% of ECO forces, but 50% of the hostages are dead by the time ECO is neutralized.  "\
-  "• <b>Pyrrhic Victory</b> – The bomb is defused, but at least 87% of UK forces are killed in the process."\
+  "• <b>Major Victory</b> – Defuse the bomb, eliminate 90% of ECO forces, and rescue ALL player hostages. (AI/open slots will be deleted)"\
+  "• <b>Minor Victory</b> – Defuse the bomb, eliminate 90% of ECO forces, but player hostages died."\
+  "• <b>Pyrrhic Victory</b> – The bomb is defused, but at least 87% of UK forces are killed in the process of clearing ECO team."\
+  "• <b>Failure</b> – The bomb remains armed and 87% of UK forces are killed."\
   ""\
   "<b>ECO:</b>  "\
   "• <b>Major Victory</b> – Successfully defend the bomb for 35 minutes, allowing it to detonate and destroy the rig, killing everyone onboard.  "\
   "<b>OR</b>  "\
   "Eliminate 87% of UK ground troops, allowing the bomb to detonate uncontested.  "\
-  ""\
   "• <b>Minor Victory</b> – The bomb is defused, but ECO successfully kills 87% of UK forces, allowing ECO to escape and potentially strike again."\
+  "• <b>Failure</b> – ECO sustains 90% casualties."\
   ""\
   "<h2>MISC</h2>"\
   "• RATIO: 2.7 : 1 : 0.4 — UK : ECO : CIV  "\
@@ -57,24 +58,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "(In testing at maximum graphics settings, performance remained above 45 FPS in the central area at night.)"\
   ""\
   "If performance becomes unplayable, a Game Master may adjust the time of day or weather conditions to something similar but less demanding. Use discretion when making such changes."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
-  m_iOrder 6
- }
- CL {
-  coords 3818.963 0 11762.15
-  m_sTitle "Changelog"
-  m_sTextData "V4"\
-  "Added: "\
-  "• BLUFOR drone operator"\
-  "• New pictures of the rig with northern headings added"\
-  "• Picture of the bomb"\
-  ""\
-  "Fixed:"\
-  "• OPFOR marksman missing weapon and low ammo"\
-  ""\
-  "Updated:"\
-  "• All briefing have had a pass to better refine them and add HTML formatting and styles."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 6

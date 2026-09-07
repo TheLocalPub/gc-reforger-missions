@@ -66,7 +66,7 @@ $grp SCR_AIGroup : "{464268B2BFA7FE84}Prefabs/Groups/BLUFOR/US/Marines/2020/Mari
   angles 0 -131.28 0
   m_aUnitPrefabSlots {
    "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewCO.et"
-   "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Crew.et"
+   "{6148D38EECC34565}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewDriver.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "1st Stryker"
@@ -85,8 +85,8 @@ $grp SCR_AIGroup : "{464268B2BFA7FE84}Prefabs/Groups/BLUFOR/US/Marines/2020/Mari
   coords 4488.094 54.031 4348.228
   angles 0 -126.406 0
   m_aUnitPrefabSlots {
-   "{F4A5D8E2672E8D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewCO.et"
-   "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Crew.et"
+   "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewGunner.et"
+   "{6148D38EECC34565}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewDriver.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "2nd Stryker"

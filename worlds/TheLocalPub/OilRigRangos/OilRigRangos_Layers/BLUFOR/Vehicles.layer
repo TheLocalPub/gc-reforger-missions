@@ -11,7 +11,63 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{673CF999704BE244}" {
       SlotTemplate EquipmentStorageSlot parachutes {
-       Prefab "{DB1A767F2E5EDDAA}worlds/TheLocalPub/OilRigRangos/Prefabs/Items/Equipment/Backpacks/Backpack_Parachute_Rush511Black.et"
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{673CF9BEF783C3E2}" {
+      SlotTemplate EquipmentStorageSlot parachutes {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6A3F299156BA4BDA}" {
+      SlotTemplate EquipmentStorageSlot Drone {
+       Prefab "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{6A3F2991BDE1D092}" {
+      SlotTemplate EquipmentStorageSlot Drone {
+       Prefab "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
+   }
+  }
+  coords 4903.505 28.594 11757.662
+  angles 0 -135 0
+ }
+ Parachutebox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 10000
+    MultiSlots {
+     MultiSlotConfiguration "{673CF999704BE244}" {
+      SlotTemplate EquipmentStorageSlot parachutes {
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6A3F248F22FAB9ED}" {
+      SlotTemplate EquipmentStorageSlot parachutes {
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
       }
       NumSlots 30
      }
@@ -28,44 +84,7 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
     }
    }
   }
-  coords 4858.842 1506.191 1720.648
- }
- {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    UseCapacityCoefficient 0
-    MaxCumulativeVolume 10000
-    MultiSlots {
-     MultiSlotConfiguration "{673CF999704BE244}" {
-      SlotTemplate EquipmentStorageSlot parachutes {
-       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{673CF9BEF783C3E2}" {
-      SlotTemplate EquipmentStorageSlot parachutes {
-       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
-      }
-      NumSlots 5
-     }
-    }
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-    ActionContexts {
-     UserActionContext "{5476B36C47B0461A}" {
-      Position PointInfo "{5476B36C45ADDA89}" {
-       Offset 0 0.8 0
-      }
-     }
-    }
-   }
-  }
-  coords 4889.195 28.594 11758.848
+  coords 4902.475 28.593 11763.146
  }
 }
 $grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
@@ -491,7 +510,4 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
   coords 2668.886 0 1852.657
   angles 0 -113.901 0
  }
-}
-GenericEntity : "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et" {
- coords 4860.855 1506.192 1716.801
 }

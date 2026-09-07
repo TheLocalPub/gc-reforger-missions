@@ -317,7 +317,7 @@ DecalEntity : "{2840BA559B15F6F2}Prefabs/Decals/Fluids/Decal_PetrolStain_01_V3.e
  scale 3
  TerrainOnly 0
 }
-SCR_DestructibleEntity : "{286AE63DFE8B2CE8}Prefabs/Models/tem_trashbin_small_green.et" {
+GenericEntity : "{286AE63DFE8B2CE8}Prefabs/Models/tem_trashbin_small_green.et" {
  coords 4885.02 27.032 1702.77
  angles -10.291 0 0
 }
@@ -776,6 +776,11 @@ $grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Indu
  }
 }
 SCR_DestructibleBuildingEntity : "{42959A29753486F5}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/WaterStation_01_Uncovered.et" {
+ components {
+  MapDescriptorComponent "{59828E883E512F8C}" {
+   Enabled 0
+  }
+ }
  coords 4903.069 78.669 1710.799
  angles 0 -90.493 0
 }
@@ -1454,10 +1459,18 @@ GenericEntity : "{5BD7E085DFB4DB35}Prefabs/Compositions/Misc/SubCompositions/Cra
  coords 4831.723 35.424 1741.506
  angles 0 44.544 0
 }
-StaticModelEntity : "{5C9F32A26A42876F}Prefabs/Structures/Infrastructure/Towers/AntennaVOR_01/AntennaVOR_01.et" {
+SCR_DestructibleBuildingEntity : "{5C9F32A26A42876F}Prefabs/Structures/Infrastructure/Towers/AntennaVOR_01/AntennaVOR_01.et" {
  components {
   SCR_DestructibleBuildingComponent "{5DA867E849DEBBE1}" {
-   CollisionVelocityThreshold 10000
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     "Collision multiplier" 0
+    }
+   }
+   CollisionVelocityThreshold 9999999827968
+  }
+  SCR_MapDescriptorComponent "{59F4D7DB68FE9898}" {
+   Enabled 0
   }
  }
  coords 4903.882 46.791 1669.106
@@ -1707,7 +1720,7 @@ $grp StaticModelEntity : "{65F8670B922F715B}Prefabs/Structures/BuildingParts/Doo
   angles 0 -90 0
  }
 }
-$grp SCR_DestructibleEntity : "{66B1DEF127807671}Prefabs/Models/tem_trashbin_big_green.et" {
+$grp GenericEntity : "{66B1DEF127807671}Prefabs/Models/tem_trashbin_big_green.et" {
  {
   coords 4885.229 27.055 1703.814
   angles 0 128.625 0
@@ -1924,27 +1937,14 @@ GenericEntity : "{7E08142AFFDE045E}Prefabs/Props/Furniture/CabinetMetal_02.et" {
 }
 StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
  components {
-  SCR_DestructibleBuildingComponent "{5DA867E87730C280}" {
-   Enabled 1
-  }
   SCR_MapDescriptorComponent "{59F4D7DB7F2C40FE}" {
    Enabled 0
   }
-  ScriptedRadioComponent "{5CB8819ABF076BA3}" {
-   Enabled 0
-  }
   ActionsManagerComponent "{591AD559E46E5F5F}" {
-   ActionContexts {
-    UserActionContext "{5916A63C9CED0D8A}" {
-     Position PointInfo "{5916A63CE468E545}" {
-      Offset 0.1041 0.4 0.0505
-     }
-    }
-   }
+   Enabled 0
   }
  }
  coords 4855.875 27.021 1721.707
- angles 0 -180 0
  scale 2.9
 }
 GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
@@ -2051,8 +2051,19 @@ GenericEntity : "{857129D4842B1124}Prefabs/Structures/Industrial/Houses/Portable
  angles 0 89.008 0
 }
 SCR_DestructibleBuildingEntity : "{860C39850EF0755E}Prefabs/Structures/Infrastructure/Waterworks/WaterTower_02/WaterTower_USSR_02_tall.et" {
+ components {
+  MapDescriptorComponent "{668E8DD8C09DDE4D}" {
+   Enabled 0
+  }
+ }
  coords 4832.138 82.872 1720.583
  angles 0 1.677 0
+ {
+  GenericEntity {
+   ID "64E6E5D255412EA6"
+   coords 0 21.718 -1.7
+  }
+ }
 }
 GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
  coords 4821.06 27.415 1754.182
@@ -2140,7 +2151,7 @@ SCR_DestructibleBuildingEntity : "{8C2E9411E2F50460}Prefabs/Structures/Infrastru
  coords 4895.287 74.63 1728.871
  angles 0 -90.518 0
 }
-SCR_DestructibleEntity : "{8CB2F550EA1F036D}Prefabs/Models/tem_trashbin_big_red.et" {
+GenericEntity : "{8CB2F550EA1F036D}Prefabs/Models/tem_trashbin_big_red.et" {
  coords 4858.725 27.002 1681.967
  angles 0 0 0
 }
@@ -2149,6 +2160,11 @@ GenericEntity : "{8DDA73869B957E58}Prefabs/Structures/Civilian/MessageBoard/Fill
  angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{8DF7F603987CC4A7}Prefabs/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_main.et" {
+ components {
+  SCR_MapDescriptorComponent "{55828654F8A4BE03}" {
+   Enabled 0
+  }
+ }
  coords 4900.941 32.122 1694.923
  angles 0 -0.452 0
 }
@@ -2281,6 +2297,11 @@ $grp SCR_DestructibleEntity : "{9CA110B63D806EC4}Prefabs/Structures/Infrastructu
  }
 }
 SCR_DestructibleBuildingEntity : "{9E1B1BC411CE2CBC}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_medical_base.et" {
+ components {
+  MapDescriptorComponent "{668E73F9EA6E91BC}" {
+   Enabled 0
+  }
+ }
  coords 4827.102 88.72 1685.746
  angles 0 -89.598 0
 }
@@ -2316,6 +2337,11 @@ $grp SCR_DestructibleBuildingEntity : "{A42182DF49D50A3B}Prefabs/Structures/Indu
  }
 }
 SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
+ components {
+  SCR_MapDescriptorComponent "{552ACD2A7B67C2DC}" {
+   Enabled 0
+  }
+ }
  coords 4907.623 79.196 1710.855
  angles 0 -0.2 0
 }
@@ -2914,7 +2940,13 @@ $grp GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_
 GenericEntity : "{DB968E267E913B7A}Prefabs/Structures/Signs/Warnings/SignsWarning_Circle_01_base.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-   CollisionVelocityThreshold 10000
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     "Collision multiplier" 0
+    }
+   }
+   CollisionVelocityThreshold 99999997952
   }
  }
  coords 4903.883 51.954 1669.076
@@ -3058,6 +3090,20 @@ GenericEntity : "{EF08CE3813C6BB6E}Prefabs/Compositions/Misc/SubCompositions/Cra
  coords 4829.763 35.428 1754.508
  angles 0 -42.689 0
 }
+$grp GenericEntity : "{F09518802063A355}Prefabs/Items/Equipment/DroneAntenna/DroneAntenna.et" {
+ {
+  coords 5797.017 1.75 3565.89
+ }
+ {
+  coords 2699.433 0.731 1871.053
+ }
+ {
+  coords 7731.067 0.2 636.926
+ }
+ {
+  coords 4861.818 1506.191 1720.823
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{F0E03780C850866F}Prefabs/Structures/Commercial/PosterColumn_01.et" {
  {
   coords 4895.972 77.255 1718.268
@@ -3117,7 +3163,7 @@ GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_milit
  coords 4814.472 27.752 1734.888
  angles 0 0 87.758
 }
-SCR_DestructibleEntity : "{F5326597B576DCC2}Prefabs/Models/tem_trashbin_big_blue.et" {
+GenericEntity : "{F5326597B576DCC2}Prefabs/Models/tem_trashbin_big_blue.et" {
  coords 4856.666 27.018 1683.712
  angles 0 112.906 0
 }

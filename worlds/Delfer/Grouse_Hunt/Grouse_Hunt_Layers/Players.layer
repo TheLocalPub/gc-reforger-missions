@@ -44,16 +44,7 @@ SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st Airbor
  coords 4590.388 151.114 6754.694
  angles -4.921 145.485 2.296
  m_aUnitPrefabSlots {
-  ""
-  ""
   "{8426E83786EC8E1E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Pilot_P.et"
-  ""
-  ""
-  ""
-  ""
-  ""
-  ""
-  ""
  }
  m_sCustomNameSet "Pilot"
 }

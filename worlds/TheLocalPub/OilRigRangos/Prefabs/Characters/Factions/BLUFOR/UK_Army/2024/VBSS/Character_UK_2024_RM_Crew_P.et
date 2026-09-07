@@ -35,13 +35,13 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab ""
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7FEB846CECE5F943}Prefabs/Characters/Uniforms/US_Pilot_Suit/PilotSuit_Mk16_Green.et"
+     Prefab "{0EE94404A7B2657F}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_UK_01.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{E8D5B9D3C195E74D}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_01.et"
+     Prefab "{7AD445F5ACAAC7F1}Prefabs/Characters/Vests/Body_Armour/Vest_Virtus_STV/Variants/Vest_Virtus_STV_Rifleman_01.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
@@ -54,13 +54,10 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {
-     TargetStorage "Pants/PilotSuit_Mk16_Green.et"
+     TargetStorage "Pants/Suit_Pilot_UK_01.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
      }
-    }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Pants/PilotSuit_Mk16_Green.et"
     }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Back/Vest_Virtus_STV_Rifleman_01.et/UtilityPouch1/Pouch_Spiritus_BackPanelUtility_Slim1_MC.et"
@@ -95,6 +92,9 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
      PrefabsToSpawn {
      }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Pants/PilotSuit_Mk16_Green.et"
     }
     ItemsInitConfigurationItem "{664E9292C184E8C4}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"

@@ -132,6 +132,9 @@ Vehicle _Series_LWB_Transport1 : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_
    m_lockPilot 1
    m_lockTurret 1
    m_lockCargo 1
+   m_factionLock {
+    "FIA"
+   }
   }
   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
    MultiSlots {
@@ -154,6 +157,9 @@ Vehicle _Series_SWB_Transport1 : "{EDEAE951AFF2A836}Prefabs/Vehicles/Wheeled/LR_
    m_lockPilot 1
    m_lockTurret 1
    m_lockCargo 1
+   m_factionLock {
+    "FIA"
+   }
   }
   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
    MultiSlots {

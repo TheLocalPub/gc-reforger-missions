@@ -51,7 +51,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Friendly forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
   "We are the British 42 Commando raiding troop."\
-  "Total strength is 31 personnel, including pilots and aircrew, giving us 28 ground troops."\
+  "Total strength is 32 personnel, including pilots and aircrew, giving us 29 ground troops."\
   "Our current location is the airfield at GRID: 048117."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
@@ -63,14 +63,24 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• C: Deploy via steerable parachutes. Interact with the flagpole to teleport to a platform 1500m above the rig. Parachutes are available at the platform."\
   "• D: A combination of any of the above methods."\
   ""\
-  "Sappers are equipped with small demolition charges and wire cutters should the situation require their use."\
+  "• Mavic drone operator for reconnaissance"\
+  "• Sappers are equipped with small demolition charges and wire cutters should the situation require their use."\
   ""\
   "<h2>SERVICE AND SUPPORT</h2>"\
-  "• Two GPMG-armed UH-1H helicopters are available at the staging location."\
-  "There are 16 spare troop seats available in total, with aircrew already accounted for."\
-  "• Each dock contains 3x .50cal RHIBs, each capable of carrying 9 personnel."\
+  "• Two GPMG-armed UH-1H helicopters are available at the staging location - 16 spare seats for troops."\
+  "• Each dock contains 3x .50cal RHIBs, capable of carrying 9 personnel."\
   "Note that the elevation on the mounted guns may not be sufficient to engage targets on the upper levels of the rig once in close proximity."\
-  "• A supply crate at spawn contains extendable ladders and handheld periscopes."
+  "• A supply crate at spawn contains our Mavic drones + batteries, extendable ladders, and handheld periscopes"\
+  "- There are drone antennas at each TP location to extend the range."\
+  ""\
+  "<h2>PARACHUTE MANUAL</h2>"\
+  "1. Equip the parachute and jump bag."\
+  "2. Transfer your equipment into the jump bag. The transfer time will increase depending on how much equipment you are carrying."\
+  "3. Press the space bar once while falling to deploy the parachute. There is no freefall control; you will descend in a straight line until the parachute is deployed."\
+  "4. Once deployed, use the WASD keys to control the parachute. Parachutes deploy almost instantly, allowing for very low-altitude deployment. Descent speed is affected by wind conditions."\
+  "5. <b>SLOW DOWN</b> before hitting the ground."\
+  "6. Drop your parachute once you have landed."\
+  "• You can press <b>X</b> to cut away your parachute. There is no reserve chute."
   m_aVisibleForFactions {
    "UK"
   }
@@ -108,21 +118,23 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4175.525 0 11803.824
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT</h2>"\
-  "Our mission is to conduct a DELIBERATE RAID on the TEM POWER oil rig in order to DESTROY the hostile forces onboard, SECURE any hostages, and DEFUSE the bomb which ECO militants claim will detonate in approximately 35 minutes."\
+  "Our mission is to conduct a <b>DELIBERATE RAID</b> on the TEM POWER oil rig in order to <b>DESTROY</b> the hostile forces onboard, <b>SECURE</b> any hostages, and <b>DEFUSE</b> a bomb which ECO militants claim will detonate in approximately 35 minutes."\
   ""\
   "<h2>OBJECTIVES</h2>"\
   "This is a complex and confined environment. Careful selection of entry points, coordinated timing, and clear communication will be critical to mission success."\
   ""\
-  "<b>PRIMARY:</b> Defuse the bomb planted on the rig."\
-  "Crew members who escaped reported seeing a large bomb looking device being carried into the central compound on the ground floor, located at the base of the main tower."\
-  "CCTV has confirmed the presence of this object, matching witness descriptions."\
+  "<b>PRIMARY:</b> Locate, secure, and defuse the bomb planted on the rig."\
   ""\
-  "Our sappers assess that if we can secure and hold the compound for several minutes — approximately five — they will have a strong chance of successfully defusing the device."\
+  "Crew members who escaped reported seeing a large bomb-like device being carried into the central compound on the ground floor, located at the base of the main tower."\
+  ""\
+  "CCTV has since confirmed the presence of an object matching the witness descriptions."\
+  "Our sappers have assessed the device by observation and estimate that it will take approximately three minutes to defuse. If we can secure and hold the fenced compound containing the bomb for this duration, we have a strong chance of successfully defusing it."\
   ""\
   "<b>SECONDARY:</b> Neutralize the hostile ECO presence on the rig by any necessary means."\
   ""\
-  "<b>OPTIONAL:</b> Recover the 5 missing crew members believed to be held hostage somewhere on the platform."\
-  "While their safety is important, the priority remains preventing the destruction of the rig and the wider threat this poses."
+  "<b>OPTIONAL:</b> Locate and recover the missing crew members believed to be held hostage somewhere on the platform."\
+  ""\
+  "While the hostages are important, preventing the destruction of the rig and eliminating the wider threat remain our primary concerns."
   m_aVisibleForFactions {
    "UK"
   }

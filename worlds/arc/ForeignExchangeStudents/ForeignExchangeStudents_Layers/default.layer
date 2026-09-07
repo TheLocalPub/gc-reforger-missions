@@ -4,7 +4,7 @@ SCR_AIWorld : "{F98AD67976545756}Prefabs/SCR_AIWorld_Longmoor.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1178.43 104.368 865.695
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_bUsePredefineStartingTimeAndWeather 1
@@ -20,7 +20,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  coords 1160.369 104.169 855.545
  m_iFreezeTime 180000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "6A2E878F88C5AE7F" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -64,7 +64,10 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1742.752 126.383 227.428
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 1085.602 106.629 698.088
  m_queryRadius 28
  m_captureTime 120
@@ -156,17 +159,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
 }
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
-  coords 1089.997 107.693 694.579
-  m_fWarnRadius 280
-  m_fZoneRadius 300
-  m_fZoneTeleportedRadius 320
- }
- {
-  coords 1776.662 125.867 174.472
-  m_fWarnRadius 100
-  m_fZoneRadius 125
-  m_fZoneTeleportedRadius 135
- }
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1089.997 107.693 694.579
+ m_fWarnRadius 280
+ m_fZoneRadius 300
+ m_fZoneTeleportedRadius 320
 }
