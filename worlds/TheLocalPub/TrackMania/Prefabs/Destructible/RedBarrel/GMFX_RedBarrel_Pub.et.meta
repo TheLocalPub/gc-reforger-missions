@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FF0E1509EB62E5E1}Prefabs/Destructible/RedBarrel/GMFX_RedBarrel_Pub.et"
+ Name "{FF0E1509EB62E5E1}worlds/TheLocalPub/TrackMania/Prefabs/Destructible/RedBarrel/GMFX_RedBarrel_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

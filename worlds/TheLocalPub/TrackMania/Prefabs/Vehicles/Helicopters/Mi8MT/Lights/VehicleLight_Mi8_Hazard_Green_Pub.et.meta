@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CB514C8448F55D88}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Red_Pub.et"
+ Name "{CB514C8448F55D88}worlds/TheLocalPub/TrackMania/Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8_Hazard_Green_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

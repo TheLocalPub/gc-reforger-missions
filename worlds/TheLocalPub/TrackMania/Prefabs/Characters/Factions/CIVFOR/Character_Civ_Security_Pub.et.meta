@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_Civ_Security.et"
+ Name "{69A18C80DE2BE056}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/CIVFOR/Character_Civ_Security_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

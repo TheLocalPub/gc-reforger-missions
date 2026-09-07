@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E838DF7B07545FF6}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_RedBackupDriver_Pub.et"
+ Name "{E838DF7B07545FF6}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/OPFOR/Character_RedBackupDriver_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

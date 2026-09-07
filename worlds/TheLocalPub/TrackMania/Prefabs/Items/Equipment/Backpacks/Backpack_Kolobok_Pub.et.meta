@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F553B31A9F7ADD7D}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Pub.et"
+ Name "{F553B31A9F7ADD7D}worlds/TheLocalPub/TrackMania/Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

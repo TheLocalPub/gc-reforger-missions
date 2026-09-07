@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7567FC0115C700AC}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_BlueDriver_Pub.et"
+ Name "{7567FC0115C700AC}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueDriver_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
