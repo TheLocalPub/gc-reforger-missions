@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
+ Name "{8538F8240C391BBF}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenCrew_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

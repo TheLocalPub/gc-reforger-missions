@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{22534F8998602F49}worlds/TheLocalPub/TrackMania/Characters/Factions/OPFOR/Character_GreenPitBoss_Pub.et"
+ Name "{22534F8998602F49}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/INDFOR/Character_GreenPitBoss_Pub.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

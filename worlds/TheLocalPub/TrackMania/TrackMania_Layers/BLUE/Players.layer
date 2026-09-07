@@ -20,7 +20,6 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
    "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
    "{B8A001D9FEDC43AD}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueCrew_Pub.et"
   }
-  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Pit Team"
   m_bSetPlayable 1
  }
@@ -43,7 +42,6 @@ $grp SCR_AIGroup : "{9A11CF6CBEEB3CBB}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
    "{7567FC0115C700AC}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueDriver_Pub.et"
    "{B3699F48672C800F}worlds/TheLocalPub/TrackMania/Prefabs/Characters/Factions/BLUFOR/Character_BlueBackupDriver_Pub.et"
   }
-  m_bDeleteIfNoPlayer 0
   m_sCustomNameSet "Drivers"
   m_bSetPlayable 1
  }

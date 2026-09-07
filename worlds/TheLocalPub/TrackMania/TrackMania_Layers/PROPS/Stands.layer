@@ -223,7 +223,7 @@ GenericEntity : "{6B927CA5EF25340C}Prefabs/Models/tem_Soda_Machine.et" {
  angles 0 -145.916 0
 }
 SCR_DestructibleBuildingEntity : "{792D5A76DBAB523F}Prefabs/Models/tem_ruhangrilli.et" {
- coords 6038.981 -0 4334.898
+ coords 6038.981 0 4334.898
  angles 0 -125.96 0
 }
 GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {

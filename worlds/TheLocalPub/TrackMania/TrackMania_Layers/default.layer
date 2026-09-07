@@ -141,6 +141,21 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 70
      m_entityNames {
       "BLOCK1"
+      "BLOCK2"
+      "BLOCK3"
+      "BLOCK4"
+      "BLOCK5"
+      "BLOCK6"
+      "BLOCK7"
+      "BLOCK8"
+      "BLOCK9"
+      "BLOCK10"
+      "BLOCK11"
+      "BLOCK12"
+      "BLOCK13"
+      "BLOCK14"
+      "BLOCK15"
+      "BLOCK16"
      }
     }
    }
