@@ -1,0 +1,25 @@
+$grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ {
+  coords 4916.49 38.394 11607.4
+  angles 0 90 0
+  scale 50
+ }
+ {
+  coords 4916.49 38.394 11661.784
+  angles 0 0 0
+  scale 50
+ }
+ {
+  coords 4916.49 38.394 11553.284
+  angles 0 0 0
+  scale 50
+ }
+}
+GenericEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+ coords 4972.591 38.394 11675.213
+ angles 0 0 0
+}
+SCR_DestructibleBuildingEntity : "{8301E6DC8F0AEE90}Prefabs/Structures/Bulding/Shed/Shed_Ind02.et" {
+ coords 4896.779 28.594 11754.294
+ scale 50
+}

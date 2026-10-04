@@ -1,0 +1,54 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 3296.153 88.382 7898.768
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3295.969 86.31 7906.752
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 3300.584 89.405 7872.085
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -26.889 38.579 -2.478
+  }
+  SCR_FactionManager "6A88E33427B44C94" {
+   ID "5ED9088735FF2D8B"
+   coords 0 -0.002 -0.002
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     FactionColor 0.1119 0.1274 0.0513 1
+     UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+      Name "Olive"
+      Icon "{9EB1339C76C6B41E}UI/Textures/Editor/EditableEntities/Camo/rhs_camo_olive.edds"
+      m_sNameUpper "OLIVE"
+     }
+     m_OutlineFactionColor 0.05 0.056 0.024 1
+     m_NotificationFactionColor 0.112 0.127 0.051 1
+     m_NotificationTextFactionColor 0.112 0.127 0.051 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     FactionColor 0.4287 0.3231 0.1384 1
+     UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+      Name "Tan"
+      Icon "{FFB2B2D937F9DC9A}worlds/TheLocalPub/TableTopTroopers/Images/tan.edds"
+      m_sNameUpper "TAN"
+     }
+     m_OutlineFactionColor 0.212 0.161 0.071 1
+     m_NotificationFactionColor 0.429 0.323 0.138 1
+     m_NotificationTextFactionColor 0.429 0.323 0.138 1
+    }
+   }
+  }
+  ItemPreviewManagerEntity "6A88E33427B44C78" {
+   ID "5ED9088735FF2DD5"
+   coords -12.245 1 -7.528
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0
+  }
+ }
+}
+TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3295.865 84.627 7881.682
+}

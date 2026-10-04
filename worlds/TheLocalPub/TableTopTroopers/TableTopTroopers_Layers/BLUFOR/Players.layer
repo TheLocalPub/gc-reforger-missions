@@ -1,0 +1,6 @@
+SCR_ChimeraCharacter : "{4403BAAF3D1EE553}worlds/TheLocalPub/TableTopTroopers/Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Woodland)/Character_Green_Rifleman_Pub.et" {
+ coords 4898.245 83.348 11666.375
+}
+GameEntity : "{CA4047DC1AE4F9F3}worlds/TheLocalPub/TableTopTroopers/Prefabs/Characters/Heads/Head_Olive_Pub.et" {
+ coords 4896.169 83.348 11665.826
+}

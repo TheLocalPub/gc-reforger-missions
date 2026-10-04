@@ -1,0 +1,4 @@
+MatPBRSkinProfile {
+ TITemperature1 28
+ TITemperatureCoef1 1
+}
