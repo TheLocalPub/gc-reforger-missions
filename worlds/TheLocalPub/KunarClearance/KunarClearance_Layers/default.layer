@@ -1,0 +1,55 @@
+SCR_AIWorld : "{77C3151F7A6E588C}SCR_AIWorld_Kunar.et" {
+ coords 4877.958 294.958 2607.222
+ angles 0 0 0
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3295.969 86.31 7906.752
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 3300.584 89.405 7872.085
+ m_iFreezeTime 30000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6AAF0A9AACCEB646}" {
+   m_sFactionKey "US"
+   m_iCount 5
+   m_iTime 6
+  }
+  PS_FactionRespawnCount "{6AAF0A9A94B0793C}" {
+   m_sFactionKey "GC_MUJ"
+   m_iCount 10
+   m_iTime 300
+  }
+ }
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -26.889 38.579 -2.478
+  }
+  SCR_FactionManager "6AAF0A96A0EC4A1F" {
+   ID "5ED9088735FF2D8B"
+   coords 0 -0.002 -0.002
+   Factions {
+    SCR_Faction "{655D481EFA969864}" {
+    }
+   }
+  }
+  ItemPreviewManagerEntity "6AAF0A96A0EC4BE0" {
+   ID "5ED9088735FF2DD5"
+   coords -12.245 1 -7.528
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0
+  }
+ }
+}
+TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3295.865 84.627 7881.682
+ m_randomFlags {
+  TILW_FlagSampling "{6AAF0A9E8554392A}" {
+   m_flagNames {
+    "AFlag"
+   }
+  }
+ }
+}

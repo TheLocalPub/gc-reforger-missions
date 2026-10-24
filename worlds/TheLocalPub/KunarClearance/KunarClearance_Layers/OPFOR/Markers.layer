@@ -1,0 +1,156 @@
+GenericEntity OPFORSpawn {
+ coords 118.151 468.789 46.049
+ angles 0 29.136 0
+}
+PolylineShapeEntity OPFOR_AOLIMIT : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "GC_MUJ"
+   }
+   m_visibility FACTION
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+   m_factionKeys {
+    "GC_MUJ"
+   }
+   m_color 0.855 0.031 0.028 0.5
+  }
+ }
+ coords -325.723 263.187 3442.114
+ Points {
+  ShapePoint "{6AAF0A953128F1A9}" {
+   Position 334.058 184.93 -3437.597
+  }
+  ShapePoint "{6AAF0A952A2C170F}" {
+   Position 327.514 -33.186 651.708
+  }
+  ShapePoint "{6AAF0A9523DFAB33}" {
+   Position 4564.039 -263.187 839.405
+  }
+  ShapePoint "{6AAF0A92CCBB8434}" {
+   Position 4411.091 33.891 -3432.012
+  }
+  ShapePoint "{6AAF0A92B8B3A8F8}" {
+   Position 2550.221 125.102 -3438.187
+  }
+  ShapePoint "{6AAF0A931BA755CB}" {
+   Position 3539.959 -253.187 -400.663
+  }
+  ShapePoint "{6AAF0A92A29F540A}" {
+   Position 2807.031 -233.692 61.952
+  }
+  ShapePoint "{6AAF0A929E917ADE}" {
+   Position 2699.116 -245.901 -114.309
+  }
+  ShapePoint "{6AAF0A929061CE3F}" {
+   Position 2750.346 -248.757 -213.396
+  }
+  ShapePoint "{6AAF0A9294C2898D}" {
+   Position 2774.156 -251.612 -225.112
+  }
+  ShapePoint "{6AAF0A92951B18D8}" {
+   Position 2800.576 -254.196 -237.096
+  }
+  ShapePoint "{6AAF0A928A255504}" {
+   Position 2819.241 -255.008 -248.161
+  }
+  ShapePoint "{6AAF0A9288A1DD1D}" {
+   Position 2863.975 -255.2 -281.247
+  }
+  ShapePoint "{6AAF0A92893BF35C}" {
+   Position 2904.136 -255.186 -315.103
+  }
+  ShapePoint "{6AAF0A928E3D4295}" {
+   Position 2930.16 -255.417 -339.317
+  }
+  ShapePoint "{6AAF0A928FCC9A6C}" {
+   Position 2938.625 -255.198 -353.811
+  }
+  ShapePoint "{6AAF0A928F450774}" {
+   Position 2942.692 -255.396 -368.193
+  }
+  ShapePoint "{6AAF0A928C52CDA7}" {
+   Position 2942.651 -255.215 -382.168
+  }
+  ShapePoint "{6AAF0A928DC9619E}" {
+   Position 2944.634 -254.675 -398.347
+  }
+  ShapePoint "{6AAF0A9283FC0DD5}" {
+   Position 2948.933 -253.912 -419.107
+  }
+  ShapePoint "{6AAF0A9280555C57}" {
+   Position 2956.151 -253.675 -430.823
+  }
+  ShapePoint "{6AAF0A92873EAC73}" {
+   Position 2966.195 -253.349 -440.167
+  }
+  ShapePoint "{6AAF0A928438B499}" {
+   Position 2979.69 -253.309 -448.206
+  }
+  ShapePoint "{6AAF0A928526F31A}" {
+   Position 2996.574 -253.235 -459.119
+  }
+  ShapePoint "{6AAF0A92FA1463E2}" {
+   Position 3012.947 -253.167 -469.687
+  }
+  ShapePoint "{6AAF0A92F892EB3D}" {
+   Position 3040.105 -253.303 -484.951
+  }
+  ShapePoint "{6AAF0A92F9FC297B}" {
+   Position 3052.13 -253.463 -490.629
+  }
+  ShapePoint "{6AAF0A92F955DDC0}" {
+   Position 3063.001 -254.327 -490.767
+  }
+  ShapePoint "{6AAF0A92F559AB48}" {
+   Position 3071.719 -254.905 -490.172
+  }
+  ShapePoint "{6AAF0A92EAD24AFD}" {
+   Position 3082.617 -255.276 -492
+  }
+  ShapePoint "{6AAF0A92EBE2B03E}" {
+   Position 3096.019 -255.472 -496.879
+  }
+  ShapePoint "{6AAF0A92E8EAEE72}" {
+   Position 3109.676 -255.561 -502.241
+  }
+  ShapePoint "{6AAF0A92EEA7D662}" {
+   Position 3122.015 -255.592 -507.231
+  }
+  ShapePoint "{6AAF0A92EE019526}" {
+   Position 3135.958 -255.557 -514.053
+  }
+  ShapePoint "{6AAF0A92EF396A2F}" {
+   Position 3154.234 -255.351 -523.05
+  }
+  ShapePoint "{6AAF0A92E21BE421}" {
+   Position 3164.589 -252.173 -525.775
+  }
+  ShapePoint "{6AAF0A92E6C4D876}" {
+   Position 3180.902 -246.481 -535.928
+  }
+  ShapePoint "{6AAF0A92E787AF34}" {
+   Position 3193.463 -244.995 -545.877
+  }
+  ShapePoint "{6AAF0A92E750CEDC}" {
+   Position 3208.913 -244.363 -554.719
+  }
+  ShapePoint "{6AAF0A92DA040F01}" {
+   Position 3231.714 -247.758 -563.046
+  }
+  ShapePoint "{6AAF0A92DBBE4A5E}" {
+   Position 3268.951 -250.086 -565.404
+  }
+  ShapePoint "{6AAF0A92DE9D3877}" {
+   Position 3296.032 -250.152 -557.903
+  }
+  ShapePoint "{6AAF0A92DF019F56}" {
+   Position 3495.256 -241.813 -537.02
+  }
+  ShapePoint "{6AAF0A92DD38AB1F}" {
+   Position 2550.221 125.102 -3438.187
+  }
+ }
+}

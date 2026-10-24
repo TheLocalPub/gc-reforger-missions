@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AAB8191FC64A6655}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache2_Pub.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

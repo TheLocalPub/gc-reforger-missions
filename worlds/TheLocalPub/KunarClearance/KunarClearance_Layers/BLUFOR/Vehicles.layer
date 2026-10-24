@@ -1,0 +1,138 @@
+GenericEntity Heli1Spawn {
+ coords 2829.833 10.025 3042.469
+ angles 0 29.136 0
+}
+Vehicle GC_AUS_UH60_M240_armed_Pub_1 : "{08C84751DA4A77CD}worlds/TheLocalPub/KunarClearance/Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_UH60_M240_armed_Pub_1.et" {
+ coords 2683.275 8.024 3091.011
+ angles 0 -56.181 0
+}
+$grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
+ Spawner_Truck1 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+    }
+    m_fRespawnDistance 999
+    m_fRespawnDelay 300
+   }
+  }
+  coords 2711.452 8.13 2992.009
+  angles 0 36.534 0
+ }
+ Spawner_Truck2 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+    }
+    m_fRespawnDistance 999
+    m_fRespawnDelay 300
+   }
+  }
+  coords 2716.273 8.13 2988.438
+  angles 0 36.534 0
+ }
+}
+Vehicle GC_AUS_MH60_M240_armed1 : "{98C9CD264B859CFD}Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_MH60_M240_armed.et" {
+ coords 2665.124 8.026 3063.091
+ angles 0 -56.23 0
+}
+$grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield_DESERT.et" {
+ CRX_M1025_armed_M2HB_gunshield_DESERT1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2678.888 8 3003.475
+  angles 0 31.68 0
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2683.043 8 3000.911
+  angles 0 31.68 0
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2674.9 8 3005.937
+  angles 0 34.955 0
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2670.713 8 3008.863
+  angles 0 34.955 0
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2666.617 8 3011.726
+  angles 0 34.955 0
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2662.486 8 3014.614
+  angles 0 34.955 0
+ }
+}

@@ -1,0 +1,18 @@
+$grp SCR_DestructibleBuildingEntity : "{FCE51E7F2175DB9D}Prefabs/Structures/Hesco/HBarrier5.et" {
+ {
+  coords 2713.263 8.433 2998.121
+  angles 0 34.193 0
+ }
+ {
+  coords 2697 8.433 3009.17
+  angles 0 34.193 0
+ }
+ {
+  coords 2732.15 8.486 2985.147
+  angles 0 35.193 0
+ }
+ {
+  coords 2737.073 8.486 2981.675
+  angles 0 35.193 0
+ }
+}

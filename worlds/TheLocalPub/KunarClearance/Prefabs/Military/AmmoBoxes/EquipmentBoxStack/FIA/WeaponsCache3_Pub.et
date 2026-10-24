@@ -1,0 +1,8 @@
+GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V6_covered.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  TILW_Flag_EntityDamage "{6AAF0A80BC89F48A}" {
+   m_flagName "Cache3"
+  }
+ }
+}
