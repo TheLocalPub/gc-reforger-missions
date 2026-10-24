@@ -31,6 +31,12 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    Factions {
     SCR_Faction "{655D481EFA969864}" {
     }
+    SCR_Faction "{67113837D561FA9B}" {
+     UIInfo SCR_FactionUIInfo "{670CF087CE37FA75}" {
+      Name "Taliban"
+      m_sNameUpper "TALIBAN"
+     }
+    }
    }
   }
   ItemPreviewManagerEntity "6AAF0A96A0EC4BE0" {

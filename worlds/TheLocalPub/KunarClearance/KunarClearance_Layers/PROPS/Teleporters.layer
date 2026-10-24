@@ -1,0 +1,46 @@
+GenericEntity TP1 {
+ coords 1106 237.299 914.474
+ angles 0 32.545 0
+ {
+  PS_ManualMarker TPMarker1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0.047 0.086 -0.335
+   angles 0 -7.639 0
+   m_MarkerColor 0 0.502 0.125 1
+   m_sQuadName "entry-point-2"
+   m_fWorldSize 50
+   m_sDescription "Ashat insert"
+   m_aVisibleForFactions {
+    "GC_MUJ"
+   }
+  }
+ }
+}
+GenericEntity MUJTP : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+ components {
+  ActionsManagerComponent "{62EF76E0D47ED96A}" {
+   additionalActions {
+    TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+     ActionTitle "TP1"
+     m_actionName "Teleport: Ashat insert"
+     m_locationName "TP1"
+     m_factionKeys {
+      "GC_MUJ"
+     }
+     m_conditionFlag "TP1_USClear"
+    }
+   }
+  }
+ }
+ coords 129.68 464.99 54.449
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 1121.444 237.137 931.115
+ m_queryRadius 150
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "TP1_USClear"
+ m_ignoredFactions {
+  "GC_MUJ"
+ }
+ m_ownerFactionKey "US"
+ m_ratioThreshold 0.01
+}

@@ -5,4 +5,11 @@ GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
    m_flagName "Cache2"
   }
  }
+ {
+  PS_ManualMarker : "{D9A8F965062307D4}worlds/TheLocalPub/KunarClearance/Prefabs/PrefabsEditable/Markers/MUJCacheMarker_Pub.et" {
+   ID "6AB121768DC4DCD9"
+   coords 0 0 0
+   angles 0 0 0
+  }
+ }
 }

@@ -129,3 +129,18 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
   m_sCustomNameSet "UH60 pilots"
  }
 }
+GenericEntity : "{A4D90CAA4F220CBE}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_FIA.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
+  }
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
+    }
+   }
+  }
+ }
+ coords 129.666 463.559 54.454
+}

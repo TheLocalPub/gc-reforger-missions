@@ -1,12 +1,12 @@
 PS_ManualMarker {
- ID "6AAF4D4F2D323501"
+ ID "6AB121762CE77513"
  components {
-  MeshObject "{6AAF4D4F2D323519}" {
+  MeshObject "{6AB121762CE70AFD}" {
    Object "{4CB958C15554E9DF}system/wbdata/Gizmo3D/axisZ.xob"
   }
-  PS_EditableMarkerComponent "{6AAF4D4F2D323511}" {
+  PS_EditableMarkerComponent "{6AB121762CE70A8B}" {
    m_EntityType SYSTEM
-   m_UIInfo SCR_EditableDescriptorUIInfo "{6AAF4D4F2D323514}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{6AB121762CE70A8E}" {
     Name "#PS-EditableEntity_MapMarker"
     Icon "{5E7A3FF224D598E3}UI/Textures/FieldManual/Gameplay/Navigation/Tiles/protractor-icon-brown_ui.edds"
     m_Image "{5E7A3FF224D598E3}UI/Textures/FieldManual/Gameplay/Navigation/Tiles/protractor-icon-brown_ui.edds"
@@ -22,19 +22,24 @@ PS_ManualMarker {
    m_bStatic 1
    m_Flags 71
   }
-  SCR_EditableEntityVisibilityChildComponent "{6AAF4D4F2D35CAE9}" {
+  SCR_EditableEntityVisibilityChildComponent "{6AB121762CE70A83}" {
    m_State 96
   }
-  RplComponent "{6AAF4D4F2D35CAEB}" {
+  RplComponent "{6AB121762CE70A84}" {
    Streamable Disabled
   }
-  Hierarchy "{6AAF4D4F2D35CAEA}" {
+  Hierarchy "{6AB121762CE70A86}" {
   }
  }
  coords 1060.328 39.01 2682.178
  angles 0 90 0
  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
- m_sQuadName "circle-2"
- m_fWorldSize 20
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "objective-marker-2"
+ m_fWorldSize 50
+ m_sDescription "Weapons cache"
+ m_aVisibleForFactions {
+  "GC_MUJ"
+ }
 }
