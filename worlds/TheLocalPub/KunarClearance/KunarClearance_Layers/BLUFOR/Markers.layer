@@ -2,7 +2,7 @@ SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restriction
  coords 2704.712 8 3060.143
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- US_HumveeMArker {
+ US_HumveeMarker {
   coords 2669.25 8 3004.246
   angles 0 90 0
   m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"

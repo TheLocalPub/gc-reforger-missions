@@ -1,0 +1,30 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ Cache_D1 {
+  coords 1876.166 33.332 3673.684
+  angles 0 90 0
+  m_prefab "{6B70C20AB71D797E}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache1_Pub.et"
+  m_conditionFlag "DFlag"
+  m_pregameSpawn 1
+ }
+ Cache_D2 {
+  coords 856.379 32.501 3250.136
+  angles 0 90 0
+  m_prefab "{AAB8191FC64A6655}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache2_Pub.et"
+  m_conditionFlag "DFlag"
+  m_pregameSpawn 1
+ }
+ Cache_D3 {
+  coords 1892.45 200.296 349.16
+  angles 0 90 0
+  m_prefab "{C4F52746F32B88DD}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache3_Pub.et"
+  m_conditionFlag "DFlag"
+  m_pregameSpawn 1
+ }
+ Cache_D4 {
+  coords 2149.979 138.651 1402.124
+  angles 0 90 0
+  m_prefab "{8DE67D22D0E437F6}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache4_Pub.et"
+  m_conditionFlag "DFlag"
+  m_pregameSpawn 1
+ }
+}

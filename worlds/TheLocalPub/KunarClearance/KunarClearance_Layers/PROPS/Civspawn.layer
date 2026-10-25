@@ -1,0 +1,20 @@
+$grp SCR_DestructibleBuildingEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
+ {
+  coords 39.794 275.179 4027.023
+ }
+ {
+  coords -47.263 275.179 3986.715
+  angles 0 -90 0
+ }
+ {
+  coords -47.263 275.179 3925.215
+  angles 0 -90 0
+ }
+ {
+  coords -13.706 275.179 4027.023
+ }
+}
+GenericEntity : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x100.et" {
+ coords 3.051 307.669 3976.391
+ scale 0.5
+}

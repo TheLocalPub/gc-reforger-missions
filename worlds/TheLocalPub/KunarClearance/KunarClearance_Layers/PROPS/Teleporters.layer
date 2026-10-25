@@ -1,46 +1,791 @@
-GenericEntity TP1 {
- coords 1106 237.299 914.474
- angles 0 32.545 0
- {
-  PS_ManualMarker TPMarker1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-   coords 0.047 0.086 -0.335
-   angles 0 -7.639 0
-   m_MarkerColor 0 0.502 0.125 1
-   m_sQuadName "entry-point-2"
-   m_fWorldSize 50
-   m_sDescription "Ashat insert"
-   m_aVisibleForFactions {
-    "GC_MUJ"
+$grp GenericEntity {
+ TP1 {
+  coords 1086.429 242.948 936.905
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP1_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
    }
-  }
- }
-}
-GenericEntity MUJTP : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
- components {
-  ActionsManagerComponent "{62EF76E0D47ED96A}" {
-   additionalActions {
-    TILW_TeleportInteraction "{62EF76E608B6CB36}" {
-     ActionTitle "TP1"
-     m_actionName "Teleport: Ashat insert"
-     m_locationName "TP1"
-     m_factionKeys {
-      "GC_MUJ"
-     }
-     m_conditionFlag "TP1_USClear"
+   PS_ManualMarker TPMarker1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Ashat insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
     }
    }
   }
  }
- coords 129.68 464.99 54.449
-}
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 1121.444 237.137 931.115
- m_queryRadius 150
- m_comparisonMode EQUAL_OR_LESS
- m_flagName "TP1_USClear"
- m_ignoredFactions {
-  "GC_MUJ"
+ TP2 {
+  coords 474.545 324.856 3873.104
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear2 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP2_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 -2.003 -0.335
+    angles 0 58.774 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Ravendak insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
  }
- m_ownerFactionKey "US"
- m_ratioThreshold 0.01
+ TP3 {
+  coords 3646.938 280.233 401.569
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear3 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP3_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 -2.003 -0.335
+    angles 0 58.903 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Jharnok insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP4 {
+  coords 270.8 165.28 2216.866
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear4 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP4_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 -2.003 -0.335
+    angles 0 58.259 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Tangalai insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP5 {
+  coords 1395.388 73.245 3193.232
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear5 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP5_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker5 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "khandar Abad insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP6 {
+  coords 1422.247 306.325 2019.68
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear6 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP6_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker6 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Tor insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP7 {
+  coords 2127.836 29.319 3879.986
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear7 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP7_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker7 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Nangalam insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP8 {
+  coords 1621.655 227.422 2415.49
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear8 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP8_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker8 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Son Tantil insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP9 {
+  coords 2782.443 171.066 1474.553
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear9 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP9_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker9 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Kandlay insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP10 {
+  coords 3823.057 131.632 1808.33
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear10 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP10_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker10 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Cham insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP11 {
+  coords 1935.424 200.361 331.023
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear11 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP11_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker11 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Khunbar insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP12 {
+  coords 2883.551 23.812 2386.771
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear12 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP12_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker12 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Tor Kelay insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+ TP13 {
+  coords 2874.071 385.133 722.936
+  angles 0 32.545 0
+  {
+   TILW_FactionTriggerEntity Trigger_TP_USClear13 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4.067 -0.162 22.336
+    angles 0 -32.545 0
+    m_queryRadius 150
+    m_comparisonMode EQUAL_OR_LESS
+    m_flagName "TP13_USClear"
+    m_ignoredFactions {
+     "GC_MUJ"
+    }
+    m_ownerFactionKey "US"
+    m_ratioThreshold 0.01
+   }
+   PS_ManualMarker TPMarker13 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.047 0.086 -0.335
+    angles 0 58.431 0
+    m_MarkerColor 0 1 0.246 1
+    m_sQuadName "entry-point-2"
+    m_fWorldSize 35
+    m_sDescription "Chichal insert"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "GC_MUJ"
+     "CIV"
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{A4D90CAA4F220CBE}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_FIA.et" {
+ flagpole1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
+     }
+    }
+   }
+  }
+  coords 129.666 463.559 54.454
+  {
+   GenericEntity MUJTP : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        ActionTitle "TP1"
+        "Sort Priority" 1
+        m_actionName "Teleport: Ashat insert"
+        m_locationName "TP1"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP1_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F27467949A}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP2"
+        "Sort Priority" 2
+        m_actionName "Teleport: Ravendak insert"
+        m_locationName "TP2"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP2_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F2A855F164}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP3"
+        "Sort Priority" 3
+        m_actionName "Teleport: Jharnok insert"
+        m_locationName "TP3"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP3_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F0BF409196}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP4"
+        "Sort Priority" 4
+        m_actionName "Teleport: Tangalai insert"
+        m_locationName "TP4"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP4_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD41A77709}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP5"
+        "Sort Priority" 5
+        m_actionName "Teleport: khandar Abad insert"
+        m_locationName "TP5"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP5_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDB1B343B1}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP6"
+        "Sort Priority" 6
+        m_actionName "Teleport: Tor insert"
+        m_locationName "TP6"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP6_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD9EBC7A6E}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP7"
+        "Sort Priority" 7
+        m_actionName "Teleport: Nangalam insert"
+        m_locationName "TP7"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP7_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD801C3762}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP8"
+        "Sort Priority" 8
+        m_actionName "Teleport: Son Tantil insert"
+        m_locationName "TP8"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP8_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDF4023124}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP9"
+        "Sort Priority" 9
+        m_actionName "Teleport: Kandlayl insert"
+        m_locationName "TP9"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP9_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDD3902E36}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP10"
+        "Sort Priority" 10
+        m_actionName "Teleport: Cham insert"
+        m_locationName "TP10"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP10_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDC1EC1FE0}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP11"
+        "Sort Priority" 11
+        m_actionName "Teleport: Khunbar insert"
+        m_locationName "TP11"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP11_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FC3393DEEE}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP12"
+        "Sort Priority" 12
+        m_actionName "Teleport: Tor Kelay insert"
+        m_locationName "TP12"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP12_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FC25E11258}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP13"
+        "Sort Priority" 13
+        m_actionName "Teleport: Chichal insert"
+        m_locationName "TP13"
+        m_factionKeys {
+         "GC_MUJ"
+        }
+        m_conditionFlag "TP13_USClear"
+       }
+      }
+     }
+    }
+    coords 0.014 1.431 -0.005
+   }
+  }
+ }
+ flagpole2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{41FF5ED4614840C9}Assets/Props/Fabric/Flags/Data/Flag_1_2_CIVILIAN.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{0CA57DAC081DF11A}Prefabs/Props/Fabric/Flags/Flag_1_2_Green_01.et"
+     }
+    }
+   }
+  }
+  coords 22.053 290.34 3981.862
+  {
+   GenericEntity CIVTP : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        ActionTitle "TP1"
+        "Sort Priority" 1
+        m_actionName "Teleport: Ashat insert"
+        m_locationName "TP1"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP1_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F27467949A}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP2"
+        "Sort Priority" 2
+        m_actionName "Teleport: Ravendak insert"
+        m_locationName "TP2"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP2_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F2A855F164}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP3"
+        "Sort Priority" 3
+        m_actionName "Teleport: Jharnok insert"
+        m_locationName "TP3"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP3_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288F0BF409196}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP4"
+        "Sort Priority" 4
+        m_actionName "Teleport: Tangalai insert"
+        m_locationName "TP4"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP4_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD41A77709}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP5"
+        "Sort Priority" 5
+        m_actionName "Teleport: khandar Abad insert"
+        m_locationName "TP5"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP5_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDB1B343B1}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP6"
+        "Sort Priority" 6
+        m_actionName "Teleport: Tor insert"
+        m_locationName "TP6"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP6_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD9EBC7A6E}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP7"
+        "Sort Priority" 7
+        m_actionName "Teleport: Nangalam insert"
+        m_locationName "TP7"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP7_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FD801C3762}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP8"
+        "Sort Priority" 8
+        m_actionName "Teleport: Son Tantil insert"
+        m_locationName "TP8"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP8_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDF4023124}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP9"
+        "Sort Priority" 9
+        m_actionName "Teleport: Kandlayl insert"
+        m_locationName "TP9"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP9_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDD3902E36}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP10"
+        "Sort Priority" 10
+        m_actionName "Teleport: Cham insert"
+        m_locationName "TP10"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP10_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FDC1EC1FE0}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP11"
+        "Sort Priority" 11
+        m_actionName "Teleport: Khunbar insert"
+        m_locationName "TP11"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP11_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FC3393DEEE}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP12"
+        "Sort Priority" 12
+        m_actionName "Teleport: Tor Kelay insert"
+        m_locationName "TP12"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP12_USClear"
+       }
+       TILW_TeleportInteraction "{6AB288FC25E11258}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "TP13"
+        "Sort Priority" 13
+        m_actionName "Teleport: Chichal insert"
+        m_locationName "TP13"
+        m_factionKeys {
+         "CIV"
+        }
+        m_conditionFlag "TP13_USClear"
+       }
+      }
+     }
+    }
+    coords 0.014 1.431 -0.005
+   }
+  }
+ }
 }

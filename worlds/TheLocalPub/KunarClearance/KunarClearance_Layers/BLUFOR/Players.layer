@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iCompanyCallsign 5
    }
   }
-  coords 2701.476 8 3073.052
-  angles 0 34.564 0
+  coords 2710.397 8 3066.976
+  angles 0 26.427 0
   m_aUnitPrefabSlots {
    "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
    "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
@@ -28,8 +28,8 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iPlatoonCallsign 1
    }
   }
-  coords 2698.807 8 3082.81
-  angles 0 -56.275 0
+  coords 2712.992 8 3075.645
+  angles 0 -57.648 0
   m_aUnitPrefabSlots {
    "{1CD7C655C8E13302}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_PL.et"
    "{04B5E91D398667B8}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_PSG.et"
@@ -38,7 +38,7 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
    "{89C4C666A8B47E66}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_MG.et"
    "{25F7F41B48D2C070}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_MGAsst.et"
   }
-  m_sCustomNameSet "UH60 pilots"
+  m_sCustomNameSet "HQ"
  }
  US_Squad1 {
   components {
@@ -52,15 +52,15 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iSquadCallsign 1
    }
   }
-  coords 2699.822 8 3084.33
-  angles 0 -56.275 0
+  coords 2713.971 8 3077.188
+  angles 0 -57.648 0
   m_aUnitPrefabSlots {
    "{B65BE963F47FC896}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_SL.et"
    "{4DA859F714D09CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_Grenadier.et"
    "{6DD35B122688345D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_AR2.et"
    "{B71AB6C7BFCB503D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_RiflemanLAT.et"
   }
-  m_sCustomNameSet "UH60 pilots"
+  m_sCustomNameSet "1st Squad"
  }
  US_Squad2 {
   components {
@@ -74,15 +74,15 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iSquadCallsign 2
    }
   }
-  coords 2700.958 8 3086.032
-  angles 0 -56.275 0
+  coords 2715.066 8 3078.917
+  angles 0 -57.648 0
   m_aUnitPrefabSlots {
    "{B65BE963F47FC896}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_SL.et"
    "{4DA859F714D09CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_Grenadier.et"
    "{6DD35B122688345D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_AR2.et"
    "{B71AB6C7BFCB503D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_RiflemanLAT.et"
   }
-  m_sCustomNameSet "UH60 pilots"
+  m_sCustomNameSet "2nd Squad"
  }
  US_Squad3 {
   components {
@@ -96,15 +96,15 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iSquadCallsign 3
    }
   }
-  coords 2702.175 8 3087.855
-  angles 0 -56.275 0
+  coords 2716.238 8 3080.769
+  angles 0 -57.648 0
   m_aUnitPrefabSlots {
    "{B65BE963F47FC896}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_SL.et"
    "{4DA859F714D09CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_Grenadier.et"
    "{6DD35B122688345D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_AR2.et"
    "{B71AB6C7BFCB503D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_RiflemanLAT.et"
   }
-  m_sCustomNameSet "UH60 pilots"
+  m_sCustomNameSet "3rd Squad"
  }
  US_Squad4 {
   components {
@@ -118,29 +118,14 @@ $grp SCR_AIGroup : "{43FF832A024AD2EA}Prefabs/Groups/BLUFOR/US/Army/1981/101st A
     m_iSquadCallsign 4
    }
   }
-  coords 2703.215 8 3089.418
-  angles 0 -56.275 0
+  coords 2717.24 8 3082.356
+  angles 0 -57.648 0
   m_aUnitPrefabSlots {
    "{B65BE963F47FC896}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_SL.et"
    "{4DA859F714D09CD9}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_Grenadier.et"
    "{6DD35B122688345D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_AR2.et"
    "{B71AB6C7BFCB503D}Prefabs/Characters/Factions/BLUFOR/US_Army/2007/Desert/Character_US_2007_D_RiflemanLAT.et"
   }
-  m_sCustomNameSet "UH60 pilots"
+  m_sCustomNameSet "4th Squad"
  }
-}
-GenericEntity : "{A4D90CAA4F220CBE}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_FIA.et" {
- components {
-  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-   m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
-  }
-  SlotManagerComponent "{55DAE04E55ECE7FA}" {
-   Slots {
-    EntitySlotInfo Flag {
-     Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
-    }
-   }
-  }
- }
- coords 129.666 463.559 54.454
 }

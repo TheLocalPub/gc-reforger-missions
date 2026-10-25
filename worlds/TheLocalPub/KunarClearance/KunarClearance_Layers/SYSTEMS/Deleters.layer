@@ -16,6 +16,7 @@ $grp PK_EntityDeleter {
   m_prefabFilterList {
    "{FCE51E7F2175DB9D}Prefabs/Structures/Hesco/HBarrier5.et"
    "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_single.et"
+   "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et"
   }
   m_excludePrefabsInList 1
  }

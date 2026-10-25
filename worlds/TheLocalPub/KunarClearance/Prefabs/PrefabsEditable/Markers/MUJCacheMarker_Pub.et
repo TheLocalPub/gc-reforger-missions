@@ -37,8 +37,9 @@ PS_ManualMarker {
  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
  m_MarkerColor 0 0 0 1
  m_sQuadName "objective-marker-2"
- m_fWorldSize 50
+ m_fWorldSize 70
  m_sDescription "Weapons cache"
+ m_bUseWorldScale 0
  m_aVisibleForFactions {
   "GC_MUJ"
  }

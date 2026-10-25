@@ -1,8 +1,24 @@
 GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V6_covered.et" {
  ID "F0DBA538AC2A0552"
  components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+  }
   TILW_Flag_EntityDamage "{6AAF0A804A5755F1}" {
    m_flagName "Cache1"
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.5546 0
+     }
+    }
+   }
   }
  }
  {
@@ -10,6 +26,7 @@ GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
    ID "6AB12176A9FEE457"
    coords 0 0 0
    angles 0 0 0
+   m_fWorldSize 25
   }
  }
 }

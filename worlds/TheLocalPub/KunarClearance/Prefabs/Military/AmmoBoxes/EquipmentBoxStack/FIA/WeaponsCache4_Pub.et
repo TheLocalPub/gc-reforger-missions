@@ -10,6 +10,7 @@ GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
    ID "6AB12176EDF75DCA"
    coords 0 0 0
    angles 0 0 0
+   m_fWorldSize 25
   }
  }
 }

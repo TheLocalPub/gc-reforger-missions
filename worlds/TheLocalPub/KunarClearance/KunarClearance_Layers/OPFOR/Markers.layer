@@ -5,8 +5,10 @@ GenericEntity OPFORSpawn {
 PolylineShapeEntity OPFOR_AOLIMIT : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 10
    m_factionKeys {
     "GC_MUJ"
+    "CIV"
    }
    m_visibility FACTION
   }
@@ -27,7 +29,7 @@ PolylineShapeEntity OPFOR_AOLIMIT : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
    Position 327.514 -33.186 651.708
   }
   ShapePoint "{6AAF0A9523DFAB33}" {
-   Position 4564.039 -263.187 839.405
+   Position 4421.36 -123.187 653.454
   }
   ShapePoint "{6AAF0A92CCBB8434}" {
    Position 4411.091 33.891 -3432.012
