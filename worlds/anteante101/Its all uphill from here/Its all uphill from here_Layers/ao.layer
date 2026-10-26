@@ -7,19 +7,19 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     }
    }
   }
-  coords 5014.572 383.006 7053.456
+  coords 5014.572 370.705 7053.456
   Points {
    ShapePoint "{690A374184A5AF07}" {
-    Position -6.204 -54.4 53.569
+    Position 53.766 28.446 112.223
    }
    ShapePoint "{690A37418434BF24}" {
-    Position 216.9 0 -85.304
+    Position 261.571 -50.824 -45.218
    }
    ShapePoint "{690A374186A278F4}" {
-    Position 141.676 0 -276.18
+    Position 121.876 -64.26 -243.599
    }
    ShapePoint "{690A374187F6F494}" {
-    Position -67.919 90.354 -136.109
+    Position -155.043 3.342 -71.352
    }
   }
  }
@@ -30,7 +30,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "RHS_ION"
     }
    }
-   TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
    }
   }
