@@ -13,8 +13,6 @@ $grp SCR_AIGroup : "{1CF6B0C1063800E0}Prefabs/Groups/CIV/Afghan/Group_CIV_Afghan
   m_aUnitPrefabSlots +{
    "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
    "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-   "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-   "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
   }
   m_bSetPlayable 1
  }
@@ -30,8 +28,6 @@ $grp SCR_AIGroup : "{1CF6B0C1063800E0}Prefabs/Groups/CIV/Afghan/Group_CIV_Afghan
   coords 17.511 289.751 3978.902
   angles 0 -0.572 0
   m_aUnitPrefabSlots +{
-   "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-   "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
    "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
    "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
   }

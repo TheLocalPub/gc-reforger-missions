@@ -1,0 +1,20 @@
+GenericEntity EndMissionButton_US : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
+ components {
+  ActionsManagerComponent "{61F4C18E835074FF}" {
+   additionalActions {
+    TILW_BaseInteraction "{61F4C18E863E752C}" {
+     ActionTitle "EndMissionNone"
+     Duration 6
+     m_actionName "End mission (NO CACHES FOUND)"
+     m_factionKeys {
+      "US"
+     }
+     m_flagName "EndMissionFailure"
+     m_conditionFlag "MissionEndNone"
+    }
+   }
+  }
+ }
+ coords 2730.406 9.004 3070.034
+ angles 0 33.571 0
+}

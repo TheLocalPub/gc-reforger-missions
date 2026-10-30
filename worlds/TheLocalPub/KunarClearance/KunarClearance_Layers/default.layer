@@ -12,12 +12,17 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   PS_FactionRespawnCount "{6AAF0A9AACCEB646}" {
    m_sFactionKey "US"
    m_iCount 5
-   m_iTime 6
+   m_iTime 5
   }
   PS_FactionRespawnCount "{6AAF0A9A94B0793C}" {
    m_sFactionKey "GC_MUJ"
    m_iCount 10
    m_iTime 300
+  }
+  PS_FactionRespawnCount "{6AB7133F136E5BBD}" {
+   m_sFactionKey "CIV"
+   m_iCount 999999
+   m_iTime 240
   }
  }
  {
@@ -51,6 +56,26 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 }
 TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3295.865 84.627 7881.682
+ m_missionEvents {
+  TILW_MissionEvent "{6AB7133CA0E7C1FF}" {
+   m_name "EndMissionFailure"
+   m_instructions {
+    TILW_SendMessageInstruction "{6AB7133C8F727F15}" {
+     m_executionDelay 3
+     m_messageTitle "US FAILURE!"
+     m_messageBody "US forces have chosen to withdraw their platoon from the AO having found zero caches."\
+     ""\
+     "Better luck next time."\
+     "Mission will conclude shortly..."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6AB7133C9CDB23B9}" {
+    m_flagName "EndMissionFailure"
+   }
+  }
+  TILW_MissionEvent "{6AB71331188BA3B0}" {
+  }
+ }
  m_randomFlags {
   TILW_FlagSampling "{6AAF0A9E8554392A}" {
    m_flagNames {

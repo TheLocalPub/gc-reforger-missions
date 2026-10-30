@@ -1,3 +1,326 @@
+SplineShapeEntity {
+ coords 2919.252 11.502 3043.369
+ Points {
+  ShapePoint "{64E93889EF3052A8}" {
+   Position 115.39 -0.002 -72.695
+  }
+  ShapePoint "{64E93889EF30B2D6}" {
+   Position -371.682 0 236.023
+  }
+ }
+ {
+  RoadGeneratorEntity : "{FBEB4E960DA4085A}Prefabs/WEGenerators/Roads/Concrete/RG_Runway_20m.et" {
+   coords 1.03 0.001 -5.619
+   {
+    RoadEntity {
+     ID "54C4E85735D57C97"
+     SplinePoints {
+      ShapePoint "{64E93888C51CACBB}" {
+       Position 114.36 -0.003 -67.076
+      }
+      ShapePoint "{64E93888C51CADA2}" {
+       Position -372.712 -0.001 241.642
+      }
+     }
+     IsClosedSpline 0
+     Width 20
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{26EC008C42828F5C}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01_US.et" {
+ coords 2730.692 8.102 3070.211
+ angles 0 -56.092 0
+}
+GenericEntity : "{3A1D5EAEA3670CEF}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/RadioStation_US_NoAffiliation.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5CB6D5B110622424}" {
+   Enabled 0
+  }
+  SCR_MilitaryBaseLogicComponent "{666F6D2DE6758D45}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5CB6D5B110622410}" {
+   Enabled 0
+  }
+ }
+ coords 2730.407 8.989 3070.053
+ angles 0 -55.171 0
+}
+TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 2830.089 10.025 3042.708
+ angles 0 31.855 0
+ m_prefab "{08C84751DA4A77CD}worlds/TheLocalPub/KunarClearance/Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_UH60_M240_armed_Pub_1.et"
+ m_conditionFlag "Heli1Dead"
+}
+$grp SCR_DestructibleBuildingEntity : "{CFED50E712CD1F19}Prefabs/Structures/Hesco/BigHBarrier4.et" {
+ {
+  coords 2663.911 9.529 3045.274
+  angles 0 33 0
+  scale 0.67
+ }
+ {
+  coords 2672.686 9.434 3044.013
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2668.836 9.475 3042.236
+  angles 0 33 0
+  scale 0.67
+ }
+ {
+  coords 2645.716 9.497 3056.322
+  angles 0 33 0
+  scale 0.67
+ }
+ {
+  coords 2643.743 9.438 3059.967
+  angles 0 125 0
+  scale 0.67
+ }
+ {
+  coords 2646.652 9.462 3064.418
+  angles 0 125 0
+  scale 0.67
+ }
+ {
+  coords 2649.697 9.395 3069.136
+  angles 0 125 0
+  scale 0.67
+ }
+ {
+  coords 2652.625 9.391 3073.412
+  angles 0 125 0
+  scale 0.67
+ }
+ {
+  coords 2676.859 9.431 3050.467
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2680.062 9.431 3055.179
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2683.299 9.411 3059.937
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2616.32 11.002 3101.975
+  angles 0 -143.686 0
+  scale 1.49
+ }
+ {
+  coords 2626.657 11.002 3094.789
+  angles 0 -143.686 0
+  scale 1.49
+ }
+ {
+  coords 2637.183 11.002 3087.498
+  angles 0 -143.686 0
+  scale 1.49
+ }
+ {
+  coords 2616.462 11.002 3111.106
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2623.523 11.002 3121.073
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2630.731 11.002 3131.248
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2638.08 10.864 3141.622
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2652.571 10.864 3162.078
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2645.347 10.864 3151.88
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2638.699 12.826 3081.516
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2635.333 12.826 3076.739
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2632.147 12.826 3072.059
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2628.906 12.826 3067.226
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2625.678 12.826 3062.511
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2622.463 12.826 3057.83
+  angles 0 126 0
+  scale 0.67
+ }
+ {
+  coords 2621.777 10.625 3051.241
+  angles 0 64.098 0
+ }
+ {
+  coords 2625.628 10.755 3043.835
+  angles 0 64.098 0
+ }
+ {
+  coords 2629.503 10.98 3036.598
+  angles 0 64.098 0
+ }
+ {
+  coords 2639.772 11.358 3016.221
+  angles 0 64.098 0
+ }
+ {
+  coords 2633.243 11.263 3029.06
+  angles 0 64.098 0
+ }
+ {
+  coords 2637.148 11.455 3021.451
+  angles 0 64.098 0
+ }
+ {
+  coords 2644.932 10.738 3013.26
+  angles 0 35.098 0
+ }
+ {
+  coords 2652.174 10.738 3008.393
+  angles 0 35.098 0
+ }
+ {
+  coords 2659.112 10.738 3003.518
+  angles 0 35.098 0
+ }
+ {
+  coords 2666.256 10.738 2998.498
+  angles 0 35.098 0
+ }
+ {
+  coords 2673.443 10.738 2993.447
+  angles 0 35.098 0
+ }
+ {
+  coords 2680.757 10.738 2988.449
+  angles 0 35.098 0
+ }
+ {
+  coords 2688.02 10.738 2983.345
+  angles 0 35.098 0
+ }
+ {
+  coords 2695.306 10.738 2978.225
+  angles 0 35.098 0
+ }
+ {
+  coords 2702.448 10.738 2973.206
+  angles 0 35.098 0
+ }
+ {
+  coords 2709.654 10.738 2968.142
+  angles 0 35.098 0
+ }
+ {
+  coords 2716.76 10.636 2963.849
+  angles 0 30.098 0
+ }
+ {
+  coords 2741.166 10.511 2959.584
+  angles 0 -174.686 0
+ }
+ {
+  coords 2732.488 10.56 2960.541
+  angles 0 -170.686 0
+ }
+ {
+  coords 2723.918 10.708 2961.988
+  angles 0 -168.686 0
+ }
+ {
+  coords 2657.374 10.864 3168.858
+  angles 0 125.314 0
+  scale 1.49
+ }
+ {
+  coords 2718.21 9.358 3097.686
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2713.39 9.349 3100.634
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2708.542 9.358 3103.612
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2703.722 9.349 3106.56
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2698.861 9.368 3109.509
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2718.21 10.858 3097.686
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2713.39 10.849 3100.634
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2708.542 10.858 3103.612
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2703.722 10.849 3106.56
+  angles 0 -147 0
+  scale 0.67
+ }
+ {
+  coords 2698.861 10.868 3109.509
+  angles 0 -147 0
+  scale 0.67
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{FCE51E7F2175DB9D}Prefabs/Structures/Hesco/HBarrier5.et" {
  {
   coords 2713.263 8.433 2998.121

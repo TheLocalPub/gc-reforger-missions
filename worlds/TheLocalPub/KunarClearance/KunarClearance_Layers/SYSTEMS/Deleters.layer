@@ -17,6 +17,8 @@ $grp PK_EntityDeleter {
    "{FCE51E7F2175DB9D}Prefabs/Structures/Hesco/HBarrier5.et"
    "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_single.et"
    "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et"
+   "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+   "{65D450A7F02074CA}Prefabs/Vehicles/Wheeled/M998/M1151/M1151_tan.et"
   }
   m_excludePrefabsInList 1
  }

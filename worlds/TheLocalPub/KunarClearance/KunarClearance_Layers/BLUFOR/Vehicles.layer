@@ -1,7 +1,3 @@
-GenericEntity Heli1Spawn {
- coords 2829.833 10.025 3042.469
- angles 0 29.136 0
-}
 Vehicle GC_AUS_UH60_M240_armed_Pub_1 : "{08C84751DA4A77CD}worlds/TheLocalPub/KunarClearance/Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_UH60_M240_armed_Pub_1.et" {
  coords 2683.275 8.024 3091.011
  angles 0 -56.181 0
@@ -18,7 +14,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2711.452 8.13 2992.009
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck2 {
   components {
@@ -31,7 +27,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2716.273 8.13 2988.438
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck3 {
   components {
@@ -44,7 +40,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2720.13 8.13 2985.581
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck4 {
   components {
@@ -57,7 +53,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2723.493 8.13 2983.09
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck6 {
   components {
@@ -70,7 +66,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2730.775 8.13 2977.695
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck7 {
   components {
@@ -83,7 +79,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2735.676 8.13 2974.064
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
  Spawner_Truck5 {
   components {
@@ -96,7 +92,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
    }
   }
   coords 2726.922 8.13 2980.549
-  angles 0 36.534 0
+  angles 0 -143.466 0
  }
 }
 Vehicle GC_AUS_MH60_M240_armed1 : "{98C9CD264B859CFD}Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_MH60_M240_armed.et" {
