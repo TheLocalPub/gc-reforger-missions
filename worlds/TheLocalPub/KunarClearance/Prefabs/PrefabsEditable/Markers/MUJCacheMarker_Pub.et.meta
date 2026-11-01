@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D9A8F965062307D4}worlds/TheLocalPub/KunarClearance/Prefabs/PrefabsEditable/Markers/MUJCacheMarker_Pub.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{07AA3565B2DDDE08}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V6_covered.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  TILW_Flag_EntityDamage "{6AAF0A80B8B8EDBA}" {
+   m_flagName "Cache2"
+  }
+ }
+ {
+  PS_ManualMarker : "{D9A8F965062307D4}worlds/TheLocalPub/KunarClearance/Prefabs/PrefabsEditable/Markers/MUJCacheMarker_Pub.et" {
+   ID "6AB121768DC4DCD9"
+   coords 0 0 0
+   angles 0 0 0
+   m_fWorldSize 25
+  }
+ }
+}

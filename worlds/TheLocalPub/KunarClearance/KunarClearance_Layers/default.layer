@@ -1,0 +1,114 @@
+SCR_AIWorld : "{77C3151F7A6E588C}SCR_AIWorld_Kunar.et" {
+ coords 4877.958 294.958 2607.222
+ angles 0 0 0
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3295.969 86.31 7906.752
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6ABF1762B85C7375}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 6
+     m_iStartingMinutes 40
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 10
+   m_iSetMonth 2
+   m_iSetYear 2008
+  }
+ }
+ coords 3300.584 89.405 7872.085
+ m_iFreezeTime 30000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6AAF0A9AACCEB646}" {
+   m_sFactionKey "US"
+   m_iCount 5
+   m_iTime 5
+  }
+  PS_FactionRespawnCount "{6AAF0A9A94B0793C}" {
+   m_sFactionKey "GC_MUJ"
+   m_iCount 10
+   m_iTime 300
+  }
+  PS_FactionRespawnCount "{6AB7133F136E5BBD}" {
+   m_sFactionKey "CIV"
+   m_iCount 999999
+   m_iTime 240
+  }
+ }
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -26.889 38.579 -2.478
+  }
+  SCR_FactionManager "6AAF0A96A0EC4A1F" {
+   ID "5ED9088735FF2D8B"
+   coords 0 -0.002 -0.002
+   Factions {
+    SCR_Faction "{655D481EFA969864}" {
+    }
+    SCR_Faction "{67113837D561FA9B}" {
+     UIInfo SCR_FactionUIInfo "{670CF087CE37FA75}" {
+      Name "Taliban"
+      m_sNameUpper "TALIBAN"
+     }
+    }
+   }
+  }
+  ItemPreviewManagerEntity "6AAF0A96A0EC4BE0" {
+   ID "5ED9088735FF2DD5"
+   coords -12.245 1 -7.528
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0
+  }
+ }
+}
+TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3295.865 84.627 7881.682
+ m_missionEvents {
+  TILW_MissionEvent "{6AB7133CA0E7C1FF}" {
+   m_name "EndMissionFailure"
+   m_instructions {
+    TILW_SendMessageInstruction "{6AB7133C8F727F15}" {
+     m_executionDelay 3
+     m_messageTitle "US FAILURE!"
+     m_messageBody "US forces have chosen to withdraw their platoon from the AO having found zero caches."\
+     ""\
+     "Better luck next time."\
+     "Mission will conclude shortly..."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6AB7133C9CDB23B9}" {
+    m_flagName "EndMissionFailure"
+   }
+  }
+  TILW_MissionEvent "{6AB71331188BA3B0}" {
+  }
+ }
+ m_metaFlags {
+  TILW_MetaFlag "{6ABF1762CBFED031}" {
+   m_flagName "SetButton"
+   m_definition TILW_LiteralTerm "{6ABF1762CEE467DB}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{6AAF0A9E8554392A}" {
+   m_flagNames {
+    "AFlag"
+    "BFlag"
+    "CFlag"
+    "DFlag"
+    "EFlag"
+   }
+  }
+ }
+}

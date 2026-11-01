@@ -1,0 +1,33 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 2533.354 339.334 11023.226
+  m_sTitle "Summary"
+  m_sTextData "<h2>Overview:</h2>"\
+  "US forces search the Kunar region for 4 randomly spawned weapon caches. - An nsurgeny-esk style mission."\
+  ""\
+  "<h2>Notes:</h2>"\
+  "• Ratio strictly enforced."
+  m_bEmptyFactionVisibility 1
+ }
+ MN {
+  coords 2533.354 339.334 11023.226
+  m_sTitle "Mission Notes"
+  m_sTextData "<h2>End Conditions:</h2>"\
+  "<b>BLUFOR VICTORY</b>"\
+  "• Destroy at least 1x ammunition truck, 1x fuel truck, and the command truck, then extract to the marked location."\
+  ""\
+  "<b>OPFOR VICTORY</b>"\
+  "• Break through the ambush and reach the marked endpoint with at least 50% of the force remaining, along with at least 1x ammunition truck and 1x fuel truck."\
+  ""\
+  "<h2>Notes:</h2>"\
+  "• Setup timer: BLUFOR - 2 minutes."\
+  "• Do not slot drone operators unless INDFOR is full."\
+  "• JIP: TP."\
+  "• Civilian vehicle usage is forbidden."\
+  ""\
+  "Mission made by TheLocalPub"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+}

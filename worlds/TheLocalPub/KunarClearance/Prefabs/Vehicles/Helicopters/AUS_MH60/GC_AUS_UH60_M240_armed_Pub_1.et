@@ -1,0 +1,8 @@
+Vehicle : "{29FAA5F138BD3C1B}Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_UH60_M240_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  TILW_Flag_EntityDamage "{6AAF0A91B4707BBB}" {
+   m_flagName "Heli1Dead"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+TILW_ExtractionTriggerEntity mesuringstick : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 1535.625 271.746 1537.788
+ m_queryRadius 1000
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ Cache_A1 {
+  coords 3539.555 200.213 1521.576
+  angles 0 90 0
+  m_prefab "{6B70C20AB71D797E}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache1_Pub.et"
+  m_conditionFlag "AFlag"
+  m_pregameSpawn 1
+ }
+ Cache_A2 {
+  coords 517.778 326.59 3859.388
+  angles 0 90 0
+  m_prefab "{AAB8191FC64A6655}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache2_Pub.et"
+  m_conditionFlag "AFlag"
+  m_pregameSpawn 1
+ }
+ Cache_A3 {
+  coords 2179.047 142.023 1423.396
+  angles 0 90 0
+  m_prefab "{C4F52746F32B88DD}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache3_Pub.et"
+  m_conditionFlag "AFlag"
+  m_pregameSpawn 1
+ }
+ Cache_A4 {
+  coords 1978.071 200.496 300.968
+  angles 0 90 0
+  m_prefab "{8DE67D22D0E437F6}worlds/TheLocalPub/KunarClearance/Prefabs/Military/AmmoBoxes/EquipmentBoxStack/FIA/WeaponsCache4_Pub.et"
+  m_conditionFlag "AFlag"
+  m_pregameSpawn 1
+ }
+}
