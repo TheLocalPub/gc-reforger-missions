@@ -1,0 +1,247 @@
+$grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
+ Spawner_Rhib {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
+    }
+    m_fRespawnDistance 250
+   }
+  }
+  coords 3321.653 0.757 2887.378
+  angles 0 -34.237 0
+ }
+ Spawner_Rhib2 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
+    }
+    m_fRespawnDistance 250
+   }
+  }
+  coords 3199.623 0 1144.173
+  angles 0 -34.237 0
+ }
+ Spawner_Rhib3 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
+    }
+    m_fRespawnDistance 250
+   }
+  }
+  coords 1499.545 0 1832.7
+  angles 0 -34.237 0
+ }
+ Spawner_Rhib4 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
+    }
+    m_fRespawnDistance 250
+   }
+  }
+  coords 1115.353 0 3242.143
+  angles 0 -34.237 0
+ }
+}
+Vehicle UAZ452_cargo_CIV_randomized1 : "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et" {
+ coords 2458.89 88.148 1465.239
+ angles 0 -91.046 0
+}
+$grp PolylineShapeEntity : "{CAAEFE4F33007CA6}Prefabs/Utils/TILW_AreaPrefabSpawner.et" {
+ Spawners_Beauregard {
+  components {
+   TILW_AreaSpawningComponent "{68FF32617B5D1B1F}" {
+    m_prefabs {
+     "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et"
+     "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et"
+     "{5729759DD092B0F7}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_randomized.et"
+    }
+    m_iCount 3
+    m_bContactCheck 1
+   }
+  }
+  coords 3594.055 0 3534.236
+  Points {
+   ShapePoint "{6AC935BD5CA51C33}" {
+    Position -266.679 1.716 -678.542
+   }
+   ShapePoint "{6AC935BD5C6DF794}" {
+    Position -295.762 2 -637.335
+   }
+   ShapePoint "{6AC935BD5D8803B9}" {
+    Position -319.926 2 -623.969
+   }
+   ShapePoint "{6AC935BD53988265}" {
+    Position -357.281 1.988 -569.07
+   }
+   ShapePoint "{6AC935BD57240E8A}" {
+    Position -478.851 4 -512.934
+   }
+   ShapePoint "{6AC935BD93103009}" {
+    Position -571.422 11.783 -657.214
+   }
+   ShapePoint "{6AC935BD544CDCE8}" {
+    Position -541.76 12.457 -685
+   }
+   ShapePoint "{6AC935BD971CF561}" {
+    Position -566.334 17.119 -741.809
+   }
+   ShapePoint "{6AC935BD94DA1C86}" {
+    Position -586.031 18.869 -793.365
+   }
+   ShapePoint "{6AC935BD4AF97B47}" {
+    Position -586.964 20.886 -821.808
+   }
+   ShapePoint "{6AC935BD9F0ECFFD}" {
+    Position -545.82 18.907 -851.528
+   }
+   ShapePoint "{6AC935BD9E68D98C}" {
+    Position -510.71 18.853 -881.047
+   }
+   ShapePoint "{6AC935BD9887AAB3}" {
+    Position -540.285 24.005 -920.512
+   }
+   ShapePoint "{6AC935BD9B3F16A2}" {
+    Position -534.578 24.116 -926.104
+   }
+   ShapePoint "{6AC935BD9BB8B2C5}" {
+    Position -497.913 18.206 -880.711
+   }
+   ShapePoint "{6AC935BDA4593192}" {
+    Position -479.033 18.437 -896.997
+   }
+   ShapePoint "{6AC935BD4B41D213}" {
+    Position -432.82 21.817 -937.927
+   }
+   ShapePoint "{6AC935BD48DED81A}" {
+    Position -395.231 18.697 -897.723
+   }
+   ShapePoint "{6AC935BDA311F9C8}" {
+    Position -376.579 18.665 -871.16
+   }
+   ShapePoint "{6AC935BD49BBEFF1}" {
+    Position -357.602 19.586 -841.615
+   }
+   ShapePoint "{6AC935BD49C972BE}" {
+    Position -349.75 17.863 -811.837
+   }
+   ShapePoint "{6AC935BD4E5F8F6C}" {
+    Position -345.599 12.474 -761.387
+   }
+   ShapePoint "{6AC935BDBE9FDD50}" {
+    Position -348.714 7.942 -722.729
+   }
+   ShapePoint "{6AC935BD4FC26ED6}" {
+    Position -353.138 5.666 -692.398
+   }
+   ShapePoint "{6AC935BD4553D1CC}" {
+    Position -349.973 4.097 -681.804
+   }
+   ShapePoint "{6AC935BD45F30792}" {
+    Position -325.469 2.307 -673.178
+   }
+   ShapePoint "{6AC935BD442FAC32}" {
+    Position -320.716 2.219 -684.851
+   }
+   ShapePoint "{6AC935BD470A6EB3}" {
+    Position -310.928 2.221 -696.4
+   }
+   ShapePoint "{6AC935BD479BB92C}" {
+    Position -299.377 2.198 -687.486
+   }
+   ShapePoint "{6AC935BD4D3DBA33}" {
+    Position -293.281 2.407 -695.786
+   }
+  }
+ }
+ Spawner_Arleville {
+  components {
+   TILW_AreaSpawningComponent "{68FF32617B5D1B1F}" {
+    m_prefabs {
+     "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et"
+     "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et"
+     "{5729759DD092B0F7}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_randomized.et"
+    }
+    m_iCount 2
+   }
+  }
+  coords 3661.137 107.018 747.333
+  Points {
+   ShapePoint "{6AC935BDCCBA83C7}" {
+    Position -762.26 -36.712 929.945
+   }
+   ShapePoint "{6AC935BDCC7597C3}" {
+    Position -797.7 -35.308 991.376
+   }
+   ShapePoint "{6AC935BDC280E58C}" {
+    Position -812.038 -35.35 982.106
+   }
+   ShapePoint "{6AC935BDC207D8F9}" {
+    Position -840.551 -34.937 973.35
+   }
+   ShapePoint "{6AC935BDC3B2FD6C}" {
+    Position -872.863 -33.95 959.999
+   }
+   ShapePoint "{6AC935BDC06FEB04}" {
+    Position -908.525 -36.543 1012.1
+   }
+   ShapePoint "{6AC935BDC126ACB3}" {
+    Position -995.146 -27.361 1042.718
+   }
+   ShapePoint "{6AC935BDC65A90F3}" {
+    Position -1002.612 -28.032 1021.261
+   }
+   ShapePoint "{6AC935BDC7C31871}" {
+    Position -998.169 -28.975 989.043
+   }
+   ShapePoint "{6AC935BDC77AFE75}" {
+    Position -990.188 -29.643 951.873
+   }
+   ShapePoint "{6AC935BDC4ECB734}" {
+    Position -974.104 -29.575 917.219
+   }
+   ShapePoint "{6AC935BDC5904393}" {
+    Position -949.955 -29.524 888.271
+   }
+   ShapePoint "{6AC935BDC5193985}" {
+    Position -925.802 -29.508 865.973
+   }
+   ShapePoint "{6AC935BDC5551D55}" {
+    Position -899.68 -30.812 858.73
+   }
+   ShapePoint "{6AC935BC3AF3CD37}" {
+    Position -866.447 -33.01 869.28
+   }
+   ShapePoint "{6AC935BC3B044208}" {
+    Position -881.298 -32.31 834.022
+   }
+   ShapePoint "{6AC935BC38AED3DF}" {
+    Position -841.677 -33.825 835.283
+   }
+   ShapePoint "{6AC935BC3E84E16C}" {
+    Position -824.406 -34.617 852.976
+   }
+   ShapePoint "{6AC935BC3E61628F}" {
+    Position -836.809 -33.886 886.089
+   }
+   ShapePoint "{6AC935BC3F1B1835}" {
+    Position -800.885 -35.087 906.823
+   }
+  }
+ }
+}
+$grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ motorbike_green1 {
+  coords 1432.695 29.75 1142.944
+  angles 0 145.15 0
+ }
+ motorbike_green2 {
+  coords 2528.506 143.906 2276.322
+  angles 0 151.357 0
+ }
+}

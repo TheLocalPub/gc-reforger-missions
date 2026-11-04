@@ -1,0 +1,219 @@
+SCR_DestructibleBuildingEntity : "{D445D04331B6809E}Prefabs/Structures/Industrial/Houses/PortableCabin_E_01/PortableCabin_E_01_white.et" {
+ coords 2531.192 0.264 2279.711
+ angles 0 167.971 0
+}
+$grp SCR_DestructibleBuildingEntity : "{DB3F36604A282237}Prefabs/Structures/Infrastructure/Naval/Piers/PierConcrete_01_20m.et" {
+ {
+  Flags 0x403 0x80000
+  coords 1507.748 -2.824 1836.539
+  angles 0 59.215 0
+  {
+   GenericEntity {
+    ID "5B10D871FC38C509"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C517"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C539"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5D1"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C565"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C573"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C58D"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5C2"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5E9"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5F7"
+    Flags 0x200403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C48D"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C49F"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4AD"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4BD"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4CF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4EF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4FE"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C55F"
+    Flags 0x280403 0
+   }
+  }
+ }
+ {
+  Flags 0x403 0x80000
+  coords 1492.407 -2.824 1827.399
+  angles 0 -120.785 0
+  {
+   GenericEntity {
+    ID "5B10D871FC38C509"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C517"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C539"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5D1"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C565"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C573"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C58D"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5C2"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5E9"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5F7"
+    Flags 0x200403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C48D"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C49F"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4AD"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4BD"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4CF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4EF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4FE"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C55F"
+    Flags 0x280403 0
+   }
+  }
+ }
+ {
+  Flags 0x403 0x80000
+  coords 1122.358 -2.813 3252.208
+  angles 0 57.919 0
+  {
+   GenericEntity {
+    ID "5B10D871FC38C509"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C517"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C565"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C573"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C58D"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5C2"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5E9"
+    Flags 0x200403 0
+   }
+   GenericEntity {
+    ID "5B10D871FC38C5F7"
+    Flags 0x200403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C49F"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4CF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4EF"
+    Flags 0x280403 0
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "5B10D871FC38C4FE"
+    Flags 0x280403 0
+   }
+  }
+ }
+}

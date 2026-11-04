@@ -1,0 +1,14 @@
+$grp GenericEntity : "{606B888D33E08CA2}Prefabs/Structures/Wreck/c130.et" {
+ c130_1 {
+  coords 1427.99 1500 2761.085
+  angles 0 0 -5.959
+ }
+ c130_2 {
+  coords 2703.273 1500 1564.427
+  angles 0 0 -5.959
+ }
+ c130_3 {
+  coords 2094.717 1500 2160.654
+  angles 0 0 -5.959
+ }
+}
