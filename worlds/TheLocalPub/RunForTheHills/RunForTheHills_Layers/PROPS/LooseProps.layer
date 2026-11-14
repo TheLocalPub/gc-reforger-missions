@@ -1,0 +1,17 @@
+$grp GenericEntity : "{0831D4051CEB3EC1}Prefabs/Props/Airport/JetBlastDeflector_01/JetBlastDeflector_E_01.et" {
+ US_BASE {
+  coords 2840.601 10 3139.608
+  angles 0 121.431 0
+ }
+ {
+  coords 2843.036 10 3143.593
+  angles 0 121.431 0
+ }
+ {
+  coords 2837.884 10 3135.162
+  angles 0 121.431 0
+ }
+}
+GenericEntity US_CRASH : "{E3FC45278D88744C}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V5_dst_02_USSR.et" {
+ coords 868.195 385.133 180.407
+}

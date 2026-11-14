@@ -1,0 +1,10 @@
+ParticleEffectEntity {
+ coords 871.649 386.074 183.976
+ EffectPath "{2AA8C9B21E45F21F}Particles/Vehicle/Vehicle_smoke_BTR_exhaust_damaged_01.ptc"
+}
+ParticleEffectEntity : "{15BAFA81731FC155}Prefabs/Particles/Smoke_Trail_Phosphor.et" {
+ coords 871.553 385.609 180.143
+}
+ParticleEffectEntity : "{F1DA042378E5D93C}Prefabs/Particles/Smoke/Smoke_Smokestack_Big.et" {
+ coords 871.765 387.781 180.162
+}

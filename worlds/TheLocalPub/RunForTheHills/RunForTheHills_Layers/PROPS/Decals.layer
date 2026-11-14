@@ -1,0 +1,37 @@
+$grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ {
+  coords 869.912 385.801 182.436
+  angles -90 0 -66.686
+  scale 10
+  FarPlane 3.71
+  TerrainOnly 0
+ }
+ {
+  coords 872.244 386.203 177.103
+  angles -90 -180 -180
+  scale 10
+  FarPlane 3.71
+  TerrainOnly 0
+ }
+ {
+  coords 875.013 386.501 173.546
+  angles -90 0 -87.958
+  scale 10
+  FarPlane 3.71
+  TerrainOnly 0
+ }
+}
+DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_03.et" {
+ coords 873.192 386.441 183.409
+ angles -90 -180 -180
+ scale 5
+ FarPlane 4.82
+ TerrainOnly 0
+}
+DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+ coords 871.18 385.83 184.964
+ angles -89.98 0 109.918
+ scale 10
+ FarPlane 4.02
+ TerrainOnly 0
+}

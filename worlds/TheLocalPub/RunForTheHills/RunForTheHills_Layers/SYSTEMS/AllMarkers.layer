@@ -1,0 +1,14 @@
+PS_ManualMarker CrashArea_Marker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 874.714 386.103 190.124
+ angles 0 90 0
+ m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+ m_sImageSetGlow "{00FE3DBDFD15227B}UI/Textures/Icons/icons_wrapperUI-glow.imageset"
+ m_MarkerColor 0.023 0.552 0.905 1
+ m_sQuadName "helicopters"
+ m_fWorldSize 50
+ m_sDescription "Crashed US helicopter"
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_bShowForAnyFaction 1
+}

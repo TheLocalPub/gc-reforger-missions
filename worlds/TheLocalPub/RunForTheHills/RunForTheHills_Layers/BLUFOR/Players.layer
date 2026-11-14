@@ -1,0 +1,11 @@
+SCR_AIGroup : "{2ED1B813B2B31902}Prefabs/Groups/BLUFOR/US/Navy/2011/SEALs/AOR1 (Desert)/Group_SEAL_2011_AOR1_Squad_1.et" {
+ coords 873.385 386.367 196.08
+ m_aUnitPrefabSlots {
+  "{B293010593985EF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR1_SL.et"
+  "{DF1BF01AA11CFCE0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR1_AR.et"
+  "{A9A19CE566A83E34}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR1_Marksman.et"
+  "{D2CE8E3B56AB95CA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR1_GL.et"
+  "{18555A56D3C0D2B4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2011/Navy SEALs/AOR1 (Desert)/Character_RHS_USA_SEAL_2011_AOR1_Medic.et"
+  ""
+ }
+}
